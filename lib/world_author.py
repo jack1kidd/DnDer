@@ -127,12 +127,19 @@ class WorldAuthor:
     def _merge_graph(base: Dict, frag: Dict) -> None:
         base.setdefault("nodes", [])
         base.setdefault("edges", [])
-        seen_nodes = {n.get("name") or _sig(n) for n in base["nodes"]}
+        by_key = {(n.get("name") or _sig(n)): n for n in base["nodes"]}
         for node in frag.get("nodes", []):
             key = node.get("name") or _sig(node)
-            if key not in seen_nodes:
+            existing = by_key.get(key)
+            if existing is None:
                 base["nodes"].append(node)
-                seen_nodes.add(key)
+                by_key[key] = node
+            else:
+                # existing scalar wins; absent/empty keys filled from the fragment
+                # so a rich authored dossier isn't discarded behind a skeleton stub.
+                for k, v in node.items():
+                    if not existing.get(k):
+                        existing[k] = v
         seen_edges = {_sig(e) for e in base["edges"]}
         for edge in frag.get("edges", []):
             if _sig(edge) not in seen_edges:
