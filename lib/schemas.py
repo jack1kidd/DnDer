@@ -268,7 +268,7 @@ def validate_character(data: Dict[str, Any], kit=None) -> Tuple[bool, List[str]]
     # and legitimately absent on e.g. a nameless traveler or a Dune character.
     required = ['name', 'level']
     for field in required:
-        if not data.get(field):
+        if data.get(field) is None:
             errors.append(f"Character: missing {field}")
 
     # Validate numeric fields
