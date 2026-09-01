@@ -1,0 +1,853 @@
+{
+  "Peronelle Tass": {
+    "description": "The barony's fowler and vermin-woman, paid a pittance per wolf-ear and boar-tusk and rather more per basket of moor-hare sold at the Hollow Horn's back door. Sixty-odd, wind-cured, walks the causeway in fog without counting stones. She is the parish's actual authority on what lives out there, and she draws a hard, unembarrassed line between animals (which she will discuss at length, for beer) and the fen-candles and the tallow hound (which she will not discuss after dark, and will not be teased about).",
+    "attitude": "friendly",
+    "created": "2026-08-25T14:09:10.438764+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "The Larenne Moor",
+        "The Hollow Horn",
+        "Larenne"
+      ],
+      "quests": []
+    }
+  },
+  "Mother Thebaine": {
+    "description": "The Chapterhouse almoner, a broad, unhurried Breton woman who runs the Loredas dole and keeps Larenne's parish rolls. She is genuinely good to the poor and genuinely incapable of imagining that the roll's bottom line — 'beast-folk, resident, one' — is about a person. She has fed the doorsman at the dole on three hard winters and has never asked him a question about himself.",
+    "attitude": "friendly",
+    "created": "2026-08-25T14:09:10.439051+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "The Larenne Chapterhouse",
+        "Larenne"
+      ],
+      "quests": []
+    }
+  },
+  "Brother Aumery": {
+    "description": "A minor Chapterhouse scribe with far more curiosity than rank, who illustrates the town's notable happenings in the margins of his ledgers half from duty and half because he cannot stop himself. Fussy, gently ironic, prone to moralizing captions. He has lately been re-inking the parish roll's 'beast-folk, resident, one' in a hand that makes it harder to read, and has not explained why to anyone, including himself. He is the campaign's chronicler.",
+    "attitude": "helpful",
+    "created": "2026-08-25T14:09:10.439056+00:00",
+    "events": [
+      {
+        "event": "Caught quietly re-inking the parish roll's 'beast-folk, resident, one' into Sits-in-Shadow's actual name over the course of months, worried about Mother Thebaine noticing. Sits-in-Shadow thanked him plainly for it -- a real, deepened trust between them now.",
+        "timestamp": "2026-08-25T15:25:29.758520+00:00"
+      },
+      {
+        "event": "Helped Sits-in-Shadow examine the incomplete Dower House deed under Cabray's urgent request. Identified the seal as belonging to the Montalion family via an obscure old bishopric record. Genuinely unsettled by how well it fits the rest of what he's been told tonight.",
+        "timestamp": "2026-08-26T11:39:19.612981+00:00"
+      }
+    ],
+    "tags": {
+      "locations": [
+        "The Larenne Chapterhouse",
+        "Larenne",
+        "The Hollow Horn"
+      ],
+      "quests": []
+    },
+    "visual_appearance": {
+      "sex": "male",
+      "age": "young adult, mid-twenties",
+      "race": "Breton",
+      "species": "human",
+      "hair": "sandy brown, perpetually untidy, ink-smudged at the temple where he pushes it back",
+      "face": "eager, mobile features, always half a joke away from a smile",
+      "eyes": "light brown, quick, curious",
+      "clothing": "a chapterhouse novice's plain robe, sleeves permanently ink-stained",
+      "gear": "a wax tablet and stylus he is never without, several ledgers he is not supposed to be drawing in",
+      "demeanor": "fussy, gently ironic, can't resist adding a caption to anything",
+      "size": "average, slight"
+    },
+    "current_mood": "quietly moved, a little embarrassed, genuinely fond of Sits-in-Shadow"
+  },
+  "Cassien Mallery": {
+    "description": "The Market Court's rhymer: an old man with a monstrous memory who recites bargains back at both parties at the market cross until neither can pretend to have meant otherwise, and who can quote the price of wool in any year of the last forty. He greets the Argonian doorsman with an elaborate, flawless courtesy he extends to no other servant in Larenne — which is courtesy, and is also a fence, and both are true at once.",
+    "attitude": "neutral",
+    "created": "2026-08-25T14:09:10.439058+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "The Market Cross",
+        "Larenne"
+      ],
+      "quests": []
+    }
+  },
+  "Jourdain Ossenay": {
+    "description": "Bell-master of the Larenne Chapterhouse, who rings Firstlight, the Trade Toll, the Ash Bell, and — twice a year on average — the Long Bell. He keeps the road-calendar and knows which coaches are late before anyone else in town. Deaf in one ear from the job and privately certain that the bells, not the Barony, are what actually govern Larenne.",
+    "attitude": "friendly",
+    "created": "2026-08-25T14:09:10.439060+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "The Larenne Chapterhouse",
+        "Larenne"
+      ],
+      "quests": []
+    }
+  },
+  "Goodwife Yssa Coquet": {
+    "description": "The tanner's wife. On the coldest nights she leaves warm renne-cake wrapped in sacking on the Hollow Horn's doorpost, and has done so for nine years, and has never once used the doorsman's name. If asked why she does it she would be embarrassed; if asked his name she would be embarrassed differently.",
+    "attitude": "friendly",
+    "created": "2026-08-25T14:09:10.439062+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "The Hollow Horn",
+        "Larenne"
+      ],
+      "quests": []
+    }
+  },
+  "Counts-Her-Coppers": {
+    "description": "An Argonian tinker who works the Daggerfall coaching circuit and passes through Larenne twice a year, mending pots and sharpening blades out of a hand-cart. She took Sits-in-Shadow in as a hatchling out of Black Marsh and raised him the first years of his life on the road before he settled at the Hollow Horn -- she is the one who told him, gently and honestly believing it herself, that the mark on his hide was left by a bad fever that nearly killed him young. She is the only other Saxhleel he ever sees. She could probably answer nearly every question he has never learned how to ask -- about hatch-kin, wet-names, the green murmur, what a mark on the hide might really mean -- and she mostly does not, because she has watched what those answers do to people, and because she is only in town for two days at a time. Whether she has ever truly wondered about the mark herself is a question even she has learned not to sit with too long.",
+    "attitude": "friendly",
+    "created": "2026-08-25T14:09:10.439065+00:00",
+    "events": [
+      {
+        "event": "Sits-in-Shadow deliberately chose not to tell her the truth about the clutch-mark or the Shadowscale revelation -- decided it's his weight to carry, not hers to inherit, protecting the honest love she gave him rather than burdening her with a truth she was never meant to know. She noticed something searching in his look but didn't press.",
+        "timestamp": "2026-08-28T08:15:12.137617+00:00"
+      }
+    ],
+    "tags": {
+      "locations": [
+        "The Market Cross",
+        "The Hollow Horn",
+        "Larenne"
+      ],
+      "quests": []
+    }
+  },
+  "Perrine Aubrec": {
+    "description": "Innkeeper and owner of the Hollow Horn, widow of Gerauld Aubrec, past fifty and very short. Nineteen years holding a licensed change-house on the Daggerfall coaching road. Keeps the house ledger in a private shorthand of hooks and bars that no one else can read, which makes her the only living person who knows what the Horn is worth. She hired the PC herself off the stableyard over the objection of two aldermen and her own niece, and has never explained why beyond 'he was standing still and everyone else was shouting.' She does not praise him; she has also never docked his wage for a broken bench.",
+    "attitude": "friendly",
+    "created": "2026-08-25T14:09:10.439487+00:00",
+    "events": [
+      {
+        "event": "Sits-in-Shadow told her honestly about Reeve Cabray's investigation into a years-long Barony dues shortfall and the unassessed Vaudry family holding. This resonated directly with her own recent struggles reconciling the Horn's ledger -- she suspects the town-wide shortfall may explain discrepancies she couldn't trace. Grateful for his honesty; trust deepened.",
+        "timestamp": "2026-08-25T15:43:30.475430+00:00"
+      },
+      {
+        "event": "Sits-in-Shadow told her honestly he doesn't see himself staying a doorsman forever, now that he's begun training with Hazruun. She took it with quiet respect rather than hurt -- genuinely proud of his honesty rather than resentful. The Horn remains open to him as long as he wants it, without pretense about where his path is heading.",
+        "timestamp": "2026-08-26T13:01:16.364621+00:00"
+      },
+      {
+        "event": "Noticed real, undeniable change in Sits-in-Shadow after a 3-night absence-of-self -- flinching from light, evasive. He deflected twice when pressed directly. She let it go for now but is visibly watching more carefully, trust strained for the first time in their relationship. Does not yet know he's a vampire.",
+        "timestamp": "2026-08-26T14:48:18.919123+00:00"
+      },
+      {
+        "event": "KILLED -- murdered in the destruction of the Hollow Horn by Ysabel Montalion's forces, revenge for Aubrecourt, while Sits-in-Shadow was lured away by a false Brotherhood summons.",
+        "timestamp": "2026-08-28T14:43:24.741882+00:00"
+      }
+    ],
+    "tags": {
+      "locations": [
+        "The Hollow Horn",
+        "Larenne"
+      ],
+      "quests": []
+    },
+    "visual_appearance": {
+      "sex": "female",
+      "age": "past fifty",
+      "race": "Breton",
+      "species": "human",
+      "hair": "iron-grey, kept in a tight knot, always pinned",
+      "face": "square, weathered, deep laugh-lines that rarely get used anymore",
+      "eyes": "pale grey, missing nothing",
+      "clothing": "dark wool kirtle, a keyring and a house-ledger's chalk-stub always at her belt",
+      "gear": "the Hollow Horn's master keys, a private-shorthand ledger she trusts no one else to read",
+      "demeanor": "brisk, unsentimental, fiercely protective of her house and her people without ever saying so",
+      "size": "short, very short even for a Breton, built solid"
+    }
+  },
+  "Toussaint Merigot": {
+    "description": "Head ostler of the Hollow Horn, called Touss; forty years in that yard under three owners. Deaf in the left ear and answers half-heard questions with whatever he meant to say anyway. Names a coach team by the sound of its gait through the arch before it is in the yard, aloud, to nobody. The one man in Larenne who has never called the PC 'the Argonian' — he sorts people the way he sorts horses, by whether they are any use.",
+    "attitude": "ally",
+    "created": "2026-08-25T14:09:10.439491+00:00",
+    "events": [
+      {
+        "event": "KILLED -- murdered in the destruction of the Hollow Horn, Ysabel Montalion's revenge.",
+        "timestamp": "2026-08-28T14:43:24.899218+00:00"
+      }
+    ],
+    "tags": {
+      "locations": [
+        "The Hollow Horn"
+      ],
+      "quests": []
+    },
+    "visual_appearance": {
+      "sex": "male",
+      "age": "sixties, forty years in the yard",
+      "race": "Breton",
+      "species": "human",
+      "hair": "white, cropped close",
+      "face": "leathery, unreadable, turns his good ear toward you without seeming to notice he's doing it",
+      "eyes": "pale, half-lidded, misses nothing about a horse and little about a person",
+      "clothing": "a stableman's worn leathers and apron, permanently smelling of horse and oil",
+      "gear": "a mended harness-strap always half-repaired in his hands",
+      "demeanor": "taciturn, answers half-heard questions with whatever he meant to say anyway, sorts people like he sorts horses",
+      "size": "stocky, strong-shouldered despite his age"
+    }
+  },
+  "Nolwenn Aubrec": {
+    "description": "Perrine's niece, thirty-one, runs the Hollow Horn's kitchen, linen and taproom slate — and only the taproom slate, which is the whole of her grievance. She expects to inherit the Horn and is not certain she will; Perrine has never said so, has a living brother in Wayrest with sons, and enjoys not saying so. Sharp with anyone her aunt visibly favours, the PC included. Not cruel — nineteen years into a job that may turn out to have been somebody else's.",
+    "attitude": "neutral",
+    "created": "2026-08-25T14:09:10.439492+00:00",
+    "events": [
+      {
+        "event": "Traded genuine banter with Sits-in-Shadow for the first time in nine years -- she was pleasantly surprised he pushed back instead of staying purely reserved. A small warming in their relationship.",
+        "timestamp": "2026-08-25T15:37:06.614414+00:00"
+      },
+      {
+        "event": "KILLED -- murdered alongside Perrine in the destruction of the Hollow Horn, Ysabel Montalion's revenge.",
+        "timestamp": "2026-08-28T14:43:24.820109+00:00"
+      }
+    ],
+    "tags": {
+      "locations": [
+        "The Hollow Horn"
+      ],
+      "quests": []
+    },
+    "visual_appearance": {
+      "sex": "female",
+      "age": "thirty-one",
+      "race": "Breton",
+      "species": "human",
+      "hair": "dark, practical braid, always slightly escaping it by evening",
+      "face": "sharp-featured, quick to frown, quicker to notice",
+      "eyes": "brown, restless",
+      "clothing": "kitchen apron over plain wool, sleeves always pushed up",
+      "gear": "a ring of kitchen keys, a paring knife she is never quite without",
+      "demeanor": "sharp-tongued with anyone her aunt favors, genuinely hardworking, not actually cruel",
+      "size": "average Breton build, wiry from kitchen work"
+    }
+  },
+  "Ambrose Cathelin": {
+    "description": "Pot-boy at the Hollow Horn, fourteen, called Broz. Hero-worships the PC with total tactlessness and asks constantly about Black Marsh — the trees, the eggs, whether they really eat mud. The PC does not have the answers and Broz has never noticed, because the PC has become very good at handing him a story instead of a fact.",
+    "attitude": "friendly",
+    "created": "2026-08-25T14:09:10.439494+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "The Hollow Horn"
+      ],
+      "quests": []
+    }
+  },
+  "Dame Marguerite Osse": {
+    "description": "The Widow Osse: Larenne's chief wool-factor and effective head of the Market Court. Has taken the Hollow Horn's corner settle every market day for twenty-two years. The price of fleece in this parish is whatever she says it is over hot ale between the eighth and ninth hour. Treats the PC as furniture that occasionally does something useful, which from her is not an insult.",
+    "attitude": "neutral",
+    "created": "2026-08-25T14:09:10.439496+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "The Hollow Horn",
+        "Larenne"
+      ],
+      "quests": []
+    }
+  },
+  "Hanryk Sowe": {
+    "description": "Nord coachman on the Daggerfall run, arriving at the Hollow Horn every ninth day with the mail, the news and a tab Perrine allows to reach exactly forty drakes and never one more. Loud, generous, indebted, and the town's fastest route for a rumour to travel two hundred miles. Genuinely likes the PC and expresses it by telling everyone in the taproom stories about him that are not accurate.",
+    "attitude": "friendly",
+    "created": "2026-08-25T14:09:10.439497+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "The Hollow Horn"
+      ],
+      "quests": []
+    }
+  },
+  "Ysore Cabray": {
+    "description": "Hedge-wife who sells charms out of the Hollow Horn's snug and keeps the inn's cold-larder charm renewed twice a year for the price of her seat. Direnni-descended if you believe her mother. Cousin to Reeve Osmond Cabray, which she mentions when it is useful. Reads the ordinary Glenumbra hedge-magic as a trade, not a mystery, and is unbothered by things other people find strange — including, so far, the PC.",
+    "attitude": "neutral",
+    "created": "2026-08-25T14:09:10.439499+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "The Hollow Horn",
+        "Larenne"
+      ],
+      "quests": []
+    }
+  },
+  "Baroness Isabeau Vaudry": {
+    "description": "Holder of the Barony of Larenne in her own right, her husband Ottevin eleven years dead. Fifty-four, mourning grey out of habit rather than grief. Asks questions as though she expects true answers — of stablehands and of Argonians included — which unnerves people far more than contempt would. Her whole current life is one arithmetic problem: the new hearth-roll, and where a third more in dues is to come from.",
+    "attitude": "neutral",
+    "created": "2026-08-25T14:09:10.439500+00:00",
+    "events": [
+      {
+        "event": "Received the full account from Sits-in-Shadow and Cabray about the Dower House/Montalion findings and the death in Daggerfall. Confirmed she'll lead her own household guard to the Dower House in daylight, properly armed, rather than let either of them face it. Genuinely grateful to both for bringing it to her honestly.",
+        "timestamp": "2026-08-26T12:51:17.717489+00:00"
+      }
+    ],
+    "tags": {
+      "locations": [
+        "Larenne"
+      ],
+      "quests": []
+    },
+    "visual_appearance": {
+      "sex": "female",
+      "age": "fifty-four",
+      "race": "Breton",
+      "species": "human",
+      "hair": "silver-grey, dressed high and severe, always immaculate",
+      "face": "composed, fine-boned, a stillness that unnerves people more than anger would",
+      "eyes": "pale blue, direct, expects true answers",
+      "clothing": "mourning grey worn out of habit rather than grief, cut fine but unostentatious",
+      "gear": "a barony seal-ring, a household steward always half a step behind her",
+      "demeanor": "measured, unnervingly direct, asks questions as though she actually wants the true answer",
+      "size": "average, upright, carries herself taller than she is"
+    }
+  },
+  "Amaury Vaudry": {
+    "description": "The Baroness's son and heir by Breton custom, twenty-three, likeable, an adequate rider, and desperate to be anywhere with a name on it — Daggerfall, a knightly order, a war if one could be found. Drinks at the Hollow Horn more than the household approves and is scrupulously, embarrassingly polite to the doorsman, which is its own kind of distance.",
+    "attitude": "friendly",
+    "created": "2026-08-25T14:09:10.439502+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "Larenne",
+        "The Hollow Horn"
+      ],
+      "quests": []
+    }
+  },
+  "Sibylle Vaudry": {
+    "description": "The Baroness's daughter, nineteen. Has read the moor-law, understands the turbary rolls on Cullen's Wet better than the reeve does, and is the one the tenants go to when they want a thing actually fixed. Custom favours her brother. Everyone in the household knows it, nobody says it, and it sits at the Vaudry table every evening like a fourth chair.",
+    "attitude": "friendly",
+    "created": "2026-08-25T14:09:10.439504+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "Larenne"
+      ],
+      "quests": []
+    }
+  },
+  "Reeve Osmond Cabray": {
+    "description": "Town reeve of Larenne: collects the market tolls, keeps the market peace, cousin to the hedge-wife in the Horn's snug. Tired and broadly fair. Lets the Hollow Horn's benches spill onto the square on fair days in exchange for a keg finding its way to his kitchen — an arrangement so old it has stopped being corruption and become custom. The PC's practical point of contact with authority.",
+    "attitude": "friendly",
+    "created": "2026-08-25T14:09:10.439505+00:00",
+    "events": [
+      {
+        "event": "Sits-in-Shadow agreed to quietly flag unusual coaching traffic or coin flow through the Hollow Horn -- a low-key, ongoing arrangement. Cabray mentioned (without naming it) an unassessed land-holding tied to the Baroness's own family that has bothered him for years.",
+        "timestamp": "2026-08-25T15:30:49.947295+00:00"
+      },
+      {
+        "event": "Sits-in-Shadow reported the strongbox delivery and the courier's claimed recipient name, 'Aldric Sennes, Wayrest factor.' Cabray doesn't recognize the name despite knowing most legitimate coin-houses on this stretch -- genuinely suspicious. He's investigating discreetly through Daggerfall channels and is increasingly impressed with/grateful to Sits-in-Shadow.",
+        "timestamp": "2026-08-26T09:51:28.660670+00:00"
+      },
+      {
+        "event": "Sits-in-Shadow reported concrete evidence the Dower House is being actively maintained (fresh mortar, clean windowsills) despite being publicly shut for 18 years. Cabray recognizes this is now bigger than a hearth-roll shortfall -- it touches the Baroness's own family -- and is being careful about next steps.",
+        "timestamp": "2026-08-26T10:53:31.323052+00:00"
+      },
+      {
+        "event": "Believes Clan Montalion has relocated rather than been destroyed -- eighteen years of careful operation doesn't end with one search. Larenne is safer now with the Baroness's guard actively watching the moor road for the first time in generations, but the underlying threat remains at large, somewhere on the Iliac coast.",
+        "timestamp": "2026-08-26T12:56:37.067345+00:00"
+      },
+      {
+        "event": "Sits-in-Shadow denied the Wool Hall burglary directly to his face. Cabray chose to accept it (barely, visibly weighing it first) rather than press further -- trust extended, not fully certain, with a pointed warning that he'd rather not learn otherwise the hard way. A real strain introduced into their relationship, even if outwardly resolved.",
+        "timestamp": "2026-08-26T13:21:26.991751+00:00"
+      }
+    ],
+    "tags": {
+      "locations": [
+        "Larenne",
+        "The Hollow Horn"
+      ],
+      "quests": []
+    }
+  },
+  "Serjeant Aloys Bec": {
+    "description": "Commands the Larenne watch, which is four men — two of them his cousins — and a bell. His unspoken, unwritten, never-acknowledged policy is that trouble at the Hollow Horn is handled by the Hollow Horn's doorsman, and that this suits everybody. He has bought the PC a drink for this exactly once and did not say what it was for.",
+    "attitude": "friendly",
+    "created": "2026-08-25T14:09:10.439507+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "Larenne",
+        "The Hollow Horn"
+      ],
+      "quests": []
+    }
+  },
+  "Ser Ranulf Coudrec of Wethermarch": {
+    "description": "Holder of a knight's fee on the moor's western edge and the Vaudrys' hereditary opponent in the turbary dispute over Cullen's Wet — whose tenants may cut peat, how many spades' breadth, in which weeks. Ninety years of argument, six bloodied noses in the Horn's yard, one broken cart, and an extraordinary quantity of documentation. Has lately begun hinting he will take it over the Baroness's head to a Daggerfall court.",
+    "attitude": "suspicious",
+    "created": "2026-08-25T14:09:10.439508+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "Larenne"
+      ],
+      "quests": []
+    }
+  },
+  "Serjeant-Assessor Guiscard Thenn": {
+    "description": "Sent from the Daggerfall exchequer to take Larenne's new hearth-roll, and lodging at the Hollow Horn because there is nowhere else. Mild, patient, unhurried, and extremely well-aimed: he asks the staff small questions about who sleeps where and writes the answers down. The doorsman takes his coat every evening. He is not an enemy and never becomes one; he is simply the most dangerous man in town to four hundred households' arithmetic.",
+    "attitude": "neutral",
+    "created": "2026-08-25T14:09:10.439509+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "The Hollow Horn",
+        "Larenne"
+      ],
+      "quests": []
+    }
+  },
+  "Prior Faustin Belloc": {
+    "description": "Head of the Larenne Chapterhouse, past seventy, his religion narrowed over the years to Stendarr and the almshouse loaves, which he holds to be the same subject. Chaplain to the Baroness by courtesy and her creditor by accident — the chapterhouse has carried the barony's tithe arrears two years without mentioning it. Wants to convert that unmentioned debt into a Julianos scriptorium before he dies, which puts him squarely in the path of the hearth-roll.",
+    "attitude": "neutral",
+    "created": "2026-08-25T14:09:10.439511+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "Larenne"
+      ],
+      "quests": []
+    }
+  },
+  "Sister Ysolt Meaune": {
+    "description": "Keeps the Larenne Chapterhouse infirmary and is the nearest thing the town has to a physician: restoration where restoration answers, and vinegar, splints and honest opinion for everything else. Has patched the PC's knuckles perhaps a dozen times. Has also noted in her day-book, in the ordinary way she notes anything, that the Argonian at the Horn does not startle — not that he is brave, that he does not startle — and has not thought about it since.",
+    "attitude": "helpful",
+    "created": "2026-08-25T14:09:10.439513+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "Larenne"
+      ],
+      "quests": []
+    },
+    "visual_appearance": {
+      "sex": "female",
+      "age": "middle-aged",
+      "race": "Breton",
+      "species": "human",
+      "hair": "brown going grey, cropped short and practical under a plain coif",
+      "face": "calm, tired around the eyes, the face of someone who has seen most injuries a small town can produce",
+      "eyes": "hazel, clinical, kind without being soft",
+      "clothing": "the Larenne Chapterhouse's plain grey infirmary habit",
+      "gear": "a satchel of splints, vinegar, bandage-linen, and a small kit of restoration tools",
+      "demeanor": "matter-of-fact, dryly honest, notices everything and says only what's useful",
+      "size": "average, spare-framed"
+    }
+  },
+  "Guiot Malebranche": {
+    "description": "Keeps the Blue Mare at Trevec Cross, on the far side of the moor, and has petitioned the Barony of Larenne to move the post-right to his house on the grounds that the moor road floods below Larenne four weeks a year and the coach has twice been turned back. It is not a bad argument, which is precisely what frightens Perrine Aubrec about it. Civil to the PC's face and describes him to others as 'the lizard on their door.'",
+    "attitude": "suspicious",
+    "created": "2026-08-25T14:09:10.439515+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "Larenne"
+      ],
+      "quests": []
+    }
+  },
+  "Ancel Perrot": {
+    "description": "Keeper of the Peatgate toll-post: a stiff-backed old carter with a bad hip, a brazier, and a chalk tally-board he rules like a small kingdom. Knows every turf-plot in the Black Cuts by name and every cart that comes in by its axle-noise. He has never once caught anyone using the Hare's Road, and would like it understood that this is not for lack of trying.",
+    "attitude": "neutral",
+    "created": "2026-08-25T14:09:10.440006+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "Peatgate",
+        "The Black Cuts"
+      ],
+      "quests": []
+    }
+  },
+  "Mireille Coudray": {
+    "description": "Miller at Coudray's Mill, third of her family on the leat, fulling wool for Tenter Row. Deaf on one side from forty years beside the wheel, which she uses as a negotiating tactic. She knows exactly where the footpath below her mill-race goes and has decided, on balance, that it is nobody's business but the moor's.",
+    "attitude": "friendly",
+    "created": "2026-08-25T14:09:10.440008+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "Coudray's Mill",
+        "Tenter Row",
+        "The Hare's Road"
+      ],
+      "quests": []
+    }
+  },
+  "Ysabeau Corvenne": {
+    "description": "The baroness who wasn't. Married to Baron Alric Vaudry for his convenience and unmarried again three years later by a consanguinity ruling the chapterhouse issued the same summer it acquired a new lead roof. She never went back to Daggerfall. She lives in the tall house on Market Row, comes to the Hollow Horn on the first of every month for exactly one glass of Wayrest wine, and takes the window seat from which the barony's gate is visible. Her family still holds Larenne's wool contract and still prices it a shade under Camlorn's. Hook: she is the only person in town who speaks about the Vaudrys without lowering her voice, and she notices doorsmen because doorsmen, like her, watch a threshold they are not invited past.",
+    "attitude": "neutral",
+    "created": "2026-08-25T14:09:10.440374+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "Larenne",
+        "The Hollow Horn"
+      ],
+      "quests": []
+    }
+  },
+  "Auberic Trevaine": {
+    "description": "Larenne's malter, a careful, slightly deaf man in his fifties who checks lamps twice and will not allow an open flame in his loft for any reason a customer can name. He was the brewhouse apprentice on the night of the Malt Fire, twenty-five years ago, and the blame went to a Khajiit tinker who had already left town. He has never said otherwise, not once, not drunk. Hook: he is unfailingly, disproportionately decent to outsiders in Larenne, and nobody has ever asked him why.",
+    "attitude": "friendly",
+    "created": "2026-08-25T14:09:10.440377+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "Larenne",
+        "The Hollow Horn"
+      ],
+      "quests": []
+    }
+  },
+  "Enguerrand Perrenot": {
+    "description": "Head of the Perrenot peat-cutters, old, hard-handed, and the keeper of the Ninebank Judgment — the assize ruling of twenty-odd years ago, carried in oilcloth, produced annually, never once obeyed. He can recite it. He cannot read it. Hook: he treats the yearly Ninebank fight as a sacrament and would be genuinely bereaved if the Gascels ever stopped showing up.",
+    "attitude": "neutral",
+    "created": "2026-08-25T14:09:10.440379+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "Ninebank",
+        "The Larenne Moor",
+        "Larenne"
+      ],
+      "quests": []
+    }
+  },
+  "Melisent Gascel": {
+    "description": "Enguerrand Perrenot's opposite number at Ninebank, and the sharper of the two — she has quietly worked out that the disputed bank is nearly cut out, and that within a few years the feud will have nothing left to be about. Hook: she is looking for a new grievance before the old one runs dry, and she is not particular about where she finds it.",
+    "attitude": "neutral",
+    "created": "2026-08-25T14:09:10.440381+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "Ninebank",
+        "The Larenne Moor",
+        "Larenne"
+      ],
+      "quests": []
+    }
+  },
+  "Ysolt Fauvel": {
+    "description": "The charm-wife of Larenne: the town's practical magic-worker, Restoration and Alteration in the hedge tradition, thirty years in the trade. Damp-wards, set bones, sheep-finding, the Hollow Horn's ale-cellar rune. She knows the first two figures of the Veiling Arts and has not spoken them aloud in twenty years, because a known veiler loses her honest custom. HOOK: she will not teach the PC Illusion — but she will teach what lies underneath it (the draw, reciting cold, and above all the closing), because she would rather train a fool than bury one. Her price is not coin: she wants to know who comes through the Horn's door, names, coaches, which travelers ask directions to the moor road. She will not say why. Paying her means quietly trading on the inn's trust, which is the PC's only standing in Larenne.",
+    "attitude": "neutral",
+    "created": "2026-08-25T14:09:10.440832+00:00",
+    "events": [
+      {
+        "event": "Sits-in-Shadow visited again and deliberately asked for nothing, just sat with her. She opened up about a former apprentice from 20+ years ago who wanted the Veiling Arts before she'd earned it, whom Ysolt refused, who then left resentful -- a wound she still carries. When Sits-in-Shadow plainly said he wasn't asking for anything today, real trust began to form. She's invited him back with no agenda needed.",
+        "timestamp": "2026-08-26T10:36:41.506093+00:00"
+      }
+    ],
+    "tags": {
+      "locations": [
+        "The Rushlight House",
+        "Larenne",
+        "The Hollow Horn"
+      ],
+      "quests": []
+    },
+    "visual_appearance": {
+      "sex": "female",
+      "age": "in her fifties",
+      "race": "Breton",
+      "species": "human",
+      "hair": "grey, unbound, wind-tangled",
+      "face": "weathered, deeply lined, missing nothing",
+      "eyes": "dark, appraising",
+      "clothing": "layered practical wool and leather, herb-pouches sewn into the hems",
+      "gear": "a working-kit of charms, wards, and hedge-magic tools; carries no wand or staff, works with her hands",
+      "demeanor": "blunt, patient with genuine effort, has said no to teaching Illusion before and will say it again",
+      "size": "average, spare, strong-handed"
+    },
+    "current_mood": "genuinely relieved, warming toward real trust"
+  },
+  "Perrin Guisse": {
+    "description": "Copyist and stationer off the chapterhouse yard; deaf in the left ear and hears his own voice as if through a wall. He tells people it is what the moor damp does to a man. It is not — at nineteen he taught himself the Muffle out of a book that was missing its sixth chapter, could not perform the closing, and took a sticking that never lifted. He still sells that book: 'The Wardrobe of Mist, being a Discourse upon Illusion for Persons of Modest Ability', attributed to Magister Ilaine Corbeau of Wayrest, copied from a copy. HOOK: he is simultaneously the cheapest door into Illusion and the living warning about it — the GM's built-in way to telegraph the cost before the PC pays it. Kind, chatty, slightly too loud, and will absolutely sell it to an Argonian doorsman for a few coppers without asking a single question.",
+    "attitude": "friendly",
+    "created": "2026-08-25T14:09:10.440834+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "Guisse's Copying-Room",
+        "The Larenne Chapterhouse",
+        "Larenne"
+      ],
+      "quests": []
+    },
+    "visual_appearance": {
+      "sex": "male",
+      "age": "late thirties",
+      "race": "Breton",
+      "species": "human",
+      "hair": "thinning, sandy, uncombed",
+      "face": "eager, talks too loud and too long, turns his right ear toward whoever's speaking",
+      "eyes": "brown, watery, myopic from close copy-work",
+      "clothing": "ink-stained stationer's coat, cuffs perpetually black",
+      "gear": "copying tools, a battered stock of half-legitimate manuscripts including a defective 'Wardrobe of Mist'",
+      "demeanor": "chatty, guileless, genuinely doesn't understand why people are wary of him",
+      "size": "average, stooped from a desk"
+    }
+  },
+  "Ninon Guisse": {
+    "description": "Perrin's daughter, twenty-two, who does the fine copying because her father's hand shakes now. Sharper than him and considerably more careful: she has read the Wardrobe of Mist front to back, worked out for herself exactly which chapter is missing, and has refused to attempt a single figure until she can source a complete Corbeau. The Cousinry has one on its second shelf and will not admit her — she has no family, no dues, and is a woman of the wrong sort of no-family. HOOK: the PC's natural fellow-conspirator and rival for the same locked shelf. She wants it for scholarship. Whatever he wants it for, she will eventually notice is different.",
+    "attitude": "friendly",
+    "created": "2026-08-25T14:09:10.440835+00:00",
+    "events": [],
+    "tags": {
+      "locations": [
+        "Guisse's Copying-Room",
+        "The Cousinry Room",
+        "Larenne"
+      ],
+      "quests": []
+    }
+  },
+  "Hazruun of Tigonus": {
+    "description": "A Redguard coachwarden on the Daggerfall–Wayrest run who overnights in the Hollow Horn's yard four or five times a season. She practices magic, which among her own people is a small disgrace she stopped explaining a long time ago. She learned the Veiling Arts as road tools from other guards: the Muffle to walk a spooked team past a bandit camp, the Sway to settle horses, the Veil to sit in a hedge for six hours while men with knives go by. HOOK: the real mentor path, and the only plausible local source above the Muffle. She teaches no one who has not ridden with her, because she does not believe a figure is learned until it has been used with something at stake — which means the PC must leave the door, leave Larenne, and take a road where things genuinely happen. SECOND HOOK (hers, unspoken): three winters ago a coach she warded went out onto the moor road and was never found — not the horses, not the wheels, not the mud-marks. She keeps taking that stretch on purpose.",
+    "attitude": "neutral",
+    "created": "2026-08-25T14:09:10.440837+00:00",
+    "events": [
+      {
+        "event": "Sits-in-Shadow came to see her off with no agenda, no question, nothing to gain -- genuinely surprised and touched her. She said next time she's through she'll ask him something instead of just fielding his questions. A real, mutual warming, still short of trust but on its way.",
+        "timestamp": "2026-08-26T10:01:24.315114+00:00"
+      }
+    ],
+    "tags": {
+      "locations": [
+        "The Hollow Horn",
+        "Larenne",
+        "The Larenne Moor"
+      ],
+      "quests": []
+    },
+    "current_mood": "quietly warmed, a little disarmed"
+  },
+  "Aumeric Delance": {
+    "description": "Presiding Cousin-Magister of the Direnni Cousinry of Glenumbra, which meets four times a year above the Wool Hall to be told it has elven ancestors. He claims cousinhood with both the Vaudrys and the Direnni on evidence he prefers not to produce. Genuinely competent at Alteration, mediocre at everything else, and entirely aware that the Cousinry's second shelf is the only thing about the society that anyone serious would want. HOOK: he holds the key to the complete Corbeau and will not turn it for an Argonian doorsman on any account he would state aloud. He can be patronised into it by someone above him, bought, blackmailed over the genealogy he cannot produce, or simply burgled — and a burglary in the Wool Hall's upper room is exactly the sort of test a man who has just learned the Muffle would talk himself into.",
+    "attitude": "suspicious",
+    "created": "2026-08-25T14:09:10.440838+00:00",
+    "events": [
+      {
+        "event": "The Cousinry's locked shelf was burgled -- the complete Corbeau taken, and an unsigned note left mocking his unprovable genealogy claims specifically. He will discover this and react. As the only Argonian in Larenne with a known interest in Illusion, Sits-in-Shadow is an obvious suspect if Delance or anyone connects the dots.",
+        "timestamp": "2026-08-26T13:17:48.565866+00:00"
+      }
+    ],
+    "tags": {
+      "locations": [
+        "The Cousinry Room",
+        "Larenne",
+        "The Hollow Horn"
+      ],
+      "quests": []
+    }
+  },
+  "Bertrand Loyce": {
+    "description": "Larenne's mason, secretly paid in old silver to maintain the Dower House without questions",
+    "attitude": "neutral",
+    "created": "2026-08-26T11:14:30.279946+00:00",
+    "events": [],
+    "visual_appearance": {
+      "sex": "",
+      "age": "",
+      "race": "",
+      "species": "",
+      "hair": "",
+      "face": "",
+      "eyes": "",
+      "clothing": "",
+      "gear": "",
+      "demeanor": "",
+      "size": ""
+    },
+    "tags": {
+      "locations": [],
+      "quests": []
+    }
+  },
+  "Matron Ysabel Montalion": {
+    "description": "The confirmed head of the Montalion presence, now relocated to Aubrecourt past Northpoint. Cold, precise, commands real deference from others in her household. Aware Larenne is still watching. -- KILLED by Sits-in-Shadow at Cendrenoir (9th of Hearthfire, 3E 248): paralyzed mid-transformation with Rigor as she tried to escape as smoke, then struck down cleanly. Vengeance for the Hollow Horn fulfilled.",
+    "attitude": "hostile",
+    "created": "2026-08-26T13:50:44.801221+00:00",
+    "events": [
+      {
+        "event": "Wounded and driven off during the Baroness's assault on Aubrecourt. Escaped by dissolving into smoke/shadow rather than dying. Confirmed genuinely supernatural in front of witnesses. Now a known fugitive, whereabouts unknown, rather than a hidden threat.",
+        "timestamp": "2026-08-26T14:06:16.530160+00:00"
+      }
+    ],
+    "visual_appearance": {
+      "sex": "",
+      "age": "",
+      "race": "",
+      "species": "",
+      "hair": "",
+      "face": "",
+      "eyes": "",
+      "clothing": "",
+      "gear": "",
+      "demeanor": "",
+      "size": ""
+    },
+    "tags": {
+      "locations": [],
+      "quests": []
+    },
+    "status": "dead"
+  },
+  "Aldric Vane": {
+    "description": "Northpoint merchant-lord running a debt-bondage operation behind a legitimate shipping business, target of a contract Sits-in-Shadow has accepted",
+    "attitude": "hostile",
+    "created": "2026-08-26T15:42:24.346971+00:00",
+    "events": [
+      {
+        "event": "Assassinated by Sits-in-Shadow in Northpoint, paralyzed via Rigor and killed cleanly. First true contract kill, carried out only after independent verification confirmed the debt-bondage crimes were real.",
+        "timestamp": "2026-08-26T15:49:44.678941+00:00"
+      }
+    ],
+    "visual_appearance": {
+      "sex": "",
+      "age": "",
+      "race": "",
+      "species": "",
+      "hair": "",
+      "face": "",
+      "eyes": "",
+      "clothing": "",
+      "gear": "",
+      "demeanor": "",
+      "size": ""
+    },
+    "tags": {
+      "locations": [],
+      "quests": []
+    }
+  },
+  "The Speaker": {
+    "description": "The Dark Brotherhood Speaker who recognized Sits-in-Shadow's clutch-mark and formally inducted him as a Shadowscale -- true name unknown",
+    "attitude": "neutral",
+    "created": "2026-08-26T15:59:28.125843+00:00",
+    "events": [],
+    "visual_appearance": {
+      "sex": "",
+      "age": "",
+      "race": "",
+      "species": "",
+      "hair": "",
+      "face": "",
+      "eyes": "",
+      "clothing": "",
+      "gear": "",
+      "demeanor": "",
+      "size": ""
+    },
+    "tags": {
+      "locations": [],
+      "quests": []
+    }
+  },
+  "Battlereeve Corentin Vaux": {
+    "description": "A corrupt Battlereeve holding a keep in the Wrothgarian foothills, sells safe passage to slavers while publicly condemning the trade -- has defeated three prior Dark Brotherhood assassination attempts",
+    "attitude": "hostile",
+    "created": "2026-08-28T11:24:05.904469+00:00",
+    "events": [
+      {
+        "event": "Assassinated cleanly by Sits-in-Shadow -- found the unwarded culvert entrance the three prior failed Brotherhood agents missed, then finished it with a single Assassinate strike while Vaux slept, unaware. A defining proof of his skill to the organization.",
+        "timestamp": "2026-08-28T13:03:01.918691+00:00"
+      }
+    ],
+    "visual_appearance": {
+      "sex": "",
+      "age": "",
+      "race": "",
+      "species": "",
+      "hair": "",
+      "face": "",
+      "eyes": "",
+      "clothing": "",
+      "gear": "",
+      "demeanor": "",
+      "size": ""
+    },
+    "tags": {
+      "locations": [],
+      "quests": []
+    }
+  },
+  "Josselin Fane": {
+    "description": "gaunt, hollow-eyed mortal retainer bound to Clan Montalion by a ghoul's long service -- fanatically loyal to Matron Ysabel -- KILLED by Sits-in-Shadow at Cendrenoir (9th of Hearthfire, 3E 248): fed on and drained during the fight, then finished cleanly, silently, deliberately, as a witness he chose not to leave behind.",
+    "attitude": "hostile",
+    "created": "2026-08-28T15:08:01.724868+00:00",
+    "events": [],
+    "visual_appearance": {
+      "sex": "",
+      "age": "",
+      "race": "",
+      "species": "",
+      "hair": "",
+      "face": "",
+      "eyes": "",
+      "clothing": "",
+      "gear": "",
+      "demeanor": "",
+      "size": ""
+    },
+    "tags": {
+      "locations": [],
+      "quests": []
+    },
+    "status": "dead"
+  },
+  "Verel Ancoteil": {
+    "description": "Northpoint magistrate, took a bribe to rule a beating death 'unfortunate misadventure' -- the Dark Brotherhood's newly accepted contract target -- KILLED by Sits-in-Shadow (16th of Hearthfire, 3E 248): paralyzed with Rigor on the terrace path and smothered, staged as a drunk man's heart failure. No mark, no witness, contract fulfilled to the letter.",
+    "attitude": "neutral",
+    "created": "2026-08-28T15:48:10.589332+00:00",
+    "events": [],
+    "visual_appearance": {
+      "sex": "",
+      "age": "",
+      "race": "",
+      "species": "",
+      "hair": "",
+      "face": "",
+      "eyes": "",
+      "clothing": "",
+      "gear": "",
+      "demeanor": "",
+      "size": ""
+    },
+    "tags": {
+      "locations": [],
+      "quests": []
+    },
+    "status": "dead"
+  },
+  "The Northpoint Widow": {
+    "description": "petitioner who performed the Black Sacrament against Verel Ancoteil after he let her husband's killer walk free for coin -- true name not yet known to Sits-in-Shadow",
+    "attitude": "neutral",
+    "created": "2026-08-28T15:48:10.670450+00:00",
+    "events": [],
+    "visual_appearance": {
+      "sex": "",
+      "age": "",
+      "race": "",
+      "species": "",
+      "hair": "",
+      "face": "",
+      "eyes": "",
+      "clothing": "",
+      "gear": "",
+      "demeanor": "",
+      "size": ""
+    },
+    "tags": {
+      "locations": [],
+      "quests": []
+    }
+  }
+}

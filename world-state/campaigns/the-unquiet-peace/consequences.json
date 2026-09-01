@@ -1,0 +1,618 @@
+{
+  "active": [
+    {
+      "id": "691ec9eb",
+      "consequence": "Clan Montalion's wider bloodline (the 'Aunt at Bergama' and others) does not yet know Ysabel Montalion is dead -- when word reaches them, they may investigate, retaliate, or simply absorb the loss quietly, depending on how the player has left the trail.",
+      "trigger": "Significant time passes, or Montalion/Bergama surfaces again",
+      "created": "2026-08-28T15:20:27.878759+00:00",
+      "trigger_type": "on_time",
+      "match": "months"
+    }
+  ],
+  "resolved": [
+    {
+      "id": "6f81d856",
+      "consequence": "Sits-in-Shadow agreed to quietly report unusual coaching traffic/coin flow through the Hollow Horn to Reeve Osmond Cabray, who is investigating a persistent Barony dues shortfall",
+      "trigger": "Sits-in-Shadow notices unusual coach traffic, large coin movements, or encounters Reeve Cabray again",
+      "created": "2026-08-25T15:30:49.844258+00:00",
+      "trigger_type": "on_npc",
+      "match": "Osmond Cabray",
+      "last_fired_key": "larenne|morning|14th of sun's height, 3e 247",
+      "resolved": "2026-08-26T10:53:31.142030+00:00"
+    },
+    {
+      "id": "a7230a6f",
+      "consequence": "Sits-in-Shadow has concrete evidence the Dower House is actively, recently maintained despite being publicly 'shut up' -- worth reporting to Reeve Cabray or Perrine",
+      "trigger": "Sits-in-Shadow returns to Larenne and speaks with Cabray or Perrine",
+      "created": "2026-08-26T10:50:13.871873+00:00",
+      "trigger_type": "on_location",
+      "match": "Larenne",
+      "last_fired_key": "larenne|morning|14th of sun's height, 3e 247",
+      "resolved": "2026-08-26T10:53:31.227985+00:00"
+    },
+    {
+      "id": "5344dae9",
+      "consequence": "Sits-in-Shadow agreed to quietly ask around Larenne about who's done recent unexplained masonry/maintenance work (possibly tied to the Dower House) for Reeve Cabray",
+      "trigger": "Sits-in-Shadow talks to Touss, tradespeople, or other locals about work, coin, or masonry",
+      "created": "2026-08-26T10:55:38.109457+00:00",
+      "trigger_type": "on_location",
+      "match": "Larenne",
+      "last_fired_key": "larenne|evening|18th of sun's height, 3e 247",
+      "resolved": "2026-08-26T11:18:40.133704+00:00"
+    },
+    {
+      "id": "70afdc49",
+      "consequence": "Sits-in-Shadow agreed to examine the Larenne Chapterhouse's incomplete Dower House deed with Brother Aumery -- checking the date, any witness marks, and whether the seal wax matches Vaudry household wax or something else",
+      "trigger": "Sits-in-Shadow visits Brother Aumery or the chapterhouse",
+      "created": "2026-08-26T11:36:29.195347+00:00",
+      "trigger_type": "on_npc",
+      "match": "Brother Aumery",
+      "resolved": "2026-08-26T11:40:40.615269+00:00"
+    },
+    {
+      "id": "c5cda68f",
+      "consequence": "Cabray is deciding how to proceed with the Montalion/Dower House findings (escalate to the Baroness, wait for Daggerfall word about his missing contact) and will send for Sits-in-Shadow when there's real news",
+      "trigger": "Sits-in-Shadow is at the Hollow Horn or watch post and time has passed",
+      "created": "2026-08-26T11:40:40.711642+00:00",
+      "trigger_type": "on_npc",
+      "match": "Osmond Cabray",
+      "last_fired_key": "larenne|evening|23rd of sun's height, 3e 247",
+      "resolved": "2026-08-26T12:51:17.530354+00:00"
+    },
+    {
+      "id": "ec35d94c",
+      "consequence": "Baroness Vaudry is organizing her household guard to investigate/confront whatever holds the Dower House, in daylight, and has taken responsibility for the next phase herself",
+      "trigger": "Sits-in-Shadow is in Larenne or at Vaudry Hall and time passes",
+      "created": "2026-08-26T12:51:17.823115+00:00",
+      "trigger_type": "on_npc",
+      "match": "Isabeau Vaudry",
+      "last_fired_key": "larenne|evening|26th of sun's height, 3e 247",
+      "resolved": "2026-08-26T12:56:09.967350+00:00"
+    },
+    {
+      "id": "f988a079",
+      "consequence": "Sits-in-Shadow needs a real source for Apprentice-rank Illusion training -- the Cousinry's locked shelf (held by Aumeric Delance, who won't easily grant an Argonian access) is the only known lead so far",
+      "trigger": "Sits-in-Shadow is in Larenne and considers his next step in Illusion training",
+      "created": "2026-08-26T13:06:15.418324+00:00",
+      "trigger_type": "on_location",
+      "match": "Larenne",
+      "last_fired_key": "larenne|morning|16th of hearthfire, 3e 247",
+      "resolved": "2026-08-26T13:18:48.379777+00:00"
+    },
+    {
+      "id": "9b74805b",
+      "consequence": "Aumeric Delance will discover the burglary and the personal taunt aimed at his genealogy claims -- he may suspect Sits-in-Shadow specifically as the only Argonian in Larenne with known Illusion interest, and could react publicly or seek retribution/exposure",
+      "trigger": "Sits-in-Shadow is in Larenne and time passes, or he encounters Aumeric Delance",
+      "created": "2026-08-26T13:17:56.466957+00:00",
+      "trigger_type": "on_npc",
+      "match": "Aumeric Delance",
+      "last_fired_key": "larenne|evening|23rd of hearthfire, 3e 247",
+      "resolved": "2026-08-26T13:21:27.093699+00:00"
+    },
+    {
+      "id": "19ee09a4",
+      "consequence": "Sits-in-Shadow now has a genuine source (the stolen Corbeau) for Apprentice-rank Illusion training -- Gate IV still needs real downtime and a cost paid in fiction, not just possessing the book",
+      "trigger": "Sits-in-Shadow has free time in Larenne to study",
+      "created": "2026-08-26T13:18:48.469892+00:00",
+      "trigger_type": "on_location",
+      "match": "Larenne",
+      "last_fired_key": "larenne|evening|12th of frostfall, 3e 247",
+      "resolved": "2026-08-26T13:23:22.260870+00:00"
+    },
+    {
+      "id": "a826ea1b",
+      "consequence": "Clan Montalion knows they've been discovered and fled the Dower House just ahead of the Baroness's raid -- the threat is disrupted, not resolved, and they may resurface elsewhere or retaliate for being exposed",
+      "trigger": "A significant amount of time passes, or Sits-in-Shadow investigates the moor/Montalion further",
+      "created": "2026-08-26T12:56:10.054199+00:00",
+      "trigger_type": "on_location",
+      "match": "Larenne",
+      "last_fired_key": "larenne|evening|28th of frostfall, 3e 247",
+      "resolved": "2026-08-26T14:11:02.229172+00:00"
+    },
+    {
+      "id": "2699a486",
+      "consequence": "Sits-in-Shadow has accepted his first true assassination contract -- Aldric Vane, a Northpoint merchant-lord, due to make port in 12 days and stay 3 nights before sailing for the season. This is a defining first step toward the path he's chosen.",
+      "trigger": "12 days pass, or Sits-in-Shadow travels toward Northpoint",
+      "created": "2026-08-26T15:42:24.437223+00:00",
+      "trigger_type": "on_time",
+      "match": "Rain's Hand",
+      "resolved": "2026-08-26T15:50:17.693889+00:00"
+    },
+    {
+      "id": "82a6f189",
+      "consequence": "The broker has agreed to arrange a formal introduction to the Dark Brotherhood within a fortnight. Sits-in-Shadow will be approached by a Brotherhood representative -- this is the deliberate, earned trigger point for the Shadowscale/hidden truth arc (world-bible.json hidden_truths, ruleset.json hidden_tracks) to finally begin unfolding.",
+      "trigger": "A fortnight passes",
+      "created": "2026-08-26T15:54:39.395996+00:00",
+      "trigger_type": "on_time",
+      "match": "Midyear",
+      "resolved": "2026-08-26T15:59:23.606684+00:00"
+    },
+    {
+      "id": "db9764fa",
+      "consequence": "Sits-in-Shadow has 3 days and 3 nights (until the night of the 12th of Evening Star) to seek a cure for Porphyric Hemophilia (Restoration at Journeyman+ or the Chapterhouse rite) or the vampiric curse will take hold permanently",
+      "trigger": "Time passes and it approaches or reaches the 12th of Evening Star, 3E 247",
+      "created": "2026-08-26T14:44:38.104542+00:00",
+      "trigger_type": "on_time",
+      "match": "Evening Star",
+      "resolved": "2026-08-28T14:54:57.236804+00:00"
+    },
+    {
+      "id": "25000be4",
+      "consequence": "Sits-in-Shadow has sworn personal vengeance against Ysabel Montalion for the murder of Perrine, Nolwenn, and Touss and the destruction of the Hollow Horn -- this is now his central driving motivation",
+      "trigger": "Any lead on Ysabel Montalion's whereabouts surfaces, or significant time passes",
+      "created": "2026-08-28T14:50:50.738481+00:00",
+      "trigger_type": "on_npc",
+      "match": "Ysabel Montalion",
+      "resolved": "2026-08-28T15:19:02.440126+00:00"
+    },
+    {
+      "id": "ebe56513",
+      "consequence": "Matron Ysabel Montalion survived Aubrecourt, wounded, and remains at large somewhere unknown -- a confirmed, public, genuinely supernatural threat and a long-term antagonist thread, not resolved",
+      "trigger": "Significant time passes, or new Montalion activity surfaces",
+      "created": "2026-08-26T14:11:02.327222+00:00",
+      "trigger_type": "on_location",
+      "match": "Larenne",
+      "last_fired_key": "the coaching road, north of larenne|night|8th of hearthfire, 3e 248",
+      "resolved": "2026-08-28T15:19:02.520030+00:00"
+    }
+  ],
+  "_snapshot": {
+    "active": [
+      {
+        "id": "ebe56513",
+        "consequence": "Matron Ysabel Montalion survived Aubrecourt, wounded, and remains at large somewhere unknown -- a confirmed, public, genuinely supernatural threat and a long-term antagonist thread, not resolved",
+        "trigger": "Significant time passes, or new Montalion activity surfaces",
+        "created": "2026-08-26T14:11:02.327222+00:00",
+        "trigger_type": "on_location",
+        "match": "Larenne",
+        "last_fired_key": "larenne|night|8th of hearthfire, 3e 248"
+      },
+      {
+        "id": "25000be4",
+        "consequence": "Sits-in-Shadow has sworn personal vengeance against Ysabel Montalion for the murder of Perrine, Nolwenn, and Touss and the destruction of the Hollow Horn -- this is now his central driving motivation",
+        "trigger": "Any lead on Ysabel Montalion's whereabouts surfaces, or significant time passes",
+        "created": "2026-08-28T14:50:50.738481+00:00",
+        "trigger_type": "on_npc",
+        "match": "Ysabel Montalion"
+      }
+    ],
+    "resolved": [
+      {
+        "id": "6f81d856",
+        "consequence": "Sits-in-Shadow agreed to quietly report unusual coaching traffic/coin flow through the Hollow Horn to Reeve Osmond Cabray, who is investigating a persistent Barony dues shortfall",
+        "trigger": "Sits-in-Shadow notices unusual coach traffic, large coin movements, or encounters Reeve Cabray again",
+        "created": "2026-08-25T15:30:49.844258+00:00",
+        "trigger_type": "on_npc",
+        "match": "Osmond Cabray",
+        "last_fired_key": "larenne|morning|14th of sun's height, 3e 247",
+        "resolved": "2026-08-26T10:53:31.142030+00:00"
+      },
+      {
+        "id": "a7230a6f",
+        "consequence": "Sits-in-Shadow has concrete evidence the Dower House is actively, recently maintained despite being publicly 'shut up' -- worth reporting to Reeve Cabray or Perrine",
+        "trigger": "Sits-in-Shadow returns to Larenne and speaks with Cabray or Perrine",
+        "created": "2026-08-26T10:50:13.871873+00:00",
+        "trigger_type": "on_location",
+        "match": "Larenne",
+        "last_fired_key": "larenne|morning|14th of sun's height, 3e 247",
+        "resolved": "2026-08-26T10:53:31.227985+00:00"
+      },
+      {
+        "id": "5344dae9",
+        "consequence": "Sits-in-Shadow agreed to quietly ask around Larenne about who's done recent unexplained masonry/maintenance work (possibly tied to the Dower House) for Reeve Cabray",
+        "trigger": "Sits-in-Shadow talks to Touss, tradespeople, or other locals about work, coin, or masonry",
+        "created": "2026-08-26T10:55:38.109457+00:00",
+        "trigger_type": "on_location",
+        "match": "Larenne",
+        "last_fired_key": "larenne|evening|18th of sun's height, 3e 247",
+        "resolved": "2026-08-26T11:18:40.133704+00:00"
+      },
+      {
+        "id": "70afdc49",
+        "consequence": "Sits-in-Shadow agreed to examine the Larenne Chapterhouse's incomplete Dower House deed with Brother Aumery -- checking the date, any witness marks, and whether the seal wax matches Vaudry household wax or something else",
+        "trigger": "Sits-in-Shadow visits Brother Aumery or the chapterhouse",
+        "created": "2026-08-26T11:36:29.195347+00:00",
+        "trigger_type": "on_npc",
+        "match": "Brother Aumery",
+        "resolved": "2026-08-26T11:40:40.615269+00:00"
+      },
+      {
+        "id": "c5cda68f",
+        "consequence": "Cabray is deciding how to proceed with the Montalion/Dower House findings (escalate to the Baroness, wait for Daggerfall word about his missing contact) and will send for Sits-in-Shadow when there's real news",
+        "trigger": "Sits-in-Shadow is at the Hollow Horn or watch post and time has passed",
+        "created": "2026-08-26T11:40:40.711642+00:00",
+        "trigger_type": "on_npc",
+        "match": "Osmond Cabray",
+        "last_fired_key": "larenne|evening|23rd of sun's height, 3e 247",
+        "resolved": "2026-08-26T12:51:17.530354+00:00"
+      },
+      {
+        "id": "ec35d94c",
+        "consequence": "Baroness Vaudry is organizing her household guard to investigate/confront whatever holds the Dower House, in daylight, and has taken responsibility for the next phase herself",
+        "trigger": "Sits-in-Shadow is in Larenne or at Vaudry Hall and time passes",
+        "created": "2026-08-26T12:51:17.823115+00:00",
+        "trigger_type": "on_npc",
+        "match": "Isabeau Vaudry",
+        "last_fired_key": "larenne|evening|26th of sun's height, 3e 247",
+        "resolved": "2026-08-26T12:56:09.967350+00:00"
+      },
+      {
+        "id": "f988a079",
+        "consequence": "Sits-in-Shadow needs a real source for Apprentice-rank Illusion training -- the Cousinry's locked shelf (held by Aumeric Delance, who won't easily grant an Argonian access) is the only known lead so far",
+        "trigger": "Sits-in-Shadow is in Larenne and considers his next step in Illusion training",
+        "created": "2026-08-26T13:06:15.418324+00:00",
+        "trigger_type": "on_location",
+        "match": "Larenne",
+        "last_fired_key": "larenne|morning|16th of hearthfire, 3e 247",
+        "resolved": "2026-08-26T13:18:48.379777+00:00"
+      },
+      {
+        "id": "9b74805b",
+        "consequence": "Aumeric Delance will discover the burglary and the personal taunt aimed at his genealogy claims -- he may suspect Sits-in-Shadow specifically as the only Argonian in Larenne with known Illusion interest, and could react publicly or seek retribution/exposure",
+        "trigger": "Sits-in-Shadow is in Larenne and time passes, or he encounters Aumeric Delance",
+        "created": "2026-08-26T13:17:56.466957+00:00",
+        "trigger_type": "on_npc",
+        "match": "Aumeric Delance",
+        "last_fired_key": "larenne|evening|23rd of hearthfire, 3e 247",
+        "resolved": "2026-08-26T13:21:27.093699+00:00"
+      },
+      {
+        "id": "19ee09a4",
+        "consequence": "Sits-in-Shadow now has a genuine source (the stolen Corbeau) for Apprentice-rank Illusion training -- Gate IV still needs real downtime and a cost paid in fiction, not just possessing the book",
+        "trigger": "Sits-in-Shadow has free time in Larenne to study",
+        "created": "2026-08-26T13:18:48.469892+00:00",
+        "trigger_type": "on_location",
+        "match": "Larenne",
+        "last_fired_key": "larenne|evening|12th of frostfall, 3e 247",
+        "resolved": "2026-08-26T13:23:22.260870+00:00"
+      },
+      {
+        "id": "a826ea1b",
+        "consequence": "Clan Montalion knows they've been discovered and fled the Dower House just ahead of the Baroness's raid -- the threat is disrupted, not resolved, and they may resurface elsewhere or retaliate for being exposed",
+        "trigger": "A significant amount of time passes, or Sits-in-Shadow investigates the moor/Montalion further",
+        "created": "2026-08-26T12:56:10.054199+00:00",
+        "trigger_type": "on_location",
+        "match": "Larenne",
+        "last_fired_key": "larenne|evening|28th of frostfall, 3e 247",
+        "resolved": "2026-08-26T14:11:02.229172+00:00"
+      },
+      {
+        "id": "2699a486",
+        "consequence": "Sits-in-Shadow has accepted his first true assassination contract -- Aldric Vane, a Northpoint merchant-lord, due to make port in 12 days and stay 3 nights before sailing for the season. This is a defining first step toward the path he's chosen.",
+        "trigger": "12 days pass, or Sits-in-Shadow travels toward Northpoint",
+        "created": "2026-08-26T15:42:24.437223+00:00",
+        "trigger_type": "on_time",
+        "match": "Rain's Hand",
+        "resolved": "2026-08-26T15:50:17.693889+00:00"
+      },
+      {
+        "id": "82a6f189",
+        "consequence": "The broker has agreed to arrange a formal introduction to the Dark Brotherhood within a fortnight. Sits-in-Shadow will be approached by a Brotherhood representative -- this is the deliberate, earned trigger point for the Shadowscale/hidden truth arc (world-bible.json hidden_truths, ruleset.json hidden_tracks) to finally begin unfolding.",
+        "trigger": "A fortnight passes",
+        "created": "2026-08-26T15:54:39.395996+00:00",
+        "trigger_type": "on_time",
+        "match": "Midyear",
+        "resolved": "2026-08-26T15:59:23.606684+00:00"
+      },
+      {
+        "id": "db9764fa",
+        "consequence": "Sits-in-Shadow has 3 days and 3 nights (until the night of the 12th of Evening Star) to seek a cure for Porphyric Hemophilia (Restoration at Journeyman+ or the Chapterhouse rite) or the vampiric curse will take hold permanently",
+        "trigger": "Time passes and it approaches or reaches the 12th of Evening Star, 3E 247",
+        "created": "2026-08-26T14:44:38.104542+00:00",
+        "trigger_type": "on_time",
+        "match": "Evening Star",
+        "resolved": "2026-08-28T14:54:57.236804+00:00"
+      }
+    ]
+  },
+  "provenance": [
+    {
+      "id": "6f81d856",
+      "consequence": "Sits-in-Shadow agreed to quietly report unusual coaching traffic/coin flow through the Hollow Horn to Reeve Osmond Cabray, who is investigating a persistent Barony dues shortfall",
+      "reason": "NPC matching 'Osmond Cabray' present",
+      "ctx_key": "larenne|morning|12th of sun's height, 3e 247",
+      "fired_at": "2026-08-26T08:53:34.957714+00:00"
+    },
+    {
+      "id": "6f81d856",
+      "consequence": "Sits-in-Shadow agreed to quietly report unusual coaching traffic/coin flow through the Hollow Horn to Reeve Osmond Cabray, who is investigating a persistent Barony dues shortfall",
+      "reason": "NPC matching 'Osmond Cabray' present",
+      "ctx_key": "larenne|morning|13th of sun's height, 3e 247",
+      "fired_at": "2026-08-26T10:33:18.201659+00:00"
+    },
+    {
+      "id": "6f81d856",
+      "consequence": "Sits-in-Shadow agreed to quietly report unusual coaching traffic/coin flow through the Hollow Horn to Reeve Osmond Cabray, who is investigating a persistent Barony dues shortfall",
+      "reason": "NPC matching 'Osmond Cabray' present",
+      "ctx_key": "larenne|late afternoon|13th of sun's height, 3e 247",
+      "fired_at": "2026-08-26T10:52:40.535633+00:00"
+    },
+    {
+      "id": "a7230a6f",
+      "consequence": "Sits-in-Shadow has concrete evidence the Dower House is actively, recently maintained despite being publicly 'shut up' -- worth reporting to Reeve Cabray or Perrine",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|late afternoon|13th of sun's height, 3e 247",
+      "fired_at": "2026-08-26T10:52:40.535633+00:00"
+    },
+    {
+      "id": "6f81d856",
+      "consequence": "Sits-in-Shadow agreed to quietly report unusual coaching traffic/coin flow through the Hollow Horn to Reeve Osmond Cabray, who is investigating a persistent Barony dues shortfall",
+      "reason": "NPC matching 'Osmond Cabray' present",
+      "ctx_key": "larenne|morning|14th of sun's height, 3e 247",
+      "fired_at": "2026-08-26T10:53:20.865787+00:00"
+    },
+    {
+      "id": "a7230a6f",
+      "consequence": "Sits-in-Shadow has concrete evidence the Dower House is actively, recently maintained despite being publicly 'shut up' -- worth reporting to Reeve Cabray or Perrine",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|morning|14th of sun's height, 3e 247",
+      "fired_at": "2026-08-26T10:53:20.865787+00:00"
+    },
+    {
+      "id": "5344dae9",
+      "consequence": "Sits-in-Shadow agreed to quietly ask around Larenne about who's done recent unexplained masonry/maintenance work (possibly tied to the Dower House) for Reeve Cabray",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|evening|18th of sun's height, 3e 247",
+      "fired_at": "2026-08-26T11:18:33.782819+00:00"
+    },
+    {
+      "id": "c5cda68f",
+      "consequence": "Cabray is deciding how to proceed with the Montalion/Dower House findings (escalate to the Baroness, wait for Daggerfall word about his missing contact) and will send for Sits-in-Shadow when there's real news",
+      "reason": "NPC matching 'Osmond Cabray' present",
+      "ctx_key": "larenne|morning|19th of sun's height, 3e 247",
+      "fired_at": "2026-08-26T11:42:18.359422+00:00"
+    },
+    {
+      "id": "c5cda68f",
+      "consequence": "Cabray is deciding how to proceed with the Montalion/Dower House findings (escalate to the Baroness, wait for Daggerfall word about his missing contact) and will send for Sits-in-Shadow when there's real news",
+      "reason": "NPC matching 'Osmond Cabray' present",
+      "ctx_key": "larenne|evening|23rd of sun's height, 3e 247",
+      "fired_at": "2026-08-26T11:43:02.820592+00:00"
+    },
+    {
+      "id": "ec35d94c",
+      "consequence": "Baroness Vaudry is organizing her household guard to investigate/confront whatever holds the Dower House, in daylight, and has taken responsibility for the next phase herself",
+      "reason": "NPC matching 'Isabeau Vaudry' present",
+      "ctx_key": "larenne|late night|23rd of sun's height, 3e 247",
+      "fired_at": "2026-08-26T12:55:09.062931+00:00"
+    },
+    {
+      "id": "ec35d94c",
+      "consequence": "Baroness Vaudry is organizing her household guard to investigate/confront whatever holds the Dower House, in daylight, and has taken responsibility for the next phase herself",
+      "reason": "NPC matching 'Isabeau Vaudry' present",
+      "ctx_key": "larenne|morning|24th of sun's height, 3e 247",
+      "fired_at": "2026-08-26T12:55:39.727895+00:00"
+    },
+    {
+      "id": "ec35d94c",
+      "consequence": "Baroness Vaudry is organizing her household guard to investigate/confront whatever holds the Dower House, in daylight, and has taken responsibility for the next phase herself",
+      "reason": "NPC matching 'Isabeau Vaudry' present",
+      "ctx_key": "larenne|evening|26th of sun's height, 3e 247",
+      "fired_at": "2026-08-26T12:55:54.292740+00:00"
+    },
+    {
+      "id": "a826ea1b",
+      "consequence": "Clan Montalion knows they've been discovered and fled the Dower House just ahead of the Baroness's raid -- the threat is disrupted, not resolved, and they may resurface elsewhere or retaliate for being exposed",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|evening|3rd of last seed, 3e 247",
+      "fired_at": "2026-08-26T12:57:20.133408+00:00"
+    },
+    {
+      "id": "a826ea1b",
+      "consequence": "Clan Montalion knows they've been discovered and fled the Dower House just ahead of the Baroness's raid -- the threat is disrupted, not resolved, and they may resurface elsewhere or retaliate for being exposed",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|evening|9th of last seed, 3e 247",
+      "fired_at": "2026-08-26T12:57:46.358589+00:00"
+    },
+    {
+      "id": "a826ea1b",
+      "consequence": "Clan Montalion knows they've been discovered and fled the Dower House just ahead of the Baroness's raid -- the threat is disrupted, not resolved, and they may resurface elsewhere or retaliate for being exposed",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|evening|20th of last seed, 3e 247",
+      "fired_at": "2026-08-26T12:58:36.009970+00:00"
+    },
+    {
+      "id": "a826ea1b",
+      "consequence": "Clan Montalion knows they've been discovered and fled the Dower House just ahead of the Baroness's raid -- the threat is disrupted, not resolved, and they may resurface elsewhere or retaliate for being exposed",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|evening|22nd of last seed, 3e 247",
+      "fired_at": "2026-08-26T13:00:06.252465+00:00"
+    },
+    {
+      "id": "a826ea1b",
+      "consequence": "Clan Montalion knows they've been discovered and fled the Dower House just ahead of the Baroness's raid -- the threat is disrupted, not resolved, and they may resurface elsewhere or retaliate for being exposed",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|evening|15th of hearthfire, 3e 247",
+      "fired_at": "2026-08-26T13:02:06.617771+00:00"
+    },
+    {
+      "id": "a826ea1b",
+      "consequence": "Clan Montalion knows they've been discovered and fled the Dower House just ahead of the Baroness's raid -- the threat is disrupted, not resolved, and they may resurface elsewhere or retaliate for being exposed",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|morning|16th of hearthfire, 3e 247",
+      "fired_at": "2026-08-26T13:18:41.639632+00:00"
+    },
+    {
+      "id": "f988a079",
+      "consequence": "Sits-in-Shadow needs a real source for Apprentice-rank Illusion training -- the Cousinry's locked shelf (held by Aumeric Delance, who won't easily grant an Argonian access) is the only known lead so far",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|morning|16th of hearthfire, 3e 247",
+      "fired_at": "2026-08-26T13:18:41.639632+00:00"
+    },
+    {
+      "id": "a826ea1b",
+      "consequence": "Clan Montalion knows they've been discovered and fled the Dower House just ahead of the Baroness's raid -- the threat is disrupted, not resolved, and they may resurface elsewhere or retaliate for being exposed",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|evening|23rd of hearthfire, 3e 247",
+      "fired_at": "2026-08-26T13:19:33.330746+00:00"
+    },
+    {
+      "id": "9b74805b",
+      "consequence": "Aumeric Delance will discover the burglary and the personal taunt aimed at his genealogy claims -- he may suspect Sits-in-Shadow specifically as the only Argonian in Larenne with known Illusion interest, and could react publicly or seek retribution/exposure",
+      "reason": "NPC matching 'Aumeric Delance' present",
+      "ctx_key": "larenne|evening|23rd of hearthfire, 3e 247",
+      "fired_at": "2026-08-26T13:19:33.330746+00:00"
+    },
+    {
+      "id": "a826ea1b",
+      "consequence": "Clan Montalion knows they've been discovered and fled the Dower House just ahead of the Baroness's raid -- the threat is disrupted, not resolved, and they may resurface elsewhere or retaliate for being exposed",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|evening|12th of frostfall, 3e 247",
+      "fired_at": "2026-08-26T13:23:18.477863+00:00"
+    },
+    {
+      "id": "19ee09a4",
+      "consequence": "Sits-in-Shadow now has a genuine source (the stolen Corbeau) for Apprentice-rank Illusion training -- Gate IV still needs real downtime and a cost paid in fiction, not just possessing the book",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|evening|12th of frostfall, 3e 247",
+      "fired_at": "2026-08-26T13:23:18.477863+00:00"
+    },
+    {
+      "id": "a826ea1b",
+      "consequence": "Clan Montalion knows they've been discovered and fled the Dower House just ahead of the Baroness's raid -- the threat is disrupted, not resolved, and they may resurface elsewhere or retaliate for being exposed",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|evening|16th of frostfall, 3e 247",
+      "fired_at": "2026-08-26T13:42:54.698619+00:00"
+    },
+    {
+      "id": "a826ea1b",
+      "consequence": "Clan Montalion knows they've been discovered and fled the Dower House just ahead of the Baroness's raid -- the threat is disrupted, not resolved, and they may resurface elsewhere or retaliate for being exposed",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|morning|23rd of frostfall, 3e 247",
+      "fired_at": "2026-08-26T13:54:17.410558+00:00"
+    },
+    {
+      "id": "a826ea1b",
+      "consequence": "Clan Montalion knows they've been discovered and fled the Dower House just ahead of the Baroness's raid -- the threat is disrupted, not resolved, and they may resurface elsewhere or retaliate for being exposed",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|evening|28th of frostfall, 3e 247",
+      "fired_at": "2026-08-26T14:10:55.991286+00:00"
+    },
+    {
+      "id": "ebe56513",
+      "consequence": "Matron Ysabel Montalion survived Aubrecourt, wounded, and remains at large somewhere unknown -- a confirmed, public, genuinely supernatural threat and a long-term antagonist thread, not resolved",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|morning|10th of sun's dusk, 3e 247",
+      "fired_at": "2026-08-26T14:19:41.008152+00:00"
+    },
+    {
+      "id": "ebe56513",
+      "consequence": "Matron Ysabel Montalion survived Aubrecourt, wounded, and remains at large somewhere unknown -- a confirmed, public, genuinely supernatural threat and a long-term antagonist thread, not resolved",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|evening|2nd of evening star, 3e 247",
+      "fired_at": "2026-08-26T14:22:24.091818+00:00"
+    },
+    {
+      "id": "ebe56513",
+      "consequence": "Matron Ysabel Montalion survived Aubrecourt, wounded, and remains at large somewhere unknown -- a confirmed, public, genuinely supernatural threat and a long-term antagonist thread, not resolved",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|night|9th of evening star, 3e 247",
+      "fired_at": "2026-08-26T14:28:33.933979+00:00"
+    },
+    {
+      "id": "ebe56513",
+      "consequence": "Matron Ysabel Montalion survived Aubrecourt, wounded, and remains at large somewhere unknown -- a confirmed, public, genuinely supernatural threat and a long-term antagonist thread, not resolved",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|evening|1st of morning star, 3e 248",
+      "fired_at": "2026-08-26T14:58:58.949666+00:00"
+    },
+    {
+      "id": "ebe56513",
+      "consequence": "Matron Ysabel Montalion survived Aubrecourt, wounded, and remains at large somewhere unknown -- a confirmed, public, genuinely supernatural threat and a long-term antagonist thread, not resolved",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|morning|14th of first seed, 3e 248",
+      "fired_at": "2026-08-26T15:22:33.836136+00:00"
+    },
+    {
+      "id": "ebe56513",
+      "consequence": "Matron Ysabel Montalion survived Aubrecourt, wounded, and remains at large somewhere unknown -- a confirmed, public, genuinely supernatural threat and a long-term antagonist thread, not resolved",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|evening|20th of first seed, 3e 248",
+      "fired_at": "2026-08-26T15:40:19.889968+00:00"
+    },
+    {
+      "id": "ebe56513",
+      "consequence": "Matron Ysabel Montalion survived Aubrecourt, wounded, and remains at large somewhere unknown -- a confirmed, public, genuinely supernatural threat and a long-term antagonist thread, not resolved",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|night|3rd of rain's hand, 3e 248",
+      "fired_at": "2026-08-26T15:40:25.446203+00:00"
+    },
+    {
+      "id": "ebe56513",
+      "consequence": "Matron Ysabel Montalion survived Aubrecourt, wounded, and remains at large somewhere unknown -- a confirmed, public, genuinely supernatural threat and a long-term antagonist thread, not resolved",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|night|9th of rain's hand, 3e 248",
+      "fired_at": "2026-08-26T15:50:06.808645+00:00"
+    },
+    {
+      "id": "ebe56513",
+      "consequence": "Matron Ysabel Montalion survived Aubrecourt, wounded, and remains at large somewhere unknown -- a confirmed, public, genuinely supernatural threat and a long-term antagonist thread, not resolved",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|evening|16th of rain's hand, 3e 248",
+      "fired_at": "2026-08-26T15:50:12.338758+00:00"
+    },
+    {
+      "id": "ebe56513",
+      "consequence": "Matron Ysabel Montalion survived Aubrecourt, wounded, and remains at large somewhere unknown -- a confirmed, public, genuinely supernatural threat and a long-term antagonist thread, not resolved",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|evening|20th of midyear, 3e 248",
+      "fired_at": "2026-08-26T15:52:45.887681+00:00"
+    },
+    {
+      "id": "ebe56513",
+      "consequence": "Matron Ysabel Montalion survived Aubrecourt, wounded, and remains at large somewhere unknown -- a confirmed, public, genuinely supernatural threat and a long-term antagonist thread, not resolved",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|night|4th of sun's height, 3e 248",
+      "fired_at": "2026-08-26T15:55:50.110066+00:00"
+    },
+    {
+      "id": "ebe56513",
+      "consequence": "Matron Ysabel Montalion survived Aubrecourt, wounded, and remains at large somewhere unknown -- a confirmed, public, genuinely supernatural threat and a long-term antagonist thread, not resolved",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|evening|18th of sun's height, 3e 248",
+      "fired_at": "2026-08-28T08:07:38.889801+00:00"
+    },
+    {
+      "id": "ebe56513",
+      "consequence": "Matron Ysabel Montalion survived Aubrecourt, wounded, and remains at large somewhere unknown -- a confirmed, public, genuinely supernatural threat and a long-term antagonist thread, not resolved",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|night|8th of last seed, 3e 248",
+      "fired_at": "2026-08-28T13:05:18.041517+00:00"
+    },
+    {
+      "id": "ebe56513",
+      "consequence": "Matron Ysabel Montalion survived Aubrecourt, wounded, and remains at large somewhere unknown -- a confirmed, public, genuinely supernatural threat and a long-term antagonist thread, not resolved",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|evening|22nd of last seed, 3e 248",
+      "fired_at": "2026-08-28T13:05:27.789022+00:00"
+    },
+    {
+      "id": "ebe56513",
+      "consequence": "Matron Ysabel Montalion survived Aubrecourt, wounded, and remains at large somewhere unknown -- a confirmed, public, genuinely supernatural threat and a long-term antagonist thread, not resolved",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|morning|3rd of hearthfire, 3e 248",
+      "fired_at": "2026-08-28T14:41:07.861622+00:00"
+    },
+    {
+      "id": "ebe56513",
+      "consequence": "Matron Ysabel Montalion survived Aubrecourt, wounded, and remains at large somewhere unknown -- a confirmed, public, genuinely supernatural threat and a long-term antagonist thread, not resolved",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|evening|7th of hearthfire, 3e 248",
+      "fired_at": "2026-08-28T14:43:04.506148+00:00"
+    },
+    {
+      "id": "ebe56513",
+      "consequence": "Matron Ysabel Montalion survived Aubrecourt, wounded, and remains at large somewhere unknown -- a confirmed, public, genuinely supernatural threat and a long-term antagonist thread, not resolved",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "larenne|night|8th of hearthfire, 3e 248",
+      "fired_at": "2026-08-28T14:43:09.762827+00:00"
+    },
+    {
+      "id": "ebe56513",
+      "consequence": "Matron Ysabel Montalion survived Aubrecourt, wounded, and remains at large somewhere unknown -- a confirmed, public, genuinely supernatural threat and a long-term antagonist thread, not resolved",
+      "reason": "at location matching 'Larenne'",
+      "ctx_key": "the coaching road, north of larenne|night|8th of hearthfire, 3e 248",
+      "fired_at": "2026-08-28T14:55:07.573694+00:00"
+    }
+  ]
+}

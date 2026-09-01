@@ -1,0 +1,50 @@
+{
+  "campaign_name": "The Unquiet Peace",
+  "genre": "Elder Scrolls — Third Era Tamriel (d20 chassis), Glenumbra, High Rock",
+  "tone": {
+    "horror": 35,
+    "comedy": 10,
+    "drama": 55
+  },
+  "current_date": "16th of Hearthfire, 3E 248",
+  "time_of_day": "Night",
+  "calendar": {
+    "months": [
+      "Morning Star",
+      "Sun's Dawn",
+      "First Seed",
+      "Rain's Hand",
+      "Second Seed",
+      "Midyear",
+      "Sun's Height",
+      "Last Seed",
+      "Hearthfire",
+      "Frostfall",
+      "Sun's Dusk",
+      "Evening Star"
+    ],
+    "weekdays": [
+      "Sundas",
+      "Morndas",
+      "Tirdas",
+      "Middas",
+      "Turdas",
+      "Fredas",
+      "Loredas"
+    ]
+  },
+  "player_position": {
+    "current_location": "Northpoint",
+    "previous_location": "The Sexton's Rest",
+    "arrival_time": "2026-08-28 15:48:47 UTC"
+  },
+  "current_character": "Sits-in-Shadow",
+  "session_count": 0,
+  "campaign_rules": {
+    "voice": "Ursula K. Le Guin — measured, anthropological cadence; custom explained through its cost, not named outright; dialogue spare enough to carry weight; violence stated plainly and briefly, its aftermath lingered on instead. The PC's own uncanny moments are narrated at the same flat temperature as everything else — never flagged, never explained.",
+    "premise": "Third Era Tamriel, generations before the Camoran Usurper crisis and centuries before any Dagon invasion — the unremarkable middle of the Septim Peace. The PC is an Argonian doorsman at the Hollow Horn, a coaching inn in Larenne, a minor Glenumbra market town in High Rock. He begins at Level 0 with no class, no magic, and no combat training of any kind — an ordinary working man. The player has asked for an explicit EARNED long-arc toward becoming a master assassin (Illusion magic — Paralysis, Invisibility, and kin — and a personality shift toward calm, ruthless, and calculated), reached only through real in-fiction training, never granted free. Full mechanical detail lives in ruleset.json's Signature Systems 1-3.",
+    "rules_mode": "D&D 5e class-and-level chassis by explicit player request, Elder Scrolls flavor throughout — never named in generic D&D terms at the table. Magicka replaces spell slots entirely (Signature System 1). NOTHING magical or martial exists at character creation (Signature System 2, the Ladder of Training) — every class level, subclass, and school rank is unlocked by a named in-fiction event (a teacher, a survived crisis, a stolen manual, real downtime and real cost), never by a level-up alone. Full ruleset in ruleset.json — read it before running any mechanic in this campaign, it overrides SRD defaults in specific, deliberate ways.",
+    "death_and_dying": "Standard 5e shape: 0 HP = unconscious + death saves (DC 10 Endurance). 3 successes stable, 3 failures dead. Nat 20 = 1 HP, conscious. Nat 1 = 2 failures. Damage at or above max HP in one hit = instant death. At Level 0 this PC has roughly 8 HP and is genuinely fragile — telegraph real danger clearly before it lands, per this install's Stakes & Death conventions, and let it land when he walks through the warning anyway.",
+    "pacing_discipline": "UPDATED 4th of Sun's Height, 3E 248: the Shadowscale/clutch-mark truth has been REVEALED to and ACCEPTED by the PC (a Dark Brotherhood Speaker recognized the mark; he chose induction fully aware). This is now known, open information the PC can reference and act on -- no more dormancy or deniability needed for THIS layer. A second, still fully hidden layer remains (world-bible.json hidden_truths.sithis_parentage -- he is Sithis-touched, not just Hist-marked, deeper than even the Brotherhood knows) and that layer keeps the ORIGINAL strict pacing discipline: one deniable sign at most every 3-4 sessions, never named by an NPC, never explained by the PC's own narration, reserved for its own separate future turning-point scene. Check world-bible.json hidden_truths before narrating anything uncanny going forward -- the Shadowscale rules are spent, the Sithis rules are not."
+  }
+}

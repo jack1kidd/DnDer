@@ -1,0 +1,228 @@
+{
+  "locations": {},
+  "npcs": {
+    "Mother Thebaine": {
+      "description": "The Chapterhouse almoner, a broad, unhurried Breton woman who runs the Loredas dole and keeps Larenne's parish rolls. She is genuinely good to the poor and genuinely incapable of imagining that the roll's bottom line — 'beast-folk, resident, one' — is about a person. She has fed the doorsman at the dole on three hard winters and has never asked him a question about himself.",
+      "attitude": "friendly",
+      "tags": {
+        "locations": [
+          "The Larenne Chapterhouse",
+          "Larenne"
+        ],
+        "quests": []
+      }
+    },
+    "Brother Aumery": {
+      "description": "A minor Chapterhouse scribe with far more curiosity than rank, who illustrates the town's notable happenings in the margins of his ledgers half from duty and half because he cannot stop himself. Fussy, gently ironic, prone to moralizing captions. He has lately been re-inking the parish roll's 'beast-folk, resident, one' in a hand that makes it harder to read, and has not explained why to anyone, including himself. He is the campaign's chronicler.",
+      "attitude": "helpful",
+      "tags": {
+        "locations": [
+          "The Larenne Chapterhouse",
+          "Larenne",
+          "The Hollow Horn"
+        ],
+        "quests": []
+      }
+    },
+    "Cassien Mallery": {
+      "description": "The Market Court's rhymer: an old man with a monstrous memory who recites bargains back at both parties at the market cross until neither can pretend to have meant otherwise, and who can quote the price of wool in any year of the last forty. He greets the Argonian doorsman with an elaborate, flawless courtesy he extends to no other servant in Larenne — which is courtesy, and is also a fence, and both are true at once.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "The Market Cross",
+          "Larenne"
+        ],
+        "quests": []
+      }
+    },
+    "Jourdain Ossenay": {
+      "description": "Bell-master of the Larenne Chapterhouse, who rings Firstlight, the Trade Toll, the Ash Bell, and — twice a year on average — the Long Bell. He keeps the road-calendar and knows which coaches are late before anyone else in town. Deaf in one ear from the job and privately certain that the bells, not the Barony, are what actually govern Larenne.",
+      "attitude": "friendly",
+      "tags": {
+        "locations": [
+          "The Larenne Chapterhouse",
+          "Larenne"
+        ],
+        "quests": []
+      }
+    },
+    "Goodwife Yssa Coquet": {
+      "description": "The tanner's wife. On the coldest nights she leaves warm renne-cake wrapped in sacking on the Hollow Horn's doorpost, and has done so for nine years, and has never once used the doorsman's name. If asked why she does it she would be embarrassed; if asked his name she would be embarrassed differently.",
+      "attitude": "friendly",
+      "tags": {
+        "locations": [
+          "The Hollow Horn",
+          "Larenne"
+        ],
+        "quests": []
+      }
+    },
+    "Counts-Her-Coppers": {
+      "description": "An Argonian tinker who works the Daggerfall coaching circuit and passes through Larenne twice a year, mending pots and sharpening blades out of a hand-cart. She is the only other Saxhleel the doorsman ever sees. She could answer nearly every question he has never learned how to ask — about hatch-kin, wet-names, the green murmur, what a mark on the hide might mean — and she mostly does not, because she has watched what those answers do to the root-cut, and because she is only in town for two days.",
+      "attitude": "friendly",
+      "tags": {
+        "locations": [
+          "The Market Cross",
+          "The Hollow Horn",
+          "Larenne"
+        ],
+        "quests": []
+      }
+    }
+  },
+  "facts": {
+    "plot_local": [
+      "Brother Aumery has been quietly re-inking 'beast-folk, resident, one' out of the Larenne parish roll, which is technically falsification of a Chapterhouse record; Mother Thebaine has begun to notice the smudging.",
+      "The Hollow Horn's hanging-beam custom means the doorsman handles, chalks and returns every weapon in town — nobody in Larenne has a clearer picture of who is armed, and nobody has ever thought to ask him for it."
+    ],
+    "plot_regional": [
+      "The Barony's road days — three days a year of owed labour on the coaching-road ditches — put the whole town out on the moor together, beer and priest included, which is the only occasion on which commons and Barony share a meal and the only occasion on which the moor's odder finds get dug up.",
+      "The Market Court at the cross settles Larenne's petty disputes by memory rather than writ; anything it declines to hear goes up the road to Daggerfall, where it dies of a Daggerfall answer, so Larenne has a strong civic interest in the rhymer staying alive and sharp."
+    ],
+    "plot_world": [
+      "Dunmer slave-taking along Black Marsh's northern edge is the ordinary, unremarked reason most Argonians are anywhere west of Morrowind; in High Rock it is regarded as a Morrowind matter and discussed the way weather in another province is discussed."
+    ],
+    "breton_custom": [
+      "Larenne's day is kept by four Chapterhouse bells: Firstlight (permission to make noise), the Trade Toll (mid-morning, after which a bargain is legally a bargain), the Ash Bell (dusk, hearths banked, the day's failures forgiven), and the Long Bell — rung slowly, only for a death or a coach gone into the fen. Every soul in town can tell the Long Bell from the others while asleep.",
+      "Hearth-price: at the Hollow Horn a traveller come in from the rain sits at the fire free for as long as his cloak steams, and pays from the moment it stops. Nobody measures it; everybody knows exactly when it has happened.",
+      "The hanging beam: blades come off at the Horn's door and go up chalk-marked, and the doorsman is expected to return each into the right hand, in the dark, to a man who has been drinking six hours. That memory, not size or stillness, is considered the actual skill of the job.",
+      "The Horn names its rooms rather than numbering them — the Cold Room, the Widow's, the Nook, the Coachman's, and the one over the stable called only Upstairs. Being given the Widow's tells a guest his standing without a word.",
+      "The backward cup: when a regular dies, the next round in the common room is poured with the wrist turned over and nobody drinks until the pouring is done. It takes four seconds and is, as far as the Horn is concerned, the entire funeral.",
+      "Ash-coppers: both parties to a struck bargain flick a copper into the nearest banked hearth. The Chapterhouse sifts them out on Sundas and calls it a tithe; everyone permits the fiction because the alternative is a written tax.",
+      "The Barony governs by courtesies that would be intolerable if called laws: the hearth-tax counted by chimneys rather than heads, the three road days of owed labour, and the table-summons — the Baroness's right to call any townsman to answer questions at her own table, as a guest. Nobody has ever been arrested by a table-summons; nobody has ever refused one.",
+      "The class line in Larenne is not wealth (the tanner outearns two knights) but whether you are expected to explain yourself. Commons explain. Nobility ask.",
+      "Market food is eaten standing: renne-cake (coarse griddled oatcake folded hot around mutton dripping and heather honey), moor-eel soused in vinegar from a barrel, small beer from a shared horn cup on a string, and the strong stuff the Horn's regulars call Direnni-water because it takes an elf's constitution to survive it.",
+      "Hedge-magic is domestic and cheap — a sty charmed off an eyelid for two coppers — and Breton magic resistance is spoken of as temperament, not blood: 'it slid off him like a hedge-curse' is a compliment about a man's patience."
+    ],
+    "larenne_manners_toward_argonians": [
+      "Larenne is never cruel to its Argonian and never quite lets him out of the category. He is not refused service anywhere, is always seated near the door, and draws his wash-water second after the kitchen girls — a rule that has never been stated and has never once failed to happen.",
+      "The parish roll lists Larenne's souls by household, then in a separate hand at the foot of the page: 'beast-folk, resident, one.' The category was invented by a Daggerfall clerk two centuries ago and has been carried forward faithfully by every scribe since, meaning nothing personal by it.",
+      "Compliments in Larenne are measurements: 'you speak beautifully' (to a man who has spoken Breton since before he can remember), 'you're very gentle, for one of yours,' 'I always feel safe when you're on the door.'",
+      "Drunks and small children occasionally call him 'it'. The room corrects them briskly every time — for its own comfort, not his, because Larenne does not care to think itself the sort of town where that happens. He has learned to be grateful for the correction anyway.",
+      "The children's skipping rhyme about fen-lizards — 'snap-jaw, snap-jaw, count your teeth' — is sung near him with no malice at all, which is worse than malice, and which he has never mentioned to anyone.",
+      "The Horn's Argonian is a civic possession: mentioned to visitors in the same breath as the market cross and the good bridge. He is known by function rather than by name, and nobody in town could say what he thinks about anything."
+    ],
+    "argonian_custom": [
+      "Hatchlings are brought to the root-pools of the Hist and drink the sap, and the sap shapes body and temper and something under temper. A hatchling's first year is said to belong to the Hist and only afterward to its parents — stated the way Bretons state that a child is born under a Divine: so ordinary it is boring.",
+      "The Hist remember. What one Argonian knows the tree may hold, and what the tree holds another may be given generations later without ever having been told. Argonians do not find this eerie; they find the Breton arrangement eerie — all those separate skulls, each losing everything it held the moment it stopped.",
+      "Kinship runs sideways. Hatch-kin — those of one clutch, one season, one root — outrank parentage in nearly everything that matters, sharing names, obligations, debts, and sometimes a single reputation. Parents are real, loved, and secondary.",
+      "'Who were your people?' lands wrong on an Argonian ear — not rude, badly built, like asking a man which leg he walks with. The Marsh question is 'which pool, which season, which tree', and an Argonian who cannot answer it is not embarrassed so much as structurally incomplete, in a way with no Cyrodilic word.",
+      "An Argonian's Tamrielic name is a translation — of a deed, a role, a thing the Hist noticed — and is expected to change over a life as the person does. A name that never changes means a life that never turned. Many in the west carry only a dry-name (what outsiders called them, or the mistranslation that stuck at a border post) and keep the wet-name private, or lost, or never given.",
+      "Argonians do not bury. The dead return to the Hist; there is nothing to put in a hole. An Argonian at a Chapterhouse burial in Larenne finds he has nothing whatever to do with his hands, and that is the moment the distance becomes unbearable and impossible to explain to a single person present.",
+      "Hist-communion is serious, half-alien, and entirely real — not superstition dressed up. It simply proceeds from assumptions about memory, individuality and what a life is for that no chapel of the Eight has any apparatus to hold.",
+      "Counts-Her-Coppers, an Argonian tinker who works the Daggerfall circuit, passes through Larenne on market Loredas a few times a year and stays a day or two each time. She is the only person in the doorsman's life with real Argonian upbringing behind her — the only one who might, eventually, actually understand something about him he's never had reason to ask anyone about. No urgency to this; she'll keep passing through for years if nothing ever comes of it."
+    ],
+    "the_root_cut": [
+      "Root-cut is the usual Cyrodilic rendering of the Jel word for an Argonian raised away from the Hist. In Jel it is descriptive and carries pity but no insult; in Cyrodilic it cannot help sounding like one, so Argonians in the west generally decline to translate it.",
+      "Far from Black Marsh the green murmur thins toward nothing. What remains is easy to dismiss: a taste at the back of the mouth in early spring, a recurring dream of standing water and enormous roots in someone who has never seen either, an unwillingness to burn certain woods with no reason offered, an occasional flat certainty about something that cannot possibly be known.",
+      "The root-cut file all of it under homesickness, because homesickness is an explanation Bretons will accept, and the truth would take an hour and would not be believed at the end of it.",
+      "Diaspora observances have decayed from doctrine into habit: a piece of unremarkable wood carried in a pocket that no one else may touch; a window left open in spring regardless of weather; counting under the breath in a half-remembered language, to a clutch-number that means nothing to anyone else, when frightened.",
+      "Argonians state without elaboration that the Hist do not mark a hatchling idly, that the Hist are patient, and that a thing set aside is not a thing forgotten — it is simply a thing that has not been asked for yet."
+    ],
+    "language_and_idiom": [
+      "'Peace-and-taxes' is Larenne's standard grumbled greeting and its entire political philosophy.",
+      "'A Daggerfall answer' — one that is technically true and no use at all.",
+      "'Kept dry' — lucky. 'May your cloak stop steaming' — a blessing or an eviction depending entirely on tone, and both meanings are always faintly present.",
+      "'Give me eight' — give me a moment, from counting the Divines. 'Well-mannered as Larenne' is what neighbouring towns say about it, and not entirely kindly.",
+      "The nearest an Argonian will usually come to describing the green murmur to an outsider: it is like a room you have left the door open on. You are not in it. You can feel the draught."
+    ]
+  },
+  "bible": {
+    "factions": {
+      "nodes": [
+        {
+          "id": "larenne-market-court",
+          "name": "The Market Court of Larenne",
+          "type": "institution",
+          "summary": "Not a court in any sense the Kingdom of Daggerfall would recognise: an informal tribunal that convenes at the market cross between the Trade Toll and the Ash Bell on Loredas, where bargains are witnessed by recitation and petty disputes settled from memory by the rhymer, Cassien Mallery. Anything it declines to hear goes up the road to Daggerfall and dies there of a Daggerfall answer."
+        }
+      ],
+      "edges": [
+        {
+          "from": "larenne-market-court",
+          "to": "barony-larenne",
+          "relation": "tolerated by, never chartered — the Barony finds it cheaper than assizes"
+        },
+        {
+          "from": "larenne-market-court",
+          "to": "larenne-chapterhouse",
+          "relation": "shares the market cross and collects the ash-coppers into the tithe"
+        },
+        {
+          "from": "the-hollow-horn",
+          "to": "larenne-market-court",
+          "relation": "half the bargains recited at the cross were struck the night before in its common room"
+        }
+      ]
+    },
+    "geography": {
+      "nodes": [
+        {
+          "id": "the-market-cross",
+          "name": "The Market Cross",
+          "type": "landmark",
+          "summary": "A squat granite pillar in Larenne's Weighing Yard with the Eight cut into its faces, worn now until only Zenithar's scales and Kynareth's bird remain legible — which Larenne considers appropriate to its priorities. Seat of the Market Court and the centre of Loredas trade."
+        }
+      ],
+      "edges": [
+        {
+          "from": "larenne",
+          "to": "the-market-cross",
+          "relation": "contains — the cross stands in the Weighing Yard"
+        },
+        {
+          "from": "the-market-cross",
+          "to": "chapterhouse-larenne",
+          "relation": "within earshot of all four bells"
+        }
+      ]
+    },
+    "timeline": [],
+    "signature_systems": [
+      {
+        "name": "The Four Bells",
+        "summary": "Larenne's day is structured by the Chapterhouse bells — Firstlight, the Trade Toll, the Ash Bell, and the Long Bell — and the Hollow Horn runs on them backward, waking at the Trade Toll and doing real business after the Ash Bell. Useful GM clock: naming which bell has just rung fixes the hour, the legality of bargains, and the town's mood in one line."
+      },
+      {
+        "name": "Hatch-Kin Reckoning",
+        "summary": "Argonian kinship runs sideways through the hatching-clutch rather than down through parents. Culturally load-bearing for the PC: he has no answer to 'which pool, which season, which tree', and every Breton kinship courtesy he participates in is built on a question shaped wrong for him."
+      }
+    ],
+    "voice": {
+      "vocab": [
+        "the Trade Toll (mid-morning Chapterhouse bell; before it, no bargain struck in Larenne is legally a bargain, which is why so many are struck at a quarter to)",
+        "the Ash Bell (dusk bell — hearths banked, and whatever you have not finished has stopped being your fault)",
+        "the Long Bell (rung slowly, only for a death or a coach gone into the fen; everyone can tell it from the others while asleep)",
+        "hearth-price (a traveller sits free at the Horn's fire for as long as his cloak steams, and pays from the moment it stops)",
+        "the hanging beam (where blades come off at the Horn's door, chalk-marked; returning each into the right hand in the dark is the actual skill of the doorsman's job)",
+        "ash-copper (the coin flicked into a banked hearth on closing a bargain; the Chapterhouse sifts them out on Sundas and calls it a tithe)",
+        "the backward cup (the round poured wrist-upward when a regular dies — four seconds, and as far as the Horn is concerned the entire funeral)",
+        "table-summons (the Baroness's right to call any townsman to answer questions at her own table, as a guest; nobody has ever refused one)",
+        "road days (the three days a year every household owes a body to the coaching-road ditches — beer and a priest provided)",
+        "renne-cake (coarse griddled oatcake folded hot around mutton dripping and heather honey; Larenne's staple and minor pride)",
+        "Direnni-water (the Horn's strong spirit — 'takes an elf's constitution'; the joke is told to every new coachman as though it were new)",
+        "a Daggerfall answer (technically true, and no use at all)",
+        "peace-and-taxes (the grumbled Larenne greeting, and the town's entire political philosophy)",
+        "give me eight (give me a moment — from counting the Divines)",
+        "may your cloak stop steaming (a blessing or an eviction, entirely dependent on tone, and both meanings are always faintly present)",
+        "beast-folk, resident, one (the parish roll's separate line at the foot of the page; a Daggerfall clerk's category two centuries old, carried forward faithfully, meaning nothing personal by it)",
+        "the second bucket (the wash-water drawn after the kitchen girls — never a rule, never once failed to happen)",
+        "root-cut (Cyrodilic rendering of the Jel word for an Argonian raised away from the Hist; descriptive and pitying in Jel, unavoidably an insult in Cyrodilic)",
+        "dry-name / wet-name (the name outsiders gave you, or the mistranslation that stuck at a border post, against the name that is properly yours — private, lost, or never given)",
+        "which pool, which season, which tree (the Argonian kinship question, of which 'who were your people?' is the badly-built Breton translation)"
+      ],
+      "sample_passages": [
+        "He drew his wash-water second, after the kitchen girls. This was not a rule. Nobody had made it, nobody enforced it, and if it had been put to the house as a question the house would have been genuinely offended and would have changed nothing. It had simply always happened, the way water finds the low part of a floor, and he had stopped noticing it years ago, which he understood to be the point.",
+        "There is a way a well-mannered town keeps a thing at arm's length without ever raising an arm. Larenne was very good at it. In nine years nobody had refused him service, struck him, or spoken to him unkindly on purpose, and in nine years nobody had asked him a question about himself that did not have its answer already folded inside it.",
+        "At the graveside he found that he had nothing to do with his hands. The Bretons had a use for theirs — earth to take up, a sign to make, a neighbour's elbow to hold — and he stood among them holding nothing, in the rain, being treated with perfect kindness by fourteen people, none of whom he could have explained this to in an hour of trying.",
+        "The tinker came through twice a year and mended pots, and she knew the answers to questions he had never learned the shape of. She looked at him a moment longer than a stranger looks, on the first day, and then she did not look again, and she talked about tin. He decided he was grateful. It took him until the following spring to be certain that was the word."
+      ]
+    },
+    "themes": [
+      "Courtesy as the polished face of exclusion — a town too well-mannered to be cruel and too well-mannered to let him in",
+      "A culture you inherit but were never taught, surfacing as habit rather than knowledge",
+      "Kinship questions asked in the wrong shape, and the loneliness of having no way to correct them",
+      "The daily hours of service work as the real anthropology: bells, chalk marks, wash-water, and who is expected to explain himself"
+    ]
+  }
+}

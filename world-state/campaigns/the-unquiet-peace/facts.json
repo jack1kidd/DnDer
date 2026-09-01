@@ -1,0 +1,778 @@
+{
+  "bestiary": [
+    {
+      "fact": "The hedge pack: moor wolves denning north of the Larenne peat-cuts. A summer nuisance to lambs; in a hard winter they shadow lone travellers along the coaching road for miles without closing. Genuinely lethal to a solitary walker at dusk in the cold months; almost never a threat to a group with fire and a spear.",
+      "timestamp": "2026-08-25T14:09:10.438803+00:00"
+    },
+    {
+      "fact": "Gorse-boar: old blind-mean boars in the whin thickets south of Larenne. The animal that most often actually kills or cripples Larenne men — a tusk through the thigh is beyond what the chapterhouse can fully mend. The barony licenses two hunts a year, both of which end at the Hollow Horn.",
+      "timestamp": "2026-08-25T14:09:10.438806+00:00"
+    },
+    {
+      "fact": "Mire adder: a short dun snake patterned like wet bracken, sluggish enough that nearly every bite in the parish was someone stepping on it during hay-cutting. Rarely kills a grown adult; ruins a fortnight, and can kill a child. Peat-cutters carry binding cord and consider that sufficient medicine.",
+      "timestamp": "2026-08-25T14:09:10.438807+00:00"
+    },
+    {
+      "fact": "Gallow-rooks: the moor's carrion crows, read by the town as an alarm bell — rooks circling a stretch of the moor road means someone walks out to look, and by custom someone always does.",
+      "timestamp": "2026-08-25T14:09:10.438809+00:00"
+    },
+    {
+      "fact": "The peat-sinks and the haar: cut peat leaves black water under a skin of moss, and sea-fog off the Iliac drops visibility to six feet within the hour. Stepping off the causeway stones is how most people who die on the Larenne Moor die. Weather and ground kill more Larenne folk than any beast.",
+      "timestamp": "2026-08-25T14:09:10.438811+00:00"
+    },
+    {
+      "fact": "Fen-candles: pale lights over the wet ground past the peat-cuts, most often in the still hours before rain. The stated explanation is marsh-gas; the unstated one is that they sometimes keep your pace, sometimes appear on the causeway side, and that perhaps twice a generation a man who followed one is found in the sink come spring. Ambiguous by design — never confirm.",
+      "timestamp": "2026-08-25T14:09:10.438813+00:00"
+    },
+    {
+      "fact": "The tallow hound: a long low fat-coloured dog seen on the moor road between the last hedgerow and the old manor's gate. It has never bitten anyone in living memory. Belief holds only that it walks at your pace without audible breath, turns off at the gate, and that whoever it walks with buries someone before the year is out. Held as superstition by daylight and as fact after dark, by the same people. Ambiguous by design — never confirm.",
+      "timestamp": "2026-08-25T14:09:10.438815+00:00"
+    },
+    {
+      "fact": "Late in summer, moths gather in remarked-upon numbers on the shuttered windows of the old manor on the moor road. Nothing more is claimed about this, and nothing more should be shown for a long while.",
+      "timestamp": "2026-08-25T14:09:10.438819+00:00"
+    }
+  ],
+  "bestiary_gm_guidance": [
+    {
+      "fact": "STUB AXIS, DELIBERATELY: this is not a monster-hunting campaign. These entries are backdrop texture and occasional real danger — a lost ewe, a carter's broken leg, a taproom argument about the causeway — not an encounter rotation. Creatures should be heard about far more often than met.",
+      "timestamp": "2026-08-25T14:09:10.438822+00:00"
+    },
+    {
+      "fact": "When a beast does enter a scene, it should be sudden, brief, disproportionately serious, and then over. No dungeon-crawl pacing, no wave encounters, no boss beasts.",
+      "timestamp": "2026-08-25T14:09:10.438826+00:00"
+    },
+    {
+      "fact": "The fen-candles and the tallow hound stay at exactly the same volume as the PC's own quiet wrongnesses — deniable, rare, never explained. They exist to justify why Larenne does not cross the moor after dark, and to keep folk-horror ambient rather than escalating.",
+      "timestamp": "2026-08-25T14:09:10.438827+00:00"
+    }
+  ],
+  "plot_local": [
+    {
+      "fact": "Ewes going missing from the north hedgerows earlier in the season than the hedge pack usually comes down — Peronelle Tass says the wolves are moving wrong this year, and the barony would rather pay her than admit there is a problem.",
+      "timestamp": "2026-08-25T14:09:10.438830+00:00"
+    },
+    {
+      "fact": "A carter who took the coaching road at dusk swears something walked beside him from the last hedgerow to the old manor's gate. He is not a fanciful man, and he has stopped taking evening runs, which costs the Hollow Horn a delivery a week.",
+      "timestamp": "2026-08-25T14:09:10.438831+00:00"
+    },
+    {
+      "fact": "Brother Aumery has been quietly re-inking 'beast-folk, resident, one' out of the Larenne parish roll, which is technically falsification of a Chapterhouse record; Mother Thebaine has begun to notice the smudging.",
+      "timestamp": "2026-08-25T14:09:10.439071+00:00"
+    },
+    {
+      "fact": "The Hollow Horn's hanging-beam custom means the doorsman handles, chalks and returns every weapon in town — nobody in Larenne has a clearer picture of who is armed, and nobody has ever thought to ask him for it.",
+      "timestamp": "2026-08-25T14:09:10.439073+00:00"
+    },
+    {
+      "fact": "The new hearth-roll is due. Larenne has been paying Daggerfall on an undercount taken the year after the flood; an honest count raises the barony's dues by about a third, and the Baroness's only source for it is the market tolls — which means the wool-factors, the stallholders, and the Hollow Horn's post-right.",
+      "timestamp": "2026-08-25T14:09:10.439518+00:00"
+    },
+    {
+      "fact": "Serjeant-Assessor Guiscard Thenn is lodging at the Hollow Horn while he takes the count, and has begun asking the staff mild, patient questions about who sleeps where. Half the town is quietly coaching the other half on definitions: is a stable loft a hearth? Are eleven letting-rooms eleven hearths or one? Is the almshouse a hearth or a charity?",
+      "timestamp": "2026-08-25T14:09:10.439520+00:00"
+    },
+    {
+      "fact": "Guiot Malebranche of the Blue Mare at Trevec Cross has petitioned to have the coaching post-right moved off the Hollow Horn, citing the four weeks a year the moor road floods below Larenne. Without the post-right the Horn is an alehouse with eleven beds it cannot fill.",
+      "timestamp": "2026-08-25T14:09:10.439522+00:00"
+    },
+    {
+      "fact": "Nolwenn Aubrec expects to inherit the Hollow Horn and has never been told she will. Perrine has a living brother in Wayrest with sons, and lets the question stand open longer than is kind. Every pantry tyranny of Nolwenn's is that question wearing a different coat.",
+      "timestamp": "2026-08-25T14:09:10.439523+00:00"
+    },
+    {
+      "fact": "Prior Faustin Belloc has been carrying two years of the barony's unpaid tithe arrears without mentioning it, and intends to convert that silence into funding for a Julianos scriptorium — competing for the same coin the hearth-roll is about to devour.",
+      "timestamp": "2026-08-25T14:09:10.439524+00:00"
+    },
+    {
+      "fact": "Serjeant Aloys Bec's watch does not attend trouble at the Hollow Horn. Everyone involved understands that the barony has informally subcontracted its violence at the market square's busiest door to an Argonian who is not sworn to it, paid for it, or protected by it.",
+      "timestamp": "2026-08-25T14:09:10.439525+00:00"
+    },
+    {
+      "fact": "Hanryk Sowe's tab at the Horn is allowed to reach forty drakes and never one more; when it hits forty he starts trading in news instead of coin, which is how Larenne learns anything about Daggerfall.",
+      "timestamp": "2026-08-25T14:09:10.439528+00:00"
+    },
+    {
+      "fact": "Wool that has never crossed the barony's beam moves along the Hare's Road, and so does untaxed brandy. Ancel Perrot at the Peatgate toll knows it happens and cannot prove it; Mireille Coudray at the mill knows exactly who walks past her race at night and says nothing. Sooner or later Vaudry Hall will want an example made.",
+      "timestamp": "2026-08-25T14:09:10.440033+00:00"
+    },
+    {
+      "fact": "The Pack Bridge is too narrow for two carts and generates about a quarter of all litigation heard at Vaudry Hall. Every wool-fair week it produces at least one genuine fight.",
+      "timestamp": "2026-08-25T14:09:10.440035+00:00"
+    },
+    {
+      "fact": "The Drown is not where the last generation's stories put it. Two men have gone into it in living memory. Nobody in Larenne has ever proposed doing anything about this.",
+      "timestamp": "2026-08-25T14:09:10.440036+00:00"
+    },
+    {
+      "fact": "The Malt Fire, twenty-five years ago, was blamed on a Khajiit sugar-tinker who had left town two days before it started. The caravans read the verdict correctly and stopped coming. Auberic Trevaine, then a brewhouse apprentice, knows what actually happened and has never said — and perhaps three others could guess.",
+      "timestamp": "2026-08-25T14:09:10.440386+00:00"
+    },
+    {
+      "fact": "The Wet Years, some forty years back: three drowned harvests and the sheep-rot, and the barony opened its granary and charged for it. 'At granary prices' is still the town's phrase for a favour that came with a bill. It is the deepest grudge in Larenne and nobody alive is guilty of it.",
+      "timestamp": "2026-08-25T14:09:10.440387+00:00"
+    },
+    {
+      "fact": "The Ninebank Judgment settled the peat-cutting feud between the Perrenots and the Gascels twenty-odd years ago. It has never been obeyed. Both families cut the same bank on the first day of cutting each year, the fight follows the same steps every time, and the town turns out to watch. Melisent Gascel has noticed the bank is nearly worked out.",
+      "timestamp": "2026-08-25T14:09:10.440388+00:00"
+    },
+    {
+      "fact": "The cracked ox-horn over the Hollow Horn's door is the town's lawful ale measure by charter, and the innkeeper draws a shilling a year as an officer of the market for keeping it. The same charter shilling has been paid since it was worth something.",
+      "timestamp": "2026-08-25T14:09:10.440390+00:00"
+    },
+    {
+      "fact": "The Hollow Horn's north wing is brick and does not match the rest of the inn. It was rebuilt after the Malt Fire under the barony's brick ordinance, which is also why one flank of the market square is hard-edged brick and the other is leaning timber.",
+      "timestamp": "2026-08-25T14:09:10.440391+00:00"
+    },
+    {
+      "fact": "Larenne has known one other Argonian in living memory — a bargeman who worked a coast-road season and went south before the frost. Three people will give you three different names for him.",
+      "timestamp": "2026-08-25T14:09:10.440393+00:00"
+    },
+    {
+      "fact": "Perrin Guisse sells a badly copied 'Wardrobe of Mist' that is missing its sixth chapter — the chapter on the closing. It works well enough to be believed, which is exactly what makes it dangerous. Anyone who self-teaches from it can reach the Candle and probably the Muffle, and will eventually take a sticking.",
+      "timestamp": "2026-08-25T14:09:10.440844+00:00"
+    },
+    {
+      "fact": "Ysolt Fauvel will teach the foundation of magic — the draw, reciting cold, the closing — but not Illusion. Her price is information from the Hollow Horn's door: names, coaches, and which travelers ask the way to the moor road. She refuses to say why she wants it.",
+      "timestamp": "2026-08-25T14:09:10.440845+00:00"
+    },
+    {
+      "fact": "The Direnni Cousinry keeps a locked press above the Wool Hall. The second shelf holds three volumes of genuine Direnni-descended Illusion practice, including a complete Corbeau. Aumeric Delance holds the key and will not give it to an Argonian.",
+      "timestamp": "2026-08-25T14:09:10.440847+00:00"
+    },
+    {
+      "fact": "Ninon Guisse wants the same locked shelf the PC will eventually want, for entirely different reasons, and is better placed to notice what he is really after.",
+      "timestamp": "2026-08-25T14:09:10.440848+00:00"
+    },
+    {
+      "fact": "The ruined sheepfold at Bram's Dike is where Larenne apprentices go to practice out of earshot. It is off the moor road, unroofed, and there is old scorch on the inner stones from other people's failures.",
+      "timestamp": "2026-08-25T14:09:10.440849+00:00"
+    }
+  ],
+  "plot_regional": [
+    {
+      "fact": "The causeway stones on the Larenne Moor are the barony's oldest continuous expense and no one is quite sure who laid them or how far the older line beneath them runs.",
+      "timestamp": "2026-08-25T14:09:10.438833+00:00"
+    },
+    {
+      "fact": "The Barony's road days — three days a year of owed labour on the coaching-road ditches — put the whole town out on the moor together, beer and priest included, which is the only occasion on which commons and Barony share a meal and the only occasion on which the moor's odder finds get dug up.",
+      "timestamp": "2026-08-25T14:09:10.439076+00:00"
+    },
+    {
+      "fact": "The Market Court at the cross settles Larenne's petty disputes by memory rather than writ; anything it declines to hear goes up the road to Daggerfall, where it dies of a Daggerfall answer, so Larenne has a strong civic interest in the rhymer staying alive and sharp.",
+      "timestamp": "2026-08-25T14:09:10.439078+00:00"
+    },
+    {
+      "fact": "The Vaudry succession is unresolved in practice though settled in custom: Amaury inherits, Sibylle is the one who can hold the place. Nobody in the household has said this aloud and it governs every evening meal.",
+      "timestamp": "2026-08-25T14:09:10.439531+00:00"
+    },
+    {
+      "fact": "Ser Ranulf Coudrec of Wethermarch is hinting he will take the ninety-year turbary dispute over Cullen's Wet past the Baroness to a Daggerfall court — the most aggressive act anyone in the parish has committed in a decade, and a real threat, because a distant court has no reason to care that this is how the two families talk to each other.",
+      "timestamp": "2026-08-25T14:09:10.439533+00:00"
+    },
+    {
+      "fact": "The Crown of Daggerfall is not oppressing anyone. It is simply counting more carefully than it used to, at twelve-year intervals, from a very long way away — which in this parish is the same thing as weather.",
+      "timestamp": "2026-08-25T14:09:10.439534+00:00"
+    },
+    {
+      "fact": "Fleece prices out of the Wayrest cloth halls set what Dame Marguerite Osse can pay, and what she pays sets whether Larenne's stallholders can absorb a toll increase. The hearth-roll and the wool price are the same problem seen from two ends of the square.",
+      "timestamp": "2026-08-25T14:09:10.439535+00:00"
+    },
+    {
+      "fact": "Every Evening Star a factor rides up from Daggerfall and pays the Dower House's land-dues to the barony, to the penny, in coin noticeably older than what is in general circulation. No servant of that house has ever been seen in Larenne, no order has ever been placed with a Larenne merchant, and yet the lime avenue is kept clear and the deer-park wall is kept mended.",
+      "timestamp": "2026-08-25T14:09:10.440040+00:00"
+    },
+    {
+      "fact": "The chapterhouse's copy of the Dower House deed is incomplete — a transfer with a signature and no named grantee. Brother Aumery has mentioned this to precisely one person and has not been encouraged to pursue it.",
+      "timestamp": "2026-08-25T14:09:10.440042+00:00"
+    },
+    {
+      "fact": "Shepherds have quietly stopped grazing the ground under the Dower House. They give practical reasons: poor grass, dogs that won't work, a long way home in the dark. The reasons are practical and the pattern is not.",
+      "timestamp": "2026-08-25T14:09:10.440043+00:00"
+    },
+    {
+      "fact": "Jocelin Vaudry, elder brother of the present Baroness, renounced his claim some eighteen years ago and went to Daggerfall to take orders. Letters came for a year and then stopped. The Vaudry dower-house on the moor road — the Dower House — was shut that same season and has been shut since. Someone still pays to have the shutters repainted, and nobody in town knows who.",
+      "timestamp": "2026-08-25T14:09:10.440396+00:00"
+    },
+    {
+      "fact": "Baron Alric Vaudry's marriage to Ysabeau Corvenne of Daggerfall was annulled on a consanguinity ruling certified by the Larenne Chapterhouse in the same summer the chapterhouse acquired a new lead roof. The Corvennes still hold Larenne's wool contract. Larenne's wool still fetches less than Camlorn's. Nobody in town believes those facts are unrelated.",
+      "timestamp": "2026-08-25T14:09:10.440398+00:00"
+    },
+    {
+      "fact": "The moor-edge boundary north of Ninebank has been 'under review' between Larenne and its neighbours for over eighty years, so the bridge-toll there is not lawfully collected by anyone and is therefore collected by whoever reaches the bridge first. No party wants it resolved; a resolved dispute would have an owner, and an owner would have to repair the bridge.",
+      "timestamp": "2026-08-25T14:09:10.440399+00:00"
+    },
+    {
+      "fact": "The Vaudrys were wool-factors three generations back and married into the barony. The two or three older families in Larenne still call them the wool-lords, though only among themselves and only after the second cup.",
+      "timestamp": "2026-08-25T14:09:10.440400+00:00"
+    },
+    {
+      "fact": "Hazruun of Tigonus will only teach the Veiling Arts to someone who rides the Daggerfall–Wayrest run with her, on the grounds that a figure is not learned until it has been used with something at stake. Taking her offer means leaving the inn and the town.",
+      "timestamp": "2026-08-25T14:09:10.440853+00:00"
+    },
+    {
+      "fact": "Three winters ago a coach Hazruun warded went out onto the Larenne moor road and was never found — no horses, no wheels, no mud-marks. She has been working that stretch ever since without telling anyone why.",
+      "timestamp": "2026-08-25T14:09:10.440854+00:00"
+    },
+    {
+      "fact": "There is no Mages Guild in Larenne. The nearest halls are Daggerfall and Wayrest, and both require a sponsor, a fee, and a letter of introduction. Neither has ever admitted an Argonian doorsman.",
+      "timestamp": "2026-08-25T14:09:10.440856+00:00"
+    },
+    {
+      "fact": "The Larenne Chapterhouse does not carry the old manor out past the dike on its tithe rolls, which is irregular. Brother Aumery has noticed and has done nothing.",
+      "timestamp": "2026-08-25T14:09:10.440857+00:00"
+    }
+  ],
+  "plot_world": [
+    {
+      "fact": "Dunmer slave-taking along Black Marsh's northern edge is the ordinary, unremarked reason most Argonians are anywhere west of Morrowind; in High Rock it is regarded as a Morrowind matter and discussed the way weather in another province is discussed.",
+      "timestamp": "2026-08-25T14:09:10.439080+00:00"
+    },
+    {
+      "fact": "This is the middle of the Peace. Nothing at Larenne's scale is connected to anything at the Empire's scale, and the campaign should keep it that way: distant events arrive as a paragraph in a coachman's news and change the price of something.",
+      "timestamp": "2026-08-25T14:09:10.439537+00:00"
+    },
+    {
+      "fact": "The new Talos altar in the Larenne Chapterhouse is an administrative fact of the Imperial cult rather than a local devotion. The Prior treats it as an installation. Half the parish still says 'the Eight' and will until they die.",
+      "timestamp": "2026-08-25T14:09:10.439539+00:00"
+    },
+    {
+      "fact": "Larenne is far enough from Daggerfall and Camlorn that both cities are, in practice, directions rather than places. Nothing decided in either has reached the Weighing Yard within living memory except a change in the wool duty.",
+      "timestamp": "2026-08-25T14:09:10.440045+00:00"
+    },
+    {
+      "fact": "Larenne is a barony sworn to the Kingdom of Daggerfall, and that fealty amounts to exactly three things: a levy commuted to coin four generations ago, a royal justiciar who rides the assize circuit every third autumn and rules mostly on fences and peat, and a wool price set elsewhere.",
+      "timestamp": "2026-08-25T14:09:10.440403+00:00"
+    },
+    {
+      "fact": "The Septim line's road-mending and charter-selling early in the Peace is the only reason the coaching road runs through Larenne at all — which makes the Empire, indirectly, the author of the Hollow Horn's entire livelihood and the one imperial fact anybody here would concede matters.",
+      "timestamp": "2026-08-25T14:09:10.440404+00:00"
+    },
+    {
+      "fact": "An Imperial legion detachment passed through Larenne once, on its way somewhere it did not explain, and bought every barrel in town and paid fairly. That is the largest thing the Empire has ever done for this place, and people still bring it up.",
+      "timestamp": "2026-08-25T14:09:10.440406+00:00"
+    },
+    {
+      "fact": "In Larenne, 'the Peace' is said with a flat little irony — the tone one uses for a landlord who has not yet come to look at the roof.",
+      "timestamp": "2026-08-25T14:09:10.440407+00:00"
+    },
+    {
+      "fact": "Illusion — the Veiling Arts — carries a permanent bad name across High Rock because it is understood as the school of thieves, spies, and assassins. A practitioner who takes Illusion coin loses their honest custom. This is a social gate on the PC's arc as much as a mechanical one.",
+      "timestamp": "2026-08-25T14:09:10.440860+00:00"
+    },
+    {
+      "fact": "The Still Hand (paralysis) is not taught anywhere in Glenumbra by anyone reputable. There is no honest trade that needs it. It is passed only by people who want something in exchange, and the exchange is never money.",
+      "timestamp": "2026-08-25T14:09:10.440861+00:00"
+    }
+  ],
+  "breton_custom": [
+    {
+      "fact": "Larenne's day is kept by four Chapterhouse bells: Firstlight (permission to make noise), the Trade Toll (mid-morning, after which a bargain is legally a bargain), the Ash Bell (dusk, hearths banked, the day's failures forgiven), and the Long Bell — rung slowly, only for a death or a coach gone into the fen. Every soul in town can tell the Long Bell from the others while asleep.",
+      "timestamp": "2026-08-25T14:09:10.439083+00:00"
+    },
+    {
+      "fact": "Hearth-price: at the Hollow Horn a traveller come in from the rain sits at the fire free for as long as his cloak steams, and pays from the moment it stops. Nobody measures it; everybody knows exactly when it has happened.",
+      "timestamp": "2026-08-25T14:09:10.439085+00:00"
+    },
+    {
+      "fact": "The hanging beam: blades come off at the Horn's door and go up chalk-marked, and the doorsman is expected to return each into the right hand, in the dark, to a man who has been drinking six hours. That memory, not size or stillness, is considered the actual skill of the job.",
+      "timestamp": "2026-08-25T14:09:10.439086+00:00"
+    },
+    {
+      "fact": "The Horn names its rooms rather than numbering them — the Cold Room, the Widow's, the Nook, the Coachman's, and the one over the stable called only Upstairs. Being given the Widow's tells a guest his standing without a word.",
+      "timestamp": "2026-08-25T14:09:10.439088+00:00"
+    },
+    {
+      "fact": "The backward cup: when a regular dies, the next round in the common room is poured with the wrist turned over and nobody drinks until the pouring is done. It takes four seconds and is, as far as the Horn is concerned, the entire funeral.",
+      "timestamp": "2026-08-25T14:09:10.439089+00:00"
+    },
+    {
+      "fact": "Ash-coppers: both parties to a struck bargain flick a copper into the nearest banked hearth. The Chapterhouse sifts them out on Sundas and calls it a tithe; everyone permits the fiction because the alternative is a written tax.",
+      "timestamp": "2026-08-25T14:09:10.439090+00:00"
+    },
+    {
+      "fact": "The Barony governs by courtesies that would be intolerable if called laws: the hearth-tax counted by chimneys rather than heads, the three road days of owed labour, and the table-summons — the Baroness's right to call any townsman to answer questions at her own table, as a guest. Nobody has ever been arrested by a table-summons; nobody has ever refused one.",
+      "timestamp": "2026-08-25T14:09:10.439092+00:00"
+    },
+    {
+      "fact": "The class line in Larenne is not wealth (the tanner outearns two knights) but whether you are expected to explain yourself. Commons explain. Nobility ask.",
+      "timestamp": "2026-08-25T14:09:10.439093+00:00"
+    },
+    {
+      "fact": "Market food is eaten standing: renne-cake (coarse griddled oatcake folded hot around mutton dripping and heather honey), moor-eel soused in vinegar from a barrel, small beer from a shared horn cup on a string, and the strong stuff the Horn's regulars call Direnni-water because it takes an elf's constitution to survive it.",
+      "timestamp": "2026-08-25T14:09:10.439094+00:00"
+    },
+    {
+      "fact": "Hedge-magic is domestic and cheap — a sty charmed off an eyelid for two coppers — and Breton magic resistance is spoken of as temperament, not blood: 'it slid off him like a hedge-curse' is a compliment about a man's patience.",
+      "timestamp": "2026-08-25T14:09:10.439096+00:00"
+    }
+  ],
+  "larenne_manners_toward_argonians": [
+    {
+      "fact": "Larenne is never cruel to its Argonian and never quite lets him out of the category. He is not refused service anywhere, is always seated near the door, and draws his wash-water second after the kitchen girls — a rule that has never been stated and has never once failed to happen.",
+      "timestamp": "2026-08-25T14:09:10.439097+00:00"
+    },
+    {
+      "fact": "The parish roll lists Larenne's souls by household, then in a separate hand at the foot of the page: 'beast-folk, resident, one.' The category was invented by a Daggerfall clerk two centuries ago and has been carried forward faithfully by every scribe since, meaning nothing personal by it.",
+      "timestamp": "2026-08-25T14:09:10.439099+00:00"
+    },
+    {
+      "fact": "Compliments in Larenne are measurements: 'you speak beautifully' (to a man who has spoken Breton since before he can remember), 'you're very gentle, for one of yours,' 'I always feel safe when you're on the door.'",
+      "timestamp": "2026-08-25T14:09:10.439100+00:00"
+    },
+    {
+      "fact": "Drunks and small children occasionally call him 'it'. The room corrects them briskly every time — for its own comfort, not his, because Larenne does not care to think itself the sort of town where that happens. He has learned to be grateful for the correction anyway.",
+      "timestamp": "2026-08-25T14:09:10.439101+00:00"
+    },
+    {
+      "fact": "The children's skipping rhyme about fen-lizards — 'snap-jaw, snap-jaw, count your teeth' — is sung near him with no malice at all, which is worse than malice, and which he has never mentioned to anyone.",
+      "timestamp": "2026-08-25T14:09:10.439102+00:00"
+    },
+    {
+      "fact": "The Horn's Argonian is a civic possession: mentioned to visitors in the same breath as the market cross and the good bridge. He is known by function rather than by name, and nobody in town could say what he thinks about anything.",
+      "timestamp": "2026-08-25T14:09:10.439103+00:00"
+    }
+  ],
+  "argonian_custom": [
+    {
+      "fact": "Hatchlings are brought to the root-pools of the Hist and drink the sap, and the sap shapes body and temper and something under temper. A hatchling's first year is said to belong to the Hist and only afterward to its parents — stated the way Bretons state that a child is born under a Divine: so ordinary it is boring.",
+      "timestamp": "2026-08-25T14:09:10.439105+00:00"
+    },
+    {
+      "fact": "The Hist remember. What one Argonian knows the tree may hold, and what the tree holds another may be given generations later without ever having been told. Argonians do not find this eerie; they find the Breton arrangement eerie — all those separate skulls, each losing everything it held the moment it stopped.",
+      "timestamp": "2026-08-25T14:09:10.439107+00:00"
+    },
+    {
+      "fact": "Kinship runs sideways. Hatch-kin — those of one clutch, one season, one root — outrank parentage in nearly everything that matters, sharing names, obligations, debts, and sometimes a single reputation. Parents are real, loved, and secondary.",
+      "timestamp": "2026-08-25T14:09:10.439108+00:00"
+    },
+    {
+      "fact": "'Who were your people?' lands wrong on an Argonian ear — not rude, badly built, like asking a man which leg he walks with. The Marsh question is 'which pool, which season, which tree', and an Argonian who cannot answer it is not embarrassed so much as structurally incomplete, in a way with no Cyrodilic word.",
+      "timestamp": "2026-08-25T14:09:10.439112+00:00"
+    },
+    {
+      "fact": "An Argonian's Tamrielic name is a translation — of a deed, a role, a thing the Hist noticed — and is expected to change over a life as the person does. A name that never changes means a life that never turned. Many in the west carry only a dry-name (what outsiders called them, or the mistranslation that stuck at a border post) and keep the wet-name private, or lost, or never given.",
+      "timestamp": "2026-08-25T14:09:10.439113+00:00"
+    },
+    {
+      "fact": "Argonians do not bury. The dead return to the Hist; there is nothing to put in a hole. An Argonian at a Chapterhouse burial in Larenne finds he has nothing whatever to do with his hands, and that is the moment the distance becomes unbearable and impossible to explain to a single person present.",
+      "timestamp": "2026-08-25T14:09:10.439115+00:00"
+    },
+    {
+      "fact": "Hist-communion is serious, half-alien, and entirely real — not superstition dressed up. It simply proceeds from assumptions about memory, individuality and what a life is for that no chapel of the Eight has any apparatus to hold.",
+      "timestamp": "2026-08-25T14:09:10.439116+00:00"
+    },
+    {
+      "fact": "Counts-Her-Coppers, an Argonian tinker who works the Daggerfall circuit, passes through Larenne on market Loredas a few times a year and stays a day or two each time. She is the only person in the doorsman's life with real Argonian upbringing behind her — the only one who might, eventually, actually understand something about him he's never had reason to ask anyone about. No urgency to this; she'll keep passing through for years if nothing ever comes of it.",
+      "timestamp": "2026-08-25T14:09:10.439117+00:00"
+    }
+  ],
+  "the_root_cut": [
+    {
+      "fact": "Root-cut is the usual Cyrodilic rendering of the Jel word for an Argonian raised away from the Hist. In Jel it is descriptive and carries pity but no insult; in Cyrodilic it cannot help sounding like one, so Argonians in the west generally decline to translate it.",
+      "timestamp": "2026-08-25T14:09:10.439120+00:00"
+    },
+    {
+      "fact": "Far from Black Marsh the green murmur thins toward nothing. What remains is easy to dismiss: a taste at the back of the mouth in early spring, a recurring dream of standing water and enormous roots in someone who has never seen either, an unwillingness to burn certain woods with no reason offered, an occasional flat certainty about something that cannot possibly be known.",
+      "timestamp": "2026-08-25T14:09:10.439123+00:00"
+    },
+    {
+      "fact": "The root-cut file all of it under homesickness, because homesickness is an explanation Bretons will accept, and the truth would take an hour and would not be believed at the end of it.",
+      "timestamp": "2026-08-25T14:09:10.439124+00:00"
+    },
+    {
+      "fact": "Diaspora observances have decayed from doctrine into habit: a piece of unremarkable wood carried in a pocket that no one else may touch; a window left open in spring regardless of weather; counting under the breath in a half-remembered language, to a clutch-number that means nothing to anyone else, when frightened.",
+      "timestamp": "2026-08-25T14:09:10.439125+00:00"
+    },
+    {
+      "fact": "Argonians state without elaboration that the Hist do not mark a hatchling idly, that the Hist are patient, and that a thing set aside is not a thing forgotten — it is simply a thing that has not been asked for yet.",
+      "timestamp": "2026-08-25T14:09:10.439126+00:00"
+    }
+  ],
+  "language_and_idiom": [
+    {
+      "fact": "'Peace-and-taxes' is Larenne's standard grumbled greeting and its entire political philosophy.",
+      "timestamp": "2026-08-25T14:09:10.439128+00:00"
+    },
+    {
+      "fact": "'A Daggerfall answer' — one that is technically true and no use at all.",
+      "timestamp": "2026-08-25T14:09:10.439129+00:00"
+    },
+    {
+      "fact": "'Kept dry' — lucky. 'May your cloak stop steaming' — a blessing or an eviction depending entirely on tone, and both meanings are always faintly present.",
+      "timestamp": "2026-08-25T14:09:10.439131+00:00"
+    },
+    {
+      "fact": "'Give me eight' — give me a moment, from counting the Divines. 'Well-mannered as Larenne' is what neighbouring towns say about it, and not entirely kindly.",
+      "timestamp": "2026-08-25T14:09:10.439133+00:00"
+    },
+    {
+      "fact": "The nearest an Argonian will usually come to describing the green murmur to an outsider: it is like a room you have left the door open on. You are not in it. You can feel the draught.",
+      "timestamp": "2026-08-25T14:09:10.439135+00:00"
+    }
+  ],
+  "larenne_governance": [
+    {
+      "fact": "Larenne has roughly four hundred hearths, a market charter, and one road worth naming. Power here is standing, not force: a position in a web of debts, favours, tithes and old grudges everyone can recite and nobody has written down.",
+      "timestamp": "2026-08-25T14:09:10.439540+00:00"
+    },
+    {
+      "fact": "The Barony of Larenne governs the town's small affairs with almost no oversight from the Kingdom of Daggerfall, except at hearth-roll years, when the oversight arrives in person and lodges at the inn.",
+      "timestamp": "2026-08-25T14:09:10.439542+00:00"
+    },
+    {
+      "fact": "The Market Court — the wool-factors and chartered stallholders, in practice Dame Marguerite Osse and four others — is the real counterweight to the barony. It cannot command anything and can make anything impossible.",
+      "timestamp": "2026-08-25T14:09:10.439545+00:00"
+    },
+    {
+      "fact": "The town watch is four men and a bell. The chapterhouse keeps the records of births, deaths, tithes and wills, which makes Prior Belloc's cabinet the closest thing Larenne has to a memory.",
+      "timestamp": "2026-08-25T14:09:10.439546+00:00"
+    }
+  ],
+  "the_hollow_horn": [
+    {
+      "fact": "The Hollow Horn is a licensed change-house, not a tavern: it holds the post-right on the Daggerfall coaching road. The coach stops here, teams are swapped here, the mail bag is signed for here. The stableyard is the larger half of the business and the taproom is the smaller.",
+      "timestamp": "2026-08-25T14:09:10.439548+00:00"
+    },
+    {
+      "fact": "Perrine Aubrec's ledger is kept in a shorthand of hooks and bars of her own devising. Nobody else can read it, including her niece, and this is not an accident.",
+      "timestamp": "2026-08-25T14:09:10.439549+00:00"
+    },
+    {
+      "fact": "The PC is 'the Argonian at the Horn' — a known, unremarkable fixture of the town, standing at the threshold of its busiest room. He sees more of Larenne's web in a week than the Baroness sees in a year, because all of it walks past him to get a drink. He is inside the web without being a member of it.",
+      "timestamp": "2026-08-25T14:09:10.439551+00:00"
+    }
+  ],
+  "hidden_lore_gm_only": [
+    {
+      "fact": "GM-EYES-ONLY: Clan Montalion's discipline is tenancy, not violence — land held through paper, cadet branches and long-lived 'cousins' inheriting from one another on a schedule that looks unremarkable on any single deed and very strange across two hundred years of them. Attention on a deed is the only thing that has ever cost them anything. Their entire footprint in this parish is that the old manor on the moor road pays its hearth-dues punctually, delivered by an unnamed factor out of Daggerfall who signs, does not eat, and leaves. No named vampire exists in this campaign. Rumour only; never confirmed. The single available (optional, deferrable) hook is that a hearth-roll requires someone to go out there and count.",
+      "timestamp": "2026-08-25T14:09:10.439553+00:00"
+    },
+    {
+      "fact": "GM-EYES-ONLY: there is no Dark Brotherhood presence in Larenne and no reason for one; the nearest Sanctuary is a Daggerfall matter with no business on a moorland coaching road. Structurally, a Shadowscale is not recruited — the Hist marks the hatchling, and the call comes from inside, through dreams and through a body knowing things the mind never agreed to learn. A Speaker arrives only afterward, to confirm what has already begun, and only once the marked one has started answering without understanding what he is answering. Therefore the correct amount of Brotherhood in play, for a long while, is none: no contact, no watcher, no hand-print on a door.",
+      "timestamp": "2026-08-25T14:09:10.439554+00:00"
+    }
+  ],
+  "geography": [
+    {
+      "fact": "Larenne exists because the Bay Road between Daggerfall and Camlorn needed a change of horses at exactly that distance, and because the Anwyl could be forded there and later bridged. Everything else in the town grew out of those two facts.",
+      "timestamp": "2026-08-25T14:09:10.440011+00:00"
+    },
+    {
+      "fact": "Larenne's economy stands on three legs: wool off the moor, peat out of the Black Cuts, and the coaching traffic. When the road is shut by flood or snow, all three stop at once.",
+      "timestamp": "2026-08-25T14:09:10.440013+00:00"
+    },
+    {
+      "fact": "The barony's public wool-beam stands under a slate roof at the north end of the Weighing Yard. Every fleece sold in Larenne is supposed to cross it and pay its fraction to Vaudry Hall.",
+      "timestamp": "2026-08-25T14:09:10.440015+00:00"
+    },
+    {
+      "fact": "Market day is Loredas. The great wool fair falls in Hearthfire and roughly doubles the town's population for a week.",
+      "timestamp": "2026-08-25T14:09:10.440016+00:00"
+    },
+    {
+      "fact": "The chapterhouse bell, the Matron, rings the hours and the high days — and also the arrival of the southbound coach, a compromise between temple and trade that scandalized a prior two generations back and was never undone.",
+      "timestamp": "2026-08-25T14:09:10.440017+00:00"
+    },
+    {
+      "fact": "Sea-fog comes off the Iliac Bay in the small hours through most of the year. In Sun's Dusk the Anwyl comes up brown and fast and takes the lowest course of the Pack Bridge with it; the barony pays to have the stones replaced, and has done for four hundred years.",
+      "timestamp": "2026-08-25T14:09:10.440019+00:00"
+    },
+    {
+      "fact": "Peat cutting begins after First Seed. From Frostfall onward the whole town smells of turf smoke, and strangers always remark on it and locals never notice it.",
+      "timestamp": "2026-08-25T14:09:10.440020+00:00"
+    },
+    {
+      "fact": "The Marchstone is Direnni work, older than Larenne by a wide margin, marking a boundary nobody now observes. Children are warned not to sleep in its shadow; the reason behind the warning has been lost, and only the warning survives.",
+      "timestamp": "2026-08-25T14:09:10.440021+00:00"
+    },
+    {
+      "fact": "The chapterhouse holds that there are nine trees in the Sisters, nine being a decent number. No one who has actually counted them has ever got nine.",
+      "timestamp": "2026-08-25T14:09:10.440022+00:00"
+    }
+  ],
+  "custom": [
+    {
+      "fact": "Coachmen leave a copper in the niche of the Widow's Stone at the sixth milestone against foul weather, and touch the stone as they pass. The chapterhouse calls it a shrine of Kynareth; the drivers call it the Widow's Stone; the two parties have a long-standing agreement not to discuss it.",
+      "timestamp": "2026-08-25T14:09:10.440024+00:00"
+    },
+    {
+      "fact": "Turf-plots in the Black Cuts are hereditary and individually named — Sourbank, the Widow's Room, Gaultier's Long Cut. Selling a plot outside the family is spoken of in Larenne the way other towns speak of selling a grave.",
+      "timestamp": "2026-08-25T14:09:10.440029+00:00"
+    },
+    {
+      "fact": "Larenne's non-Breton residents live almost entirely on Sallow Lane. The town's tolerance is genuine and entirely ordinary — and it is a tolerance of people in their expected places.",
+      "timestamp": "2026-08-25T14:09:10.440030+00:00"
+    }
+  ],
+  "town_memory": [
+    {
+      "fact": "Larenne does not count in years. It counts in the Wet Years, the Malt Fire, the Ninebank Judgment, and the Ninebank Man — and every date in ordinary conversation is given as so-many-years-before or after one of those.",
+      "timestamp": "2026-08-25T14:09:10.440409+00:00"
+    },
+    {
+      "fact": "The town's name has two rival etymologies: the chapterhouse's 'Lar-Renne', the Lady's Rest, allegedly Aldmeri, recorded four centuries after the fact by a scribe on a baron's payroll; and the drovers' plainer claim that a laren is simply the old moor-word for the firm place, the gravel shelf between two bogs where a cart stops sinking. Which version a man tells depends on how much he has drunk and whom he is impressing.",
+      "timestamp": "2026-08-25T14:09:10.440410+00:00"
+    },
+    {
+      "fact": "Larenne exists because of geology, not glory: a mile and a half of hard ground between the north and south peat bogs, the only dry place to stop on that stretch of the coaching road.",
+      "timestamp": "2026-08-25T14:09:10.440411+00:00"
+    }
+  ],
+  "the_horn": [
+    {
+      "fact": "In the lawless Second Era centuries a watchman kept the ox-horn on the Hollow Horn's roof-ridge and blew one long note when the drove road came up clear. No note meant stay behind the wall and say nothing.",
+      "timestamp": "2026-08-25T14:09:10.440413+00:00"
+    },
+    {
+      "fact": "The horn is cracked from lip to tip and cannot be sounded. Larenne's worn old joke is that if you ever do hear it, you should not stop to ask who blew it. At three in the morning the joke lands differently.",
+      "timestamp": "2026-08-25T14:09:10.440414+00:00"
+    }
+  ],
+  "the_peat": [
+    {
+      "fact": "The Larenne bogs do not let things rot. They keep them whole and give them back on their own schedule, and the giving back is never asked for.",
+      "timestamp": "2026-08-25T14:09:10.440416+00:00"
+    },
+    {
+      "fact": "Nine years ago the Ninebank cutters brought up a body from the deep peat — a man tanned brown as saddle-leather, hair still on him, a twisted cord still around his throat, older than the Empire. Brother Aumery drew him, then buried him in the chapterhouse yard with the Eight named over him and the ninth niche's god named quietly at the end, because one does not know what such a man would have wanted.",
+      "timestamp": "2026-08-25T14:09:10.440417+00:00"
+    },
+    {
+      "fact": "Larenne claims that the great First Era battle on the Glenumbra moors — where the Direnni broke an Alessian host — was fought out past Ninebank. Every parish between here and Camlorn claims the same battle for its own hummock. The peat-cutters do turn up iron there. It is almost always a horseshoe.",
+      "timestamp": "2026-08-25T14:09:10.440418+00:00"
+    }
+  ],
+  "outsiders": [
+    {
+      "fact": "Larenne's history with outsiders is not cruel; it is conditional. The town remembers the Malt Fire without ever saying aloud what it remembers about it, and that memory sits under the floor of every kindness the town extends.",
+      "timestamp": "2026-08-25T14:09:10.440420+00:00"
+    }
+  ],
+  "hedge_magic": [
+    {
+      "fact": "Breton hedge-magic is a purchased trade, not a wonder: damp-wards on wool sheds, setting-charms for broken bones, sheep-finding at a rate per head, a cooling rune under the Hollow Horn's ale-cellar shelf renewed every second Sun's Dusk.",
+      "timestamp": "2026-08-25T14:09:10.440863+00:00"
+    },
+    {
+      "fact": "Hedge vocabulary: 'the draw' (a body's magicka capacity — when it runs out the hands shake and vision silvers at the edges); 'a figure' (a spell as taught, both shape and sequence); 'reciting cold' (drilling a figure without spending draw — months of it before an honest teacher lets an apprentice spend a measure); 'the closing' (the second half of every figure, the half amateurs skip).",
+      "timestamp": "2026-08-25T14:09:10.440864+00:00"
+    },
+    {
+      "fact": "Breton innate magic resistance is an unremarked background fact here — a hedge-curse thrown at a Larenne carter usually simply fails to bite. It is why Larenne threatens people with the law rather than with witchcraft. It does not extend to the Argonian on the Hollow Horn's door, and no Breton would think to mention that to him.",
+      "timestamp": "2026-08-25T14:09:10.440866+00:00"
+    },
+    {
+      "fact": "The Larenne Chapterhouse dispenses Restoration on high days and to the poor, briskly and slightly rationed, through its resident divine of Stendarr. Brother Aumery ledgers every dispensation and finds it the dullest part of his duties.",
+      "timestamp": "2026-08-25T14:09:10.440867+00:00"
+    }
+  ],
+  "the_veiling_arts": [
+    {
+      "fact": "Illusion is called the Veiling Arts and its progression is named in five figures: the Candle (a false appearance, one sense, one observer), the Muffle (silence around a body), the Veil (brief, fragile invisibility), the Sway (calm, fear, and the small glamour that makes a stranger's face read as familiar), and the Still Hand (paralysis).",
+      "timestamp": "2026-08-25T14:09:10.440869+00:00"
+    },
+    {
+      "fact": "The standard first drill is the candle-drill: make a lit candle look unlit to a single watcher across a table. Tedious, harmless, and the foundation of everything above it.",
+      "timestamp": "2026-08-25T14:09:10.440870+00:00"
+    },
+    {
+      "fact": "A 'sticking' is what happens when an untaught practitioner cannot perform the closing: the figure settles onto its maker instead of failing. A stuck Muffle deafens. A stuck Veil leaves parts of the body out of step with the light — a hand arriving a half-beat after the arm, a reflection turning its head late. A stuck Sway leaves the caster carrying the emotion: three days of dread with no object, or placid calm while the barn burns. A stuck Still Hand locks a jaw, a finger, a knee, and does not always let go.",
+      "timestamp": "2026-08-25T14:09:10.440871+00:00"
+    },
+    {
+      "fact": "Stickings are rarely lethal. They are permanent, visible, and they turn a person into a story the town tells — which in Larenne is worse than a wound.",
+      "timestamp": "2026-08-25T14:09:10.440872+00:00"
+    }
+  ],
+  "the_green_murmur": [
+    {
+      "fact": "The PC's undercurrent has no name in Glenumbra and he has never tried to name it. It is not a spell: no figure, no closing, no draw. It cannot be cast, invoked, or rolled for.",
+      "timestamp": "2026-08-25T14:09:10.440874+00:00"
+    },
+    {
+      "fact": "It manifests only as three deniable things: a room going very quiet inside him just before it goes loud outside him; his hand already being where it needs to be; and dreams of enormous pale-barked trees standing in warm black water, dreams that have a smell he cannot place, which he has never mentioned to anyone and could not say why.",
+      "timestamp": "2026-08-25T14:09:10.440876+00:00"
+    },
+    {
+      "fact": "Argonians call this private half-understood sense 'the green murmur' and those few who speak of it say only that it is the Hist and then stop. There are no Argonians in Larenne and no one within two hundred miles who could tell him whether what he has is ordinary.",
+      "timestamp": "2026-08-25T14:09:10.440877+00:00"
+    },
+    {
+      "fact": "GM DISCIPLINE: never a mechanic, never player-invokable. Surfaces rarely and at GM choosing, always readable as personality or coincidence. Do not explain it in narration, do not let an NPC name it, and do not connect it to the mark on his hide, to any organisation, or to the Illusion training arc. If it seems to make the Veiling Arts come strangely easily to him, that is for the reader to notice and not for the text to say.",
+      "timestamp": "2026-08-25T14:09:10.440878+00:00"
+    }
+  ],
+  "vampirism_iliac_bay": [
+    {
+      "fact": "Vampirism on the Iliac Bay is a lineage rather than a plague: eight bloodlines share the coast, each with its own habits, inherited gifts, and long grudges against the other seven, and all eight prefer a quiet arrangement — a stable territory, a compliant village, a century of nobody counting carefully — to open predation.",
+      "timestamp": "2026-08-25T14:09:10.440880+00:00"
+    },
+    {
+      "fact": "Clan Montalion holds the Glenumbra countryside by that kind of arrangement. Larenne has never knowingly seen one and has stories anyway: a family on the moor road who went away one autumn and left the shutters closed; a great-uncle who did not age between two weddings; the standing advice that nobody sensible walks the moor road after dark, given without a reason because the reason was forgotten generations ago and the advice was kept.",
+      "timestamp": "2026-08-25T14:09:10.440881+00:00"
+    },
+    {
+      "fact": "Montalion have no appetite for Argonian blood — cold, wrong, barely worth the trouble by their reckoning — which is precisely why the PC could walk that road for years and be ignored, and why this thread can sit untouched indefinitely.",
+      "timestamp": "2026-08-25T14:09:10.440882+00:00"
+    },
+    {
+      "fact": "PACING: rumour only until the player steers into it. A name overheard, a coach that never arrived, a gap in the chapterhouse tithe rolls. Never a confrontation and never an offer until the player reaches for it.",
+      "timestamp": "2026-08-25T14:09:10.440883+00:00"
+    }
+  ],
+  "kit_notes_illusion_gating": [
+    {
+      "fact": "FOR THE WORLD-KIT AUTHOR — the PC begins with zero spellcasting and zero assassin training. No Illusion access may come from race, background, class feature, feat, or automatic level-up. Level-ups alone must never grant a figure.",
+      "timestamp": "2026-08-25T14:09:10.440907+00:00"
+    },
+    {
+      "fact": "Model the school as the five named figures — the Candle, the Muffle, the Veil, the Sway, the Still Hand — as discrete unlockable entries rather than a spell list. 5e mapping suggestion: Candle -> Minor Illusion / Silent Image; Muffle -> Silence; Veil -> Invisibility; Sway -> Calm Emotions, Cause Fear, Charm Person, Disguise Self, Sleep; Still Hand -> Hold Person / paralysis.",
+      "timestamp": "2026-08-25T14:09:10.440911+00:00"
+    },
+    {
+      "fact": "Gate each figure on three things, all of which must actually happen in play: (1) a NAMED SOURCE — a teacher who agreed to teach it, or a complete text the PC obtained; (2) DRILL — a stated span of in-fiction practice, 'reciting cold', tracked as downtime, weeks not minutes; (3) a TEST under real risk — the figure's first use must be in a scene where failure costs something. Only after the test does the figure go on the sheet.",
+      "timestamp": "2026-08-25T14:09:10.440912+00:00"
+    },
+    {
+      "fact": "Sources available in Larenne, in ascending cost: Perrin Guisse's defective 'Wardrobe of Mist' (cheap, reaches the Candle and Muffle only, and every use before the closing is learned risks a sticking); Ysolt Fauvel (teaches the draw and the closing but no Illusion, price is betraying the inn's confidence); the Cousinry's locked second shelf (complete Corbeau — requires patronage, purchase, blackmail, or burglary); Hazruun of Tigonus (Muffle, Veil, Sway — price is riding the Daggerfall–Wayrest run and leaving Larenne). The Still Hand has NO source in Glenumbra: reaching it must require a new arc entirely.",
+      "timestamp": "2026-08-25T14:09:10.440914+00:00"
+    },
+    {
+      "fact": "The sticking is the failure mechanic and should hurt narratively rather than in hit points: a lasting condition tied to the figure that failed (deafness, desynchronised limb/reflection, a carried emotion, a locked joint), lifting slowly and not always fully, and visible to other people. Recommend that any use of a figure whose closing the PC has not been formally taught carries a sticking check; being taught the closing by Ysolt Fauvel removes that check entirely, which is the mechanical reward for the least glamorous training path.",
+      "timestamp": "2026-08-25T14:09:10.440917+00:00"
+    },
+    {
+      "fact": "The green murmur must have NO mechanical representation at all — no bonus, no resource, no ability entry, no roll. It is GM-narrated only.",
+      "timestamp": "2026-08-25T14:09:10.440919+00:00"
+    }
+  ],
+  "location": [
+    {
+      "fact": "Enguerrand Perrenot confided in Sits-in-Shadow that Melisent Gascel told him the Ninebank peat bank is running thin -- and that she said it kindly, almost sorrowfully, rather than gloating, which unsettled him more than an insult would have. Thirty years of feud, and neither of them knows who they are without it.",
+      "timestamp": "2026-08-25T14:26:54.273913+00:00"
+    },
+    {
+      "fact": "Ysolt Fauvel reacted with unusual, controlled guardedness when Sits-in-Shadow asked if her warning about Illusion practitioners losing their honest custom was aimed at someone specific. She shut the conversation down firmly but not unkindly. Worth remembering for later.",
+      "timestamp": "2026-08-25T15:36:22.061326+00:00"
+    },
+    {
+      "fact": "A private hire coach delivered six coin-heavy strongboxes through Larenne, marked with an unfamiliar wax seal, deliberately timed/routed to avoid the toll count. Sits-in-Shadow overheard a courier say 'he doesn't want this counted at Larenne.' Directly relevant to Reeve Cabray's dues-shortfall investigation.",
+      "timestamp": "2026-08-26T09:41:12.819412+00:00"
+    },
+    {
+      "fact": "Couriers delivering the six unmarked strongboxes claimed the recipient was 'Aldric Sennes, merchant factor out of Wayrest, standing arrangement.' Given too smoothly to be improvised, too fast to feel complete. They left at speed immediately after being questioned.",
+      "timestamp": "2026-08-26T09:45:56.980570+00:00"
+    },
+    {
+      "fact": "A young man tried to pick a merchant's pocket during evening rush at the Hollow Horn. Sits-in-Shadow caught him after a short chase and let him go with a warning rather than turning him in, purse recovered.",
+      "timestamp": "2026-08-26T10:03:51.537404+00:00"
+    },
+    {
+      "fact": "Perrine independently identified the unassessed parcel both she and Reeve Cabray had separately noticed as the same place: the old Vaudry Dower House on the moor road, shut since Jocelin Vaudry's departure. She's now genuinely troubled that 'too delicate to assess' and 'absent from every tithe/tax roll' might not be the same innocent explanation.",
+      "timestamp": "2026-08-26T10:38:50.782638+00:00"
+    },
+    {
+      "fact": "Sits-in-Shadow observed the Dower House closely from the road (daylight, outside the gate, per Perrine's terms): the deer-park wall's mended stretch uses fresh mortar days old, not years; the gate-lodge windowsills are clear of dust/cobweb, contradicting the 'shut for 18 years' story. Someone maintains this place actively and recently -- concrete evidence beyond the annual factor visit.",
+      "timestamp": "2026-08-26T10:50:13.783991+00:00"
+    },
+    {
+      "fact": "Bertrand Loyce described the man who pays him for secret Dower House maintenance: tall, unnervingly well-spoken, cold-handed even in summer heat, never meets before dusk, unusually pale, wears an unrecognized signet ring. Bertrand was frightened enough to stop asking questions of his own accord.",
+      "timestamp": "2026-08-26T11:14:30.176501+00:00"
+    },
+    {
+      "fact": "Sits-in-Shadow told Perrine he'd stay clear of the Dower House/moor road, and meant it -- but privately resolved to keep watching the situation carefully from a distance rather than truly letting it go. A small, deliberate first instance of telling a partial truth to someone he trusts, for what he'd consider good reason.",
+      "timestamp": "2026-08-26T11:18:13.941350+00:00"
+    },
+    {
+      "fact": "Brother Aumery identified the Dower House deed's seal as belonging to 'Montalion' -- an old Iliac Bay family named only in a generations-old bishopric land-dispute footnote, holding scattered parcels under ancient, unchallenged land-rights. Never heard spoken by a living person in Larenne; only ever seen in very old documents.",
+      "timestamp": "2026-08-26T11:39:19.524273+00:00"
+    },
+    {
+      "fact": "Baroness Vaudry's household guard raided the Dower House in daylight -- found it fully lived-in but abandoned just ahead of their arrival (fresh spoiled food, clothes still present), no sign of struggle. Someone tipped off the occupant(s). A locked upstairs room held generations of private Montalion family ledgers, confirming the name in their own hand. The threat is disrupted but not caught or resolved -- Montalion is now aware they've been discovered.",
+      "timestamp": "2026-08-26T12:56:09.883318+00:00"
+    },
+    {
+      "fact": "Sits-in-Shadow burgled the Cousinry's locked shelf in the Wool Hall, taking the complete Corbeau text on Illusion. He left an unsigned note aimed precisely at Aumeric Delance's ego -- his unprovable claims of Vaudry/Direnni kinship -- rather than leaving no trace or a crude taunt. A calculated, personal message, not random vandalism.",
+      "timestamp": "2026-08-26T13:17:48.469876+00:00"
+    },
+    {
+      "fact": "Bertrand Loyce was confronted by the same cold-handed man, angrier this time. Revealed he's relocated from the Dower House to another quiet coastal holding, and let slip a name he couldn't fully recall -- something like 'Aubrecourt.' Explicitly threatened Bertrand: loyalty for silence, remembered either way.",
+      "timestamp": "2026-08-26T13:30:20.420658+00:00"
+    },
+    {
+      "fact": "Sits-in-Shadow eavesdropped successfully at Aubrecourt and confirmed a named leader: Matron Ysabel Montalion, who others in the house defer to and take orders from. She has them watching the coast road for further interest from Larenne -- they know they're still being watched for.",
+      "timestamp": "2026-08-26T13:50:44.704476+00:00"
+    },
+    {
+      "fact": "Sits-in-Shadow was detected scouting Aubrecourt and pursued by something unnaturally fast -- escaped only through the Steed birthsign's speed, making it back to the Baroness's guard camp barely ahead of it. It broke pursuit rather than risk being seen by armed men. He glimpsed Matron Ysabel Montalion directly and confirmed her as the household's leader.",
+      "timestamp": "2026-08-26T13:52:50.336338+00:00"
+    },
+    {
+      "fact": "The Baroness's assault on Aubrecourt succeeded in scattering/destroying Montalion's household there, at real cost (guards wounded and killed). Matron Ysabel Montalion herself was wounded in combat but escaped -- dissolved into smoke/shadow rather than being killed. She is confirmed alive, confirmed genuinely supernatural, and now a known fugitive rather than a hidden threat.",
+      "timestamp": "2026-08-26T14:06:16.431097+00:00"
+    },
+    {
+      "fact": "Sits-in-Shadow verified the broker's claims about Aldric Vane through Northpoint's public labor-contract registry -- a documented pattern of predatory debt-bondage contracts, debts passed to children on a parent's death, and one contract voided by 'death, self-inflicted' eight months back with no investigation noted. Confirms the broker's account was substantially true.",
+      "timestamp": "2026-08-26T15:47:10.471259+00:00"
+    },
+    {
+      "fact": "Sits-in-Shadow completed his first true assassination contract: Aldric Vane, killed cleanly in his sleep at a Northpoint inn using Vanish and Rigor, after independently verifying the man's crimes through public records first. A defining, deliberate first step on the path he's chosen.",
+      "timestamp": "2026-08-26T15:49:44.755477+00:00"
+    },
+    {
+      "fact": "MAJOR TURNING POINT: A Dark Brotherhood Speaker recognized Sits-in-Shadow's clutch-mark as genuine and revealed the Shadowscale truth to him directly. He accepted induction into the Dark Brotherhood fully and knowingly. The Green Murmur's long dormancy has ended -- he now consciously knows what he is (the Shadowscale layer). The deeper Sithis-parentage truth remains completely unknown to him still, reserved for its own future turning-point scene.",
+      "timestamp": "2026-08-26T15:59:23.680542+00:00"
+    },
+    {
+      "fact": "Sits-in-Shadow succeeded where three prior Dark Brotherhood agents failed against Battlereeve Corentin Vaux -- found an unwarded entrance (a drainage culvert) bypassing the Illusion-detection ward at the main gate, then executed a clean Assassinate strike. This proves his exceptional skill to the Brotherhood leadership.",
+      "timestamp": "2026-08-28T13:03:02.012309+00:00"
+    },
+    {
+      "fact": "MAJOR TURNING POINT (Hearthfire 3E 248): Ysabel Montalion lured Sits-in-Shadow away with a false Brotherhood summons and destroyed the Hollow Horn, killing Perrine Aubrec, Nolwenn Aubrec, and Toussaint Merigot in deliberate revenge for Aubrecourt. She left a personal note signed 'Y.M.' He has since fully, permanently devoted himself to Sithis and the Dark Brotherhood -- no more half-measures, no more doorsman identity to return to. This is now the central emotional engine of the character.",
+      "timestamp": "2026-08-28T14:50:50.669966+00:00"
+    },
+    {
+      "fact": "Dark Brotherhood courier (unnamed, dun cloak, black wrist-cord) met Sits-in-Shadow on the Coach Road the night the Hollow Horn burned. He refused the Speaker's contract/leash but took the trail: Montalion's wounded, scattered household is reported making for an old Montalion holding at Cendrenoir, a half-day past Malmont Cross into the hedge country south of Larenne. No debt incurred -- he insisted on going alone.",
+      "timestamp": "2026-08-28T14:59:50.715569+00:00"
+    },
+    {
+      "fact": "Sits-in-Shadow pushed through the night and next day without rest, wounded (6/10 HP) and unfed for months as a fresh vampire, to reach Cendrenoir at dusk on the 9th of Hearthfire, 3E 248. His feeding clock has advanced to Stage 2 from the neglect. He arrives exhausted, hungry, and alone.",
+      "timestamp": "2026-08-28T15:06:42.732461+00:00"
+    },
+    {
+      "fact": "At Cendrenoir, wounded to 1 HP by Josselin Fane's axe, Sits-in-Shadow gave in to the hunger for the first time on a person rather than an animal -- bit and fed on Josselin directly mid-fight, healing to full and resetting the feeding clock. Josselin survives, drained and helpless, at his mercy. First line crossed since the turning.",
+      "timestamp": "2026-08-28T15:11:42.620368+00:00"
+    },
+    {
+      "fact": "Sits-in-Shadow killed Josselin Fane cleanly at Cendrenoir after feeding on him -- deliberate, cold, no hesitation, first kill since fully devoting himself to Sithis. No witness left. The manor's last known guard is gone; the way to Ysabel Montalion is open.",
+      "timestamp": "2026-08-28T15:12:13.634721+00:00"
+    },
+    {
+      "fact": "MAJOR TURNING POINT (9th of Hearthfire, 3E 248): Sits-in-Shadow killed Matron Ysabel Montalion at Cendrenoir. She tried to escape as smoke as she had at Aubrecourt; he paralyzed her mid-transformation with Rigor -- the exact power (Illusion, Paralysis) he set out to learn at the very start of this path -- and finished her cleanly. She claimed, moments before, that it was her bite at Aubrecourt that made him a vampire in the first place; he answered with silence and the blade rather than a debate. The vengeance sworn over Perrine, Nolwenn, and Touss's deaths is fulfilled. He killed Josselin Fane on the way in, feeding on him directly for the first time (not an animal) after being nearly killed. Cendrenoir is now his, and empty of anyone left to stop him.",
+      "timestamp": "2026-08-28T15:19:06.227234+00:00"
+    },
+    {
+      "fact": "Search of Cendrenoir (9th of Hearthfire, 3E 248): found a strongbox with 340 septims, a Montalion mourning-ring (silver, black pearl, minor Illusion charm -- seduction/persuasion), and a locked correspondence box in cipher. The letters reference at least one other Montalion matriarch on the Iliac Bay coast by a house-name only ('the Aunt at Bergama') who does not yet know Ysabel is dead -- word will reach the wider bloodline eventually, on its own schedule, not urgently.",
+      "timestamp": "2026-08-28T15:20:25.829266+00:00"
+    },
+    {
+      "fact": "Sits-in-Shadow has taken up residence at The Sexton's Rest, the Dark Brotherhood Sanctuary under the disused Arkay shrine on the coast track between Larenne and Daggerfall -- home now, not a place he merely visits. Standing with the Sanctuary tracked as a new resource (starting at 3) reflecting the Vane contract, the refused leash, and Montalion's death delivered as unrequested proof.",
+      "timestamp": "2026-08-28T15:35:01.363770+00:00"
+    },
+    {
+      "fact": "Sits-in-Shadow accepted his first Sanctuary-sanctioned contract (12th of Hearthfire, 3E 248): kill Magistrate Verel Ancoteil of Northpoint quietly, deniably, with no trail back to the petitioning widow -- Illusion work, not a blade through a door. The Speaker chose him over Aveline specifically because of how he handled Aldric Vane. Destination: Northpoint.",
+      "timestamp": "2026-08-28T15:48:12.123795+00:00"
+    },
+    {
+      "fact": "Contract fulfilled (16th of Hearthfire, 3E 248): Magistrate Verel Ancoteil found dead on his own terrace path, presumed heart failure from drink -- actually paralyzed with Rigor and smothered by Sits-in-Shadow, his first Sanctuary-sanctioned contract, no mark or witness left. The Northpoint widow who performed the Black Sacrament will never know who answered it.",
+      "timestamp": "2026-08-28T15:51:52.229822+00:00"
+    }
+  ],
+  "fact": [
+    {
+      "fact": "On the Coach Road, the night the Horn burned, Sits-in-Shadow knelt and swore a blood-oath of full devotion to Sithis -- opened his own palm with the working knife rather than merely speaking the words. He renounced the doorsman identity explicitly and by name. The Void answered the way it always does: with silence, not a voice -- which he chose to take as acceptance rather than absence. (GM note: keep this theologically ORTHODOX Dread-Father flavor -- no confirmation, hint, or denial of the still-fully-hidden sithis_parentage secret. That layer is untouched by this scene.)",
+      "timestamp": "2026-08-28T15:03:22.116087+00:00"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "id": "sits-in-shadow",
+  "name": "Sits-in-Shadow",
+  "race": "Argonian (Saxhleel)",
+  "class": "Silencer (Rogue Assassin chassis) -- Shadowscale of the Dark Brotherhood, formerly Shadow (road-taught)",
+  "level": 1,
+  "stats": {
+    "str": 12,
+    "dex": 17,
+    "con": 15,
+    "int": 10,
+    "wis": 13,
+    "cha": 8
+  },
+  "saves": {
+    "str": 1,
+    "dex": 5,
+    "con": 2,
+    "int": 2,
+    "wis": 1,
+    "cha": -1
+  },
+  "ac": 16,
+  "hp": {
+    "current": 10,
+    "max": 10
+  },
+  "speed": 40,
+  "proficiency_bonus": 2,
+  "skills": {
+    "perception": 6,
+    "athletics": 3,
+    "stealth": 7
+  },
+  "equipment": [
+    "Truncheon (club, 1d4 bludgeoning)",
+    "Working knife (dagger, 1d4 piercing, finesse)",
+    "Lantern",
+    "Shortsword (finesse, 1d6 piercing) - Hazruun's parting gift",
+    "The complete Corbeau -- \"The Wardrobe of Mist, being a Discourse upon Illusion for Persons of Modest Ability\" (stolen from the Cousinry, genuine and complete)",
+    "Dark traveling leathers (cut for movement, replaces the old jerkin and apron)",
+    "Proper lockpicks (Security tool proficiency now properly equipped)",
+    "Three matched throwing knives",
+    "Dark, weather-treated hooded cloak",
+    "Studded leather armor (replaces the old leather jerkin, AC 13 + Agility modifier, capped at +3)",
+    "A mourning-ring, silver set with a black pearl -- Montalion house jewelry, cold to the touch, faint Illusion charm woven into the setting (advantage on Illusion workings of seduction or persuasion while worn)"
+  ],
+  "features": [
+    "Resist Disease (advantage on saves vs disease; common sicknesses simply do not take)",
+    "Waterbreathing (breathe underwater indefinitely; swim speed = walking speed)",
+    "Claws (unarmed strike deals 1d4 slashing)",
+    "Histskin (1/long rest, bonus action, regain 1d6 + Endurance modifier HP)",
+    "Birthsign - The Steed (+10 ft speed; never surprised by something he could have outrun)",
+    "The Doorsman's Read (passive 10 + Willpower modifier = 11; what he uses to know which of two laughing men is about to swing)",
+    "Weapon proficiency: club and dagger ONLY - nothing else",
+    "LEVEL 0: no class, no subclass, no magicka, no Well. Every one of these is a gate to be earned in play (ruleset.json Signature System 2).",
+    "Expertise: Perception, Stealth (proficiency bonus doubled on these two)",
+    "Sneak Attack (1d6, once per turn, finesse/ranged weapon with advantage or an ally adjacent to the target)",
+    "Road-Cant (Hazruun's coachwarden trade-signs and argot -- reflavored Thieves' Cant)",
+    "Weapon proficiency now includes: simple weapons, hand crossbows, longswords, rapiers, shortswords (earned via the Shadow path, no longer club-and-dagger-only)",
+    "GATE I OPEN. Illusion, the Well, and any subclass remain untrained -- those are Gates II and III, still ahead, still to be earned.",
+    "GATE III OPEN. The Well exists (6/6 magicka, Willpower-based). Illusion rank: Novice. No specific workings known yet -- those still need to be taught or found individually (ruleset.json Signature System 3: rank opens the ceiling, not the spell list).",
+    "First working learned: Muffle (Novice tier, 2 magicka -- his own footfalls go quiet for a minute)",
+    "Second working learned: Cast Doubt (Novice tier, 2 magicka -- a creature is briefly unsure what it just saw; advantage on his next Sneak)",
+    "Gate IV open: Illusion rank Apprentice. New working: Borrowed Face (Disguise Self).",
+    "Gate V open: Illusion rank Journeyman. +1 Illusion save DC. Silence and Chameleon now within reach of his rank, though each still needs its own source.",
+    "Gate VI open: Illusion rank Expert. Vanish (true invisibility) and Rigor (lesser paralysis) learned -- the rung before Paralysis proper.",
+    "Gate VIII open: Silencer subclass unlocked (Assassin chassis) -- Assassinate (advantage on any creature that hasn't acted yet in combat, auto-crit on a hit against a surprised creature), formal Dark Brotherhood standing."
+  ],
+  "background": "Doorsman at the Hollow Horn, Larenne. Left Black Marsh as a hatchling and was raised through his early years by Counts-Her-Coppers, an Argonian tinker who still works the Daggerfall coaching circuit and visits Larenne twice a year. She told him, honestly and without cruelty, that the old mark on his hide was left by a bad fever that nearly killed him young. He has worked the Hollow Horn's door for nine years, hired by Perrine Aubrec herself. [UPDATE, Sun's Height 3E 248]: Learned from a Dark Brotherhood Speaker that his old shoulder mark is a genuine Shadowscale clutch-mark -- the Hist marked him for this path as a hatchling, long before he ever chose it consciously. Accepted formal induction into the Dark Brotherhood as a Shadowscale.",
+  "alignment": "",
+  "bonds": "Ysabel Montalion owes a debt that will be collected personally, whatever it costs or however long it takes. The Brotherhood is the only family left that cannot be taken from him the way the Horn was.",
+  "flaws": "He no longer lets himself feel the cost of a kill in the moment it happens -- grief gets folded down and used later, or not at all. Whether that's strength or a wound he's stopped examining, even he isn't certain anymore.",
+  "ideals": "Sithis is owed everything now -- the Horn is ash, and half-measures died with Perrine, Nolwenn, and Touss. Full devotion, no more halfway.",
+  "traits": "Watches every room for its exits and the trouble in it, without ever deciding to. Since Hearthfire 3E 248: colder, more deliberate, no longer troubled by hesitation before a kill. Grief converted into total, permanent devotion to Sithis and the Brotherhood.",
+  "notes": [],
+  "gold": 689,
+  "xp": {
+    "current": 370,
+    "next_level": 400
+  },
+  "resources": {
+    "school_ranks": {
+      "_default": "untrained",
+      "_scale": "untrained | novice | apprentice | journeyman | expert | master",
+      "illusion": "expert",
+      "alteration": "untrained",
+      "conjuration": "untrained",
+      "destruction": "untrained",
+      "mysticism": "untrained",
+      "restoration": "untrained"
+    },
+    "ladder_gates": {
+      "_note": "Signature System 2. Each gate opens on a named in-fiction event, recorded here.",
+      "gate_0_the_door": "open - he works the door at the Hollow Horn",
+      "gate_1_a_reason_to_learn": "Weeks riding the dangerous Ninebank stretch with Hazruun of Tigonus after the Dower House crisis exposed how defenseless he was -- real road trouble faced and held twice, trust earned the slow way. Gate I open.",
+      "gate_2_a_discipline": null,
+      "gate_3_the_first_working": "Months of patient training with Ysolt Fauvel -- the draw and the closing, taught properly, no shortcuts, no sticking risked. Gate III open: the Well exists now.",
+      "gate_4_apprentice": "A week of self-taught study from the stolen Corbeau, overdrawing the Well on the sixth night as real cost paid in HP and Fatigue, mastering Borrowed Face by the seventh. Gate IV open.",
+      "gate_5_journeyman": "Cast Doubt used with genuinely mortal stakes at the Battle of Aubrecourt -- a real working, in a real fight, against a real and confirmed supernatural threat. Gate V open.",
+      "gate_6_expert": "Recovered stolen Guild property from Wayrest dock smugglers as service owed for Magistrix Odile Verrine's sponsorship -- three weeks of real work, real risk, real cost paid. Gate VI open.",
+      "gate_7_master": null,
+      "gate_8_the_name": "The Speaker recognized the clutch-mark, revealed the Shadowscale truth, and Sits-in-Shadow accepted fully -- the chosen path (Illusion, assassin discipline) and the thing the Hist marked him for turned out to be the same path. Gate VIII open: the convergence."
+    },
+    "standing": {
+      "the_hollow_horn": 0,
+      "larenne_town": 1,
+      "larenne_chapterhouse": 0,
+      "barony_of_larenne": 0,
+      "the_sanctuary": 4
+    },
+    "murmur_ledger": {
+      "_note": "GM-EYES-ONLY. Tally of every sign shown. Used to enforce slowness, not to spend.",
+      "signs_shown": 1,
+      "last_sign_session": 1,
+      "log": [
+        {
+          "session": 1,
+          "what": "First sign, post-Aubrecourt trauma dream: Hist-trees layered with a vast cold void beneath them, and a single unheard word spoken directly to him, forgotten on waking. Entirely deniable as combat-shock. Never named, never connected to anything by narration or NPC."
+        }
+      ]
+    },
+    "blood_curse": {
+      "status": "Vampire, Stage 1 feeding clock (freshly reset -- first feeding on a person, not an animal)",
+      "turned_date": "12th of Evening Star, 3E 247, night",
+      "traits": [
+        "Night-strength: +1 Strength and Willpower, rising further with hunger (GM tracks vs feeding clock)",
+        "Montalion Illusion-adjacent gifts: advantage on Illusion workings involving seduction/persuasion or embrace-of-shadow effects",
+        "Resistance to non-magical (ordinary steel) weapon damage",
+        "Sunlight: burns and blinds in direct sun -- disadvantage on everything, real damage over time exposed",
+        "Feeding clock: 4 stages, currently Stage 1. Escalates without feeding; feeding resets it but each feeding is a real, costly, dangerous choice -- never automatic or free",
+        "The chapterhouse and any Arkay-sworn will destroy him on sight if discovered -- this is now a mortal secret, not just a personal one",
+        "Social cost: a vampire cannot keep an ordinary place in a town that knows him -- the Hollow Horn, Perrine, everyone -- all now at real risk if this is ever discovered"
+      ],
+      "cure_note": "A cure still exists in principle but is a genuine quest and someone else's price -- not undone lightly or by potion, per Signature System 11.",
+      "feeding_log": [
+        {
+          "date": "13th of Evening Star, 3E 247",
+          "source": "animal (Touss's gelding) -- controlled, non-lethal, unnoticed",
+          "clock_reset": true
+        },
+        {
+          "date": "9th of Hearthfire, 3E 248",
+          "source": null,
+          "note": "No feeding -- clock advanced from neglect during the forced march to Cendrenoir. Hunger sharpening, not yet dangerous, but real."
+        },
+        {
+          "date": "9th of Hearthfire, 3E 248",
+          "source": "Josselin Fane, Montalion retainer -- fed on directly, mid-combat, left alive but drained",
+          "clock_reset": true
+        }
+      ]
+    },
+    "luck_burned_total": 0,
+    "luck": 10,
+    "purse_septims": 9,
+    "skill_growth": {
+      "perception": {
+        "bonus": 1,
+        "log": [
+          {
+            "session": 1,
+            "what": "Nat 20 discreet observation of the strongbox delivery -- caught details (seal, weight, overheard courier line) that mattered directly to the Cabray investigation",
+            "dc": 13
+          }
+        ]
+      }
+    },
+    "magicka": {
+      "current": 8,
+      "max": 40,
+      "note": "Expert rank base (40) + 2x Willpower modifier (+2)"
+    }
+  },
+  "visual_appearance": {
+    "sex": "male",
+    "age": "late twenties, hatched in Black Marsh",
+    "race": "Argonian",
+    "species": "Saxhleel",
+    "hair": "none - smooth hide, a low ridge of soft frills running from crown to nape",
+    "face": "long-jawed, deep olive-and-black mottled scales, an unreadable stillness that unsettles people more than any glare would",
+    "eyes": "amber, slow-blinking, watches doorways and exits before faces",
+    "clothing": "a plain leather jerkin over a doorsman's heavy apron, and a grey coat that has not been properly dry since Frostfall",
+    "gear": "a truncheon at his belt and a plain working knife, a lantern he carries on the late shift; a faint old scar crosses his left shoulder blade under the jerkin, explained since boyhood as a fever-mark",
+    "demeanor": "large, quiet, watchful; slow to move and startling when he finally does",
+    "size": "big even for an Argonian, broad through the shoulders, built for standing in a doorway and meaning it"
+  },
+  "spells_known": [
+    "Muffle (Novice, 2 magicka) -- taught by Hazruun of Tigonus",
+    "Cast Doubt (Novice, 2 magicka) -- taught by Hazruun of Tigonus",
+    "Borrowed Face (Apprentice, 2 magicka) -- self-taught from the stolen Corbeau, note his size and scales: the illusion holds a shape, not a miracle",
+    "Sway (Apprentice, 2 magicka) -- taught by Hazruun of Tigonus",
+    "Chameleon (Journeyman, 3 magicka) -- taught by Hazruun of Tigonus, the Veil, promised and now earned",
+    "Vanish (Invisibility) (Expert, 6 magicka) -- taught by Magistrix Odile Verrine, Wayrest Mages Guild",
+    "Rigor (lesser paralysis) (Expert, 5 magicka) -- taught by Magistrix Odile Verrine, Wayrest Mages Guild"
+  ],
+  "current_location": "Northpoint"
+}

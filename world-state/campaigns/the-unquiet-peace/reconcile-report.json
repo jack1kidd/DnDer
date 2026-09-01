@@ -1,0 +1,335 @@
+{
+  "generated": "2026-08-25",
+  "campaign": "the-unquiet-peace",
+  "verdict": "needs-changes",
+  "leak_audit": {
+    "scope": "world-bible.json hidden_truths (shadowscale_truth, clutch_mark_cover_story, pacing_discipline, earned_progression_arc) vs canon/*.md and the player-visible fact buckets",
+    "result": "FAIL — one hard leak in canon/factions.md, one containment issue in authored/culture.json",
+    "pipeline_note": "lib/world_author.py compile_canon() concatenates EVERY canon/*.md verbatim into authored-canon.md with no GM-section filtering; that file is the input to gm-extract.sh prepare, which chunks it (lib/rag/rag_extractor.py _split_into_chunks, ~3000 chars, split on markdown headers) into the RAG corpus that gm-context.sh returns as grounded passages mid-scene. An in-prose '*GM-facing*' italic disclaimer is not a filter and is not guaranteed to survive chunking. authored-canon.md has NOT been compiled yet, so this is still preventable.",
+    "findings": [
+      {
+        "severity": "critical",
+        "file": "canon/factions.md",
+        "lines": "175-203 (section 'Two Things That Are Not Happening Yet'); hard leak at 194-203",
+        "leaked": [
+          "Shadowscale",
+          "Dark Brotherhood",
+          "Sanctuary",
+          "Speaker",
+          "black hand-print",
+          "the PC is the faction"
+        ],
+        "quotes": [
+          "L196: 'Structurally, this is because a Shadowscale is not recruited.'",
+          "L194-195: 'There is no Brotherhood presence in Larenne ... the nearest Sanctuary is a Daggerfall matter'",
+          "L199: 'A Speaker arrives only afterward, to confirm what has already begun'",
+          "L201-203: 'the correct amount of Dark Brotherhood in this campaign, for a long while, is none at all ... The faction is already in the room. It is wearing the PC's skin and taking coats at the door.'"
+        ],
+        "why": "This is the single sentence the whole campaign is built to withhold, sitting in the RAG-indexed corpus. It does NOT make the Brotherhood active or in-world-discoverable (the text correctly insists on zero presence), so the fiction is safe — but the TEXT is retrievable. A similarity hit on 'the Hollow Horn', 'the doorsman', 'who is in this town' can return this chunk as a grounded passage mid-scene, and once a chunk boundary drops the '*GM-facing*' header the passage reads as ordinary canon. That is 'discoverable by accident' in the way that matters.",
+        "fix": "Delete lines 175-203 from canon/factions.md before running compile-canon. Nothing is lost: both paragraphs are already preserved verbatim in world-bible.json hidden_truths.shadowscale_truth and in the bible's hidden faction nodes (clan-montalion, shadowscale-thread), and in authored/factions.json facts.hidden_lore_gm_only — all of which are GM-side and none of which enter the RAG corpus. If the prose is wanted for GM reference, move the section to a file OUTSIDE canon/ (e.g. gm-only/factions-deep.md) so compile-canon cannot glob it."
+      },
+      {
+        "severity": "medium",
+        "file": "authored/culture.json",
+        "path": "facts.plot_local[2]",
+        "quote": "Counts-Her-Coppers, the Argonian tinker on the Daggerfall circuit, is due in Larenne on a market Loredas; she is the only person in the doorsman's life who could name what a clutch-mark is, and she will be in town for two days.",
+        "why": "lib/session_manager.py _key_facts() prints ONLY plot_local / plot_regional / plot_world — every other category (hidden_lore_gm_only, the_green_murmur, argonian_custom, kit_notes_illusion_gating) is correctly siloed and never reaches scene context. This fact is in a printed bucket. It names the clutch-mark, asserts it HAS a nameable meaning, points at a specific NPC who can supply it, and puts her on a two-day timer — which cuts directly against hidden_truths.pacing_discipline ('small, deniable, ambiguous signs only, spaced many sessions apart'). It never says Shadowscale or Brotherhood, so it is not the hard leak, but it is a reveal engine sitting in the always-printed bucket.",
+        "fix": "Move this fact out of facts.plot_local into a GM-only category (e.g. facts.hidden_lore_gm_only, matching authored/factions.json's convention), and drop the timer. Suggested replacement text for the GM-only bucket: 'GM-EYES-ONLY: Counts-Her-Coppers, the Argonian tinker on the Daggerfall circuit, passes through Larenne twice a year. She is the only person in the doorsman's life who could answer the questions he has never learned how to ask. She does not volunteer, she is never in town more than two days, and per pacing_discipline she should decline to be a reveal for a very long time — she talks about tin.' Her NPC entry already handles this perfectly ('she mostly does not, because she has watched what those answers do to the root-cut') and needs no change."
+      }
+    ],
+    "passes": [
+      {
+        "file": "canon/culture.md",
+        "lines": "205-257",
+        "note": "Model handling. The Hist / green murmur / root-cut sections are written as general Argonian ethnography, never about the PC. The closing lines ('the Hist do not mark a hatchling idly, and the Hist are patient, and a thing set aside is not a thing forgotten — it is simply a thing that has not been asked for yet') are exactly the light, ambiguous, deniable hint the seed asks for. No leak."
+      },
+      {
+        "file": "canon/magic-lore.md",
+        "lines": "148-177",
+        "note": "Names the mark and the dreams but keeps the cover story intact ('an explanation given to him young, by someone who meant well, that he has never had cause to doubt') and carries an explicit GM-discipline block forbidding connection to any organization. No leak."
+      },
+      {
+        "file": "canon/bestiary.md",
+        "note": "The tallow hound and fen-candles are kept 'ambiguous by design — never confirm' and pitched at the same volume as the PC's own wrongnesses. Correct register."
+      },
+      {
+        "file": "canon/geography.md, canon/history.md",
+        "note": "No hidden-truth vocabulary at all."
+      }
+    ]
+  },
+  "kit_delivery_audit": {
+    "scope": "The three things the player was explicit about, checked against ruleset.json",
+    "result": "PASS on all three, with four leaks around the edges (see kit_disagreements KIT-1..KIT-2)",
+    "checks": [
+      {
+        "requirement": "magicka-based casting",
+        "verdict": "PASS",
+        "evidence": "stat_schema.vitals includes 'magicka'; Signature System 1 'Magicka, Not Slots' replaces slots entirely with a point pool, full cost-by-tier table, overdraw rules and recovery; kit_note override (1) and spellcasting_notes both instruct that any slot table produced by gm-spellcasting or the spell-caster agent is to be ignored and magicka charged instead. Slots are genuinely gone, not renamed."
+      },
+      {
+        "requirement": "a real Illusion school containing Paralysis and Invisibility",
+        "verdict": "PASS",
+        "evidence": "Signature System 3 'The Whispering School' is a five-rank named curriculum (Novice/Apprentice/Journeyman/Expert/Master) with per-rank working lists and magicka costs, tracked in stat_schema.resources.school_ranks. PARALYSIS is present as the Master-rank capstone (7 magicka, Willpower save, crit against the held target). Invisibility is present twice: VANISH at Expert (6) and THE UNSEEN HOUR / Greater Invisibility at Master (9, capped as a Greater Working). Kit override (4) explicitly re-grades both away from their SRD spell levels so they stay late and expensive. This is real structure to train INTO, exactly as the bible's 'The Assassin's Illusion (Earned, Not Given)' asks."
+      },
+      {
+        "requirement": "NO free starting magic and NO assassin training at level 1",
+        "verdict": "PASS — exceeds the requirement",
+        "evidence": "The kit does not start the PC at level 1 at all: he starts at LEVEL 0 with no class (Signature System 5, kit_note override 3, ladder_gates.gate_0_the_door). character_options.starting_state.forbidden_at_creation bans Sneak Attack, Extra Attack, fighting style, every spell and cantrip, Magic Initiate / Ritual Caster / Artificer Initiate / Skulker, and any background feature granting a thieves'/assassins' guild contact. background_ban repeats it as 'the single most important rule in character creation'. class_note locks every subclass behind Gate II. The Rogue-Assassin subclass exists only as 'Silencer', flagged hidden with 'NOT AN OFFERABLE OPTION ... never name this to the player as a class choice'. progression.advancement_rule adds two hard limits: crossing an XP threshold NEVER grants a school rank and NEVER grants a subclass. magicka is written '0/0 — untrained, no Well' until Gate III. Nothing is handed over."
+      }
+    ]
+  },
+  "generic_flags": [
+    {
+      "axis": "bestiary",
+      "entity": "The hedge pack (moor wolves)",
+      "severity": "low",
+      "why": "The one entry in the world that could drop unchanged into any generic D&D setting: a wolf pack that dens north of town, takes lambs in summer and menaces lone travellers in winter. The 'shadow lone travellers for miles without closing' detail is good and should stay, but nothing here is Larenne — it is not read through the peat workings, the causeway, the gallow-rook custom, or the barony's habit of paying a vermin-woman rather than admitting a problem.",
+      "rewrite": "Bind the pack to the town's own systems rather than to the wilderness: 'The hedge pack dens in the worked-out cuts north of the Black Cuts, where the peat-stacks give shelter and nobody holds a turf-plot any more. They take lambs in summer and are a nuisance; in a hard winter they shadow a lone walker along the causeway for miles without ever closing, which is worse than being rushed, and which is why a Larenne man walks the stones talking aloud to himself. The barony pays Peronelle Tass a pittance per wolf-ear rather than concede the pack is a problem, and the rooks turning over the same stretch of road is how the town finds out it was one.' This ties the entry to the Black Cuts, the causeway, the gallow-rook custom and the barony's arithmetic in one move."
+    },
+    {
+      "axis": "bestiary",
+      "entity": "Mire adder",
+      "severity": "low",
+      "why": "'A snake in the marsh that hurts if you step on it' is generic. The hay-cutting detail and the peat-cutters' binding cord partly redeem it, but the creature itself carries no world-specific spin.",
+      "rewrite": "Give it a place in Larenne's customs rather than its ecology — e.g. tie it to the road days (the three days a year the whole town is out in the ditches together, beer and priest included), so the adder is the reason road-day has its own small ritual: 'nobody puts a hand into the ditch-spoil on a road day without turning it with a spade first, and the priest blesses the spades, which everyone finds slightly funny and nobody skips.'"
+    },
+    {
+      "axis": "ruleset",
+      "entity": "character_options.races — the eight non-Argonian, non-Breton entries (Nord, Redguard, Imperial, Orsimer, Khajiit, Bosmer, Altmer, Dunmer)",
+      "severity": "low",
+      "why": "Their 'blood' fields are lifted stock racial powers (Resist Frost, Adrenaline Rush, Berserk, Night-Eye, resist poison/fire) with no Glenumbra grounding, in a kit whose own Signature System 7 insists 'NEVER reduce a race to +2 anything at the table. Say what the innkeeper does with her hands when he walks in.' The 'reaction' fields ARE grounded and excellent ('a Redguard sword-hand in Larenne is a story in himself', 'Caravans pass through; nobody lets one stay') — the stat lines just do not match that discipline.",
+      "rewrite": "Low priority, since the PC is Argonian and these are walk-on races. If touched, keep the reaction lines verbatim and reframe each 'blood' entry the way the Argonian and Breton entries already are — as a lived habit the town notices rather than a bonus (the Breton 'Dragon Skin' entry, 'a Breton shrugs off a hedge-curse the way anyone else shrugs off bad weather, and considers this unremarkable', is the model to copy)."
+    }
+  ],
+  "generic_flags_note": "No axis reads generic as a whole; the opposite. geography, factions, culture, history and magic-lore are all densely seed-rooted (the post-right, the hearth-roll, turbary, the wool-beam, the four bells, the hanging beam, 'beast-folk, resident, one', the second bucket, the five figures, a sticking, the Weighing Yard, the Hare's Road, the Drown that is not where the last generation's stories put it). The genericness critic found almost nothing to cut, which is why the flags above are all 'low'.",
+  "kit_disagreements": [
+    {
+      "id": "KIT-1",
+      "severity": "high",
+      "lore": "world-bible.json hidden_truths.earned_progression_arc: 'The PC starts with NO magic and NO assassin training at all — an ordinary doorsman.' ruleset.json Signature System 2 BANNED SHORTCUTS: 'Magic Initiate, Ritual Caster, Artificer Initiate, or any feat, background, race, item or BIRTHSIGN used as a side door into a school.'",
+      "kit_gap": "The kit's own birthsign list is that side door, and it opens at character creation, at Level 0, before any gate. THE SHADOW grants '1/day, vanish as though invisible for 3 rounds' — that is Vanish, the kit's own EXPERT-rank Illusion working, free on day one. THE LOVER grants '1/long rest, a touched creature is charmed 1 minute unless it saves (Willpower)' — that is Fair Words / Charm Person, the kit's own APPRENTICE-rank Illusion working, free on day one. THE RITUAL grants touch-healing 2d8 and turn undead (free Restoration). THE SERPENT grants a 3d6 poison touch. The kit self-flags only the Shadow ('WARNING: this hands the PC a magical trick at Level 0 ... offer it only with the player's explicit, informed consent'), and explicitly waves the Lover through with 'This is a gift, not a school — it grants no Illusion rank and does not teach him a thing' — but the player's requirement was no free MAGIC at creation, not merely no free school rank. Four of the Thirteen hand a level-0 doorsman a repeatable magical effect, and two of them are effects the campaign's entire arc is built around making him earn.",
+      "patch": "Extend the Shadow's existing warning to cover every sign that grants an active magical effect, and default them all to off. Concretely: (a) add to birthsigns.rule — 'A birthsign grants one real, small power. FOUR signs (the Shadow, the Lover, the Ritual, the Serpent) grant an ACTIVE MAGICAL EFFECT, which collides with this campaign's core promise that the PC begins with no magic of any kind. None of the four is offered by default; each requires the player's explicit, informed consent, and the GM should say plainly what it costs the arc. The default assumption for this doorsman is a sign that shapes him without arming him.' (b) Add the same one-line warning the Shadow already carries to the Lover, the Ritual and the Serpent. (c) Point the default at the signs that are pure texture or deferred (the Warrior, the Steed, the Lady, the Thief, the Tower, and the Mage/Apprentice/Atronach whose magicka is already correctly caveated as unspendable until the Third Gate). Nothing else in the kit needs to move — the ban already exists in System 2; the birthsign table just has to obey it."
+    },
+    {
+      "id": "KIT-2",
+      "severity": "high",
+      "lore": "ruleset.json Signature System 5 / kit_note override (3) / ladder_gates.gate_0_the_door: 'the PC begins at Level 0 as a doorsman with no class ... LEVEL 0 IS OUTSIDE THE XP TRACK ENTIRELY: award no XP while the PC is a Level 0 doorsman. Level 0 to Level 1 is the First Gate of the Ladder (a milestone), not a threshold.' Gate I is the campaign's spine: it requires 'a crisis he survived badly AND either a person willing to teach him or a stubborn private decision to teach himself.'",
+      "kit_gap": "The engine cannot hold Level 0, and one XP award silently opens Gate I. Verified against the live code: lib/game_core.py XpLevelProgression.level() hardcodes 'lvl = 1' as its floor and can never return 0. lib/player_manager.py add_xp() then walks 'while new_level < len(thresholds) and current_xp >= thresholds[new_level]', and this campaign's thresholds are prepended with a 0 at index 0 (confirmed: _xp_thresholds() returns [0, 400, 1100, 2800, ...]). So a PC stored at level 0 who is awarded even 1 XP is promoted straight to level 1 — I ran it: 'stored level 0 + 1 XP -> engine computes level 1'. CLAUDE.md documents `gm-player.sh award --tier minor|major|legendary` as the standard spectacle-XP reflex for any clever or effective beat, and the kit itself defines a spectacle table with minor/major/legendary tiers. The first time the GM rewards the PC for talking three drunk carters out of a knife fight — exactly the beat the kit's own spectacle note holds up as 'legendary' at this scale — the Ladder's First Gate opens itself, with no crisis and no teacher, and the campaign's central promise breaks silently and unrecoverably.",
+      "patch": "Belt and braces, because this one is unrecoverable once it fires. (a) Kit-side, make the prohibition impossible to miss at the table: change progression.spectacle.note to open with 'AWARD NO XP WHILE THE PC IS LEVEL 0. gm-player.sh award at Level 0 will promote him to Level 1 immediately regardless of tier or amount, because index 0 of the threshold table is 0 — it does not check the Ladder. At Level 0, record spectacle beats as fiction and as Standing (System 6), never as XP. The XP track opens the moment Gate I opens, and not one session before.' (b) Add the same sentence to gm_notes.never as a ninth entry. (c) Engine-side, if the orchestration is willing to touch lib/ (outside this pass's remit, flagged for the user): have player_manager.add_xp() refuse to raise level above its stored value when stored level is 0, or make XpLevelProgression accept a floor so 'level 0' is representable rather than clamped to 1. Until (c) lands, (a) and (b) are the only thing standing between this campaign and its own premise."
+    },
+    {
+      "id": "KIT-3",
+      "severity": "high",
+      "lore": "The magic-lore axis authored a complete folk-horror backlash system and addressed it TO the kit author. authored/magic-lore.json facts.the_veiling_arts: 'A sticking is what happens when an untaught practitioner cannot perform the closing: the figure settles onto its maker instead of failing. A stuck Muffle deafens. A stuck Veil leaves parts of the body out of step with the light — a hand arriving a half-beat after the arm, a reflection turning its head late. A stuck Sway leaves the caster carrying the emotion. A stuck Still Hand locks a jaw, a finger, a knee, and does not always let go. Stickings are rarely lethal. They are permanent, visible, and they turn a person into a story the town tells — which in Larenne is worse than a wound.' It is declared a bible signature_system ('The Sticking (Illusion Backlash)'), it is the entire characterisation of Perrin Guisse (deaf at nineteen, still selling the book that did it), it is the reason the defective Wardrobe of Mist is dangerous, and facts.kit_notes_illusion_gating asks for it directly: 'The sticking is the failure mechanic and should hurt narratively rather than in hit points ... Recommend that any use of a figure whose closing the PC has not been formally taught carries a sticking check; being taught the closing by Ysolt Fauvel removes that check entirely, which is the mechanical reward for the least glamorous training path.'",
+      "kit_gap": "ruleset.json has no sticking anywhere. Its only self-teaching cost is System 1's OVERDRAW THE WELL: '2 HP per point of magicka you are short, gain 1 Fatigue, and at 3+ Fatigue roll a mishap check (Willpower, DC 12 + tier) — on a failure the working fires wrong, wildly, or inward.' That is a generic wild-magic mishap priced in HP and Fatigue — recoverable on a long rest, invisible to the town, and gated behind overdraw rather than behind the closing. The lore's cost is permanent, visible, social and gated on WHO TAUGHT YOU. The result is that the kit prices self-teaching in hit points, which the fiction explicitly says it must not be, and Ysolt Fauvel's whole reason to exist — she teaches the closing, which is the unglamorous path that buys safety — has no mechanical payoff. The world reads like folk horror and plays like a wild-magic table.",
+      "patch": "Add a new signature system, 'The Sticking — What an Unclosed Figure Does to Its Maker', and wire it to the existing gates. Rules to encode: (1) THE CLOSING IS A SEPARATE THING TO LEARN, tracked in stat_schema.resources as e.g. 'closing_taught': false. Gate III opens the Well and Illusion at Novice; it does NOT by itself teach the closing. (2) STICKING CHECK: any working performed by a PC whose closing_taught is false requires a Willpower save, DC 10 + the working's tier, AFTER the effect resolves. Failure means the figure settles onto him. (3) THE STICKING ITSELF is a lasting CONDITION, not damage — persist via gm-condition.sh, keyed to the figure that failed, using the lore's four outcomes verbatim (stuck Muffle: deafened, disadvantage on Watchfulness by ear and on any roll needing a called warning; stuck Veil: body out of step with light, disadvantage on Sneak and CONSPICUOUS worsens — every witness now has something new to describe; stuck Sway: a carried emotion, dread or flat calm, for d4 days, disadvantage on the Doorsman's Read because his own weather is wrong; stuck Still Hand: a locked joint, -1 AC or disadvantage on one physical skill). Lifts slowly on a long downtime and a Leechcraft or Restoration check, and NOT always fully — on a second failure it is permanent. (4) IT IS VISIBLE: every sticking ticks System 8's 'What Larenne Notices' clock by 1 and costs 1 Standing with the town, because a sticking turns a man into a story. (5) THE REWARD: being taught the closing by Ysolt Fauvel (her price is information from the Horn's door — paid in Standing and in the inn's trust, not coin) sets closing_taught true and REMOVES THE CHECK ENTIRELY, forever. Then cross-reference it from System 3 and from spellcasting_notes, and keep overdraw as a separate, additional cost for casting beyond the Well."
+    },
+    {
+      "id": "KIT-4",
+      "severity": "high",
+      "lore": "authored/factions.json is unambiguous that the Hollow Horn's innkeeper is PERRINE AUBREC — 'Innkeeper and owner of the Hollow Horn, widow of Gerauld Aubrec, past fifty and very short. Nineteen years holding a licensed change-house on the Daggerfall coaching road ... She hired the PC herself off the stableyard over the objection of two aldermen and her own niece.' The entire Horn is built on her: her private shorthand ledger nobody else can read, her niece Nolwenn who expects to inherit and has never been told, her brother in Wayrest with sons, her fear of the Blue Mare taking the post-right. canon/factions.md carries the same. She is also the campaign's Standing anchor.",
+      "kit_gap": "ruleset.json names the innkeeper KELLAN, in four separate places, all of them load-bearing: stat_schema.resources.standing / standing_tracks.tracks.the_hollow_horn = \"Kellan's house, its staff and its regulars\"; System 6 = 'he is Kellan's man and has been for years' and 'what he actually has is that Kellan will vouch for him'; System 10's death hand-off = 'the hand-off options are the Horn's own people — Kellan the innkeeper, a serving-hand, a regular carter'; System 14's Horn's Season clock = 'a tithe raised, Kellan's health'. Kellan does not exist in any authored file, any canon file, or the bible. This is the worst kind of collision because ruleset.json's own full_reference insists the signature systems are 'in full, and nothing there should ever be truncated in the scene context' — so 'Kellan's house' and 'Kellan's health' get printed into the GM's scene context every single beat, in direct contradiction of npcs.json, from session one.",
+      "patch": "Global rename Kellan -> Perrine Aubrec across ruleset.json (4 sites), and take the free specificity while you are there: standing_tracks.tracks.the_hollow_horn -> \"Perrine Aubrec's house, its staff and its regulars — the PC's actual social capital\"; System 6 tracks line -> 'the Hollow Horn +2 (he is Perrine's man and has been for years)'; System 6 closing line -> 'what he actually has is that Perrine Aubrec will vouch for him'; System 10 -> 'Perrine Aubrec the innkeeper, Touss Merigot in the yard, Nolwenn in the kitchen, or a regular carter off the coaching road'; System 14 -> 'a bad quarter, the Blue Mare's petition for the post-right, a tithe raised, Perrine's health'. NOT auto-applied: ruleset.json is the World Kit, outside this pass's authored/*.json remit, and a blind sed on a name is exactly the kind of edit that should be seen before it lands."
+    },
+    {
+      "id": "KIT-5",
+      "severity": "medium",
+      "lore": "The magic-lore axis established the town's own word for magicka capacity: 'the draw (a body's magicka capacity — when it runs out the hands shake and vision silvers at the edges)'. It is in that axis's bible voice.vocab, in facts.hedge_magic as the first item of the campaign's magic vocabulary, and it is used throughout canon/magic-lore.md ('It has no figure, no closing, no draw'), including in Ysolt Fauvel's teaching ('reciting cold: drilling a figure without spending draw').",
+      "kit_gap": "ruleset.json independently coined a DIFFERENT in-world name for the same resource — 'the Well' — and instructs the GM to say it out loud: vital_notes.magicka = 'The Well. Replaces spell slots entirely ... write untrained — no Well'; System 1 is titled 'a Well That Starts Empty'; System 2 Gate III 'Opens the Well'; 'OVERDRAW THE WELL'. Both documents instruct the GM to use their term at the table, so the same pool has two names and the GM will alternate between them mid-scene. Worse, the kit's phrasing 'write no Well on the sheet' will be read aloud against NPCs who say 'draw'.",
+      "patch": "Canon vocabulary should win over kit-invented vocabulary, because it is the word the NPCs use in the prose the player will actually hear. Rename 'the Well' -> 'the draw' throughout ruleset.json (vital_notes.magicka, System 1's title and body, System 2 Gate III, spellcasting_notes), and fold in the lore's physical tell so the mechanic narrates itself: 'magicka is called THE DRAW. When a man spends past it his hands shake and his vision silvers at the edges — say that, not a number. This PC has no draw at all until the Third Gate; write untrained — no draw.' Keep 'overdraw' as the verb, which now reads better, not worse."
+    },
+    {
+      "id": "KIT-6",
+      "severity": "medium",
+      "lore": "authored/magic-lore.json facts.the_veiling_arts names Illusion's progression as FIVE FIGURES and canon/magic-lore.md teaches them by those names: 'the Candle (a false appearance, one sense, one observer), the Muffle (silence around a body), the Veil (brief, fragile invisibility), the Sway (calm, fear, and the small glamour that makes a stranger's face read as familiar), and the Still Hand (paralysis).' The entire local teacher economy is keyed to these five names: Guisse's defective book 'reaches the Candle and probably the Muffle'; Hazruun teaches 'Muffle, Veil, Sway'; Ysolt teaches the underneath but no figure; 'The Still Hand has NO source in Glenumbra.' The axis even supplied the 5e mapping for the kit author.",
+      "kit_gap": "ruleset.json System 3 built a parallel, differently-named catalogue: Candlelight, Waking Dream, Muffle, Cast Doubt, Dead Sleep, Borrowed Face, Fair Words, Rout, Silence, Chameleon, Command Voice, Vanish, Rigor, Greater Borrowed Face, Paralysis, The Unseen Hour, Mass Rout. Only 'Muffle' survives in both — and the kit even splits the canon Muffle in two, putting 'Muffle' at Novice (own footfalls quiet, 2) and 'SILENCE' at Journeyman (the sphere), whereas canon defines the Muffle as 'silence around a body' and maps it to Silence outright. So Hazruun, who canon says teaches the Muffle and the Veil, is offering things the kit grades at two different ranks under three different names, and Guisse's book 'reaches the Candle and the Muffle' maps onto nothing the kit lists. The kit also drops canon's hard constraint that the Still Hand has no Glenumbra source, instead allowing Master rank via the generic Gate IV-VII sources ('a teacher, a tome, or a working witnessed closely enough to steal') — which makes paralysis reachable locally when canon says reaching it must require an entirely new arc.",
+      "patch": "Do not rewrite either catalogue — bind them. Add a mapping block to System 3: 'THE FIVE FIGURES ARE THE NAMES THE WORLD USES. Every working below belongs to one of them, and the figure is what an NPC teacher names, sells, or refuses. THE CANDLE (Novice) = Candlelight, Waking Dream, Cast Doubt. THE MUFFLE (Novice->Journeyman) = Muffle at Novice for his own footfalls, Silence at Journeyman for the sphere that ends a scream; a teacher who says she teaches the Muffle means the first, and the second is a further gate. THE SWAY (Apprentice->Journeyman) = Fair Words, Dead Sleep, Borrowed Face, Rout, Command Voice. THE VEIL (Expert) = Chameleon, Vanish; and THE UNSEEN HOUR at Master. THE STILL HAND (Expert->Master) = Rigor at Expert, PARALYSIS at Master.' Then add the constraint the kit dropped: 'THE STILL HAND HAS NO SOURCE IN GLENUMBRA. No teacher, tome or Cousinry shelf in this barony can supply it — the Gate IV-VII source requirement cannot be met locally for this figure at all. Reaching it requires leaving the parish and opening a new arc, and per the world-bible that convergence is a major later beat, not a purchase.' This makes the mentor economy the magic-lore author built (Guisse's book, Ysolt's closing, the Cousinry's locked Corbeau, Hazruun's road) line up exactly with the rank ladder."
+    },
+    {
+      "id": "KIT-7",
+      "severity": "low",
+      "lore": "Both the bible and the magic-lore axis are absolute that the green murmur has no mechanical existence. world-bible.json signature_systems: 'NOT a usable power yet.' authored/magic-lore.json facts.the_green_murmur: 'It is not a spell: no figure, no closing, no draw. It cannot be cast, invoked, or rolled for' and, to the kit author directly, 'The green murmur must have NO mechanical representation at all — no bonus, no resource, no ability entry, no roll. It is GM-narrated only.' canon/magic-lore.md: 'The green murmur is not a mechanic and must never become one.'",
+      "kit_gap": "ruleset.json System 8 gives it three mechanical footholds: 'Mechanically at most: one instance of advantage, or a success that needed no roll, on something PHYSICAL and REFLEXIVE'; a tracked resource, stat_schema.resources.murmur_ledger with signs_shown / last_sign_session / log; and an 8-segment GM clock in System 14. The spirit is right and the pacing discipline is genuinely excellent — GM-only, never player-invokable, hard-capped at one sign every three to four sessions, each required to be deniable. But 'one instance of advantage' is a bonus, and the lore says no bonus.",
+      "patch": "Keep the ledger and the clock — they are pacing instruments, they are GM-eyes-only, and they enforce the slowness the player asked for, which is exactly what the lore wants. Drop only the advantage grant. Change System 8's mechanical line to: 'Mechanically: NOTHING. The murmur is never a bonus, a roll, or a resource. When the GM spends a sign, the PC simply SUCCEEDS at something small, physical and reflexive that he was going to be allowed to attempt anyway — narrate the hand already closed on the wrist, do not roll and do not grant advantage. If a roll would have been needed, the sign is too big; choose a smaller one.' This satisfies both documents and is, if anything, a cleaner instruction than the original."
+    },
+    {
+      "id": "KIT-8",
+      "severity": "low",
+      "lore": "The authored economy runs almost entirely on small coin: 'a copper the cartload' at the Peatgate toll (geography); the book sold 'for four coppers' and charms priced by the job (magic-lore); 'a sty charmed off an eyelid for two coppers' and ash-coppers flicked into hearths (culture); the innkeeper 'draws a shilling a year as an officer of the market' (history); and Hanryk Sowe's tab at the Horn 'is allowed to reach exactly forty drakes and never one more' (factions).",
+      "kit_gap": "ruleset.json System 9 declares a single denomination — 'CURRENCY: septims (gold), and people here count them singly' — and prices everything in septims/gp (a night 5 septims, a working knife 2 gp, a riding horse 40 gp, the PC's purse 9 septims, resources.purse_septims). It defines no copper and no shilling, so the coppers that the actual authored economy transacts in are unpriceable, and 'drakes' appears nowhere in the kit at all. A GM pricing Guisse's four-copper book against a kit that only knows septims has to invent the exchange rate mid-scene.",
+      "patch": "Add a denomination ladder to System 9, using the terms the axes already coined: 'DENOMINATIONS: the septim (gold) is the unit of account and is called a DRAKE in ordinary Larenne speech — the two words mean the same coin and NPCs say drake. Below it: 10 coppers = 1 shilling, 10 shillings = 1 septim/drake. Larenne's daily life is transacted in coppers (the Peatgate toll is a copper the cartload; a charm against a sty is two; Guisse will sell you a book for four), its wages and offices in shillings (the innkeeper draws a shilling a year as an officer of the market), and only its horses, its passages and its debts in whole drakes. Hanryk Sowe's forty-drake tab is therefore a genuinely alarming sum, which is the point of it.' Then leave the existing gp prices as-is — they are all correctly at the drake scale."
+    }
+  ],
+  "kit_agreements_verified": [
+    "vitals: hp / magicka / fatigue — every resource the lore describes has a home. Standing (System 6), Luck and luck_burned_total (System 13), school_ranks, ladder_gates and the murmur_ledger are all declared in stat_schema.resources with a persist-before-narrating instruction. The only lore resource with no mechanical home is the sticking (KIT-3).",
+    "active_agents = [monster-manual, rules-master, spell-caster, gear-master, loot-dropper, npc-builder, create-character] — legitimate here, because this world runs a d20 chassis BY EXPLICIT PLAYER REQUEST (kit_note), not by drift. No dungeon-architect and no world-builder, deliberately. The agent_note constrains each one into Tamriel and down into a market town, and the spell-caster constraint is exactly right: 'never hands over a spell — it hands over a working with a school, a rank requirement, a magicka cost, and the question who taught him this; if the answer is nobody, the working does not exist yet.' No 5e-only agent is misapplied.",
+    "resolution: d20-vs-dc with three world-specific additions (Luck burn, mandatory first-impression reaction modifier, and THE UNTRAINED HAND — 'never quietly hand him proficiency to smooth a scene; let the untrained roll land, and let it be the reason he goes looking for a teacher'). The last is the mechanical face of the whole campaign and it is correctly stated.",
+    "Race is implemented as reaction and as a standing complication (System 7 CONSPICUOUS: 'No hood fixes seven feet of scale ... it is the exact problem an assassin cannot solve with a knife'), not as a stat bonus — which is both the bible's instruction and a genuinely distinctive mechanic.",
+    "Scale discipline holds: no magic-item economy, no enchanter's counter, spectacle tiers re-floored for a small world ('a legendary beat is talking three drunk carters out of a knife fight without touching one of them'), and loot redefined as 'a knife with someone's initials on it, a sealed letter, a debt, a name, a key, a favor.'",
+    "Death: 5e death saves in force plus an aftermath layer the fiction demands (the Watch, an inquest, an Arkay rite, Standing moving hard, the dead man's people arriving), and the correct note that 'if he dies before the mark ever wakes, that IS the story.'"
+  ],
+  "cross_links": [
+    {
+      "type": "stub-node",
+      "status": "APPLIED",
+      "file": "authored/geography.json",
+      "add": {
+        "kind": "location",
+        "name": "The Hollow Horn"
+      },
+      "why": "Referenced by 23 NPC tags and location connections across all six axes and defined by none. It is the campaign's home base. Without a record, gm-session.sh move auto-creates it as an empty descriptionless stub on the first move of session one. Stub written from material the axes already establish: the post-right and change-house status, the cracked ox-horn charter measure, the hanging beam, the corner settle, the snug, the named rooms, the brick north wing from the Malt Fire, the cot over the stable."
+    },
+    {
+      "type": "stub-node",
+      "status": "APPLIED",
+      "file": "authored/geography.json",
+      "add": {
+        "kind": "location",
+        "name": "Larenne"
+      },
+      "why": "Referenced by 35 NPC tags and connections across all six axes and defined by none — the town itself had no location record. Stub assembled from the factions axis (four hundred hearths, market charter, power as standing not force), the geography axis (the three-legged economy, the Yard and its districts) and the culture axis (Loredas market day, the bells)."
+    },
+    {
+      "type": "stub-node",
+      "status": "APPLIED",
+      "file": "authored/geography.json",
+      "add": {
+        "kind": "location",
+        "name": "The Market Cross"
+      },
+      "why": "The culture axis created a bible geography node for it and tagged two NPCs (Cassien Mallery, Counts-Her-Coppers) to it, but authored no location record. The stub also quietly reconciles culture's 'market square' with geography's insistence that the square is the Weighing Yard, by siting the cross IN the Yard."
+    },
+    {
+      "type": "stub-node",
+      "status": "APPLIED",
+      "file": "authored/geography.json",
+      "add": {
+        "kind": "location",
+        "name": "Ninebank"
+      },
+      "why": "The history axis tagged two NPCs (Enguerrand Perrenot, Melisent Gascel) to it and built three facts and two timeline entries on it — the Ninebank Judgment and the Ninebank Man — but authored no location record."
+    },
+    {
+      "type": "faction->geo",
+      "status": "APPLIED",
+      "file": "authored/culture.json",
+      "add": {
+        "edges": 5,
+        "from_convention": "{type: ...} with display-name endpoints",
+        "to_convention": "{relation: ...} with node ids"
+      },
+      "why": "The culture and magic-lore axes used a different edge schema from the skeleton and from the factions/geography axes ({type} + names vs {relation} + ids). Since world_author._merge_graph stores edges raw and dedupes only by signature, a mixed-convention graph cannot be traversed consistently. Rewritten culture's 3 faction edges and 2 geography edges to ids + relation."
+    },
+    {
+      "type": "faction->geo",
+      "status": "APPLIED",
+      "file": "authored/magic-lore.json",
+      "add": {
+        "edges": 11,
+        "nodes": 4
+      },
+      "why": "Same normalization: 6 faction edges and 5 geography edges rewritten to ids + relation. Additionally its four geography nodes were bare {\"name\": ...} stubs with no id, type or summary — given proper ids (the-rushlight-house, guisses-copying-room, the-cousinry-room, the-sheepfold-brams-dike), type 'landmark', and summaries drawn from the axis's own location descriptions. Its dangling edge to 'An Old Manor on the Moor Road' now targets the id the-old-manor."
+    },
+    {
+      "type": "node-dedupe",
+      "status": "APPLIED",
+      "file": "authored/culture.json",
+      "add": {
+        "node_id": "larenne-market-court",
+        "renamed_from": "The Larenne Market Court",
+        "renamed_to": "The Market Court of Larenne"
+      },
+      "why": "The culture and factions axes independently authored the SAME node id under two different display names. world_author._merge_graph keys nodes on NAME, not id, so the merge would have produced two duplicate faction nodes sharing one id. Aligned culture's name to the factions axis (the faction-axis owner). culture is processed first in sorted filename order, so its richer market-cross summary survives the merge and the factions entry fills any gaps."
+    },
+    {
+      "type": "npc->faction",
+      "status": "APPLIED",
+      "file": "authored/culture.json",
+      "add": {
+        "npc": "Brother Aumery",
+        "locations": [
+          "The Larenne Chapterhouse",
+          "Larenne",
+          "The Hollow Horn"
+        ]
+      },
+      "why": "Brother Aumery is defined in THREE axes (culture, factions, history). world_author._merge_npcs is first-wins in sorted filename order, so culture's entry wins outright and the other two are discarded silently. Unioned the location tags so he does not lose his Hollow Horn presence — without this he would never be 'present' in scene context at the inn, where the factions and history axes both place him."
+    },
+    {
+      "type": "stub-node",
+      "status": "FLAGGED — needs world-bible.json edit, outside this pass's remit",
+      "add": {
+        "node_id": "the-old-manor",
+        "conflict": [
+          "An Old Manor on the Moor Road (skeleton)",
+          "Aubrecourt (geography axis)"
+        ]
+      },
+      "why": "The geography axis renamed the skeleton's placeholder manor to 'Aubrecourt' while keeping the id the-old-manor. Because _merge_graph keys on name, consolidation will emit TWO geography nodes sharing the id the-old-manor. Fix: rename the node in world-bible.json geography from 'An Old Manor on the Moor Road' to 'Aubrecourt' (keeping id and hidden:true) before consolidating, so the two collapse into one. Aubrecourt is the better name and is the one the bestiary, magic-lore and geography axes all point at."
+    },
+    {
+      "type": "npc->faction",
+      "status": "FLAGGED — content merge, needs author/user approval",
+      "add": {
+        "npc": "Brother Aumery",
+        "losing_axes": [
+          "factions",
+          "history"
+        ]
+      },
+      "why": "The tag union above prevents the cross-link loss, but the DESCRIPTIONS from the factions and history axes are still discarded by first-wins. culture's surviving entry keeps the parish-roll re-inking (excellent, and the best single detail about him), but loses history's hook — 'he keeps the assize rolls, the burial book and the market ledgers ... he buried the Ninebank Man and drew him first. Hook: he wants someone, anyone, to care about the difference between what the town remembers and what actually happened' — and factions' framing of him as the campaign's in-world illustrator. Recommended merged description for authored/culture.json (the winning file): 'A minor Chapterhouse scribe with far more curiosity than rank, and the town's unofficial memory: he keeps the assize rolls, the burial book and the market ledgers, and illustrates the town's notable happenings in the margins of ledgers meant to hold grain accounts, half from duty and half because he cannot stop himself. Fussy, gently ironic, prone to moralizing captions. He buried the Ninebank Man and drew him first. He will happily show any stranger the four-hundred-year-old line that supposedly proves Larenne's name is elvish, while admitting, fussily and with obvious pain, that the man who wrote it was paid to. He has lately been re-inking the parish roll's beast-folk, resident, one in a hand that makes it harder to read, and has not explained why to anyone, including himself. He is the campaign chronicler. Hook: he wants someone, anyone, to care about the difference between what the town remembers and what actually happened.'"
+    }
+  ],
+  "continuity_conflicts": [
+    {
+      "severity": "medium",
+      "conflict": "Two abandoned manors on the same moor road, carrying the same signature mystery",
+      "detail": "The geography axis authored AUBRECOURT — shuttered three generations, avenue and deer-park wall inexplicably maintained, a Daggerfall factor paying land-dues to the penny every Evening Star in coin slightly older than circulation, shepherds grazing elsewhere for practical reasons. That is the bible's hidden Clan Montalion seed, executed beautifully, and the bestiary axis points its tallow hound at 'the old manor's gate' and its moths at 'the shuttered windows of the old manor.' Independently, the history axis authored THE DOWER HOUSE — the Vaudry dower-house on the moor road, shut the same season Jocelin Vaudry renounced his claim and vanished into Daggerfall, with 'someone still pays to have the shutters repainted, and nobody in town knows who.' Two shuttered houses on one moor road, both with an unnamed party quietly funding their upkeep. Blind authorship duplicated the exact beat, which halves its force — the player who hears 'a shut-up house on the moor road that someone still pays for' twice will read it as set dressing rather than a thread.",
+      "fix": "Pick one of two clean resolutions and record it in the bible. (a) COLLAPSE: the Dower House and Aubrecourt are the same house — the Vaudry dower-house was sold or entailed away after Jocelin left, which is precisely why Larenne 'has never been clear which', and the factor from Daggerfall is who it went to. This is elegant: it welds the Montalion seed onto the Vaudry succession, gives the hearth-roll a reason to go out there, and makes Jocelin's disappearance retroactively sinister at no extra cost. (b) SEPARATE HARD: keep both but strip the duplicate signature from the Dower House — someone paying for the shutters becomes a known, dull answer (the Baroness pays, out of guilt or propriety, and says so if asked), leaving Aubrecourt as the only house in the parish nobody can account for. Recommend (a)."
+    },
+    {
+      "severity": "low",
+      "conflict": "The town square has three names",
+      "detail": "The geography axis is emphatic: the square is THE WEIGHING YARD, and its voice.vocab entry says 'nobody local calls it a square.' But the culture axis says 'market square' and 'the market cross' throughout, and the magic-lore axis sites both the Rushlight House walk and the Wool Hall 'on the market square'. Since geography's own bible node concedes 'strangers call it the market square', this is reconcilable rather than contradictory — but three axes currently say it three ways in prose the GM will read aloud.",
+      "fix": "Partly handled: the applied normalization already retargeted culture's and magic-lore's bible edges and the Market Cross node summary to the Weighing Yard. Remaining: canon/culture.md and canon/magic-lore.md prose still say 'market square'. Low priority and arguably correct in an outsider's register, but if tidied, the rule is 'the Weighing Yard in a local's mouth, the market square in a stranger's.'"
+    },
+    {
+      "severity": "low",
+      "conflict": "The Wool Hall and Cordwain Row exist in prose but not on the map",
+      "detail": "The magic-lore axis sites the Cousinry Room 'above the Wool Hall on the market square' and the Rushlight House 'past the end of Cordwain Row on Larenne's western side'. Neither the Wool Hall nor Cordwain Row appears in the geography axis, which instead puts the barony's public wool-beam 'under a slate roof on four posts' in the Weighing Yard — i.e. an open structure, not a hall. Both new locations now resolve (their parent locations exist), so nothing dangles, but the map and the prose disagree about whether Larenne's wool business happens under a roof.",
+      "fix": "Cheapest reconciliation: the Wool Hall is the building on the Yard that houses the wool-beam under its slate roof, with the Cousinry renting the upper room by an outside stair — one sentence added to the Weighing Yard description makes both axes true. Cordwain Row can simply be added as a named western street off Tenter Row."
+    },
+    {
+      "severity": "low",
+      "conflict": "The causeway",
+      "detail": "The bestiary axis builds real danger on 'the causeway stones' ('Stepping off the causeway stones is how most people who die on the Larenne Moor die'; 'the causeway stones are the barony's oldest continuous expense and no one is quite sure who laid them'), and Peronelle Tass 'walks the causeway in fog without counting stones.' The geography axis never mentions a causeway — its moor crossing is the Coach Road, 'metalled where the barony has money and rutted where it has not.'",
+      "fix": "Reconcilable and worth keeping, because the causeway is a better folk-horror object than a road. Add one line to the Coach Road or Larenne Moor description: where the Bay Road crosses the wettest ground it runs on an old raised causeway of set stones, older than the metalling and older than anyone's record of who laid it; to go 'off the stones' is the town's phrase for the lost and the dead. This is already the bestiary axis's vocab entry, so it costs nothing."
+    }
+  ],
+  "applied_edits": {
+    "files_touched": [
+      "authored/geography.json",
+      "authored/culture.json",
+      "authored/magic-lore.json"
+    ],
+    "files_not_touched": [
+      "world-bible.json",
+      "locations.json",
+      "npcs.json",
+      "facts.json",
+      "ruleset.json",
+      "all canon/*.md"
+    ],
+    "backup": "/tmp/claude-0/-home-user-DnDer/1d265d0e-fc71-5679-b03f-5462452127e9/scratchpad/authored-backup",
+    "verification": "After edits: all 6 authored JSON files parse; 29 locations defined; 0 dangling location references (was 4 names covering 60+ referring tags/connections); 0 non-conforming bible edges (was 17); 0 unresolved edge endpoints; 1 remaining id->name collision (the-old-manor), deliberately left because fixing it requires editing world-bible.json."
+  },
+  "blocking_before_consolidate": [
+    "1. Delete canon/factions.md lines 175-203 (the Shadowscale/Dark Brotherhood section) BEFORE gm-worldgen.sh compile-canon runs. This is the only genuinely irreversible item — once it is chunked into the RAG corpus it can surface as a grounded passage at any moment.",
+    "2. Move authored/culture.json facts.plot_local[2] (the clutch-mark / Counts-Her-Coppers fact) into a GM-only fact category, so it stops printing in KEY FACTS every beat.",
+    "3. Rename the-old-manor in world-bible.json geography from 'An Old Manor on the Moor Road' to 'Aubrecourt', or consolidation emits two nodes for one place.",
+    "4. Apply KIT-4 (Kellan -> Perrine Aubrec in ruleset.json), because the wrong innkeeper's name is printed into scene context every single beat from session one.",
+    "5. Apply KIT-2's kit-side guard, because a single gm-player.sh award at Level 0 silently opens the Ladder's First Gate and cannot be undone."
+  ],
+  "summary": "The Unquiet Peace survives the genericness critic almost untouched — this world could not be dropped into a generic D&D setting if you tried, and the three flags raised are minor (a wolf pack, a snake, and eight walk-on race stat lines). The six blind authors produced unusually compatible work: the post-right, the hearth-roll, turbary, the four bells, the hanging beam, 'beast-folk, resident, one', the five figures and the sticking all interlock without being coordinated. The verdict is needs-changes for two reasons. First, the leak audit FAILS on one item: canon/factions.md lines 175-203 states the Shadowscale/Dark Brotherhood truth in plain words, including 'It is wearing the PC's skin and taking coats at the door', and although the section is captioned GM-facing, compile_canon() concatenates every canon file verbatim into the RAG corpus with no filtering, where header-based chunking can strip that caption and a similarity hit can surface the passage mid-scene. It has not been compiled yet, so deleting those lines now costs nothing — the same text already lives safely in world-bible.json hidden_truths. A second, softer containment issue puts the clutch-mark into facts.plot_local, the one fact bucket that scene context always prints. Every other axis handled the hidden truth exactly right, and canon/culture.md's closing lines are a model of the deniable hint the seed asked for. Second, the kit PASSES all three of the player's explicit requirements — magicka genuinely replaces slots, Illusion is a real five-rank named school with Paralysis as its Master capstone and Invisibility at Expert, and nothing whatsoever is granted at creation (the PC starts at Level 0 with no class at all, and four separate clauses ban the back doors) — but eight disagreements sit around the edges, three of them serious: the birthsign table quietly hands a level-0 doorsman Invisibility, Charm or free healing through the exact 'side door' System 2 bans; a single XP award at Level 0 silently promotes the PC past the Ladder's First Gate, which I confirmed against the live engine (thresholds[0] == 0, and XpLevelProgression clamps its floor to 1); and the sticking — the permanent, visible, socially ruinous backlash that the magic-lore axis designed, addressed to the kit author, built Perrin Guisse out of, and made Ysolt Fauvel's entire reason to exist — has no mechanical home at all, leaving self-teaching priced in hit points, which is precisely the 'reads distinct but plays 5e' failure this pass exists to catch. The kit also calls the innkeeper Kellan, a person who exists in no other file, in four load-bearing places that print into scene context every beat. Graph reconciliation is done and verified: I added the four missing location records (including The Hollow Horn and Larenne, the campaign's two most-referenced places, which no axis had created), normalized 17 bible edges and 4 bare nodes from the culture and magic-lore axes onto the skeleton's id-and-relation convention, deduplicated the Market Court node the culture and factions axes had authored twice under one id, and unioned Brother Aumery's location tags before first-wins merging discarded two thirds of him — taking dangling references from 60-odd to zero, with world-bible.json, locations.json, npcs.json, facts.json and ruleset.json left untouched for their owners."
+}

@@ -1,0 +1,356 @@
+{
+  "locations": {
+    "The Rushlight House": {
+      "position": "A low turf-roofed cottage at the moor edge, past the end of Cordwain Row on Larenne's western side",
+      "connections": [
+        {
+          "to": "Larenne",
+          "path": "five minutes' walk up Cordwain Row to the market square"
+        },
+        {
+          "to": "The Larenne Moor",
+          "path": "straight out the back gate onto the sheep-track; no fence between the garden and the moor"
+        }
+      ],
+      "description": "Ysolt Fauvel's charm-work premises and home. Damp-wards cut so often into the lintel that the wood is scalloped. Inside: drying racks of moor-herb, a kitchen table scoured pale by thirty years of apprentices reciting cold on it, and a shelf of other people's broken things awaiting mending. Smells of tallow, wet wool, and something faintly medicinal. She works with the door open in all weathers so that people can see she has nothing to hide."
+    },
+    "Guisse's Copying-Room": {
+      "position": "A single rented room off the Larenne Chapterhouse yard, entered from the alley rather than the cloister",
+      "connections": [
+        {
+          "to": "The Larenne Chapterhouse",
+          "path": "across the yard, thirty paces — Perrin does the chapterhouse's contract work"
+        },
+        {
+          "to": "Larenne",
+          "path": "out the alley onto the market square"
+        }
+      ],
+      "description": "Ink, lampblack, and the particular sour smell of cheap size. Perrin Guisse copies wills, carting contracts, and — stacked on the end of the bench where the light is worst — chapbooks for people who cannot afford real books. He speaks slightly too loudly and watches mouths. The shelf behind him holds the exemplars he copies from, most of them themselves copies, several of them wrong."
+    },
+    "The Cousinry Room": {
+      "position": "The upper room of Larenne's Wool Hall, above the fleece scales, reached by an outside stair",
+      "connections": [
+        {
+          "to": "Larenne",
+          "path": "the Wool Hall stands on the market square; the outside stair is on the square side, in full view"
+        },
+        {
+          "to": "The Hollow Horn",
+          "path": "across the square — close enough that Cousinry members drink at the Horn afterward"
+        }
+      ],
+      "description": "Claret, candle-stubs, and a long table under a painted Direnni genealogy that is at least half invention. Four meetings a year, dues paid quarterly. Against the north wall stands a locked press: the first shelf is minutes and subscription rolls, and the second shelf is three volumes of genuine Direnni-descended Illusion practice, including a complete Corbeau with the sixth chapter intact. Aumeric Delance keeps the key on his person."
+    },
+    "The Sheepfold at Bram's Dike": {
+      "position": "A ruined drystone fold on the moor, an hour's walk out of Larenne along the dike, off the moor road",
+      "connections": [
+        {
+          "to": "The Larenne Moor",
+          "path": "follow the dike; the fold sits where it turns"
+        },
+        {
+          "to": "Larenne",
+          "path": "an hour back down the sheep-track, longer in fog"
+        }
+      ],
+      "description": "Four walls to chest height, no roof, no door, and no one within earshot — which is the entire point. Where a Larenne apprentice goes to practice a figure they do not want the town to know they are practicing. Old scorch on the inner stones from other people's failures. Out of sight of the moor road, but not far from it."
+    }
+  },
+  "npcs": {
+    "Ysolt Fauvel": {
+      "description": "The charm-wife of Larenne: the town's practical magic-worker, Restoration and Alteration in the hedge tradition, thirty years in the trade. Damp-wards, set bones, sheep-finding, the Hollow Horn's ale-cellar rune. She knows the first two figures of the Veiling Arts and has not spoken them aloud in twenty years, because a known veiler loses her honest custom. HOOK: she will not teach the PC Illusion — but she will teach what lies underneath it (the draw, reciting cold, and above all the closing), because she would rather train a fool than bury one. Her price is not coin: she wants to know who comes through the Horn's door, names, coaches, which travelers ask directions to the moor road. She will not say why. Paying her means quietly trading on the inn's trust, which is the PC's only standing in Larenne.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "The Rushlight House",
+          "Larenne",
+          "The Hollow Horn"
+        ],
+        "quests": []
+      }
+    },
+    "Perrin Guisse": {
+      "description": "Copyist and stationer off the chapterhouse yard; deaf in the left ear and hears his own voice as if through a wall. He tells people it is what the moor damp does to a man. It is not — at nineteen he taught himself the Muffle out of a book that was missing its sixth chapter, could not perform the closing, and took a sticking that never lifted. He still sells that book: 'The Wardrobe of Mist, being a Discourse upon Illusion for Persons of Modest Ability', attributed to Magister Ilaine Corbeau of Wayrest, copied from a copy. HOOK: he is simultaneously the cheapest door into Illusion and the living warning about it — the GM's built-in way to telegraph the cost before the PC pays it. Kind, chatty, slightly too loud, and will absolutely sell it to an Argonian doorsman for a few coppers without asking a single question.",
+      "attitude": "friendly",
+      "tags": {
+        "locations": [
+          "Guisse's Copying-Room",
+          "The Larenne Chapterhouse",
+          "Larenne"
+        ],
+        "quests": []
+      }
+    },
+    "Ninon Guisse": {
+      "description": "Perrin's daughter, twenty-two, who does the fine copying because her father's hand shakes now. Sharper than him and considerably more careful: she has read the Wardrobe of Mist front to back, worked out for herself exactly which chapter is missing, and has refused to attempt a single figure until she can source a complete Corbeau. The Cousinry has one on its second shelf and will not admit her — she has no family, no dues, and is a woman of the wrong sort of no-family. HOOK: the PC's natural fellow-conspirator and rival for the same locked shelf. She wants it for scholarship. Whatever he wants it for, she will eventually notice is different.",
+      "attitude": "friendly",
+      "tags": {
+        "locations": [
+          "Guisse's Copying-Room",
+          "The Cousinry Room",
+          "Larenne"
+        ],
+        "quests": []
+      }
+    },
+    "Hazruun of Tigonus": {
+      "description": "A Redguard coachwarden on the Daggerfall–Wayrest run who overnights in the Hollow Horn's yard four or five times a season. She practices magic, which among her own people is a small disgrace she stopped explaining a long time ago. She learned the Veiling Arts as road tools from other guards: the Muffle to walk a spooked team past a bandit camp, the Sway to settle horses, the Veil to sit in a hedge for six hours while men with knives go by. HOOK: the real mentor path, and the only plausible local source above the Muffle. She teaches no one who has not ridden with her, because she does not believe a figure is learned until it has been used with something at stake — which means the PC must leave the door, leave Larenne, and take a road where things genuinely happen. SECOND HOOK (hers, unspoken): three winters ago a coach she warded went out onto the moor road and was never found — not the horses, not the wheels, not the mud-marks. She keeps taking that stretch on purpose.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "The Hollow Horn",
+          "Larenne",
+          "The Larenne Moor"
+        ],
+        "quests": []
+      }
+    },
+    "Aumeric Delance": {
+      "description": "Presiding Cousin-Magister of the Direnni Cousinry of Glenumbra, which meets four times a year above the Wool Hall to be told it has elven ancestors. He claims cousinhood with both the Vaudrys and the Direnni on evidence he prefers not to produce. Genuinely competent at Alteration, mediocre at everything else, and entirely aware that the Cousinry's second shelf is the only thing about the society that anyone serious would want. HOOK: he holds the key to the complete Corbeau and will not turn it for an Argonian doorsman on any account he would state aloud. He can be patronised into it by someone above him, bought, blackmailed over the genealogy he cannot produce, or simply burgled — and a burglary in the Wool Hall's upper room is exactly the sort of test a man who has just learned the Muffle would talk himself into.",
+      "attitude": "suspicious",
+      "tags": {
+        "locations": [
+          "The Cousinry Room",
+          "Larenne",
+          "The Hollow Horn"
+        ],
+        "quests": []
+      }
+    }
+  },
+  "facts": {
+    "plot_local": [
+      "Perrin Guisse sells a badly copied 'Wardrobe of Mist' that is missing its sixth chapter — the chapter on the closing. It works well enough to be believed, which is exactly what makes it dangerous. Anyone who self-teaches from it can reach the Candle and probably the Muffle, and will eventually take a sticking.",
+      "Ysolt Fauvel will teach the foundation of magic — the draw, reciting cold, the closing — but not Illusion. Her price is information from the Hollow Horn's door: names, coaches, and which travelers ask the way to the moor road. She refuses to say why she wants it.",
+      "The Direnni Cousinry keeps a locked press above the Wool Hall. The second shelf holds three volumes of genuine Direnni-descended Illusion practice, including a complete Corbeau. Aumeric Delance holds the key and will not give it to an Argonian.",
+      "Ninon Guisse wants the same locked shelf the PC will eventually want, for entirely different reasons, and is better placed to notice what he is really after.",
+      "The ruined sheepfold at Bram's Dike is where Larenne apprentices go to practice out of earshot. It is off the moor road, unroofed, and there is old scorch on the inner stones from other people's failures."
+    ],
+    "plot_regional": [
+      "Hazruun of Tigonus will only teach the Veiling Arts to someone who rides the Daggerfall–Wayrest run with her, on the grounds that a figure is not learned until it has been used with something at stake. Taking her offer means leaving the inn and the town.",
+      "Three winters ago a coach Hazruun warded went out onto the Larenne moor road and was never found — no horses, no wheels, no mud-marks. She has been working that stretch ever since without telling anyone why.",
+      "There is no Mages Guild in Larenne. The nearest halls are Daggerfall and Wayrest, and both require a sponsor, a fee, and a letter of introduction. Neither has ever admitted an Argonian doorsman.",
+      "The Larenne Chapterhouse does not carry the old manor out past the dike on its tithe rolls, which is irregular. Brother Aumery has noticed and has done nothing."
+    ],
+    "plot_world": [
+      "Illusion — the Veiling Arts — carries a permanent bad name across High Rock because it is understood as the school of thieves, spies, and assassins. A practitioner who takes Illusion coin loses their honest custom. This is a social gate on the PC's arc as much as a mechanical one.",
+      "The Still Hand (paralysis) is not taught anywhere in Glenumbra by anyone reputable. There is no honest trade that needs it. It is passed only by people who want something in exchange, and the exchange is never money."
+    ],
+    "hedge_magic": [
+      "Breton hedge-magic is a purchased trade, not a wonder: damp-wards on wool sheds, setting-charms for broken bones, sheep-finding at a rate per head, a cooling rune under the Hollow Horn's ale-cellar shelf renewed every second Sun's Dusk.",
+      "Hedge vocabulary: 'the draw' (a body's magicka capacity — when it runs out the hands shake and vision silvers at the edges); 'a figure' (a spell as taught, both shape and sequence); 'reciting cold' (drilling a figure without spending draw — months of it before an honest teacher lets an apprentice spend a measure); 'the closing' (the second half of every figure, the half amateurs skip).",
+      "Breton innate magic resistance is an unremarked background fact here — a hedge-curse thrown at a Larenne carter usually simply fails to bite. It is why Larenne threatens people with the law rather than with witchcraft. It does not extend to the Argonian on the Hollow Horn's door, and no Breton would think to mention that to him.",
+      "The Larenne Chapterhouse dispenses Restoration on high days and to the poor, briskly and slightly rationed, through its resident divine of Stendarr. Brother Aumery ledgers every dispensation and finds it the dullest part of his duties."
+    ],
+    "the_veiling_arts": [
+      "Illusion is called the Veiling Arts and its progression is named in five figures: the Candle (a false appearance, one sense, one observer), the Muffle (silence around a body), the Veil (brief, fragile invisibility), the Sway (calm, fear, and the small glamour that makes a stranger's face read as familiar), and the Still Hand (paralysis).",
+      "The standard first drill is the candle-drill: make a lit candle look unlit to a single watcher across a table. Tedious, harmless, and the foundation of everything above it.",
+      "A 'sticking' is what happens when an untaught practitioner cannot perform the closing: the figure settles onto its maker instead of failing. A stuck Muffle deafens. A stuck Veil leaves parts of the body out of step with the light — a hand arriving a half-beat after the arm, a reflection turning its head late. A stuck Sway leaves the caster carrying the emotion: three days of dread with no object, or placid calm while the barn burns. A stuck Still Hand locks a jaw, a finger, a knee, and does not always let go.",
+      "Stickings are rarely lethal. They are permanent, visible, and they turn a person into a story the town tells — which in Larenne is worse than a wound."
+    ],
+    "the_green_murmur": [
+      "The PC's undercurrent has no name in Glenumbra and he has never tried to name it. It is not a spell: no figure, no closing, no draw. It cannot be cast, invoked, or rolled for.",
+      "It manifests only as three deniable things: a room going very quiet inside him just before it goes loud outside him; his hand already being where it needs to be; and dreams of enormous pale-barked trees standing in warm black water, dreams that have a smell he cannot place, which he has never mentioned to anyone and could not say why.",
+      "Argonians call this private half-understood sense 'the green murmur' and those few who speak of it say only that it is the Hist and then stop. There are no Argonians in Larenne and no one within two hundred miles who could tell him whether what he has is ordinary.",
+      "GM DISCIPLINE: never a mechanic, never player-invokable. Surfaces rarely and at GM choosing, always readable as personality or coincidence. Do not explain it in narration, do not let an NPC name it, and do not connect it to the mark on his hide, to any organisation, or to the Illusion training arc. If it seems to make the Veiling Arts come strangely easily to him, that is for the reader to notice and not for the text to say."
+    ],
+    "vampirism_iliac_bay": [
+      "Vampirism on the Iliac Bay is a lineage rather than a plague: eight bloodlines share the coast, each with its own habits, inherited gifts, and long grudges against the other seven, and all eight prefer a quiet arrangement — a stable territory, a compliant village, a century of nobody counting carefully — to open predation.",
+      "Clan Montalion holds the Glenumbra countryside by that kind of arrangement. Larenne has never knowingly seen one and has stories anyway: a family on the moor road who went away one autumn and left the shutters closed; a great-uncle who did not age between two weddings; the standing advice that nobody sensible walks the moor road after dark, given without a reason because the reason was forgotten generations ago and the advice was kept.",
+      "Montalion have no appetite for Argonian blood — cold, wrong, barely worth the trouble by their reckoning — which is precisely why the PC could walk that road for years and be ignored, and why this thread can sit untouched indefinitely.",
+      "PACING: rumour only until the player steers into it. A name overheard, a coach that never arrived, a gap in the chapterhouse tithe rolls. Never a confrontation and never an offer until the player reaches for it."
+    ],
+    "kit_notes_illusion_gating": [
+      "FOR THE WORLD-KIT AUTHOR — the PC begins with zero spellcasting and zero assassin training. No Illusion access may come from race, background, class feature, feat, or automatic level-up. Level-ups alone must never grant a figure.",
+      "Model the school as the five named figures — the Candle, the Muffle, the Veil, the Sway, the Still Hand — as discrete unlockable entries rather than a spell list. 5e mapping suggestion: Candle -> Minor Illusion / Silent Image; Muffle -> Silence; Veil -> Invisibility; Sway -> Calm Emotions, Cause Fear, Charm Person, Disguise Self, Sleep; Still Hand -> Hold Person / paralysis.",
+      "Gate each figure on three things, all of which must actually happen in play: (1) a NAMED SOURCE — a teacher who agreed to teach it, or a complete text the PC obtained; (2) DRILL — a stated span of in-fiction practice, 'reciting cold', tracked as downtime, weeks not minutes; (3) a TEST under real risk — the figure's first use must be in a scene where failure costs something. Only after the test does the figure go on the sheet.",
+      "Sources available in Larenne, in ascending cost: Perrin Guisse's defective 'Wardrobe of Mist' (cheap, reaches the Candle and Muffle only, and every use before the closing is learned risks a sticking); Ysolt Fauvel (teaches the draw and the closing but no Illusion, price is betraying the inn's confidence); the Cousinry's locked second shelf (complete Corbeau — requires patronage, purchase, blackmail, or burglary); Hazruun of Tigonus (Muffle, Veil, Sway — price is riding the Daggerfall–Wayrest run and leaving Larenne). The Still Hand has NO source in Glenumbra: reaching it must require a new arc entirely.",
+      "The sticking is the failure mechanic and should hurt narratively rather than in hit points: a lasting condition tied to the figure that failed (deafness, desynchronised limb/reflection, a carried emotion, a locked joint), lifting slowly and not always fully, and visible to other people. Recommend that any use of a figure whose closing the PC has not been formally taught carries a sticking check; being taught the closing by Ysolt Fauvel removes that check entirely, which is the mechanical reward for the least glamorous training path.",
+      "The green murmur must have NO mechanical representation at all — no bonus, no resource, no ability entry, no roll. It is GM-narrated only."
+    ]
+  },
+  "bible": {
+    "factions": {
+      "nodes": [
+        {
+          "id": "direnni-cousinry",
+          "name": "The Direnni Cousinry of Glenumbra",
+          "type": "faction",
+          "summary": "A subscription society of minor Glenumbra gentry who meet four times a year above Larenne's Wool Hall to be told they have Direnni elven ancestors. Mostly claret and genealogy. Owns a locked press whose second shelf holds three volumes of genuine Direnni-descended Illusion practice, including a complete Corbeau. Presided over by Aumeric Delance, who keeps the key and decides who reads it. The single most guarded piece of magical instruction in the town, held by people who mostly cannot use it."
+        },
+        {
+          "id": "larenne-hedge-trade",
+          "name": "The Hedge Trade",
+          "type": "faction",
+          "summary": "Not an organisation — a profession with strong customs. Larenne's practical magic-workers, of whom Ysolt Fauvel is the only full practitioner in town. Restoration and Alteration for hire, taught by imitation and drill. Its governing social rule is that a practitioner who takes Illusion coin loses their honest custom, which is why the Veiling Arts have no visible teacher in Glenumbra despite being widely known."
+        },
+        {
+          "id": "road-trade-veilers",
+          "name": "The Road-Trade Veilers",
+          "type": "faction",
+          "summary": "A loose lineage rather than a guild: coachwardens and road-guards along the Daggerfall–Wayrest and Sentinel routes who pass the Veiling Arts hand to hand as working tools. No dues, no hall, no rolls — teaching is done by riding together. Hazruun of Tigonus is this campaign's contact with it, and the only realistic path above the Muffle available from Larenne."
+        }
+      ],
+      "edges": [
+        {
+          "from": "direnni-cousinry",
+          "to": "barony-larenne",
+          "relation": "aspires to; several members claim cousinhood with the Vaudrys on evidence they prefer not to produce"
+        },
+        {
+          "from": "larenne-hedge-trade",
+          "to": "direnni-cousinry",
+          "relation": "openly contemptuous — Ysolt Fauvel can actually do what they collect books about"
+        },
+        {
+          "from": "larenne-hedge-trade",
+          "to": "larenne-chapterhouse",
+          "relation": "uneasy division of labour; the chapterhouse gives Restoration free on high days and undercuts her"
+        },
+        {
+          "from": "road-trade-veilers",
+          "to": "the-hollow-horn",
+          "relation": "overnight in the coach-yard four or five times a season; the inn is their fixed point on this stretch"
+        },
+        {
+          "from": "road-trade-veilers",
+          "to": "larenne-hedge-trade",
+          "relation": "mutually dismissive — road-trade thinks hedge-work is soft, hedge-trade thinks road-trade will get someone stuck"
+        },
+        {
+          "from": "clan-montalion",
+          "to": "road-trade-veilers",
+          "relation": "unacknowledged — a warded coach vanished on the moor road three winters ago and Hazruun keeps coming back"
+        }
+      ]
+    },
+    "geography": {
+      "nodes": [
+        {
+          "id": "the-rushlight-house",
+          "name": "The Rushlight House",
+          "type": "landmark",
+          "summary": "Ysolt Fauvel's charm-work premises and home: a low turf-roofed cottage at the moor edge past the end of Cordwain Row, damp-wards cut so often into the lintel that the wood is scalloped. She works with the door open in all weathers so people can see she has nothing to hide."
+        },
+        {
+          "id": "guisses-copying-room",
+          "name": "Guisse's Copying-Room",
+          "type": "landmark",
+          "summary": "A single rented room off the Chapterhouse yard, entered from the alley rather than the cloister, where Perrin Guisse copies wills, carting contracts and chapbooks — including the defective 'Wardrobe of Mist' with its sixth chapter missing."
+        },
+        {
+          "id": "the-cousinry-room",
+          "name": "The Cousinry Room",
+          "type": "landmark",
+          "summary": "The upper room of Larenne's Wool Hall, reached by an outside stair in full view of the square. Claret, candle-stubs, a half-invented Direnni genealogy, and a locked press whose second shelf holds three volumes of genuine Direnni-descended Illusion practice, including a complete Corbeau."
+        },
+        {
+          "id": "the-sheepfold-brams-dike",
+          "name": "The Sheepfold at Bram's Dike",
+          "type": "landmark",
+          "summary": "A ruined drystone fold an hour out along the dike — four walls to chest height, no roof, no one within earshot. Where a Larenne apprentice goes to practise a figure they do not want the town to know they are practising. Old scorch on the inner stones."
+        }
+      ],
+      "edges": [
+        {
+          "from": "larenne",
+          "to": "the-rushlight-house",
+          "relation": "contains, at the moor edge past Cordwain Row"
+        },
+        {
+          "from": "larenne",
+          "to": "guisses-copying-room",
+          "relation": "contains, off the chapterhouse yard"
+        },
+        {
+          "from": "larenne",
+          "to": "the-cousinry-room",
+          "relation": "contains, above the Wool Hall on the Weighing Yard"
+        },
+        {
+          "from": "larenne-moor",
+          "to": "the-sheepfold-brams-dike",
+          "relation": "contains, an hour out along the dike"
+        },
+        {
+          "from": "the-sheepfold-brams-dike",
+          "to": "the-old-manor",
+          "relation": "not far apart, though nobody in Larenne says so out loud"
+        }
+      ]
+    },
+    "timeline": [
+      {
+        "when": "Long before this story",
+        "event": "Direnni elven practice filters down into Breton households and becomes hedge-work: a trade taught by imitation, priced by the job, and stripped of theory."
+      },
+      {
+        "when": "A generation or so past",
+        "event": "Magister Ilaine Corbeau of Wayrest sets down 'The Wardrobe of Mist', a plain-language Illusion primer for persons of modest ability, whose sixth chapter concerns the closing."
+      },
+      {
+        "when": "Roughly thirty years ago",
+        "event": "Ysolt Fauvel finishes her apprenticeship, learns the first two figures of the Veiling Arts, and stops speaking them aloud on the day she realises what it would cost her Restoration custom."
+      },
+      {
+        "when": "Roughly twenty years ago",
+        "event": "Perrin Guisse, nineteen, teaches himself the Muffle from a copy of Corbeau missing its sixth chapter, cannot perform the closing, and takes a sticking that never lifts. He tells the town it is the moor damp. He keeps selling the book."
+      },
+      {
+        "when": "Three winters ago",
+        "event": "A coach warded by Hazruun of Tigonus goes out onto the Larenne moor road and is never found — no horses, no wheels, no mud-marks. She has worked that stretch ever since."
+      },
+      {
+        "when": "Now",
+        "event": "There is still no Illusion teacher in Larenne, a defective book on sale for coppers, a complete one locked above the Wool Hall, and a coachwarden who will teach anyone willing to leave town and be shot at."
+      }
+    ],
+    "signature_systems": [
+      {
+        "name": "Hedge-Work (Breton Practical Magic)",
+        "summary": "Magic as a purchased trade. Damp-wards, setting-charms, sheep-finding, cellar runes. Its vocabulary is the campaign's magic vocabulary: the draw, a figure, reciting cold, the closing. Competent, unglamorous, and universally present — texture rather than a PC resource."
+      },
+      {
+        "name": "The Veiling Arts — the Five Figures",
+        "summary": "Illusion's named ladder: the Candle, the Muffle, the Veil, the Sway, the Still Hand. Real named structure for the PC to train INTO. Each figure is unlocked only by a named source plus tracked drill plus a first use under genuine risk. Socially disreputable across High Rock; the Still Hand (paralysis) has no honest teacher anywhere in Glenumbra."
+      },
+      {
+        "name": "The Sticking (Illusion Backlash)",
+        "summary": "A figure whose closing cannot be performed settles onto its maker instead of failing. Deafness from a stuck Muffle; a body out of step with the light from a stuck Veil; a carried emotion from a stuck Sway; a locked joint from a stuck Still Hand. Rarely lethal, frequently permanent, always visible — the folk-horror cost that makes self-teaching a real gamble rather than a shortcut."
+      },
+      {
+        "name": "The Green Murmur (Hist-Sense, Dormant)",
+        "summary": "Restated from the skeleton and reinforced here: no figure, no closing, no draw, no mechanic, no player invocation. Stillness before violence, a hand already in place, dreams of pale-barked trees in warm black water. GM-paced, deniable, never named in narration and never connected to anything."
+      },
+      {
+        "name": "Vampirism (Iliac Bay Clan Lore)",
+        "summary": "Eight bloodlines share the coast, each with inherited gifts and old grudges, all preferring quiet territorial arrangements to open predation. Clan Montalion holds the Glenumbra countryside. Kept at rumour-distance; Montalion have no appetite for Argonian blood, which is a built-in reason the thread can stay dormant for as long as the player leaves it alone."
+      }
+    ],
+    "voice": {
+      "vocab": [
+        "the draw (how much magicka a body can pull before the hands shake and the vision silvers at the edges)",
+        "a figure (a spell as taught — both its shape and its sequence of steps)",
+        "reciting cold (drilling a figure without spending any draw; months of it before an honest teacher lets you spend a measure)",
+        "the closing (the second half of every figure, the half amateurs skip and the reason they get hurt)",
+        "a sticking (an unclosed figure settling onto its own maker — deafness, a desynchronised hand, a carried dread, a locked jaw)",
+        "the Veiling Arts (Illusion, and the faint disrepute the phrase always carries in High Rock)",
+        "the charm-wife (Larenne's word for its resident practitioner, said with respect and a little wariness)",
+        "candle-drill (the first exercise: make a lit candle look unlit to one watcher across a table)",
+        "the Still Hand (paralysis — named plainly, because no euphemism has ever helped)"
+      ],
+      "sample_passages": [
+        "The charm-wife would not teach him the Veiling Arts and said so the first time and the fourth. What she would teach him, she said, was the closing, because she had buried one apprentice already and had not enjoyed it.",
+        "Perrin Guisse sold him the book for four coppers and said it was a good copy, and said it loudly, the way he said everything, turning his right ear toward the answer.",
+        "There are five figures and every guard on the Wayrest road can name all five and perhaps two of them can do the third. Hazruun did not tell him which two she could do."
+      ]
+    },
+    "themes": [
+      "Skill as a debt: nothing worth knowing here is given, and every teacher's price is paid in standing rather than coin",
+      "The cost of self-teaching — the shortcut that works well enough to be believed",
+      "Respectable magic and disreputable magic, divided by nothing but what people assume you want it for",
+      "A power he carries and cannot use, running quietly alongside a power he is choosing to earn"
+    ]
+  }
+}
