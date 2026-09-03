@@ -1,0 +1,112 @@
+{
+  "id": "cassius-aurelinus",
+  "name": "Cassius Aurelinus",
+  "race": "Imperial",
+  "class": "Warrior (Fighter chassis) -- Knight of the Imperial Legion, the Dragonguard",
+  "level": 1,
+  "stats": {
+    "str": 16,
+    "dex": 10,
+    "con": 14,
+    "int": 8,
+    "wis": 12,
+    "cha": 15
+  },
+  "saves": {
+    "str": 5,
+    "dex": 0,
+    "con": 4,
+    "int": -1,
+    "wis": 3,
+    "cha": 2
+  },
+  "ac": 17,
+  "hp": {
+    "current": 12,
+    "max": 12
+  },
+  "speed": 30,
+  "proficiency_bonus": 2,
+  "skills": {
+    "athletics": 5,
+    "speechcraft": 4,
+    "insight": 3,
+    "blade": 5
+  },
+  "equipment": [
+    "Legion chainmail, polished for parade and proven in the field",
+    "Kite shield bearing Akatosh's dragon sigil in worked bronze",
+    "Longsword, legion arming pattern",
+    "Legion spear (backup weapon)",
+    "Holy symbol of Akatosh on a plain iron chain",
+    "Legion papers and Dragonguard seal -- standing to detain any suspect in an Imperial province",
+    "A war-horse, legion-bred, unnamed as yet",
+    "Traveling pack, rations, a soldier's bedroll"
+  ],
+  "features": [
+    "Voice of the Emperor (Imperial): 1/long rest, calm one hostile humanoid who can hear and understand him (Wis save vs 8+prof+Cha) -- it cannot attack for 1 minute or until harmed.",
+    "Star of the West (Imperial): 1/long rest, regain resources equal to 5 x proficiency bonus (applies to Divine Blessings for Cassius, in place of magicka).",
+    "Blood of the Trollkin (The Lord birthsign): regain 1 HP at the start of each of his turns while above 0 HP.",
+    "Weakness (The Lord birthsign): disadvantage on saving throws against fire -- an old irony for a knight sworn to the Dragon God.",
+    "Papers and Bunk (Legion Auxiliary background): legion garrison lodging, rations, and standing to detain a suspect in any Imperial province. Legionaries salute him and expect obedience in return.",
+    "Knight of the Imperial Legion specialization: discipline, shield-wall tactics, and Champion-style reliability in a fight.",
+    "Divine Blessings (battlefield prayer to Akatosh, granted at his knighting -- not full Restoration schooling): 2 uses per long rest. Each may be spent for a touch-heal (2d6 + Wis mod HP), a Bless (advantage on the next attack or save for an ally within 30 ft), or Steady the Line (end fear or charm on one ally within 30 ft). Spending more than one blessing in a day incurs a 7-day Obligation (per the Two Lenders rule)."
+  ],
+  "background": "Legion Auxiliary, raised into the Dragonguard -- Cassius was a Colovian farm-and-legion Imperial from the west, unremarkable until a border skirmish three winters back where he held a collapsing shield-line alone long enough for the relief column to arrive. The garrison chaplain called it Akatosh's own hand on his shoulder; his legate called it the best excuse for a promotion she'd had all year. He was knighted into the Dragonguard within the season -- an old, half-ceremonial order revived in recent years as the Empire likes its symbols visible while its foundations creak. He does not fully believe the chaplain's story about the shield-line. He has stopped arguing with it.",
+  "alignment": "Lawful Good, worn practical rather than shining",
+  "bonds": "His legate, Tribune Sabina Ostorius, who recommended him for the Dragonguard and now commands the Bruma garrison -- he owes her the knighthood and does not forget debts.",
+  "flaws": "Trusts the Empire's authority more readily than he trusts his own judgment of a situation -- papers and orders can make him slower to question a bad command than he should be.",
+  "ideals": "The Empire's peace is worth defending even where it's thin, even where the people being defended don't want him there.",
+  "traits": "Formal in speech even off duty, uncomfortable with being thanked, prays before meals out of habit rather than performance.",
+  "notes": [],
+  "gold": 45,
+  "xp": {
+    "current": 0,
+    "next_level": 300
+  },
+  "resources": {
+    "school_ranks": {
+      "_default": "untrained",
+      "_scale": "novice | apprentice | journeyman | expert | master",
+      "alteration": "untrained",
+      "conjuration": "untrained",
+      "destruction": "untrained",
+      "illusion": "untrained",
+      "mysticism": "untrained",
+      "restoration": "untrained"
+    },
+    "divine_blessings": {
+      "current": 2,
+      "max": 2,
+      "obligation_active": false,
+      "obligation_ends": null
+    },
+    "daedric_ledger": {
+      "_note": "6 segments per Prince, tracked via gm-clock.sh if/when he ever takes a Prince's gift -- currently none open. A Dragonguard taking Daedric favor would be a very loaded scene."
+    },
+    "guild_standing": [
+      {
+        "guild": "Imperial Legion / Dragonguard",
+        "rank": "Knight (newly raised)",
+        "rank_tier": 1
+      }
+    ],
+    "bounty": {},
+    "luck_burned_total": 0,
+    "luck": 10
+  },
+  "visual_appearance": {
+    "sex": "male",
+    "age": "late twenties",
+    "race": "Imperial",
+    "species": "human, Cyrodiilic (Colovian west)",
+    "hair": "close-cropped, dark, greying early at the temples",
+    "face": "square-jawed, weathered more than his years, a thin old scar through one eyebrow",
+    "eyes": "brown, steady, the kind of stare that reads as calm command rather than menace",
+    "clothing": "legion chainmail over a quilted gambeson, a surcoat quartered in Imperial red and gold bearing Akatosh's dragon in worked bronze on the shield",
+    "gear": "longsword and kite shield, a spear slung for the horse, a plain iron holy symbol worn under the mail rather than over it",
+    "demeanor": "upright, formally courteous, slow to anger and slower to forgive an oath broken",
+    "size": "tall, built for a shield-wall rather than speed"
+  },
+  "current_location": "Bruma"
+}

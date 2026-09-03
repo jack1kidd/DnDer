@@ -1,0 +1,144 @@
+{
+  "npcs": {
+    "Sercia Volumnia": {
+      "description": "Under-Archivist of the Amber Roll, the Elder Council's unbroken session-ledger, in the vaults beneath the White-Gold Tower. A dry, ink-stained Imperial woman of fifty who has personally copied every Council minute for nineteen years — including the eleven inches of ruled, blank vellum that constitute the Redacted Session of 3E 428. She did not write that blank, and it offends her more than any crime she has ever heard of. She will not smuggle a document out, but she will tell you, precisely and bitterly, which documents exist.",
+      "attitude": "suspicious",
+      "tags": { "locations": ["The Imperial City"], "quests": [] }
+    },
+    "Attius Merula": {
+      "description": "Sergeant-of-the-Rolls, retired, of the Fourth Legion — a Colovian veteran in his sixties who fought the Camoran Usurper's tireless host on the Iliac coast in 3E 398 and stood at Firewaves. He keeps a bare room in Chorrol and a ledger of every man in his century, with how each one died and which of them got up again afterward. He is the cheapest expert in Cyrodiil on how Daedra-fed armies behave in the field, and the only reason nobody consults him is that nobody currently believes they will need to.",
+      "attitude": "friendly",
+      "tags": { "locations": ["Chorrol"], "quests": [] }
+    },
+    "Anselme Vaubert": {
+      "description": "A Breton grain-factor of Wayrest, comfortably rich and quietly unwell, who was standing in the Iliac Bay on the day of the Warp in the West in 3E 403. He remembers three complete and mutually exclusive versions of that year — in one he served Daggerfall, in one Wayrest, in one he died at Betony — and all three are furnished with the same weight of detail. Imperial clerks have twice attempted to deposition him and twice given up. He is not mad. He is evidence, and he knows it, and he drinks about it.",
+      "attitude": "friendly",
+      "tags": { "locations": ["High Rock"], "quests": [] }
+    },
+    "Ravel Sarethi": {
+      "description": "Formerly an annalist of the Tribunal Temple at Ald'ruhn, now a Dunmer refugee lodging above a Nibenese scrivener's shop with four crates of chronicles that the New Temple would prefer did not exist. He spent thirty years documenting the deeds of three living gods and then watched all three stop being gods in the space of a season. He is scrupulously polite to outlanders, drinks nothing, and is the single best living source on what happens to a religion the moment its divinities are confirmed to have been people.",
+      "attitude": "neutral",
+      "tags": { "locations": ["The Imperial City", "Morrowind"], "quests": [] }
+    },
+    "Nauriel of Alinor": {
+      "description": "Cultural Attache to the Thalmor embassy in the Imperial City, whose formal duty is the exchange of historical texts between Summerset and the Imperial Library. He is compiling, with perfect openness and immaculate manners, a comparative chronology titled the Ledger of Provinces — a tabulation of every interval in recorded history between an Empire's first unanswered provincial defiance and its collapse. He will happily discuss his findings. That is the alarming part.",
+      "attitude": "neutral",
+      "tags": { "locations": ["The Imperial City"], "quests": [] }
+    },
+    "Hjalmar Ice-Tongue": {
+      "description": "A Nord skald of the Jerall passes who winters in Bruma and holds the memorized oral roll of the northern jarldoms back eleven generations. His version of the Empire's history disagrees with the Septim Count on roughly a third of its dates and on the entirety of its tone, and he has never once been wrong about a thing that happened within a Nord's lifetime. He was the one who supplied the four-century-stale precedent two jarls used to refuse the legion levy in 3E 419, and he considers this the finest work of his career.",
+      "attitude": "neutral",
+      "tags": { "locations": ["Bruma"], "quests": [] }
+    }
+  },
+  "facts": {
+    "plot_local": [
+      "The Amber Roll's entry for the eleventh Council session of 3E 428 is a date, an attendance list, and eleven inches of ruled but blank vellum. Attendance included two Blades officers, which no ordinary session ever includes. Under-Archivist Sercia Volumnia knows who ordered the blank and is looking for someone she can afford to tell.",
+      "Imperial Watch reports from the Isle since 3E 429 describe a red cast to the sky over Lake Rumare at hours with no weather to explain it. The Imperial Astronomer has classified these as aurora — a category that appears nowhere else in five centuries of Cyrodiilic watch-books.",
+      "The Fighters Guild's unpublished Chorrol Tally shows Daedra-related contracts rising from roughly one in thirty (3E 415) to one in seven (3E 429), with no matching rise in pay. Chorrol's veterans are angry about a trend they have not yet correctly named.",
+      "Palace staff report that Uriel Septim VII has not slept a full night since 3E 428, has quietly doubled his Blade escort without stating a cause, and did not wear the Amulet of Kings at the last three public rites. The Temple of the One insists the Dragonfires burn as always.",
+      "Four slim volumes of the Mythic Dawn Commentaries circulate hand to hand among Imperial City men of means and grievances. The Office of Sanctions logged the group in 3E 416 as a philosophical society and has never amended the entry."
+    ],
+    "plot_regional": [
+      "The Legion never restaffed the Colovian garrisons emptied during the Imperial Simulacrum. The Gold Road is patrolled at roughly half the strength its tax-writs claim, and Chorrol's timber-factors now hire private escorts — banditry taking the shape that precedes rebellion.",
+      "The Jerall Tithe Refusal (3E 419): two Nord jarls declined the legion levy citing a four-century-old Old Ways precedent. Bruma's Count negotiated rather than arrested, and the Council ratified the negotiation. Every province in Tamriel read the result correctly.",
+      "The Rihad Grain Writ riot (3E 421): a Forebears harbour-master applied Imperial tariff to Crown-held estates; three days of rioting, forty dead, and a Legion cohort that declined to deploy. Hammerfell's ancient schism briefly became an arithmetic problem about how many Redguards the Empire can actually compel.",
+      "The Blackwood Levy (3E 423): Leyawiin's garrison conscripted Argonian labour under a corvee statute unused for a century. Something in Black Marsh started organising in reply. Council intelligence on it is officially 'sufficient for present purposes,' which is the phrase used when there is none.",
+      "Since the Tribunal's Ending in 3E 427, House Hlaalu — which staked everything on Imperial goodwill — has been bleeding influence to the ascendant House Redoran, and Dunmer refugees have been arriving in Cyrodiil at a rate the Heartlands resents openly."
+    ],
+    "plot_world": [
+      "Uriel Septim VII is past eighty and has three living sons — Geldall, Enman, and Ebel — each the favoured instrument of a different Elder Council bloc, none formally confirmed as heir. He has been asked in Council four times in eleven years and has deflected each time with a grace that stopped a fifth asking.",
+      "The founding trauma of modern Imperial politics is the Imperial Simulacrum (3E 389-399), in which Jagar Tharn wore the Emperor's face for ten years and governed adequately without a single Councilor noticing. Every succession faction's paranoia dates from those ten years.",
+      "The Anvil Manifests: Summerset-flagged hulls have been calling at the Gold Coast under third-party charter at four times the rate of a decade ago, departing with copies of Imperial provincial censuses. Nothing about this is illegal, and nothing about it is ordinary merchant interest.",
+      "The Aldmeri claim to rule Tamriel is not a Thalmor invention. The Second Era's first Aldmeri Dominion filed it, and the present Thalmor inherited the paperwork intact — along with the grievance that Tiber Septim, a man, was made the Ninth Divine.",
+      "Every Imperial collapse in recorded history was internal. The Alessian Empire destroyed itself in the War of Righteousness; the Second Empire ended in the murder of the Reman line. No foreign power has ever brought down an Empire of Cyrodiil, and the Thalmor's Attache Nauriel has tabulated this."
+    ],
+    "chronology": [
+      "Two official Imperial chronologies disagree and neither is permitted to correct the other. The Septim Count dates Talos's crowning to 1E 2321; the Elder Council's Amber Roll records only some four centuries of sessions under the Septim seal. The Imperial Geographical Society formally declined to adjudicate in 3E 404.",
+      "The reason for the chronological split, never stated in a public volume, is that time in Tamriel has broken before — a Dragon Break — and demonstrably did so again within living memory at the Warp in the West. On either side of such a break the years do not reconcile and survivors remember several different true things.",
+      "Practical Imperial subjects resolve dating disputes by using whichever year their tax-writ uses, and do not raise the matter at dinner."
+    ],
+    "merethic_lore": [
+      "The Ehlnofey, the Earth Bones, broke themselves into the shape of the world; from that sundering came the Aldmer, who remembered their divine parentage and grieved it, and the Nedes, who forgot and were content.",
+      "Aldmer who went east into the Heartland swamps became the Ayleid (rendered 'Aylied' in older Colovian rolls) and raised white-stone star-lit towers over a human slave population no Imperial history states aloud. Those who went underground became Dwemer and stopped speaking to anyone. Those who followed the prophet Veloth east became Chimer, later Dunmer.",
+      "Ysgramor and the Five Hundred Companions came out of frozen Atmora, found Skyrim inhabited by snow-elves, and made it uninhabited by them. Every present-day Nord grudge is a footnote to that voyage, and Nords consider this a virtue."
+    ],
+    "first_era_lore": [
+      "The slave-queen Alessia broke the Ayleid dominion of Cyrodiil around 1E 242 by bargaining the Nords into her rebellion, and founded both the first human Empire and the compact of the Eight Divines — the settlement between human faith and elven pantheon that every Imperial temple still runs on. Talos was added later to make Nine.",
+      "At Red Mountain in 1E 700 the entire Dwemer race ceased to be present in the world in a single unrecorded instant. Their cities remain lit, warm, and running; their machines still work and still kill intruders. No Aedric or Daedric explanation has ever fit, which is why the ruins are unpopular with theologians and popular with adventurers.",
+      "The same conflict changed the Chimer into ash-skinned, red-eyed Dunmer and raised three of their number as the Tribunal — living gods Morrowind prayed to for over three thousand years.",
+      "The Ra Gada landed from drowned Yokuda in 1E 808 and immediately split into Crowns, who held the old kingship came with them, and Forebears, who held the new land deserved new terms. That argument is sixteen centuries old and is still an argument.",
+      "The Akaviri invasion of 1E 2703 was broken at Pale Pass by Reman Cyrodiil, whereupon the survivors knelt to the man who beat them and became his bodyguard — the ancestors of the Blades. This is why the Emperor's guard is drawn from outsiders and why Blade loyalty runs to the Dragonborn rather than the Council."
+    ],
+    "second_era_lore": [
+      "The Reman line ended in murder and Tamriel spent some four centuries with no centre — the Interregnum, which every province remembers fondly and the Empire does not discuss.",
+      "The Knahaten Flu emptied Black Marsh's borderlands and killed almost no Argonians. The rest of Tamriel noticed and has never stopped noticing.",
+      "Tiber Septim brought Morrowind into the Empire by the Armistice rather than by conquest — the Great Houses keeping their law, their Temple, and their internal rule in exchange for tribute and legions. That treaty is why House Redoran answers to a Councilor and not a Governor.",
+      "Tiber Septim is held to have wielded the brass god Numidium in his campaigns. Imperial histories give it one line. Altmeri histories do not stop mentioning it.",
+      "Talos was made the Ninth Divine after his death. The Aldmeri consider this the greatest blasphemy in recorded history, and every courtesy exchanged between the Elder Council and the Thalmor embassy is conducted over that fact."
+    ],
+    "third_era_lore": [
+      "The War of the Red Diamond taught the Elder Council that the Septim line can fracture and the Empire survive. It also taught them the cost, which was a generation.",
+      "While Jagar Tharn wore the Emperor's face, the Camoran Usurper came north out of Valenwood (3E 397-399) with a host requiring neither food, water, nor burial, and took most of the Iliac coast before a coalition under Baron Othrok broke him at the Battle of Firewaves. It remains the last serious armed challenge to the Septim line and the last Daedra-fed army seen in the field.",
+      "Veterans of the Firewaves campaign are in their sixties now, and when they see a summoned thing they do not react the way other men do.",
+      "The Warp in the West (3E 403) collapsed forty-four Iliac kingdoms into four — Daggerfall, Wayrest, Sentinel, and Orsinium — in a day, or a week, or several contradictory years depending on which survivor is asked. Every survivor is telling the truth. The Empire calls it the Miracle of Peace and a diplomatic settlement of the War of Betony.",
+      "The Mythic Dawn began meeting in Imperial City cellars around 3E 415, teaching that the Empire's peace is a cage the Divines built, that the Nine are jailers, and that a Prince's chosen champion could unbar the door.",
+      "In 3E 427 the Blight broke, Red Mountain went quiet, and the Tribunal simply stopped. The Temple reconstituted as the New Temple and now preaches the sainthood of what it once worshipped as divinity."
+    ],
+    "elder_council_redactions": [
+      "The Sancre Tor Quiet (3E 418): a Blades detachment went to Tiber Septim's tomb-fortress on business the Amber Roll calls 'restoration of a monument.' Nine went in, four came out, and the stonemasons' contract was never issued.",
+      "High Chancellor Ocato has permitted exactly one written record of the Emperor's four refusals to confirm an heir, and it is not kept in the Amber Roll.",
+      "The Silence of the Silvenar (3E 424): Valenwood's spirit-voice stopped answering Imperial correspondence. The Thalmor embassy expressed impeccable regret. Bosmer timber and Bosmer archers have both grown markedly harder for the Empire to hire since."
+    ]
+  },
+  "bible": {
+    "timeline": [
+      { "when": "Merethic Era", "date": "Merethic Era", "event": "The Ehlnofey sunder themselves into the shape of the world. Aldmer spread from drowned Aldmeris to Summerset; the Ayleid raise star-lit towers over the Heartlands, the Dwemer go underground, and Veloth leads the Chimer east." },
+      { "when": "Late Merethic", "date": "Late Merethic", "event": "Ysgramor and the Five Hundred Companions sail from Atmora and take Skyrim from the snow-elves. Every Nord grudge since is a footnote to that voyage." },
+      { "when": "c. 1E 242", "date": "c. 1E 242", "event": "The slave-queen Alessia breaks Ayleid rule over Cyrodiil with Nord help, founding the first human Empire and the compact of the Eight Divines." },
+      { "when": "1E 361 onward", "date": "1E 361 onward", "event": "The Alessian Order's reforms curdle into the War of Righteousness — the Empire's priests destroy one another and the Empire falls over. No foreign power was involved." },
+      { "when": "1E 700", "date": "1E 700", "event": "At Red Mountain the entire Dwemer race ceases to be present in the world in one unrecorded instant. The Chimer become Dunmer; three of them ascend as the Tribunal." },
+      { "when": "1E 808", "date": "1E 808", "event": "The Ra Gada land from drowned Yokuda and take Hammerfell, splitting at once into Crowns and Forebears — an argument still running sixteen centuries later." },
+      { "when": "1E 2703", "date": "1E 2703", "event": "Reman Cyrodiil breaks the Akaviri invasion at Pale Pass; the survivors kneel and become his bodyguard, ancestors of the Blades. The Second Empire is founded." },
+      { "when": "2E (Interregnum)", "date": "2E (Interregnum)", "event": "The Reman line ends in murder. Four centuries without a centre: the Knahaten Flu empties Black Marsh's borders, and the first Aldmeri Dominion files the Summerset claim to rule Tamriel that the Thalmor still hold." },
+      { "when": "1E 2321 (Septim Count) / disputed", "date": "1E 2321 (Septim Count) / disputed", "event": "Talos, called Tiber Septim, is crowned first Emperor of the Third Empire — the date given by the official Septim Count, which the Elder Council's own Amber Roll (four centuries of sessions) has never been permitted to correct. The Imperial Geographical Society declined to adjudicate in 3E 404." },
+      { "when": "Founding era of the Third Empire", "date": "Founding era of the Third Empire", "event": "The Armistice brings Morrowind into the Empire unconquered — Great Houses keep their law and Temple for tribute and legions. Tiber Septim is held to have wielded the brass god Numidium; after death he is made the Ninth Divine, which the Aldmeri call the greatest blasphemy in history." },
+      { "when": "3E 389-399", "date": "3E 389-399", "event": "The Imperial Simulacrum: Battlemage Jagar Tharn imprisons Uriel Septim VII outside the world and wears his face for ten years, governing adequately without a single Councilor noticing." },
+      { "when": "3E 397-399", "date": "3E 397-399", "event": "The Camoran Usurper's rebellion — a tireless Daedra-fed host takes most of the Iliac coast before Baron Othrok's coalition breaks it at the Battle of Firewaves. The last serious armed challenge to the Septim line." },
+      { "when": "3E 403", "date": "3E 403", "event": "The Warp in the West. Forty-four Iliac kingdoms become four in a day, a week, or several contradictory years; every survivor remembers truthfully and differently. The Empire calls it the Miracle of Peace." },
+      { "when": "3E 404", "date": "3E 404", "event": "The Imperial Geographical Society formally declines to reconcile the Septim Count with the Amber Roll, ending four centuries of official Imperial chronology as a single agreed thing." },
+      { "when": "3E ~415", "date": "3E ~415", "event": "The Mythic Dawn begins quietly recruiting in the Imperial City, distributing four volumes of Commentaries. The Office of Sanctions logs it in 3E 416 as a philosophical society; the entry is never amended." },
+      { "when": "3E 418", "date": "3E 418", "event": "The Sancre Tor Quiet: a Blades detachment enters Tiber Septim's tomb-fortress on Council business recorded as 'restoration of a monument.' Nine go in, four come out." },
+      { "when": "3E 419", "date": "3E 419", "event": "The Jerall Tithe Refusal — two Nord jarls decline the legion levy on an Old Ways precedent; Bruma's Count negotiates instead of arresting, and the Council ratifies it." },
+      { "when": "3E 421", "date": "3E 421", "event": "The Rihad Grain Writ riot in Hammerfell: three days, forty dead, and a Legion cohort that declined to deploy against Crown estates." },
+      { "when": "3E 423", "date": "3E 423", "event": "The Blackwood Levy — Leyawiin's garrison conscripts Argonian labour under a century-dormant corvee statute. Black Marsh begins organising a reply the Empire cannot see." },
+      { "when": "3E 424", "date": "3E 424", "event": "The Silence of the Silvenar: Valenwood ceases answering Imperial correspondence, and Bosmer archers and timber both grow harder for the Empire to hire." },
+      { "when": "3E 426", "date": "3E 426", "event": "The Anvil Manifests — Summerset-flagged hulls call at the Gold Coast under third-party charter at four times the rate of a decade prior, departing with copies of Imperial provincial censuses." },
+      { "when": "3E 427", "date": "3E 427", "event": "The Tribunal's Ending: the Blight breaks, Red Mountain goes quiet, and Morrowind's living gods stop. The Temple reconstitutes as the New Temple; House Redoran rises as House Hlaalu bleeds; Dunmer refugees begin arriving in Cyrodiil." },
+      { "when": "3E 428", "date": "3E 428", "event": "The Redacted Session — the eleventh Council sitting of the year is recorded as a date, an attendance list including two Blades officers, and eleven inches of ruled, blank vellum." },
+      { "when": "3E 429", "date": "3E 429", "event": "Watch reports describe a red cast to the sky over Lake Rumare in clear weather. The Imperial Astronomer classifies it as aurora, a category unknown to five centuries of Cyrodiilic watch-books. The Emperor stops sleeping through the night and doubles his Blade escort without stating a cause." },
+      { "when": "3E 430", "date": "3E 430", "event": "PRESENT DAY. Uriel Septim VII, past eighty, has three living sons and no confirmed heir; the Council has stopped asking. The Chorrol Tally shows Daedric contracts at one in seven. The peace is not sick — it is held, by habit and paperwork, and everyone who reads history knows what that looks like from the inside." }
+    ],
+    "voice": {
+      "vocab": [
+        "the Septim Count (official Imperial dating)",
+        "the Amber Roll (the Elder Council's session-ledger)",
+        "a Dragon Break (a stretch of history that refuses to reconcile)",
+        "the Interregnum",
+        "the Armistice (Morrowind's terms of entry into the Empire)",
+        "the Miracle of Peace (Imperial euphemism for the Warp in the West)",
+        "Firewaves veteran",
+        "the Chorrol Tally"
+      ],
+      "sample_passages": [
+        "An honest chronicler must begin by confessing that Tamriel does not agree with itself about when anything happened; the Septim Count and the Amber Roll are kept in the same building, disagree by some nineteen centuries, and have not been permitted to correct one another since 3E 404.",
+        "The Empire has never once been destroyed by an enemy. It has only ever been destroyed by its own devout, its own heirs, and its own clerks — a pattern the Imperial histories record faithfully and the Elder Council reads as reassurance.",
+        "It is the position of this compiler, offered without the Society's endorsement, that the Third Empire in 3E 430 is not sick. It is held. Such arrangements hold beautifully, and for a long time, and then they hold no longer, and the histories written afterward always note that the signs were everywhere."
+      ]
+    },
+    "themes": [
+      "History is contested paperwork — two official chronologies, and the one you cite depends on who is taxing you",
+      "The Empire has only ever been killed from the inside; every collapse in the record is internal"
+    ]
+  }
+}

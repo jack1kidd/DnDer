@@ -1,0 +1,1380 @@
+{
+  "npcs": {
+    "Uriel Septim VII": {
+      "description": "Emperor of Tamriel, seventy-nine, fifty-one years on the Ruby Throne. Not senile — elsewhere. He dismisses Council mid-debate, keeps long silences beneath the gold-leaf ceiling, and describes his dreams only to his Blades. He has three acknowledged sons and has named none of them heir in writing, and once, in open Council, referred to a son the Council has never seen.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "The Imperial City"
+        ],
+        "quests": []
+      }
+    },
+    "High Chancellor Ocato": {
+      "description": "Altmer of Firsthold, born in Summerset before the Isles closed, forty years in Septim service. He runs the Elder Council by controlling the agenda-order and wins arguments by never letting them be held. Backs Prince Geldall and unbroken continuity. His weakness is his blood: every courtesy call he pays the Thalmor embassy costs him three Talos-hardliner votes, and he keeps paying them.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "The Imperial City"
+        ],
+        "quests": []
+      }
+    },
+    "Grand Marshal Cassius Vitellan": {
+      "description": "Colovian holder of the Legion's Council seat, thirty years of being told by clerks what the army may afford. Believes only a soldier-emperor can hold Tamriel and is not plotting a coup so much as auditing one: touring provincial garrisons, noting which legates answer his letters within the week. Would trade the Legion's votes for a necromancy ban in exchange for battlemages seconded to the border forts.",
+      "attitude": "suspicious",
+      "tags": {
+        "locations": [
+          "The Imperial City",
+          "Anvil"
+        ],
+        "quests": []
+      }
+    },
+    "Councilor Ariante Mena": {
+      "description": "Minister of Provincial Affairs, of the old Nibenese river families. Would buy the provinces' loyalty by giving them things — House law confirmed for Morrowind, the jarl-moot recognized in Skyrim, a Council seat for Hammerfell's Crowns. Colovians call it selling the Empire in pieces; she calls it paying for the peace the Empire has been stealing. Has twice buried the Fighters Guild's petition against the Blackwood Company to keep Leyawiin's tariff vote.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "The Imperial City",
+          "Leyawiin"
+        ],
+        "quests": []
+      }
+    },
+    "Countess Narina Carvain": {
+      "description": "Countess of Bruma, sitting for the northern march. Collects Akaviri relics with a scholar's greed and votes with whichever bloc will fund a proper garrison at the Pale Pass before Skyrim's jarls remember it exists. The Council's honest broker chiefly because both blocs need her and neither can afford her. Currently at open odds with Jarl Sigdrifa Bear-Widow over the doubled Pale Pass toll.",
+      "attitude": "friendly",
+      "tags": {
+        "locations": [
+          "Bruma",
+          "The Imperial City"
+        ],
+        "quests": []
+      }
+    },
+    "Prince Geldall Septim": {
+      "description": "Eldest son of Uriel VII, thirty-four, diligent to the point of dullness and painfully aware that diligence is not the same as consent. Ocato's candidate. Attends Council sessions he is not required to attend and has begun, quietly, to ask ministers what his father says when he is not in the room.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "The Imperial City"
+        ],
+        "quests": []
+      }
+    },
+    "Grandmaster Jauffre": {
+      "description": "Grandmaster of the Blades under a monk's habit at Weynon Priory outside Chorrol — a spymaster's ledger under the floorboards and a Breton's patience above it. Has spent three years verifying a single line the Emperor spoke once in Council and Ocato struck from the record: a son no one has seen. Keeps a thin, unpursued file on the Mythic Dawn and one on the Thalmor scribe who shops at Phintias's counter.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "Chorrol"
+        ],
+        "quests": []
+      }
+    },
+    "Arch-Mage Aurelia Sallustis": {
+      "description": "Ninety-three, brilliant, and Arch-Mage Emerita of the Mages Guild after twenty-six years in the chair. Refused for eleven years to rule on the necromancy question, on the grounds that the Guild's founding charter names conjuration of the dead a school of study and not a crime — and was outmaneuvered rather than outvoted for it in 3E 428, when Traven's faction and Vitellan's Council votes moved together. She keeps rooms in the Arcane University library now, officially retired, and is the only person left who knows where the expelled raisers actually went. No one has thought to ask her.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "The Imperial City"
+        ],
+        "quests": []
+      }
+    },
+    "Councilor-Mage Caranya": {
+      "description": "Altmer of the Council of Mages, formidable and unfailingly reasonable, who opposes Traven's ban with the entirely correct argument that prohibition would cede the field to the King of Worms. The University's more suspicious apprentices note that she is also the only Council-Mage who has never once condemned the Order of the Black Worm by name.",
+      "attitude": "suspicious",
+      "tags": {
+        "locations": [
+          "The Imperial City"
+        ],
+        "quests": []
+      }
+    },
+    "Raminus Polus": {
+      "description": "The Arcane University's overworked keeper of recommendations — the man an outsider actually meets when they want the Guild. He signs the recommendations, which means he signed the last four for mages who are no longer at any hall. He has begun keeping a private second list of the names he vouched for and cannot now account for, and has not decided whether showing it to Traven would be loyalty or the end of his career.",
+      "attitude": "helpful",
+      "tags": {
+        "locations": [
+          "The Imperial City"
+        ],
+        "quests": []
+      }
+    },
+    "Master Vilena Donton": {
+      "description": "Master of the Fighters Guild, presiding from Chorrol. A competent administrator and a mother, in that order, ever since her elder son died on a Guild contract. She has spent two years assigning her surviving son Viranus work that cannot possibly kill him, and the whole Guild has noticed, and her enemies are counting on it.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "Chorrol"
+        ],
+        "quests": []
+      }
+    },
+    "Modryn Oreyn": {
+      "description": "Dunmer Second of the Fighters Guild, holding its standards together with contempt and paperwork. Blunt to the point of insubordination, incorruptible, and the only officer keeping proper accounts of what the Blackwood Company is actually doing in the marshes. Would have the Master's chair in a heartbeat if the charter did not make it hereditary in practice.",
+      "attitude": "friendly",
+      "tags": {
+        "locations": [
+          "Chorrol",
+          "Leyawiin"
+        ],
+        "quests": []
+      }
+    },
+    "Ri'Zakar": {
+      "description": "Khajiit commander of the Blackwood Company out of Leyawiin. Undercuts Fighters Guild rates by a third, takes contracts the Guild's charter forbids, and completes them. His men come back from the Blackwood marshes unwounded, glassy-eyed and very calm, and no one outside the Company has explained what they drink before a job.",
+      "attitude": "hostile",
+      "tags": {
+        "locations": [
+          "Leyawiin"
+        ],
+        "quests": []
+      }
+    },
+    "Armand Christophe": {
+      "description": "Doyen of the Thieves Guild on the Imperial City Waterfront. Interviews applicants standing on a dockside grave and expects them to have already stolen something before they arrive. Enforces the three-line code — steal from anyone, never kill in the work, pay the Guild its cut — and has closed two safehouses this season because Captain Lex has stopped being a joke.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "The Imperial City"
+        ],
+        "quests": []
+      }
+    },
+    "The Gray Fox": {
+      "description": "Masked head of the Thieves Guild, who has held the post for three hundred years — either proof of a Daedric bargain or proof that the Guild has had the sense to keep re-issuing the same mask. Nobody who has met him can afterward describe his face, and several swear they cannot recall his name, which is the more interesting symptom.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "The Imperial City",
+          "Anvil"
+        ],
+        "quests": []
+      }
+    },
+    "Captain Hieronymus Lex": {
+      "description": "Imperial Watch captain who has made the Thieves Guild a personal crusade and has recently, dangerously, begun to be good at it. Swept the Waterfront twice this season on accurate information. Honest, humorless, and entirely uninterested in why the Elder Council keeps declining to fund him properly.",
+      "attitude": "suspicious",
+      "tags": {
+        "locations": [
+          "The Imperial City"
+        ],
+        "quests": []
+      }
+    },
+    "Lucien Lachance": {
+      "description": "Speaker of the Black Hand for the Cheydinhal Sanctuary, and the Dark Brotherhood's recruiter in Cyrodiil. His method is patient and simple: he watches for someone who has killed without a contract, and then offers them the chance to never do it for free again. Speaks of Sithis the way a banker speaks of a creditor he respects.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "Cheydinhal",
+          "The Imperial City",
+          "Chorrol"
+        ],
+        "quests": []
+      }
+    },
+    "Ungolim": {
+      "description": "An unremarkable Bosmer of Bravil who feeds the pigeons at the statue of the Lucky Old Lady and is, though no living Speaker will say the words aloud, the Listener — the one ear in Tamriel the Night Mother speaks into. He has heard three Black Sacraments in eighteen months naming clerks of the Imperial Ministry of the Purse, and it has begun to trouble even him.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "Bravil",
+          "The Imperial City"
+        ],
+        "quests": []
+      }
+    },
+    "Vaesa Malleius": {
+      "description": "A Ministry of the Purse tax-clerk, forty-one, unmarried, who audits Waterfront slip-fees on Fredas and takes tea afterward on the same Talos Plaza terrace. The Mythic Dawn calls her rank Sponsor. She has never done anything illegal and never will — she simply notices who is angry at the Empire and introduces them to a book.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "The Imperial City"
+        ],
+        "quests": []
+      }
+    },
+    "Phintias": {
+      "description": "Proprietor of the First Edition bookshop in the Imperial City Market District. Will sell you the first three volumes of the Mythic Dawn Commentaries and complain at length about the binding. Does not stock the fourth; says nobody does; mentions, if pressed and paid, that people who ask after it tend to stop asking.",
+      "attitude": "friendly",
+      "tags": {
+        "locations": [
+          "The Imperial City"
+        ],
+        "quests": []
+      }
+    },
+    "Mankar Camoran": {
+      "description": "The name ascribed to the Mythic Dawn Commentaries. In 3E 430 he is an authorial signature and nothing more — no address, no portrait, no Watch file. The one fact nobody at court has bothered to connect: the Camoran Usurper who burned through Valenwood and Hammerfell in 3E 397 left children, and the Empire never counted them.",
+      "attitude": "enemy",
+      "tags": {
+        "locations": [],
+        "quests": []
+      }
+    },
+    "First Emissary Ilianwe Tarnaril": {
+      "description": "Altmer head of the Thalmor legation on the Talos Plaza — eleven staff, dues paid early, conduct beyond reproach for twelve years. Asks questions that sound like small talk and have not changed in eleven of them: which legions rotate through Anvil, which noble houses carry Altmeri debt, which of the Emperor's sons has an interest in ships.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "The Imperial City"
+        ],
+        "quests": []
+      }
+    },
+    "Estarion Vaele": {
+      "description": "Justiciar-Attaché of the Thalmor embassy, who keeps a ledger cataloguing every invocation of Talos-as-god made in an official Imperial proceeding — session, speaker, and exact wording. The Blades have twice failed to steal it. Neither he nor the First Emissary has ever said what it is for.",
+      "attitude": "suspicious",
+      "tags": {
+        "locations": [
+          "The Imperial City"
+        ],
+        "quests": []
+      }
+    },
+    "Arch-Prelate Sercia Vellani": {
+      "description": "Keeper of the Temple of the One in the Imperial City and the Imperial Cult's senior voice in the capital. Has spent two years compiling an attendance return she has not yet submitted to the Elder Council: the fourth pew is emptying, and it is emptying of exactly the educated young Nibenese who used to fill it. She asked her deacons where they had gone. The deacons said: reading.",
+      "attitude": "friendly",
+      "tags": {
+        "locations": [
+          "The Imperial City"
+        ],
+        "quests": []
+      }
+    },
+    "Crassius Curio": {
+      "description": "House Hlaalu councilor of Balmora — poet, notorious lecher, and by a wide margin the shrewdest man in Morrowind. Holds Morrowind's Council proxy in the Imperial City and sells his vote for tariff exemptions with a frankness the Nibenese find refreshing and the Colovians find obscene. Genuinely fond of outlanders, which is itself a political position in Morrowind.",
+      "attitude": "friendly",
+      "tags": {
+        "locations": [
+          "Morrowind",
+          "The Imperial City"
+        ],
+        "quests": []
+      }
+    },
+    "Orvas Dren": {
+      "description": "Hlaalu landholder, brother to the Duke, and the hand that holds the Camonna Tong's leash — native-supremacist, skooma-funded, and openly of the view that every outlander in Morrowind should leave on a ship or in one. His men kill Thieves Guild fences on sight, because the Guild's code protects thieves and the Tong is not a guild.",
+      "attitude": "hostile",
+      "tags": {
+        "locations": [
+          "Morrowind"
+        ],
+        "quests": []
+      }
+    },
+    "Archmaster Athyn Sarethi": {
+      "description": "Archmaster of House Redoran, honor-bound, ancestor-fearing, and personally decent in a way that makes him harder to bargain with rather than easier. Considers Hlaalu a house of foreign clerks wearing Dunmer faces. Has this year refused Imperial garrison rights at three Redoran border forts and called it a scheduling matter, which the Legion has so far allowed him to call it.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "Morrowind"
+        ],
+        "quests": []
+      }
+    },
+    "Master Aryon": {
+      "description": "Telvanni wizard-lord of Tel Vos and the House's one reform-minded voice: he argues that a House which ignores the Empire will be legislated out of existence by clerks it never bothered to meet. His peers find this charmingly modern and beside the point. Takes outlander apprentices, which the older masters regard as a hobby, like breeding netch.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "Morrowind"
+        ],
+        "quests": []
+      }
+    },
+    "High King Rangvar Cold-Crown": {
+      "description": "High King of Skyrim in Solitude, whose authority over the jarls is the authority of a man holding a rope tied to nine dogs. Pays the Empire's tax, honors the Empire's law where the road runs — which in Skyrim is not far — and spends most of his reign preventing jarls from meeting each other.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "Skyrim"
+        ],
+        "quests": []
+      }
+    },
+    "Jarl Sigdrifa Bear-Widow": {
+      "description": "Jarl of Falkreath, holding the Pale Pass road down to Bruma. Has doubled the pass-toll twice in two years. Countess Carvain of Bruma calls this a border incident; Sigdrifa calls it commerce, and points out that the Empire's engineers have not repaired a Skyrim-side stone of that road since the Warp in the West.",
+      "attitude": "suspicious",
+      "tags": {
+        "locations": [
+          "Skyrim",
+          "Bruma"
+        ],
+        "quests": []
+      }
+    },
+    "Jarl Kjeld the Unmourned": {
+      "description": "Jarl of Windhelm, who keeps the Grey Quarter's Dunmer under curfew and speaks openly of the Hearth-Oath — the old claim that Morrowind owes Skyrim blood-price for raids two eras settled. Tolerates no Mages Guild hall in his hold. Has begun corresponding with somebody in Cyrodiil and will not say who.",
+      "attitude": "hostile",
+      "tags": {
+        "locations": [
+          "Skyrim"
+        ],
+        "quests": []
+      }
+    },
+    "King Lhotun of Sentinel": {
+      "description": "King in Sentinel and inventor of Hammerfell's third position — honor the Old Ways and the Imperial treaty both. His Lhotunics are consequently hated by Crowns and Forebears with a purity neither can manage toward the other. Survives on the arithmetic that two enemies who despise each other more than they despise him will never combine.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "Hammerfell"
+        ],
+        "quests": []
+      }
+    },
+    "Rahd al-Marek": {
+      "description": "Crown voice out of Hegathe, of the old Na-Totambu bloodlines, who holds that the Redguards took Hammerfell with their own swords before there was an Empire and owe it nothing but courtesy. Councilor Mena has offered the Crowns their own Elder Council seat. He has not yet answered, which in Crown politics is itself an answer being negotiated.",
+      "attitude": "suspicious",
+      "tags": {
+        "locations": [
+          "Hammerfell"
+        ],
+        "quests": []
+      }
+    },
+    "Admiral Idris al-Rihad": {
+      "description": "Forebear commander of the Rihad squadrons and the reason Anvil's pirates retired into respectable shipping. Argues the Empire's peace built the docks that feed Hammerfell and that Crown honor has never once unloaded a cargo. Keeps a standing bounty on any Crown captain who runs the Abecean without paying port dues.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "Hammerfell",
+          "Anvil"
+        ],
+        "quests": []
+      }
+    }
+  },
+  "facts": {
+    "plot_local": [
+      "Captain Hieronymus Lex has swept the Imperial City Waterfront twice this season on accurate information — someone inside the Thieves Guild is selling, and Armand Christophe has closed two safehouses while he works out who.",
+      "Master Vilena Donton is assigning her surviving son Viranus only Fighters Guild contracts that cannot kill him, and the Chorrol chapterhouse is quietly furious about the ones that are therefore going to somebody else.",
+      "A Ministry of the Purse tax-clerk named Vaesa Malleius audits Waterfront slip-fees every Fredas and takes tea afterward at the same Talos Plaza terrace, always with a different guest, always a young Nibenese with a grievance.",
+      "The First Edition bookshop in the Imperial City Market District has sold eleven copies of the Mythic Dawn Commentaries in six months and Phintias has begun writing the buyers' names in the margin of his ledger without being able to say why.",
+      "The Blackwood Company has licensed premises in Leyawiin and is underbidding the Fighters Guild by a third on every marsh contract; Modryn Oreyn is keeping an unofficial tally of what comes back from those jobs and in what condition.",
+      "Countess Narina Carvain of Bruma will pay well, and off the books, for Akaviri relics recovered from the Pale Pass — and better still for an accurate count of Falkreath's men at the Skyrim-side toll gate.",
+      "Three Black Sacraments in eighteen months have named clerks of the Imperial Ministry of the Purse. Somebody is thinning a ledger, and the Dark Brotherhood is being paid to do the arithmetic.",
+      "The Thalmor embassy's junior scribe has twice been seen at Phintias's counter asking after the fourth volume of the Commentaries, which is not for sale and, Phintias insists, does not exist."
+    ],
+    "plot_regional": [
+      "The Mages Guild's Council of Mages is deadlocked on necromancy: Hannibal Traven would ban and burn, Councilor-Mage Caranya would keep the field rather than cede it to the Order of the Black Worm, and Arch-Mage Aurelia Sallustis has refused to rule for eleven years.",
+      "Grand Marshal Vitellan has offered the Legion's Council votes for a necromancy ban in exchange for Guild battlemages seconded to the provincial garrisons — a bargain that would put Mages Guild casters under Legion command for the first time in the Empire's history.",
+      "House Redoran has refused Imperial garrison rights at three border forts this year and called it a scheduling matter; the Legion has so far permitted the fiction, and both sides know exactly how many more months it can hold.",
+      "The Camonna Tong kills Thieves Guild fences on sight in Vvardenfell, and the war has cost more lives this decade than the Empire's tax collectors have — a fact Crassius Curio uses in Council whenever Hlaalu wants something.",
+      "Jarl Sigdrifa Bear-Widow has doubled the Pale Pass toll twice, choking Bruma's northern trade; Countess Carvain wants the pass garrisoned and needs a bloc in Council to fund it before the jarls notice how thin the march really is.",
+      "Jarl Kjeld the Unmourned keeps Windhelm's Dunmer under curfew and is corresponding with someone in Cyrodiil he will not name — Redoran has heard, and Redoran remembers blood-price better than it remembers treaties.",
+      "Councilor Ariante Mena's proposal to grant Hammerfell's Crowns their own Elder Council seat would either settle the province or set it alight; Rahd al-Marek has not answered, and King Lhotun is spending everything he has to keep it from reaching a vote."
+    ],
+    "plot_world": [
+      "Uriel Septim VII has named no heir the Elder Council will ratify. Blood is not the problem — Geldall, Enman and Ebel all live. Consent is the problem: the Council has discovered it prefers an aging Emperor to a young one.",
+      "The Emperor once, in open Council, spoke of a son no one present had ever seen. High Chancellor Ocato struck the words from the record as a mishearing. Grandmaster Jauffre of the Blades did not, and has spent three years quietly verifying it.",
+      "Grand Marshal Cassius Vitellan is touring the provincial garrisons and noting which legates answer his letters within the week. He is not plotting a coup. He is establishing whether one would be arithmetically possible.",
+      "The Mythic Dawn has recruited in the Imperial City since roughly 3E 415 and is still filed by the Watch as an antiquarian curiosity. It recruits upward — bored second sons, disillusioned Cult acolytes, mid-ranking Imperial clerks — and its entrance examination is a reading list.",
+      "The Thalmor legation catalogues every official invocation of Talos-as-god made in Imperial proceedings, in a ledger the Blades have twice failed to steal. Nobody at the embassy has ever said what the ledger is for.",
+      "Imperial Cult attendance in the capital is falling among the educated young, and Arch-Prelate Sercia Vellani has not yet submitted the return that says so to the Elder Council."
+    ],
+    "faction_lore": [
+      "The Empire's real instrument was never the Legion but the charter: give a trade its own law, its own dues and its own internal politics, and it will police itself more thoroughly than any garrison could.",
+      "Two of the four great guilds are chartered — Mages and Fighters — and the other two are the reason the first two matter.",
+      "The Thieves Guild code is three lines and older than the Septims: steal from anyone; never kill in the work; pay the Guild its cut. Outside Cyrodiil the code protects nothing — in Morrowind the Camonna Tong recognizes no such courtesy.",
+      "A Dark Brotherhood contract is opened by the Black Sacrament, a rite performed over an effigy of rotted flesh and nightshade for as long as it takes to be answered. The Night Mother hears, the Listener receives, the Black Hand disposes.",
+      "The Mages Guild's founding charter names conjuration of the dead a school of study and not a crime — which is why the necromancy question has never been settled and why settling it would break something.",
+      "The Elder Council seats forty-odd: provincial lords, ministerial appointees, and two guild proxies. The Mages Guild's proxy is Councilor Irlav Jarol; Morrowind's is bought and sold in Balmora by Crassius Curio.",
+      "The Mythic Dawn teaches that the Aedra spent themselves making the world and have nothing left to lend, that the Empire's peace is a cage built to keep men small, and that a Prince's champion will one day open a door in it. The cult prefers 'our Lord' to naming Mehrunes Dagon until the fourth interview.",
+      "The Thalmor embassy on the Talos Plaza has, in twelve years, paid its dues early, attended every state function, danced badly on purpose, and never once been caught doing anything."
+    ],
+    "faction_dossier": [
+      "The Elder Council — led by High Chancellor Ocato, seated at White-Gold Tower, The Imperial City. Wants: Govern the Empire's daily business while settling the succession without anyone admitting a succession is being settled. Works by: Agenda-order, committee burial, patronage appointments, and supper invitations withheld. Blocs: Ocato (continuity, Prince Geldall) | Grand Marshal Cassius Vitellan (a soldier-emperor) | Councilor Ariante Mena (devolve power to the provinces) | Countess Narina Carvain (swing vote, sells for the Pale Pass garrison) Friction: Vitellan's garrison tour is a coup audit and Ocato cannot say so without accusing the Legion.",
+      "The Mages Guild — led by Arch-Mage Aurelia Sallustis, seated at The Arcane University, The Imperial City. Wants: Teach the six schools to any qualified applicant regardless of birth, and keep its charter (and its tithe) acceptable to the Elder Council. Works by: Hall network, recommendations, monopoly on legal spell instruction and enchantment. Notables: Hannibal Traven (reformer, likely successor) | Councilor-Mage Caranya (opposes the ban) | Raminus Polus (recommendations) | Councilor Irlav Jarol (Council proxy) Friction: The necromancy deadlock — and Vitellan's offer to trade Legion votes for battlemages seconded to the garrisons.",
+      "The Fighters Guild — led by Master Vilena Donton, seated at Chorrol. Wants: Hold the monopoly on chartered contract work — monster culls, escort, guard-hire — against cheaper unchartered competition. Works by: Chapterhouse contracts, charter-law petitions to the Elder Council, and a code of conduct it can no longer afford. Notables: Modryn Oreyn (Second) | Viranus Donton (the Master's protected son) Friction: The Blackwood Company undercuts it by a third out of Leyawiin, and Councilor Mena has twice buried the Guild's petition to keep a tariff vote.",
+      "The Thieves Guild — led by The Gray Fox, seated at The Imperial City Waterfront (doyens also in Anvil and Bravil). Wants: Keep the code, keep the cut, and keep existing in an Empire that has no legal category for it. Works by: Fences, doyens, dead-drops, bribed watchmen, and a leader nobody can afterward describe. Notables: Armand Christophe (Waterfront doyen) Friction: Captain Hieronymus Lex has begun sweeping the Waterfront on accurate information, and in Morrowind the Camonna Tong kills Guild fences on sight.",
+      "The Dark Brotherhood — led by Listener Ungolim (beneath the Night Mother; the Black Hand disposes), seated at Sanctuaries, the nearest to Cyrodiil's heart at Cheydinhal. Wants: Answer every Black Sacrament, take the price, and keep Sithis fed. Works by: The Black Sacrament, Speakers who recruit murderers rather than train them, blood-sealed contracts and total silence. Notables: Lucien Lachance (Speaker, Cheydinhal) Friction: Three contracts in eighteen months on Ministry of the Purse clerks — the Brotherhood is being used to edit an Imperial ledger and has not asked whose.",
+      "The Mythic Dawn — led by Mankar Camoran (a signature on four books; no address, no portrait, no Watch file), seated at Unknown; a recruiting cell in the Imperial City. Wants: Prepare a door. Nothing has happened yet, and that is the point. Works by: A reading list — the four Mythic Dawn Commentaries, of which the fourth is not sold but replied to — and Sponsors who introduce angry educated people to books. Notables: Vaesa Malleius, 'the Sponsor' (Ministry of the Purse tax-clerk) | Phintias (bookseller, unwitting conduit) Friction: It is emptying the Imperial Cult's fourth pew, and Arch-Prelate Vellani has not yet reported it.",
+      "The Thalmor (Aldmeri Dominion) — led by First Emissary Ilianwe Tarnaril, seated at Legation, Talos Plaza, The Imperial City. Wants: Observe, catalogue, and be present when the Empire's peace stops being a peace. Works by: Impeccable protocol, dues paid early, eleven years of identical small talk, and a ledger of every official invocation of Talos-as-god. Notables: Justiciar-Attaché Estarion Vaele (keeper of the ledger) Friction: Ocato's Altmer blood — every courtesy the embassy pays him costs him votes, and chroniclers dispute whether the Thalmor seek him out for information or simply to bleed him.",
+      "The Imperial Cult (Nine Divines) — led by Arch-Prelate Sercia Vellani, seated at Temple of the One, The Imperial City. Wants: Pastoral care, Restoration healing, and the quiet maintenance of the finest intelligence network in Tamriel, since everyone confesses to somebody. Works by: Chapels in every city, deacons who listen, attendance returns nobody outside the Cult reads. Friction: Attendance among the educated young is falling in the capital, and the deacons say the missing congregants are 'reading'.",
+      "Great House Hlaalu — led by Councilor Crassius Curio (Balmora; holds Morrowind's Council proxy), seated at Balmora, Morrowind. Wants: Profit from the Empire's roads and law, and keep Morrowind's treaty exactly as it is forever. Works by: Tariff bargaining, Council vote-selling, and money that reaches everywhere the Legion does not. Friction: Redoran calls Hlaalu foreign clerks in Dunmer faces — and Hlaalu's own landholder Orvas Dren holds the Camonna Tong's leash, which is a knife the House cannot be seen holding.",
+      "Great House Redoran — led by Archmaster Athyn Sarethi, seated at Ald'ruhn, Morrowind. Wants: Keep the Old Ways, the ancestor-tombs and Dunmer honor intact against a peace that was bought with them. Works by: Martial oath, ancestor law, and this year a polite refusal of Imperial garrison rights at three border forts. Friction: With Hlaalu over Morrowind's Imperial future, and with Windhelm's Jarl Kjeld, who is reviving the Hearth-Oath blood-price claim.",
+      "Great House Telvanni — led by no single voice; Master Aryon of Tel Vos is its reformist one, seated at Sadrith Mora and the towers of the eastern coast, Morrowind. Wants: Whatever each wizard-lord in each tower wants this century. Works by: Raw sorcerous strength, mouths (proxies sent to meetings the masters will not attend), and centuries of refusing to attend anything. Friction: Aryon warns the House will be legislated out of existence by Imperial clerks it never bothered to meet; his peers find this charmingly modern and beside the point."
+    ]
+  },
+  "bible": {
+    "factions": {
+      "nodes": [
+        {
+          "name": "The Elder Council",
+          "type": "government",
+          "leader": "High Chancellor Ocato",
+          "seat": "White-Gold Tower, The Imperial City",
+          "goal": "Govern the Empire's daily business while settling the succession without anyone admitting a succession is being settled.",
+          "method": "Agenda-order, committee burial, patronage appointments, and supper invitations withheld.",
+          "blocs": "Ocato (continuity, Prince Geldall) | Grand Marshal Cassius Vitellan (a soldier-emperor) | Councilor Ariante Mena (devolve power to the provinces) | Countess Narina Carvain (swing vote, sells for the Pale Pass garrison)",
+          "friction": "Vitellan's garrison tour is a coup audit and Ocato cannot say so without accusing the Legion."
+        },
+        {
+          "name": "The Blades",
+          "type": "order",
+          "leader": "Grandmaster Jauffre",
+          "seat": "Weynon Priory, near Chorrol",
+          "goal": "Keep the Emperor alive and the Septim line intact — including any part of it the Council does not know about.",
+          "method": "Monastic cover, long verification, agents in Imperial livery and none in Council chambers.",
+          "friction": "Ocato struck the Emperor's mention of an unseen son from the record; Jauffre kept it, which makes the Blades' loyalty and the Chancellor's procedure quietly incompatible."
+        },
+        {
+          "name": "The Mages Guild",
+          "type": "guild",
+          "leader": "Arch-Mage Hannibal Traven",
+          "seat": "The Arcane University, The Imperial City",
+          "goal": "Teach the six schools to any qualified applicant regardless of birth, and keep its charter (and its tithe) acceptable to the Elder Council.",
+          "method": "Hall network, recommendations, monopoly on legal spell instruction and enchantment.",
+          "notables": "Arch-Mage Emerita Aurelia Sallustis (outmaneuvered, not outvoted) | Councilor-Mage Caranya (opposed the ban, was right) | Raminus Polus (recommendations) | Councilor Irlav Jarol (Council proxy)",
+          "friction": "The ban's aftermath — Caranya was right, the halls are hollow, and no one will say so in session — and Vitellan still owed the battlemages he traded his Council votes to get."
+        },
+        {
+          "name": "The Fighters Guild",
+          "type": "guild",
+          "leader": "Master Vilena Donton",
+          "seat": "Chorrol",
+          "goal": "Hold the monopoly on chartered contract work — monster culls, escort, guard-hire — against cheaper unchartered competition.",
+          "method": "Chapterhouse contracts, charter-law petitions to the Elder Council, and a code of conduct it can no longer afford.",
+          "notables": "Modryn Oreyn (Second) | Viranus Donton (the Master's protected son)",
+          "friction": "The Blackwood Company undercuts it by a third out of Leyawiin, and Councilor Mena has twice buried the Guild's petition to keep a tariff vote."
+        },
+        {
+          "name": "The Blackwood Company",
+          "type": "free-company",
+          "leader": "Ri'Zakar",
+          "seat": "Leyawiin",
+          "goal": "Take every contract the Fighters Guild's charter forbids and complete it before anyone asks how.",
+          "method": "Underbidding, licensed premises in Leyawiin, and something its men drink before a marsh job.",
+          "friction": "Direct commercial war with the Fighters Guild; Modryn Oreyn is compiling what comes back from those contracts and in what condition."
+        },
+        {
+          "name": "The Thieves Guild",
+          "type": "guild",
+          "leader": "The Gray Fox",
+          "seat": "The Imperial City Waterfront (doyens also in Anvil and Bravil)",
+          "goal": "Keep the code, keep the cut, and keep existing in an Empire that has no legal category for it.",
+          "method": "Fences, doyens, dead-drops, bribed watchmen, and a leader nobody can afterward describe.",
+          "notables": "Armand Christophe (Waterfront doyen)",
+          "friction": "Captain Hieronymus Lex has begun sweeping the Waterfront on accurate information, and in Morrowind the Camonna Tong kills Guild fences on sight."
+        },
+        {
+          "name": "The Dark Brotherhood",
+          "type": "cult-guild",
+          "leader": "Listener Ungolim (beneath the Night Mother; the Black Hand disposes)",
+          "seat": "Sanctuaries, the nearest to Cyrodiil's heart at Cheydinhal",
+          "goal": "Answer every Black Sacrament, take the price, and keep Sithis fed.",
+          "method": "The Black Sacrament, Speakers who recruit murderers rather than train them, blood-sealed contracts and total silence.",
+          "notables": "Lucien Lachance (Speaker, Cheydinhal)",
+          "friction": "Three contracts in eighteen months on Ministry of the Purse clerks — the Brotherhood is being used to edit an Imperial ledger and has not asked whose."
+        },
+        {
+          "name": "The Mythic Dawn",
+          "type": "cult",
+          "leader": "Mankar Camoran (a signature on four books; no address, no portrait, no Watch file)",
+          "seat": "Unknown; a recruiting cell in the Imperial City",
+          "goal": "Prepare a door. Nothing has happened yet, and that is the point.",
+          "method": "A reading list — the four Mythic Dawn Commentaries, of which the fourth is not sold but replied to — and Sponsors who introduce angry educated people to books.",
+          "notables": "Vaesa Malleius, 'the Sponsor' (Ministry of the Purse tax-clerk) | Phintias (bookseller, unwitting conduit)",
+          "friction": "It is emptying the Imperial Cult's fourth pew, and Arch-Prelate Vellani has not yet reported it."
+        },
+        {
+          "name": "The Order of the Black Worm",
+          "type": "cult",
+          "leader": "the King of Worms (Mannimarco), named only obliquely in Guild proceedings",
+          "seat": "Unlisted; scholars, not chapels",
+          "goal": "Preserve and extend necromantic practice, and inherit whatever the Mages Guild throws away.",
+          "method": "Patient recruitment of expelled and disappointed mages; purchase of condemned libraries.",
+          "friction": "Traven's ban WAS the Order's greatest recruiting drive, exactly as Caranya publicly predicted and possibly privately intended."
+        },
+        {
+          "name": "The Thalmor (Aldmeri Dominion)",
+          "type": "foreign-power",
+          "leader": "First Emissary Ilianwe Tarnaril",
+          "seat": "Legation, Talos Plaza, The Imperial City",
+          "goal": "Observe, catalogue, and be present when the Empire's peace stops being a peace.",
+          "method": "Impeccable protocol, dues paid early, eleven years of identical small talk, and a ledger of every official invocation of Talos-as-god.",
+          "notables": "Justiciar-Attaché Estarion Vaele (keeper of the ledger)",
+          "friction": "Ocato's Altmer blood — every courtesy the embassy pays him costs him votes, and chroniclers dispute whether the Thalmor seek him out for information or simply to bleed him."
+        },
+        {
+          "name": "The Imperial Cult (Nine Divines)",
+          "type": "religion",
+          "leader": "Arch-Prelate Sercia Vellani",
+          "seat": "Temple of the One, The Imperial City",
+          "goal": "Pastoral care, Restoration healing, and the quiet maintenance of the finest intelligence network in Tamriel, since everyone confesses to somebody.",
+          "method": "Chapels in every city, deacons who listen, attendance returns nobody outside the Cult reads.",
+          "friction": "Attendance among the educated young is falling in the capital, and the deacons say the missing congregants are 'reading'."
+        },
+        {
+          "name": "Great House Hlaalu",
+          "type": "house",
+          "leader": "Councilor Crassius Curio (Balmora; holds Morrowind's Council proxy)",
+          "seat": "Balmora, Morrowind",
+          "goal": "Profit from the Empire's roads and law, and keep Morrowind's treaty exactly as it is forever.",
+          "method": "Tariff bargaining, Council vote-selling, and money that reaches everywhere the Legion does not.",
+          "friction": "Redoran calls Hlaalu foreign clerks in Dunmer faces — and Hlaalu's own landholder Orvas Dren holds the Camonna Tong's leash, which is a knife the House cannot be seen holding."
+        },
+        {
+          "name": "Great House Redoran",
+          "type": "house",
+          "leader": "Archmaster Athyn Sarethi",
+          "seat": "Ald'ruhn, Morrowind",
+          "goal": "Keep the Old Ways, the ancestor-tombs and Dunmer honor intact against a peace that was bought with them.",
+          "method": "Martial oath, ancestor law, and this year a polite refusal of Imperial garrison rights at three border forts.",
+          "friction": "With Hlaalu over Morrowind's Imperial future, and with Windhelm's Jarl Kjeld, who is reviving the Hearth-Oath blood-price claim."
+        },
+        {
+          "name": "Great House Telvanni",
+          "type": "house",
+          "leader": "no single voice; Master Aryon of Tel Vos is its reformist one",
+          "seat": "Sadrith Mora and the towers of the eastern coast, Morrowind",
+          "goal": "Whatever each wizard-lord in each tower wants this century.",
+          "method": "Raw sorcerous strength, mouths (proxies sent to meetings the masters will not attend), and centuries of refusing to attend anything.",
+          "friction": "Aryon warns the House will be legislated out of existence by Imperial clerks it never bothered to meet; his peers find this charmingly modern and beside the point."
+        },
+        {
+          "name": "The Camonna Tong",
+          "type": "syndicate",
+          "leader": "Orvas Dren",
+          "seat": "Morrowind, with money in every Hlaalu ledger",
+          "goal": "Every outlander out of Morrowind, by ship or in one — and the skooma trade undisturbed meanwhile.",
+          "method": "Skooma, extortion, murder without contract or code.",
+          "friction": "Kills Thieves Guild fences on sight; the war has cost Vvardenfell more lives this decade than Imperial taxation has."
+        },
+        {
+          "name": "The Skyrim Jarldoms",
+          "type": "confederation",
+          "leader": "High King Rangvar Cold-Crown, Solitude",
+          "seat": "Solitude, and eight halls that answer when it suits them",
+          "goal": "Nine separate goals; the High King's is to prevent his jarls from meeting each other.",
+          "method": "The moot, the blood-feud, and the toll-gate.",
+          "notables": "Jarl Sigdrifa Bear-Widow of Falkreath (Pale Pass toll) | Jarl Kjeld the Unmourned of Windhelm (Grey Quarter curfew, the Hearth-Oath)",
+          "friction": "Falkreath's doubled Pale Pass toll is choking Bruma; Windhelm's Hearth-Oath talk is aimed straight at Morrowind."
+        },
+        {
+          "name": "The Crowns",
+          "type": "provincial-faction",
+          "leader": "Rahd al-Marek of Hegathe",
+          "seat": "Hegathe and Stros M'Kai, Hammerfell",
+          "goal": "Hammerfell governed by Na-Totambu blood and Yokudan custom, owing the Empire courtesy and nothing else.",
+          "method": "Bloodline councils, sword-singer prestige, and the very long silence that passes for negotiation.",
+          "friction": "Councilor Mena has offered them their own Elder Council seat, which the Forebears would read as a declaration and King Lhotun cannot survive."
+        },
+        {
+          "name": "The Forebears",
+          "type": "provincial-faction",
+          "leader": "Admiral Idris al-Rihad",
+          "seat": "Rihad and the Sentinel ports, Hammerfell",
+          "goal": "Keep the Empire's peace, because the Empire's peace built the docks that feed Hammerfell.",
+          "method": "Shipping, port dues, squadrons, and standing bounties on Crown captains who run the Abecean unpaid.",
+          "friction": "With the Crowns over whether Hammerfell was conquered by Redguard swords or preserved by Imperial ones; with the Lhotunics for pretending it can be both."
+        },
+        {
+          "name": "The Lhotunics",
+          "type": "provincial-faction",
+          "leader": "King Lhotun of Sentinel",
+          "seat": "Sentinel, Hammerfell",
+          "goal": "A third way — the Old Ways and the Imperial treaty honored together.",
+          "method": "Royal patronage, marriage brokerage, and the arithmetic that two enemies who hate each other more than they hate him will never combine.",
+          "friction": "Hated by Crowns and Forebears alike with a purity neither can manage toward the other."
+        },
+        {
+          "name": "The Imperial Legion",
+          "type": "military",
+          "leader": "Grand Marshal Cassius Vitellan holds its Elder Council seat; legates command by province",
+          "seat": "The Imperial City, with cohorts and mile-forts across every province",
+          "goal": "Hold the Empire's Peace with the men it still has on the rolls.",
+          "method": "Garrisons, road patrols, writ-desks at every legal pass, and the polite fiction that the Colovian garrisons emptied during the Simulacrum were ever restaffed.",
+          "friction": "The Gold Road is patrolled at half the strength its tax-writs claim; a cohort declined to deploy at Rihad in 3E 421 and nobody has been disciplined for it.",
+          "_reconciler": "stub node — named continuously in prose by geography, factions, culture and history (and by the kit's 'Knight of the Imperial Legion' specialization) with no graph node"
+        },
+        {
+          "name": "The Imperial Watch",
+          "type": "law",
+          "leader": "Captain Hieronymus Lex (Imperial City Waterfront)",
+          "seat": "City watch-houses, chiefly the Imperial City",
+          "goal": "Keep the bounty book, and — in Lex's case alone — actually close the Thieves Guild.",
+          "method": "Patrols, informants, the province bounty ledger, and sweeps the Elder Council keeps declining to fund.",
+          "friction": "Lex has begun sweeping the Waterfront on accurate information, which means someone inside the Guild is selling; the Council still will not pay him properly.",
+          "_reconciler": "stub node — the kit's Signature System 10 (Crime, the Watch, and the Bounty) runs on this body and no axis created a node for it"
+        },
+        {
+          "name": "The New Temple (Tribunal Temple)",
+          "type": "religion",
+          "leader": "reconstituted since 3E 427; no single voice the Empire recognizes",
+          "seat": "Vvardenfell and the Morrowind mainland",
+          "goal": "Survive the confirmation that its three living gods were people, by preaching their sainthood instead.",
+          "method": "Ordinators, ancestor-law, and a doctrinal rewrite performed at speed and in public.",
+          "friction": "Its own annalists (see Ravel Sarethi) hold chronicles the New Temple would prefer did not exist; House Redoran's ascendancy is partly a claim to inherit its authority.",
+          "_reconciler": "stub node — the Tribunal's Ending (3E 427) is load-bearing for history, culture, geography and the Dunmer race entry, with no faction node"
+        },
+        {
+          "name": "The Imperial Commission on Dwemer Studies",
+          "type": "government-agency",
+          "leader": "Curator Anicius Vell, Curator of the Third Bench",
+          "seat": "The Commission Warehouse, Imperial City Waterfront",
+          "goal": "Enforce the Antiquities Statute: every Dwemer site is Imperial property, every find is licensed.",
+          "method": "Permits, inspectors' writs that outrank provincial magistrates, honest prices paid for scrap and a pleasant question about where it came from.",
+          "friction": "In Morrowind the Statute collides with Great House law — Hlaalu sells permits it does not hold, Redoran calls all of it grave-robbing, Telvanni digs where it pleases.",
+          "_reconciler": "stub node — the technology axis's whole legal layer (and its Curator NPC) had no node"
+        },
+        {
+          "name": "The Toll",
+          "type": "bandit-company",
+          "leader": "Rufio Gace, self-styled 'the Road-Toll'",
+          "seat": "A burned waystation on the Gold Road between Weye and Chorrol",
+          "goal": "Tax the Gold Road as though the Legion had left the job to them, which it effectively has.",
+          "method": "Salvaged legion tabards, a chalked ledger, and a written receipt for every purse taken.",
+          "friction": "Now taking receipts from Fighters Guild caravans specifically, which means somebody sold Gace the caravan schedule; three Imperial magistrates have been confused into treating the whole enterprise as a jurisdictional dispute.",
+          "_reconciler": "stub node — a named organization from the bestiary axis with a named captain and no node"
+        }
+      ],
+      "edges": [
+        {
+          "from": "The Elder Council",
+          "to": "The Blades",
+          "relation": "commands in theory, is not fully informed by in practice"
+        },
+        {
+          "from": "The Elder Council",
+          "to": "The Mages Guild",
+          "relation": "charters, tithes, and seats by proxy (Irlav Jarol)"
+        },
+        {
+          "from": "The Elder Council",
+          "to": "The Fighters Guild",
+          "relation": "charters; twice tabled its petition against the Blackwood Company"
+        },
+        {
+          "from": "The Elder Council",
+          "to": "The Mages Guild",
+          "relation": "Grand Marshal Vitellan offers the Legion seat’s votes for a necromancy ban in exchange for seconded battlemages"
+        },
+        {
+          "from": "The Mages Guild",
+          "to": "The Order of the Black Worm",
+          "relation": "would create it by banning it"
+        },
+        {
+          "from": "The Fighters Guild",
+          "to": "The Blackwood Company",
+          "relation": "undercut by, commercially at war with"
+        },
+        {
+          "from": "The Blackwood Company",
+          "to": "The Elder Council",
+          "relation": "licensed through Leyawiin's tariff vote"
+        },
+        {
+          "from": "The Thieves Guild",
+          "to": "The Camonna Tong",
+          "relation": "open blood-war in Morrowind; the code does not travel"
+        },
+        {
+          "from": "The Camonna Tong",
+          "to": "Great House Hlaalu",
+          "relation": "funds and is funded by, through Orvas Dren"
+        },
+        {
+          "from": "The Thieves Guild",
+          "to": "The Dark Brotherhood",
+          "relation": "professional avoidance dressed as respect"
+        },
+        {
+          "from": "The Dark Brotherhood",
+          "to": "The Elder Council",
+          "relation": "paid, by someone, to remove Ministry of the Purse clerks"
+        },
+        {
+          "from": "The Mythic Dawn",
+          "to": "The Imperial Cult (Nine Divines)",
+          "relation": "recruits from its disillusioned fringe; empties its fourth pew"
+        },
+        {
+          "from": "The Mythic Dawn",
+          "to": "The Blades",
+          "relation": "one thin unpursued file, kept by Jauffre"
+        },
+        {
+          "from": "The Thalmor (Aldmeri Dominion)",
+          "to": "The Imperial Cult (Nine Divines)",
+          "relation": "catalogues its Talos invocations without ever objecting to one"
+        },
+        {
+          "from": "The Thalmor (Aldmeri Dominion)",
+          "to": "The Mythic Dawn",
+          "relation": "unconfirmed; an embassy scribe has twice asked after the fourth Commentary"
+        },
+        {
+          "from": "The Thalmor (Aldmeri Dominion)",
+          "to": "The Elder Council",
+          "relation": "impeccable diplomacy that costs High Chancellor Ocato votes"
+        },
+        {
+          "from": "Great House Redoran",
+          "to": "Great House Hlaalu",
+          "relation": "rivals over Morrowind's Imperial future"
+        },
+        {
+          "from": "Great House Redoran",
+          "to": "The Skyrim Jarldoms",
+          "relation": "answering Windhelm's revived Hearth-Oath blood-price claim"
+        },
+        {
+          "from": "Great House Telvanni",
+          "to": "The Elder Council",
+          "relation": "nominal subject, practical absence"
+        },
+        {
+          "from": "The Skyrim Jarldoms",
+          "to": "The Elder Council",
+          "relation": "pays tax where the road runs; Falkreath's toll is choking Bruma"
+        },
+        {
+          "from": "The Crowns",
+          "to": "The Forebears",
+          "relation": "schism over whether Hammerfell was conquered or preserved"
+        },
+        {
+          "from": "The Lhotunics",
+          "to": "The Crowns",
+          "relation": "despised third way"
+        },
+        {
+          "from": "The Lhotunics",
+          "to": "The Forebears",
+          "relation": "despised third way"
+        },
+        {
+          "from": "The Crowns",
+          "to": "The Elder Council",
+          "relation": "offered a seat by Councilor Mena; answering slowly on purpose"
+        },
+        {
+          "from": "Uriel Septim VII",
+          "to": "The Elder Council",
+          "relation": "reigns; the Council governs in his name and without his answer on the succession",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Uriel Septim VII",
+          "to": "The Blades",
+          "relation": "the only body he tells his dreams to",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "High Chancellor Ocato",
+          "to": "The Elder Council",
+          "relation": "High Chancellor — runs it by controlling the agenda-order",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Grand Marshal Cassius Vitellan",
+          "to": "The Elder Council",
+          "relation": "holds the Legion's Council seat",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Grand Marshal Cassius Vitellan",
+          "to": "The Imperial Legion",
+          "relation": "Grand Marshal; touring the provincial garrisons",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Councilor Ariante Mena",
+          "to": "The Elder Council",
+          "relation": "Minister of Provincial Affairs",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Countess Narina Carvain",
+          "to": "The Elder Council",
+          "relation": "sits for the northern march; the honest broker both blocs need",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Prince Geldall Septim",
+          "to": "The Elder Council",
+          "relation": "Ocato's candidate; attends sessions he need not attend",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Grandmaster Jauffre",
+          "to": "The Blades",
+          "relation": "Grandmaster, under a monk's habit at Weynon Priory",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Arch-Mage Aurelia Sallustis",
+          "to": "The Mages Guild",
+          "relation": "Arch-Mage Emerita — twenty-six years in the chair, outmaneuvered rather than outvoted in 3E 428",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Councilor-Mage Caranya",
+          "to": "The Mages Guild",
+          "relation": "Council of Mages; opposes the necromancy ban",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Raminus Polus",
+          "to": "The Mages Guild",
+          "relation": "keeper of recommendations at the Arcane University",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Master Vilena Donton",
+          "to": "The Fighters Guild",
+          "relation": "Master, presiding from Chorrol",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Modryn Oreyn",
+          "to": "The Fighters Guild",
+          "relation": "Second; keeps the accounts nobody asked him to keep",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Ri'Zakar",
+          "to": "The Blackwood Company",
+          "relation": "commander, out of Leyawiin",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Armand Christophe",
+          "to": "The Thieves Guild",
+          "relation": "doyen of the Imperial City Waterfront",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "The Gray Fox",
+          "to": "The Thieves Guild",
+          "relation": "masked head of the Guild for three hundred years",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Captain Hieronymus Lex",
+          "to": "The Imperial Watch",
+          "relation": "captain, Imperial City",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Captain Hieronymus Lex",
+          "to": "The Thieves Guild",
+          "relation": "hunts it as a personal crusade and has begun to be good at it",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Lucien Lachance",
+          "to": "The Dark Brotherhood",
+          "relation": "Speaker of the Black Hand, Cheydinhal Sanctuary",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Ungolim",
+          "to": "The Dark Brotherhood",
+          "relation": "the Listener — the one ear the Night Mother speaks into",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Vaesa Malleius",
+          "to": "The Mythic Dawn",
+          "relation": "holds the rank the cult calls Sponsor",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Vaesa Malleius",
+          "to": "The Elder Council",
+          "relation": "tax-clerk of the Ministry of the Purse",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Phintias",
+          "to": "The Mythic Dawn",
+          "relation": "unwitting conduit — sells the first three Commentaries and writes the buyers down",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Mankar Camoran",
+          "to": "The Mythic Dawn",
+          "relation": "the name on the Commentaries; in 3E 430 a signature and nothing more",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "First Emissary Ilianwe Tarnaril",
+          "to": "The Thalmor (Aldmeri Dominion)",
+          "relation": "First Emissary, head of the legation",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Estarion Vaele",
+          "to": "The Thalmor (Aldmeri Dominion)",
+          "relation": "Justiciar-Attaché; keeps the Talos-invocation ledger",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Arch-Prelate Sercia Vellani",
+          "to": "The Imperial Cult (Nine Divines)",
+          "relation": "Arch-Prelate, keeper of the Temple of the One",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Crassius Curio",
+          "to": "Great House Hlaalu",
+          "relation": "Councilor of Balmora; holds Morrowind's Elder Council proxy",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Orvas Dren",
+          "to": "Great House Hlaalu",
+          "relation": "landholder, brother to the Duke — the knife the House cannot be seen holding",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Orvas Dren",
+          "to": "The Camonna Tong",
+          "relation": "holds its leash",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Archmaster Athyn Sarethi",
+          "to": "Great House Redoran",
+          "relation": "Archmaster",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Master Aryon",
+          "to": "Great House Telvanni",
+          "relation": "wizard-lord of Tel Vos; the House's one reform-minded voice",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "High King Rangvar Cold-Crown",
+          "to": "The Skyrim Jarldoms",
+          "relation": "High King in Solitude",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Jarl Sigdrifa Bear-Widow",
+          "to": "The Skyrim Jarldoms",
+          "relation": "Jarl of Falkreath; holds the Pale Pass toll",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Jarl Kjeld the Unmourned",
+          "to": "The Skyrim Jarldoms",
+          "relation": "Jarl of Windhelm; reviving the Hearth-Oath",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "King Lhotun of Sentinel",
+          "to": "The Lhotunics",
+          "relation": "king in Sentinel and inventor of the third position",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Rahd al-Marek",
+          "to": "The Crowns",
+          "relation": "Crown voice out of Hegathe, of the Na-Totambu bloodlines",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Admiral Idris al-Rihad",
+          "to": "The Forebears",
+          "relation": "commander of the Rihad squadrons",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Arch-Mage Hannibal Traven",
+          "to": "The Mages Guild",
+          "relation": "seated Arch-Mage at the Arcane University since the 3E 428 ban",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Magister Cavillius Rell",
+          "to": "The Mages Guild",
+          "relation": "holds the Mysticism chair; measuring the thinning",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Vashi Serayn",
+          "to": "The Mages Guild",
+          "relation": "Conjuration instructor at the Arcane University",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Vashi Serayn",
+          "to": "Great House Telvanni",
+          "relation": "Telvanni-trained before she took the Imperial charter",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Sister Ilmene Aurelis",
+          "to": "The Imperial Cult (Nine Divines)",
+          "relation": "Restoration priestess of Julianos, seconded to the Heartland chapels",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Zaraphus the Unread",
+          "to": "The Order of the Black Worm",
+          "relation": "expelled the week the ban took effect; now receiving pages he did not request",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Sercia Volumnia",
+          "to": "The Elder Council",
+          "relation": "Under-Archivist of the Amber Roll, the Council's session-ledger",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Attius Merula",
+          "to": "The Imperial Legion",
+          "relation": "Sergeant-of-the-Rolls, Fourth Legion, retired — Firewaves veteran",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Ravel Sarethi",
+          "to": "The New Temple (Tribunal Temple)",
+          "relation": "former annalist of the Tribunal Temple at Ald'ruhn; now holds what it would rather not exist",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Nauriel of Alinor",
+          "to": "The Thalmor (Aldmeri Dominion)",
+          "relation": "Cultural Attache; compiling the Ledger of Provinces",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Cull-Master Sergia Aetellus",
+          "to": "The Fighters Guild",
+          "relation": "contract clerk of the Chorrol hall; keeps the region's Cull-Book",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Rufio Gace",
+          "to": "The Toll",
+          "relation": "captain",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "The Ancestor-Ghost of Sethri Andrano",
+          "to": "Great House Redoran",
+          "relation": "under House protection — Redoran voids charters over outlanders who swing first",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Vicomtesse Amelie Dracourt",
+          "to": "The Elder Council",
+          "relation": "Wayrest's envoy; brokers Council votes on the same forms and the same fee",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Praefect Vitellia Amaro",
+          "to": "The Elder Council",
+          "relation": "clerk-praefect of the Imperial census office",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Serjo Nedhas Andrano",
+          "to": "Great House Redoran",
+          "relation": "Morrowind's House envoy to the Imperial City",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Neminda Sadras",
+          "to": "Great House Hlaalu",
+          "relation": "factor working the Imperial City docks",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Emissary Alandare of Lillandril",
+          "to": "The Thalmor (Aldmeri Dominion)",
+          "relation": "cultural attache; writes down who sang the Talos hymn loudest",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Faelil Broken-Bough",
+          "to": "The Thalmor (Aldmeri Dominion)",
+          "relation": "left Valenwood after her clan took Dominion coin",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Urzoga gra-Malog",
+          "to": "The Fighters Guild",
+          "relation": "armiger of the Chorrol hall, twenty-two years sworn, passed over three times",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Sameer af-Taneth",
+          "to": "The Crowns",
+          "relation": "Crown sword-teacher, exiled to Anvil",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Zaharia Hallin",
+          "to": "The Forebears",
+          "relation": "Forebear shipping factor; her family in Rihad have gone Crown in her absence",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Curator Anicius Vell",
+          "to": "The Imperial Commission on Dwemer Studies",
+          "relation": "Curator of the Third Bench",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Ralen Sarothril",
+          "to": "The Imperial Commission on Dwemer Studies",
+          "relation": "unlicensed — exiled from Ald'ruhn over a permit he did not have",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "Uleni Ovadru",
+          "to": "Great House Telvanni",
+          "relation": "Telvanni-trained; nine years mapping Dwemer resonances, published nothing",
+          "kind": "npc->faction"
+        },
+        {
+          "from": "The Elder Council",
+          "to": "The Imperial City",
+          "relation": "seat — the White-Gold Tower",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Imperial Legion",
+          "to": "The Imperial City",
+          "relation": "headquarters and the Emperor's own cohorts",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Imperial Legion",
+          "to": "The Gold Road",
+          "relation": "patrols it at half the strength its tax-writs claim",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Imperial Legion",
+          "to": "Bruma Pass",
+          "relation": "garrison and writ-desk — the Empire's legal road into Skyrim",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Imperial Watch",
+          "to": "The Imperial City",
+          "relation": "watch-houses; Lex sweeps the Waterfront out of them",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Blades",
+          "to": "Chorrol",
+          "relation": "seat — Weynon Priory, outside the walls",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Mages Guild",
+          "to": "The Imperial City",
+          "relation": "seat — the Arcane University",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Fighters Guild",
+          "to": "Chorrol",
+          "relation": "seat — the Master's chapterhouse",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Fighters Guild",
+          "to": "Bruma",
+          "relation": "hall; posts the unclaimed Kjarholt Barrow Charter",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Blackwood Company",
+          "to": "Leyawiin",
+          "relation": "licensed premises; underbids the Guild by a third on every marsh contract",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Blackwood Company",
+          "to": "Blackwood",
+          "relation": "works the marsh contracts its men come back from glassy-eyed",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Thieves Guild",
+          "to": "The Waterfront",
+          "relation": "front door — Armand Christophe interviews on a dockside grave",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Thieves Guild",
+          "to": "Anvil",
+          "relation": "doyen; the Guild never left so much as changed its stationery",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Thieves Guild",
+          "to": "Bravil",
+          "relation": "doyen",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Dark Brotherhood",
+          "to": "Cheydinhal",
+          "relation": "the Sanctuary nearest Cyrodiil's heart",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Mythic Dawn",
+          "to": "The Imperial City",
+          "relation": "the recruiting cell; the Commentaries pass hand to hand in the Market District",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Thalmor (Aldmeri Dominion)",
+          "to": "The Imperial City",
+          "relation": "the legation on the Talos Plaza",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Thalmor (Aldmeri Dominion)",
+          "to": "Anvil",
+          "relation": "Summerset-flagged hulls call at four times the rate of a decade ago",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Thalmor (Aldmeri Dominion)",
+          "to": "Summerset Isles",
+          "relation": "governs the closed homeland",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Thalmor (Aldmeri Dominion)",
+          "to": "Valenwood",
+          "relation": "advisors at more Bosmer courts each year",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Imperial Cult (Nine Divines)",
+          "to": "The Imperial City",
+          "relation": "seat — the Temple of the One",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Imperial Cult (Nine Divines)",
+          "to": "Kvatch",
+          "relation": "the chapel of Akatosh at the city's crown",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Imperial Commission on Dwemer Studies",
+          "to": "The Imperial City",
+          "relation": "the Commission Warehouse on the Waterfront",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Imperial Commission on Dwemer Studies",
+          "to": "Mzeneldt",
+          "relation": "the last excavation permit lapsed in 3E 419; the writ is still nailed to the arch",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Imperial Commission on Dwemer Studies",
+          "to": "Arkngthand",
+          "relation": "licensed scrap-crews, and the confiscations that follow them",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Order of the Black Worm",
+          "to": "The Great Forest",
+          "relation": "buys condemned libraries and recruits where the Guild cannot follow",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "Great House Hlaalu",
+          "to": "Morrowind",
+          "relation": "seat — Balmora; holds Morrowind's Council proxy",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "Great House Hlaalu",
+          "to": "Cheydinhal",
+          "relation": "factors keep a working relationship with the Count's guard that nobody has written down",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "Great House Redoran",
+          "to": "Morrowind",
+          "relation": "seat — Ald'ruhn; refused Imperial garrison rights at three border forts this year",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "Great House Telvanni",
+          "to": "Morrowind",
+          "relation": "seat — Sadrith Mora and the towers of the eastern coast",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Camonna Tong",
+          "to": "Morrowind",
+          "relation": "skooma, extortion, and Thieves Guild fences killed on sight",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The New Temple (Tribunal Temple)",
+          "to": "Morrowind",
+          "relation": "the province entire, reconstituted since 3E 427",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Skyrim Jarldoms",
+          "to": "Skyrim",
+          "relation": "seat — Solitude, and eight halls that answer when it suits them",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Skyrim Jarldoms",
+          "to": "Pale Pass",
+          "relation": "Falkreath's doubled toll, which is choking Bruma",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Skyrim Jarldoms",
+          "to": "Bruma",
+          "relation": "Nord custom on Imperial tax-rolls; Ulfhild Bear-Sworn keeps hold-law at her fire",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Crowns",
+          "to": "Hammerfell",
+          "relation": "Hegathe and Stros M'Kai; Na-Totambu blood and the very long silence",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Forebears",
+          "to": "Hammerfell",
+          "relation": "Rihad and the Sentinel ports; the docks that feed the province",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Lhotunics",
+          "to": "Hammerfell",
+          "relation": "Sentinel — the third way, hated with purity by both sides",
+          "kind": "faction->geo"
+        },
+        {
+          "from": "The Toll",
+          "to": "The Gold Road",
+          "relation": "works the Weye-to-Chorrol run out of a burned waystation",
+          "kind": "faction->geo"
+        }
+      ]
+    }
+  }
+}

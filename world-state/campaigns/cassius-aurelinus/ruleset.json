@@ -1,0 +1,442 @@
+{
+  "name": "Twilight of the Third Era — Tamriel, 3E 430 (Elder Scrolls, d20 chassis)",
+  "kit": "dnd5e",
+  "kit_note": "This world runs the D&D class-and-level chassis BY EXPLICIT PLAYER REQUEST — d20 vs DC, AC, saving throws, hit dice, death saves, ASIs, subclasses at the usual levels. Everything ABOVE that chassis is Tamriel: no class, subclass, background, or spell source is ever named in generic D&D terms at the table. Two chassis rules are OVERRIDDEN by this kit and the override always wins: (1) SPELL SLOTS DO NOT EXIST — casters spend MAGICKA (Signature System 1); if the gm-spellcasting skill shows a slot table, ignore the table and charge magicka. (2) XP thresholds come from this file, not the 5e table.",
+
+  "stat_schema": {
+    "attributes": ["str", "dex", "con", "int", "wis", "cha", "luck"],
+    "attribute_labels": {
+      "str": "Strength",
+      "dex": "Agility",
+      "con": "Endurance",
+      "int": "Intelligence",
+      "wis": "Willpower",
+      "cha": "Personality",
+      "luck": "Luck"
+    },
+    "attribute_notes": "Six are point-bought/rolled as normal and carry the usual modifiers. LUCK is the seventh and is NOT bought: it starts at 10, is modified only by birthsign, race, Daedric favor, and shrine boons, and is spent rather than rolled (see 'Luck, and the Burning of It').",
+    "vitals": ["hp", "magicka", "fatigue"],
+    "vital_notes": {
+      "hp": "Health. Standard hit dice by class chassis. 0 HP = death saves (this world kills people; see the Empire's mercy is not the GM's).",
+      "magicka": "The Well. Replaces spell slots entirely. Tracked as a current/max point pool.",
+      "fatigue": "0–6, identical in effect to 5e exhaustion levels, but earned the Tamrielic way: overdrawing magicka, power attacks, forced marches, disease, skooma comedown, and a Prince's displeasure."
+    },
+    "resources": {
+      "note": "Systems 2/3/4/10 declare these as TRACKED per-character resources. Persist via gm-player.sh save-json under an open character.json section; there is nowhere else for them to live. Whenever a PC gains a school rank, a guild rank, a bounty, or an Obligation, persist it before narrating.",
+      "school_ranks": { "alteration": "novice|apprentice|journeyman|expert|master", "conjuration": "novice|apprentice|journeyman|expert|master", "destruction": "novice|apprentice|journeyman|expert|master", "illusion": "novice|apprentice|journeyman|expert|master", "mysticism": "novice|apprentice|journeyman|expert|master", "restoration": "novice|apprentice|journeyman|expert|master" },
+      "guild_standing": [{ "guild": "", "rank": "", "rank_tier": "1-5, ladder position ÷ 2 rounded up", "favors_remaining_this_month": 0, "debt": [] }],
+      "divine_blessings": { "per_long_rest": "= proficiency bonus", "remaining": 0, "obligation_due_by": null },
+      "daedric_ledgers": [{ "prince": "", "segments_filled": 0, "segments_total": 6 }],
+      "bounties": { "<province>": 0 },
+      "luck_burned_total": 0
+    },
+    "derived": {
+      "magicka_max": "Base by caster level (see Signature System 1 table) + (2 × spellcasting ability modifier). Altmer ×1.5. Birthsign of the Mage/Apprentice/Atronach modify further.",
+      "spell_save_dc": "8 + proficiency + spellcasting ability modifier (school-trained casters add +1 in their guild-certified specialization school)",
+      "carry": "Standard, but Tamriel counts loot: a party that loots a Dwemer ruin bare walks home slowly."
+    }
+  },
+
+  "progression": {
+    "model": "xp-levels",
+    "thresholds": [250, 800, 2400, 5600, 12000, 20000, 30000, 44000, 60000, 80000, 100000, 122000, 146000, 172000, 200000, 232000, 268000, 308000, 352000],
+    "threshold_note": "Index 0 is the XP to reach level 2. These are this world's numbers, not the 5e table.",
+    "advancement_rule": "ADVANCEMENT REQUIRES REST AND A ROOF. Crossing a threshold does not level you where you stand — you carry the earned learning until you sleep a full night in a bed (inn, guild hall, bedroll in a made camp, a Temple cot). Then you wake changed. A character who never stops moving never levels; a character who beds down in a Mages Guild hall, a Fighters Guild bunkroom, or under a trainer may also convert one downtime week into a single skill/proficiency gain.",
+    "renown_tiers": {
+      "1-4": "Wanderer — nobody in the Imperial City has heard your name.",
+      "5-10": "Sworn — you hold rank in a guild or house; provincial powers know your face.",
+      "11-16": "Champion — the Elder Council reads reports with your name in them.",
+      "17-20": "Named in the Chronicles — Princes bargain with you directly, and the Empire's fate bends around you."
+    }
+  },
+
+  "resolution": {
+    "model": "d20-vs-dc",
+    "notes": "d20 + modifier vs DC; advantage/disadvantage as normal. Two additions: (a) LUCK BURN may convert one failure per burn into a success (Signature System 7); (b) FIRST-IMPRESSION social rolls always apply the racial/cultural reaction modifier (Signature System 5) — there is no 'neutral stranger' in Tamriel, only someone who has not yet decided what your ears mean."
+  },
+
+  "active_agents": ["monster-manual", "rules-master", "spell-caster", "gear-master", "loot-dropper", "npc-builder", "dungeon-architect"],
+  "agent_note": "The d20 chassis makes SRD lookups legitimate here, but every agent renames its output into Tamriel: 'fireball' is a Destruction spell taught at the Arcane University, an 'imp' is a scamp, a 'demon' is a Dremora with a Prince behind it, a 'longsword +1' is an Elven or Dwarven blade with provenance. Book/lore first, SRD second — never the reverse. monster-manual grades every threat on the Cull-Book (System 15) before it reaches the table, alongside CR — the clerk's grade is the party's telegraph, and No Contract Issued is the kit's canonical over-level warning.",
+
+  "character_options": {
+    "creation_order": ["Race (culture, not stat bonus)", "Birthsign (one of the Thirteen)", "Class + specialization", "Background (guild/province/station)", "Guild affiliation and starting rank (may be 'none, and that costs you')"],
+
+    "races": [
+      {
+        "name": "Nord",
+        "homeland": "Skyrim",
+        "attributes": "+2 Strength, +1 Endurance",
+        "blood": "Resist Frost (resistance to cold damage, and cold weather never costs you Fatigue). Battle-Cry: 1/short rest, frighten creatures of your choice within 30 ft (Wis save vs 8+prof+Str mod) for 1 minute.",
+        "voice": "Nords alone may ever be trained in the Thu'um (Monk: Way of the Voice), and only after a High Hrothgar arc.",
+        "culture": "Hold-loyalty, blood-feud, ancestral hospitality (refusing a Nord's roof is an insult; violating it is a killing matter). Deep, unembarrassed suspicion of open magic — a Nord who sees you cast in a Skyrim mead-hall does not think 'scholar', he thinks 'what else can he do to me'.",
+        "reaction": "+2 with Nords and Bruma folk. Casting openly in Skyrim: disadvantage on the next social check there. −2 in Morrowind (old wars remembered)."
+      },
+      {
+        "name": "Breton",
+        "homeland": "High Rock",
+        "attributes": "+2 Intelligence, +1 Personality",
+        "blood": "Dragon Skin: advantage on saving throws against spells. 1/long rest, when you succeed on a save vs a spell of 3rd level or lower, you ABSORB it — no effect, and you gain magicka equal to 5 × its level.",
+        "culture": "A patchwork of feuding duchies, Direnni-descended nobility, contracts, lawsuits, and knightly orders that exist mostly on paper. Bretons argue as a form of affection and treat a signed agreement as scripture.",
+        "reaction": "+2 in any court, chancery, or guild-charter dispute. −2 with Nords who remember High Rock's mer-blood."
+      },
+      {
+        "name": "Redguard",
+        "homeland": "Hammerfell",
+        "attributes": "+2 Agility (dex), +1 Strength",
+        "blood": "Adrenaline Rush: 1/long rest, bonus action — one extra weapon attack per turn and temp HP equal to your level for 1 minute; gain 1 Fatigue when it ends. Advantage on saves vs poison and disease.",
+        "culture": "Crowns (old Yokudan ways, Na-Totambu blood, sword-singing) versus Forebears (Imperial-friendly, republican, seafaring) — say the wrong one in the wrong tavern. Necromancy is not 'dark magic' to a Redguard; it is desecration, and the polite response is a drawn sword.",
+        "reaction": "+2 with either faction if you state yours and mean it, −2 with the other. Any Redguard NPC reacts with hostility to visible necromancy, no roll."
+      },
+      {
+        "name": "Imperial",
+        "homeland": "Cyrodiil",
+        "attributes": "+2 Personality (cha), +1 to any one other",
+        "blood": "Voice of the Emperor: 1/long rest, calm one hostile humanoid who can hear and understand you (Wis save vs 8+prof+Cha) — it cannot attack for 1 minute or until harmed. Star of the West: 1/long rest, regain magicka equal to 5 × proficiency bonus.",
+        "culture": "Colovian west (blunt, martial, farm-and-legion) versus Nibenese east (baroque, ritual-drunk, bureaucratic). Imperials assume authority everywhere and are usually granted it, which is exactly what every province resents.",
+        "reaction": "+2 with legions, guards, clerks, and Cult priests anywhere in the Empire. −2 in Morrowind, deep Skyrim, Crown Hammerfell, and anywhere the word 'Provincial' has been used to someone's face."
+      },
+      {
+        "name": "Dunmer (Dark Elf)",
+        "homeland": "Morrowind",
+        "attributes": "+2 Intelligence, +1 Agility (dex)",
+        "blood": "Resist Fire (resistance to fire damage). Ancestor Guardian: 1/long rest, summon an ancestral ghost (Ally, acts on your initiative) for 1 minute — it is your actual dead relative and it has opinions.",
+        "culture": "Ancestor worship, Great House law (Hlaalu/Redoran/Telvanni), the Tribunal Temple, and an unhealed history of slaving Argonians and Khajiit. 'Outlander' is what a Dunmer calls you and it is not neutral.",
+        "reaction": "+2 within your own House's holdings. −2 with Nords. Argonian and Khajiit NPCs react at −4 and with disadvantage on your first social check; earning past that is a whole arc, not a roll."
+      },
+      {
+        "name": "Altmer (High Elf)",
+        "homeland": "Summerset Isles",
+        "attributes": "+2 Intelligence, +1 Willpower (wis)",
+        "blood": "Highborn: maximum magicka × 1.5, and 1/long rest regain magicka equal to 10 × proficiency bonus. Weakness of the Fine Blood: disadvantage on saving throws against fire, cold, and lightning damage.",
+        "culture": "Three thousand years of documented superiority and the manners to imply it without saying it. The Isles are closed; a walking Altmer is either an exile, a scholar, or Thalmor, and everyone in the room is quietly deciding which.",
+        "reaction": "+2 in formal court, university, and guild-hall settings. −2 with commoners, dockhands, and anyone who has lost family to elves. Guards in Cyrodiil will remember your face."
+      },
+      {
+        "name": "Bosmer (Wood Elf)",
+        "homeland": "Valenwood",
+        "attributes": "+2 Agility (dex), +1 Willpower (wis)",
+        "blood": "Beast Tongue: speak with animals at will. Command Beast: 1/long rest, charm one beast (Wis save) for 10 minutes.",
+        "culture": "The GREEN PACT is binding, mechanical, and public: you may not eat, wear, or cut plant matter grown in Valenwood, and you must eat the flesh of what you kill in battle. Keep it and Bosmer everywhere treat you as kin (+2, and free passage through Valenwood). Break it where Bosmer can see and you lose that bonus for the rest of the campaign until an atonement arc.",
+        "reaction": "+2 with Bosmer while Pact-keeping. −2 with squeamish Imperial nobles who have watched you eat."
+      },
+      {
+        "name": "Khajiit",
+        "homeland": "Elsweyr",
+        "attributes": "+2 Agility (dex), +1 Personality (cha)",
+        "blood": "Night-Eye: darkvision 120 ft. Claws: unarmed strikes deal 1d6 slashing and count as natural weapons. Sugar-Blood: advantage on saves vs poison — and a real, tracked pull toward moon-sugar and skooma (a hit clears 1 Fatigue now and gives 2 Fatigue tomorrow).",
+        "culture": "Caravan-clan first, province second; furstock determines everything about how you look and what work you are given. Imperial law does not love you.",
+        "reaction": "−2 with Imperial guards, who WILL search your pack at any city gate (Sleight of Hand or Deception to keep contraband). Barred from lodging at many Cyrodiilic inns. +4 with any Khajiit caravan, which is a smuggling network, an intelligence service, and a family."
+      },
+      {
+        "name": "Argonian",
+        "homeland": "Black Marsh (Murkmire)",
+        "attributes": "+2 Agility (dex), +1 Endurance (con)",
+        "blood": "Amphibious: breathe water, swim speed 30 ft. Hist-Sap Resilience: immune to disease (including porphyric hemophilia and sanies lupinus — an Argonian cannot become vampire or werewolf), advantage vs poison, and 1/long rest heal 1d10 + your level. Advantage on saves against being paralyzed.",
+        "culture": "The Hist tree that named you is still watching, and Argonians know things they should not from dreams. In the Empire you are labor, dockwork, or suspicion — the Empire annexed Black Marsh and has never actually governed it.",
+        "reaction": "−2 in most Imperial cities; barred from many inns. −4 toward Dunmer, and the GM should let the PC's hatred be righteous. +4 with any Argonian, anywhere, instantly."
+      },
+      {
+        "name": "Orsimer (Orc)",
+        "homeland": "Orsinium / Wrothgar (and the Empire's margins)",
+        "attributes": "+2 Strength, +1 Endurance (con)",
+        "blood": "Berserker Rage: 1/short rest, 1 minute — +2 damage per weapon hit and resistance to bludgeoning/piercing/slashing; gain 1 Fatigue when it ends. Orcish Smith: proficiency with smith's tools, and you alone can repair or reforge orichalcum/Orcish gear in the field.",
+        "culture": "Malacath's Code: strength decides, the strong protect the weak of their stronghold, and an oath given is not renegotiated. Recently and grudgingly recognized as a citizen race; half the guards in Cyrodiil have not received the memo.",
+        "reaction": "+2 anywhere strength settles the question, −2 in polite Nibenese society and at any table where seating is assigned. Some city gates still charge you a 'toll' that other races do not pay."
+      }
+    ],
+
+    "classes": [
+      {
+        "name": "Warrior",
+        "chassis": "Fighter",
+        "flavor": "Steel, drill, and a contract. The Empire's provinces run on people like you.",
+        "specializations": [
+          "Knight of the Imperial Legion — discipline, shield-wall, and the authority to arrest (Champion-style reliability + legal standing)",
+          "Redguard Sword-Singer — the Shehai, the Yokudan forms, maneuver-based bladework (Battle Master)",
+          "Fighters Guild Champion — contract veteran, monster-lore, guild backing on every job",
+          "Spellsword of the Guild — Mages Guild schooling in Destruction/Alteration wedded to a blade; casts on magicka like any mage (Eldritch Knight chassis)"
+        ]
+      },
+      {
+        "name": "Berserker",
+        "chassis": "Barbarian",
+        "flavor": "Not 'rage' as a resource — the old blood of the north and the marches, which the Empire calls savagery because it has never needed it.",
+        "specializations": [
+          "Nord Stormblood — cold, thunder, and the ancestors screaming in your ears",
+          "Malacath-Sworn — the Code made flesh; the Prince of the Spurned watches you keep it (carries a Daedric ledger, see Signature System 2)",
+          "Wereblood of Hircine — lycanthropy as a class path, with moon-phase transformation and a Prince's hunting rights over your soul"
+        ]
+      },
+      {
+        "name": "Thief",
+        "chassis": "Rogue",
+        "flavor": "The Empire's real economy. Every city has a Guild, whether the Count admits it or not.",
+        "specializations": [
+          "Thieves Guild Shadowfoot — shadowmarks, fences, and the Code: steal from anyone, never kill, always pay your cut",
+          "Dark Brotherhood Silencer — the Black Sacrament, the Night Mother, contracts sealed in blood (Assassin)",
+          "Nightblade — Illusion and Destruction in the dark; magicka-fed sneak work (Arcane Trickster)",
+          "Blade Agent — the Emperor's own quiet service: forged papers, cover identities, and orders you cannot prove you were given"
+        ]
+      },
+      {
+        "name": "Mage",
+        "chassis": "Wizard",
+        "flavor": "Arcane University trained, guild-chartered, and taxed. Your power came out of a book someone else wrote and a hall someone else pays for — which is why the Guild owns a piece of you.",
+        "specializations": [
+          "Alterationist — burden, feather, water-walking, shield, the shape of what is",
+          "Conjurer — Daedra summoning and bound weapons; every summon is a favor from Oblivion (see Signature System 2)",
+          "Destruction Evoker — fire, frost, shock, and the Guild's most-audited discipline",
+          "Illusionist — charm, calm, frenzy, invisibility; the school Nords hang people for",
+          "Mystic (Mysticism) — soul trap, telekinesis, detection, dispel, spell absorption; the school of the seams between things",
+          "Restorer — healing, fortification, cure disease; the school the Imperial Cult and the Guild both claim"
+        ]
+      },
+      {
+        "name": "Sorcerer",
+        "chassis": "Sorcerer",
+        "flavor": "Magicka in the blood, untaught and untaxed — which the Mages Guild finds either fascinating or intolerable, depending on the hall.",
+        "specializations": [
+          "Direnni Blood (Breton line) — inherited spell-resistance and absorption; old Adamantine Tower inheritance",
+          "Star-Cursed: The Atronach — you were born under the sign; you do not regain magicka from rest, only by absorbing spells and draining soul gems",
+          "Oblivion-Touched — something crossed over at your conception; wild-magic surges roll on a Daedric table and are noticed by whoever's realm they echo from"
+        ]
+      },
+      {
+        "name": "Prince-Sworn",
+        "chassis": "Warlock",
+        "flavor": "You did not summon a Prince. You were noticed by one. The power is instant, generous, and entirely a loan (see the Daedric Ledger, Signature System 2).",
+        "specializations": [
+          "Nocturnal, Mistress of Shadow — domain: night, luck, secrets kept. Price: she takes something you love and does not tell you which until it is gone; her Gray Cowl steals your name from every mind that knew it.",
+          "Mehrunes Dagon, Prince of Destruction and Ambition — domain: revolution, razors, the ending of built things. Price: he requires you to break something you built, on his schedule.",
+          "Hermaeus Mora, Prince of Fate and Forbidden Knowledge — domain: every book that should not exist. Price: he takes a memory per gift, and eventually a Moth Priest's blindness or worse.",
+          "Azura, Queen of Dawn and Dusk — domain: prophecy, twilight, the soul's proper keeping. Price: she is the kindest lender and still uses you as a piece; she will demand you honor an oath at the worst possible moment.",
+          "Molag Bal, King of Rape and Domination — domain: vampirism, black soul gems, the enslavement of the free. Price: he wants you to make someone else a thrall, and will not accept a substitute.",
+          "Hircine, the Huntsman — domain: the hunt, the beast-blood, the Great Hunt of the Bloodmoon. Price: eventually you are the prey.",
+          "Sheogorath, Madgod — domain: madness, cheese, delightful catastrophe. Price: unknowable, arrives early, and is funnier for everyone but you.",
+          "Boethiah, Prince of Plots — domain: betrayal as sacrament, the murder of the unworthy. Price: he requires you to betray an ally you actually value, and knows which one that is.",
+          "(Also available: Clavicus Vile, Mephala, Meridia, Namira, Peryite, Vaermina, Malacath, Sanguine — each needs a named domain and a story-level price before play.)"
+        ]
+      },
+      {
+        "name": "Priest of the Nine",
+        "chassis": "Cleric",
+        "flavor": "Not a generic pantheon — the Imperial Cult, chartered in every city, funded by tithe, and staffed by people who are equal parts pastor, field-healer, and political weathervane. Your power is Restoration and Aedra-blessing, and the Aedra diminished themselves to make the world; what they lend you, they cannot get back (see Signature System 2).",
+        "specializations": [
+          "Akatosh, the Dragon God of Time — endurance, the Empire's covenant, dragonfires (Order of the Hour)",
+          "Arkay, of Life and Death — burial rites, turning undead, absolute enmity toward necromancy",
+          "Dibella, of Beauty and Love — the arts, mercy, and a shrine every soldier visits",
+          "Julianos, of Wisdom and Logic — the Guild's favorite Divine; contracts, riddles, and law",
+          "Kynareth, of Air and Nature — wind, storms, the wilderness shrine",
+          "Mara, the Mother-Goddess — healing, marriage, compassion as doctrine",
+          "Stendarr, of Mercy and Justice — the shield of the weak, and the hard edge of mercy toward Daedra-worshippers",
+          "Zenithar, of Work and Commerce — merchants' god; wealth is holy and interest is honest",
+          "Talos, Ninth Divine — the man who became a god and founded the Empire; the Thalmor's embassy goes very quiet when he is named",
+          "Almsivi, the Tribunal (Dunmer only) — Vivec, Almalexia, Sotha Sil: living gods the Imperial Cult considers a diplomatic problem",
+          "Ancestor-Priest (Dunmer only) — your power comes from your own dead, and they can be argued with"
+        ]
+      },
+      {
+        "name": "Crusader",
+        "chassis": "Paladin",
+        "flavor": "An oath in a world where oaths are collateral. Every one of these orders is a real institution with a chapterhouse and a grievance.",
+        "specializations": [
+          "Oath of the Nine — Knights of the Nine; Daedra-cults are your standing enemy",
+          "Oath of the Blade — sworn personally to Uriel Septim VII and the Dragonfires; the succession question is your nightmare",
+          "Oath of the Ancestors — Great House Redoran honor-bound; the Old Ways above Imperial law",
+          "Oath of the Hour — Order of Akatosh; time, prophecy, and the Empire's covenant",
+          "Oathbreaker: The Prince's Knight — you broke faith and something in Oblivion caught you before you hit the ground"
+        ]
+      },
+      {
+        "name": "Scout",
+        "chassis": "Ranger",
+        "flavor": "The provinces are big, badly mapped, and full of things the Legion patrol schedule does not account for.",
+        "specializations": [
+          "Bowman of the Green Pact (Bosmer) — Valenwood archery under Pact law",
+          "Colovian Ranger of the Imperial Reserve — the Empire's forest wardens, road-agent hunters",
+          "Huntsman of Hircine — you hunt with a Prince's blessing and are on his list",
+          "Ashlander Outrider (Dunmer nomad) — ash-storm navigation, guar-riding, the wastes outside House law"
+        ]
+      },
+      {
+        "name": "Pilgrim",
+        "chassis": "Monk",
+        "flavor": "Discipline as devotion. In Tamriel the body is a shrine, a weapon, or a manuscript, depending on your order.",
+        "specializations": [
+          "Way of the Voice (Nord only) — Greybeard training at High Hrothgar; Thu'um shouts replace ki-flavored features. Requires an actual pilgrimage arc; the GM should make you earn it.",
+          "Monks of Almsivi — Tribunal Temple fist-fighters; hand-to-hand and Restoration",
+          "Order of the Ancestor Moth — Elder Scroll readers; you may read a Scroll for a truth no one else can obtain, and each reading costs you sight, permanently and in stages"
+        ]
+      },
+      {
+        "name": "Skald",
+        "chassis": "Bard",
+        "flavor": "Information is the Empire's real currency and you are liquid in it.",
+        "specializations": [
+          "College of Skalds (Nord) — battle-poetry, boasting, and the memory of the holds",
+          "Order of Dibella — the Dibellan arts: beauty, persuasion, and access to every bedroom in a court",
+          "Whispers of the Caravan (Khajiit) — story, sugar, and the caravan intelligence network",
+          "Nibenese Court Flatterer — imperial ritual, flattery as a martial art, and a lethal grasp of precedence"
+        ]
+      },
+      {
+        "name": "Wise One",
+        "chassis": "Druid",
+        "flavor": "Older than the Guild, older than the Empire, and entirely uninterested in either's charter.",
+        "specializations": [
+          "The Wyrd of High Rock — Breton hedge-witch covens and the Wyrd Trees",
+          "Green Pact Wildwarden (Bosmer) — the forest that eats its own dead",
+          "Hist-Touched Shaman (Argonian) — sap-dreams and a tree that answers",
+          "Ashlander Wise Woman (Dunmer) — Nerevarine prophecy, ancestor visions, and open contempt for the Tribunal"
+        ]
+      }
+    ],
+    "class_exclusions": "There is NO Artificer and no Dwemer engineering class. Dwemer artifice is not a masterable discipline in this era — nobody living understands it (Signature System 11). A character may loot it, trigger it, and sell it; they may never take a level in it.",
+
+    "backgrounds": [
+      { "name": "Mages Guild Associate", "feature": "Hall Rights — a bed, the lending library, and an enchanter's bench in any Guild hall in the Empire, plus the right to petition a Guild Steward. Costs: dues, and the Guild's claim on anything you learn." },
+      { "name": "Fighters Guild Contractor", "feature": "The Contract Board — in any city with a Guild hall you can always find paid, legal work, and the Guild's name gets you past a suspicious gate captain." },
+      { "name": "Thieves Guild Wet-Ear", "feature": "Shadowmarks & Fences — you read the Guild's door-glyphs, and you can move stolen goods in any city with a Guild presence at 40% value without questions." },
+      { "name": "Dark Brotherhood Initiate", "feature": "The Black Sacrament — you know the rite and the dead-drops. You can pass a message to a Speaker from anywhere in Tamriel. Everyone who learns this about you reconsiders your friendship." },
+      { "name": "Legion Auxiliary", "feature": "Papers and Bunk — legion garrison lodging, rations, and standing to detain a suspect in any Imperial province. Legionaries salute you and expect obedience in return." },
+      { "name": "Imperial Cult Almoner", "feature": "Shrine Rights — free Cure Disease and sanctuary at any Chapel of the Nine, and the Cult's alms network as an information web." },
+      { "name": "Great House Retainer (Hlaalu / Redoran / Telvanni)", "feature": "House Law — inside Morrowind you answer to your House, not the Legion; your House will lawyer, ransom, or disown you depending on the day and their profit." },
+      { "name": "Caravaneer of the Sands", "feature": "The Caravan Roads — Khajiit caravan hospitality, back-road routes between provinces, and a smuggler's contact in most ports. Also, guards search you." },
+      { "name": "Marsh-Kin of the Hist", "feature": "The Hist Remembers — you can navigate Black Marsh where Imperial maps end, and Argonian communities anywhere will shelter you without asking." },
+      { "name": "Colovian Yeoman", "feature": "Militia Muster — western Cyrodiil farm-and-fort stock; you can raise a village militia and get a barn to sleep in anywhere on the Gold Road." },
+      { "name": "Nibenese Clerk", "feature": "The Paper Trail — you know which office holds which ledger, and can obtain, forge the look of, or lose a document inside an Imperial bureaucracy." },
+      { "name": "Housecarl of a Jarl", "feature": "Oath-Held — hold hospitality across Skyrim, a jarl who owes you a hearing, and a blood-feud you inherited." },
+      { "name": "Crowns Duelist / Forebear Corsair", "feature": "Hammerfell's Schism — sword-circle standing with your faction (a duel settles most disputes) or a berth on any Forebear ship out of Anvil. The other faction knows exactly what you are." },
+      { "name": "Direnni-Blooded Heir", "feature": "Letters and Litigation — High Rock petty nobility: a family seal, a modest allowance, and at least one lawsuit that follows you across borders." },
+      { "name": "Surveyor of the Imperial Geographical Society", "feature": "Letters of Introduction — legal access to ruins, a stipend for survey work, and Brother Aldos Venim's professional interest in your exploits, which is a mixed blessing." },
+      { "name": "Thalmor Attaché", "feature": "Diplomatic Immunity — Imperial guards cannot lawfully hold you, and absolutely everyone assumes you are a spy. (Requires Altmer or Bosmer, and the Dominion never stops calling in what it lent.)" }
+    ],
+
+    "birthsigns": {
+      "rule": "EVERY character is born under one of the Thirteen. Choose at creation; it is fixed, public knowledge (Tamrielics ask your sign the way Imperials ask your province), and it grants one real power.",
+      "signs": [
+        { "name": "The Warrior", "power": "1/short rest, reroll one weapon damage die and take the better; +1 to attack rolls made with a weapon you are proficient in on the first round of any combat." },
+        { "name": "The Mage", "power": "+10 maximum magicka at 1st level and +2 more per level thereafter." },
+        { "name": "The Thief", "power": "1/short rest, reroll a failed Agility (Dex) check or Stealth/Sleight of Hand/Thieves' Tools roll." },
+        { "name": "The Serpent", "power": "The wildcard. 1/long rest, touch: 3d6 poison damage and poisoned 1 minute (Con save halves, ends poisoned). You may also cure yourself of poison at will, once per day. The Serpent-born make people uneasy: −1 to first-impression reactions everywhere." },
+        { "name": "The Lady", "power": "+1 to all Personality (Cha) checks, and you automatically stabilize on your first death save each combat." },
+        { "name": "The Steed", "power": "+10 ft speed; Dashing through difficult terrain costs no extra movement." },
+        { "name": "The Lord", "power": "Blood of the Trollkin: regain 1 HP at the start of each of your turns while above 0 HP. Weakness: disadvantage on saving throws against fire." },
+        { "name": "The Apprentice", "power": "Maximum magicka +50%. Weakness: disadvantage on saving throws against spells and magical effects." },
+        { "name": "The Atronach", "power": "Maximum magicka +75%, and you have NO natural magicka regeneration — rest restores none of it. Instead, whenever you succeed on a save against a spell you absorb it (gain magicka equal to 10 × its level), and you may drain filled soul gems. Play it if you want the world's most interesting resource problem." },
+        { "name": "The Ritual", "power": "1/long rest, Mara's Gift: heal a creature for 3 × your level HP. Separately, 1/day, Blessed Word: turn undead within 30 ft (Wis save vs 8+prof+Cha) for 1 minute." },
+        { "name": "The Lover", "power": "1/long rest, the Lover's Kiss: one creature within 5 ft must make a Willpower (Wis) save or be paralyzed for 1 minute. You gain 1 Fatigue when you use it." },
+        { "name": "The Shadow", "power": "1/long rest, become invisible for 1 minute (no concentration required; ends if you attack or cast)." },
+        { "name": "The Tower", "power": "1/long rest, Tower Key: open any non-magical lock or barred door by touch, and detect the presence of traps within 30 ft for 1 minute. Beggar's Nose: you always know which building on a street holds the most coin." }
+      ]
+    },
+
+    "guild_ranks": {
+      "rule": "See Signature System 4. Rank is a real, tracked resource, not a title.",
+      "mages_guild": ["Associate", "Apprentice", "Journeyman", "Evoker", "Conjurer", "Magician", "Warlock", "Wizard", "Master-Wizard", "Arch-Mage"],
+      "fighters_guild": ["Associate", "Apprentice", "Journeyman", "Swordsman", "Protector", "Defender", "Warder", "Guardian", "Champion", "Master"],
+      "thieves_guild": ["Toad", "Wet Ear", "Footpad", "Blackcap", "Operative", "Bandit", "Captain", "Ringleader", "Mastermind", "Gray Fox"],
+      "dark_brotherhood": ["Murderer", "Slayer", "Eliminator", "Assassin", "Silencer", "Speaker", "Listener"],
+      "imperial_cult": ["Layman", "Novice", "Initiate", "Acolyte", "Adept", "Disciple", "Oracle", "Primate"]
+    }
+  },
+
+  "signature_systems": [
+    {
+      "name": "1. Magicka, Not Slots — the Well",
+      "summary": "Spell slots do not exist in Tamriel. Every caster of every class spends from one shared pool of magicka, which is why a mage's real skill is budgeting.",
+      "rules": "MAX MAGICKA by caster level (add 2 × your spellcasting ability modifier; Altmer ×1.5; Mage/Apprentice/Atronach birthsigns modify further): L1 4 · L2 6 · L3 14 · L4 17 · L5 27 · L6 32 · L7 38 · L8 44 · L9 57 · L10 64 · L11 73 · L12 73 · L13 83 · L14 83 · L15 94 · L16 94 · L17 107 · L18 114 · L19 123 · L20 133. Half-casters (Crusader, Scout, Spellsword, Nightblade) use the value for half their level rounded up; third-casters use a third.\nCOST TO CAST, by the spell's tier: Novice (cantrip) 0 · 1st 2 · 2nd 3 · 3rd 5 · 4th 6 · 5th 7 · 6th 9 · 7th 10 · 8th 11 · 9th 13. Upcasting simply means paying the higher tier's cost.\nGREATER WORKINGS: no more than one spell of 6th tier or higher per long rest, no matter how much magicka is left. The world does not permit two miracles in a day.\nRECOVERY: long rest restores all magicka; a short rest restores magicka equal to your spellcasting modifier × proficiency bonus. Welkynd stones (single-use, Ayleid) restore 20; a filled soul gem drained by a Mystic restores 5/10/20/40 by gem size (petty/common/greater/grand). ATRONACH-born recover NONE of this by rest and must absorb or drain.\nOVERDRAW THE WELL: you may cast a spell you cannot afford. Pay 2 HP per point of magicka you are short, and gain 1 Fatigue. At 3+ Fatigue add a d20 mishap check (DC 12 + spell tier, Willpower): failure means the spell fires wrong, wildly, or into the caster. This is the mechanical face of 'power borrowed always has a lender'.\nFATIGUE (vital, 0–6) works exactly like 5e exhaustion; it is cleared one level per long rest with food and a bed, immediately by a Restoration spell of 3rd tier or higher, or by moon-sugar (which returns it doubled the next day)."
+    },
+    {
+      "name": "2. The Two Lenders — Aedra Bind and Daedra Bargain",
+      "summary": "All magic in this world traces to one of two creditors, and the difference is not good vs evil — it is the repayment terms. Aedra lend order at a fixed, honest, finite cost. Daedra lend power instantly and collect on their own schedule, in the fiction, forever.",
+      "rules": "AEDRA-SOURCED (Restoration, most Alteration, Priest of the Nine, Crusader oaths, Cult blessings): reliable, never free, never infinite. A Priest or Crusader has DIVINE BLESSINGS equal to their proficiency bonus per long rest (this is the Channel Divinity-class resource, renamed and reworked). Spending more than one Blessing in a day incurs an OBLIGATION: an act of devotion owed within seven days (a tithe of real coin, a pilgrimage leg, a healing given free to someone who cannot pay, a burial rite performed properly). Discharge it and nothing happens. Fail it and your Blessings drop to one per long rest until you make amends at a Chapel of the Nine. The Aedra diminished themselves to make Mundus; what they give you is taken from a finite thing, and the Cult's doctrine says so out loud.\nDAEDRA-SOURCED (Conjuration of any kind, Prince-Sworn features, Illusion at its darkest, any gift or artifact from a Prince): instant, generous, and never taxed mechanically. Instead every Prince-Sworn PC (and any PC who accepts a Daedric artifact or a Prince's direct favor) runs a DAEDRIC LEDGER — a per-character clock created with `bash tools/gm-clock.sh` named '<Prince>'s Ledger', 6 segments. Fill a segment whenever the character uses the Prince's power in a way that serves the character and not the Prince, refuses a request, or is seen to prosper. Clear a segment by doing what the Prince actually wants. When the Ledger FILLS, the Prince collects — always at story level, never as a stat penalty: a demand, a summons to their realm, a champion sent to test you, a gift you must now use on someone you love. The bill is a scene, not a subtraction.\nDAEDRIC ARTIFACTS (Azura's Star, the Wabbajack, Mehrunes' Razor, Volendrung, Spellbreaker, the Skull of Corruption, the Ring of Namira, the Sanguine Rose, the Ebony Blade, the Mace of Molag Bal, the Masque of Clavicus Vile, the Oghma Infinium, the Savior's Hide, Goldbrand): unique, campaign-defining loot. Picking one up opens a Ledger for that Prince whether or not you swore anything. loot-dropper should treat these as arc rewards, never as random drops.\nCONJURATION SPECIFICALLY: every summoned scamp, atronach, or dremora is on loan from a Prince's realm, and a Conjurer who summons carelessly in a holy place, a Nord hold, or in view of a Vigil-minded priest has committed a public crime as well as a theological one.\nBORROWING UNDER SEAL: a licensed summons has a STATED SPAN, declared at casting — exceeding it is the mishap. Every summons after the first in a scene, every summons cast on thin ground (see System 14, The Thinning), and every imprecisely-worded binding adds +1 to the mishap DC. Whatever you summoned goes home able to describe you, and Dremora gossip. Reusing the same binding on the same named Daedra is how a PC acquires a relationship they did not ask for.\nDAEDRA ARE NOT KILLED, ONLY SENT BACK. A slain Daedra re-forms in its Prince's realm with the grievance and the face intact. Named Daedra — Dremora especially — return: the GM should reuse them by name and let them open with what happened last time. Killing a Prince's servant is a move in a negotiation, not the end of one, and it is a legitimate way to fill a segment of that Prince's Ledger."
+    },
+    {
+      "name": "3. The Six Schools and Guild Schooling",
+      "summary": "Magic is a curriculum, not an innate class ability. Every spell in the game belongs to exactly one of six schools, and access is gated by who taught you, not by what your class sheet says.",
+      "rules": "THE SCHOOLS: Alteration (shape of what is — shield, feather, burden, water-walking, open lock), Conjuration (Daedra, bound weapons, undead-raising), Destruction (fire/frost/shock, weakness, damage attribute), Illusion (light, invisibility, charm, calm, frenzy, paralysis), Mysticism (soul trap, telekinesis, detect, dispel, reflect, spell absorption, mark & recall), Restoration (heal, fortify, cure disease/poison, absorb attribute).\nWhen the GM or the spell-caster agent pulls an SRD spell, it MUST be renamed and assigned a school before it reaches the table. 'Fireball' is a Destruction spell from a Guild curriculum. 'Charm Person' is Illusion. 'Dispel Magic' is Mysticism. There are no wizard/cleric/druid spell lists — there are school lists, and your class determines which schools you were trained in.\nSCHOOL RANK: each caster tracks a rank per school — Novice / Apprentice / Journeyman / Expert / Master. Rank gates the tier you may cast in that school (Novice 1st, Apprentice 2nd–3rd, Journeyman 4th–5th, Expert 6th–7th, Master 8th–9th). Rank goes UP by training (a Guild instructor and downtime), by finding a spell tome in a ruin, or by a Master's tutelage — never automatically on level-up. This is why the Mages Guild has leverage over every mage in the Empire.\nNEW SPELLS come from three places only: purchase at a Guild hall (rank-gated, priced in septims), loot (spell scrolls and tomes in Ayleid/Dwemer/necromancer sites), or a teacher who wants something. A mage cut off from the Guild stops growing — which the Guild will mention.\nSPECIALIZATION: a Mage names one school as their certified specialization at 1st level: +1 spell save DC and −1 magicka cost (minimum 1) in that school, and one school is named their weakness (costs +1 magicka)."
+    },
+    {
+      "name": "4. Guild Rank Is a Spendable Resource",
+      "summary": "Guild membership is not a background flavor line. Rank is tracked, it buys concrete things, it can be spent down, and it can be lost — the Mages, Fighters, Thieves Guild and Dark Brotherhood are the real seats of power alongside the noble houses.",
+      "rules": "Every guild-affiliated PC tracks GUILD and RANK (see character_options.guild_ranks for the ladders). Rank tier = position on that ladder ÷ 2, rounded up (1–5).\nFAVORS: a PC may call in Guild Favors equal to their rank tier per in-game month. One favor buys ONE of: a hall's full resources (a loan of gear, a scroll, an enchantment, a bed and healing); an introduction to someone the guild knows; guild muscle or a distraction; a bounty quietly paid down (Thieves Guild only); passage or papers; a name and address the guild would rather not give out.\nSOCIAL WEIGHT: advantage on social checks with anyone who respects your guild, disadvantage with anyone who doesn't (Fighters Guild rank means nothing to a Telvanni; Thieves Guild rank means everything in Anvil's dockside and gets you hanged in the Legion's yard).\nRANK ADVANCEMENT is earned by contracts and service, never by leveling. It's a parallel advancement track — a level-6 Warrior may be a Fighters Guild Associate, and both facts matter.\nDEBT AND EXPULSION: each favor spent adds Guild Debt; the guild WILL name the repayment job and it will be inconvenient. Break your guild's code (Thieves Guild: killing on a job, or not paying your cut; Fighters Guild: taking a contract against another member; Mages Guild: necromancy — expressly banned; Dark Brotherhood: killing a Brother, or failing a contract) and you are suspended, hunted, or given to the Prince the guild answers to.\nMULTI-GUILD membership is legal but watched. Thieves Guild + Fighters Guild is a standing conflict of interest. Anyone in the Dark Brotherhood who is also in a chartered guild is one investigation away from a very bad month."
+    },
+    {
+      "name": "5. Race as Living Culture — Reaction, Not Bonus",
+      "summary": "Race in this game is homeland politics you are wearing on your face. The stat line is the least of it; the reaction table and the cultural obligations are the system.",
+      "rules": "FIRST-IMPRESSION REACTION: every first social check with a new NPC applies the racial reaction modifier from character_options.races (that NPC's culture vs the PC's). There is no neutral stranger in Tamriel. Modifiers of −4 or worse mean the check is made at disadvantage and the NPC will not be persuaded past 'transactional' until an arc changes it.\nSTANDING FRICTIONS the GM should play, unprompted: Nords distrust open magic (and Dunmer). Dunmer call every non-Dunmer 'outlander' and enslaved Argonians and Khajiit within living memory — Argonian and Khajiit PCs get to hate them for free. Redguards split Crowns vs Forebears and consider necromancy an act of war. Altmer condescend beautifully and are assumed Thalmor. Bosmer are held to the Green Pact by other Bosmer. Khajiit get searched at every gate and are barred from many inns. Orsimer are recent citizens and half the guard hasn't accepted it. Imperials are assumed to be in charge and resented for being right.\nCULTURAL OBLIGATIONS are mechanical: the Green Pact (Bosmer), Malacath's Code (Orsimer), ancestor-honor and House law (Dunmer), Nord hospitality and blood-feud, the Redguard duel-circle, and manred (Breton) — a Breton PC is oathbound into somebody's web of obligation and carries at least one standing claim and one standing debt from it. Honoring the web gives the usual +2 among Bretons and a cousin-in-the-ledger; going unmanred costs the standing AND the legal personhood — an unmanred Breton in High Rock cannot sign, testify, or inherit until an atonement arc restores them. Keeping yours gives +2 and open doors among your own people; breaking it publicly costs that standing until an atonement arc, and word travels — the caravans, the Guild, and the temples all gossip.\nRACIAL POWERS are real but secondary; when the GM narrates race, lead with the culture and the room's reaction, not the resistance."
+    },
+    {
+      "name": "6. The Thirteen Birthsigns",
+      "summary": "Everyone in Tamriel is born under one of thirteen constellations and everyone knows what it means. It is the world's shared small-talk and the game's most flavorful character switch.",
+      "rules": "One sign chosen at creation, fixed for life, granting the power listed in character_options.birthsigns. It is public: NPCs ask 'and under what sign?' the way an Imperial asks your province, and the answer colors their reaction (Serpent-born make people uneasy; Atronach-born are treated as either cursed or fascinating; the Warrior and the Lady are considered lucky matches). Star-Cursed Sorcerers, Ritual-born priests, and Shadow-born thieves get their sign woven into their class story. Rare shrines and Daedric boons may grant a second sign's minor power for a scene — never permanently."
+    },
+    {
+      "name": "7. Luck, and the Burning of It",
+      "summary": "The seventh attribute. It is not rolled and not bought — it is spent, and it is very hard to get back, which is exactly how Tamriel treats fortune.",
+      "rules": "Luck starts at 10 (modified only by birthsign, race, or a Divine's/Prince's favor). BURN 1 LUCK to do one of: turn a failed d20 roll of your own into a success by the minimum margin; force a reroll on an attack against you; declare one small fortunate coincidence in the scene the GM must honor ('the guard's lantern was out of oil'). Burned Luck is GONE — it does not come back on a rest. It returns only by: +1 on gaining a level, +1 from a shrine boon of the Nine (once per shrine per campaign), +1 from an unsanctioned luck-shrine (chiefly Bravil's Lucky Old Lady, which the county declines to name and the poor will not stop feeding) once per campaign and only for an offering that costs something real, or a Daedric Prince's gift (which opens a Ledger, see System 2). Whatever is actually in that Bravil shrine is not one of the Nine, and Brother Aldos Venim has three contradictory footnotes about what it is. A PC at Luck 5 or lower is visibly unlucky: the GM narrates small mishaps, dogs bark at them, and the first NPC of the scene mentions it. At Luck 0 the GM may impose disadvantage on one roll per scene until Luck recovers. Brother Aldos Venim considers a man's Luck a matter of historical record and will footnote it."
+    },
+    {
+      "name": "8. Spellmaking, Enchanting, and the Soul Trade",
+      "summary": "The Arcane University's two crown privileges, and the grim little economy underneath them. This is what high-rank Guild membership actually buys.",
+      "rules": "SPELLMAKING (requires Mages Guild rank Magician+ and access to the Arcane University's Chironasium/Spellmaker, or a Telvanni tower's equivalent): a caster may commission a CUSTOM SPELL — choose a school, one or more effects, a magnitude, a duration, and an area. The GM prices it: magicka cost = the tier the effect would naturally be, +1 per additional effect stacked, +1 for area; septim cost = 100 × magicka cost; and it takes a downtime week. Custom spells are how a player invents 'the thing my character is famous for'. Say yes to clever ones and price the abusive ones honestly.\nENCHANTING requires a FILLED SOUL GEM and an altar (Guild hall, University, or a found Ayleid/Dwemer altar). Soul gems: petty/common/greater/grand hold souls by the creature's power, and Azura's Star is the reusable one everyone in Tamriel wants. Filling one requires the Mysticism spell SOUL TRAP cast on the target before it dies. Enchantment strength is capped by gem size: petty = a minor property (+1 weapon, a cantrip charge), common = a 1st–2nd tier effect on use, greater = 3rd–4th, grand = 5th+ or a constant effect.\nBLACK SOUL GEMS trap the souls of thinking people (men and mer). They are the most powerful enchanting material in the world, they are Molag Bal's own invention, they are a capital crime in every Imperial province, and using one opens a Ledger with Molag Bal whether the PC asked for one or not. Necromancers, the Worm Cult, and certain very polite Telvanni deal in them.\nALCHEMY: ingredients have four properties each and only the first is known to a novice; Apothecary tools + a mortar let a PC brew potions and poisons in downtime. This is the poor mage's magicka economy and the assassin's whole career."
+    },
+    {
+      "name": "9. Disease, Blood-Curse, and the Shrines",
+      "summary": "Tamriel's monsters leave something behind. Getting bitten matters days later, and the cure is a shrine, which means the cure is also a social act.",
+      "rules": "On being wounded by a diseased creature (rats, wolves, zombies, corprus beasts, vampires, werewolves), Endurance (Con) save DC 12 or contract a disease. Common ones: RATTLES (−1 Agility checks), ATAXIA (disadvantage on Sleight of Hand/Thieves' Tools), ROCKJOINT (−2 attack rolls), BRAIN ROT (−1 Personality checks and disquieting dreams), WITBANE (−1 Intelligence checks and magicka −10). Diseases do not fade on their own; they get worse weekly until cured.\nPORPHYRIC HEMOPHILIA: contracted from a vampire's bite, failed save DC 15. Untreated for three days, the PC becomes a VAMPIRE — a real, playable path with real costs (sun-weakness, feeding on the living, the Imperial Cult's standing execution order, and access to the vampire clans of Cyrodiil and Morrowind).\nSANIES LUPINUS: contracted from a werewolf. Untreated, the PC becomes a LYCANTHROPE and Hircine's property — moon-phase transformations, the Great Hunt, and a Ledger with the Huntsman.\nTHE CURE is Restoration's Cure Disease, a shrine of the Nine (free, but the priest will want to know how you caught it), or an alchemical cure at an apothecary. Argonians are immune to all of it — the Hist looks after its own. Curing full vampirism or lycanthropy is a QUEST, never a spell."
+    },
+    {
+      "name": "10. Crime, the Watch, and the Bounty",
+      "summary": "The Empire's Peace is enforced by ordinary guards with a ledger. Every province has a bounty book with your name available for entry, and this is one of Tamriel's best play-generators.",
+      "rules": "Witnessed crimes accrue a BOUNTY in septims, per province: trespass 5, theft 2× item value, assault 40, jail-break 100, murder 1000, necromancy 1000 (and the Mages Guild's attention), Daedra-summoning in public 500 (and a priest's attention), unlicensed excavation of a Dwemer site 250 (and the Imperial Commission on Dwemer Studies' attention — see System 11), selling unlicensed Dwarven metal 2× its value (and the buyer's name enters a Commission ledger), forging a Commission seal 500 and a warrant that follows you across provinces.\nGuards who spot a bountied PC demand surrender. Options: PAY (bounty cleared, stolen goods confiscated), GO TO JAIL (bounty cleared, serve days = bounty ÷ 100, lose one skill/proficiency's edge to prison rust unless you make an Endurance save — and jail is where the best NPC contacts in the game live), RESIST (the guard is a real combatant, and killing one adds 1000 and a warrant), or FLEE (bounty stands and the province remembers; guards recognize you on sight thereafter).\nTHE THIEVES GUILD will clear a bounty for a fee and a favor — one of the best reasons to hold rank. A bounty in Cyrodiil does not follow you to Skyrim; Morrowind's Great Houses run their own justice entirely and House law may protect a retainer outright.\nNO CRIME WITHOUT A WITNESS. This is the load-bearing rule that makes stealth play worth doing."
+    },
+    {
+      "name": "11. Dwemer Artifice — Cold, Alien, and Nobody's Tech Tree",
+      "summary": "Dwarven ruins run on machinery that predates the Aedra/Daedra system and ignores it. It is loot, hazard, and mystery, and it must never become a discipline the party masters.",
+      "rules": "Dwemer sites (Cyrodiil's few, Morrowind's many, Skyrim's deep ones) are un-magical: Detect Magic returns nothing, Mysticism cannot dispel a mechanism, and Illusion does not fool an animunculus — steam centurions, spheres, and spiders have no minds to charm, calm, or frighten and are immune to those effects entirely. Conversely they are vulnerable to shock damage and to a good hammer.\nDWEMER LOOT: metal (worth 5× its weight in any other metal), tonal resonators, cogs and gyros the Guild will pay handsomely for, animunculi cores, and rarely a schematic no living scholar can read. Selling Dwemer metal to the wrong buyer starts a plot.\nNO ONE LEARNS IT. A PC may trigger a mechanism, disarm one with Security/Thieves' Tools at a hard DC, jam one, or bribe a Telvanni who claims to understand it (they do not). No class, no feat, and no downtime project ever confers Dwemer engineering. The correct answer to 'can I build one' is a scene where the party finds out why not.\nThe Dwemer themselves are GONE — all of them, at once, in 1E 700, and the reason is a live mystery in this campaign, not an answered one.\nTHE ANTIQUITIES STATUTE (passed 3E 389): every Dwemer site is Imperial property, enforced by the Imperial Commission on Dwemer Studies, whose inspectors' writs outrank provincial magistrates. A permit is a real object with a real cost and a real expiry (Mzeneldt's lapsed in 3E 419 and the writ is still nailed to the arch). Forged seals and unlicensed fences are genuine adventure obstacles, not flavor text — see System 10's bounty table. In Morrowind the Statute yields to Great House law, which is why Hlaalu sells permits it does not actually hold, and Redoran calls the whole trade grave-robbing."
+    },
+    {
+      "name": "12. The Empire's Peace — the Twilight Clock",
+      "summary": "The campaign's title is a promise. A background threat clock tracks the realm's stability and advances on its own schedule, whether or not the party is anywhere near it.",
+      "rules": "Create at campaign start: `bash tools/gm-clock.sh add \"The Empire's Peace\" 8 --type time` (8 segments, time-advancing). It ticks on its own with the passage of in-game weeks and jumps a segment on world events: an Elder Council succession maneuver, a provincial uprising, a Thalmor diplomatic incident, a Mythic Dawn success, a Daedric cult going public, a Divine's shrine going silent.\nThe party can slow it (one segment back for a real, costly intervention) but cannot stop it — it is 3E 430 and the reader knows what 3E 433 brings. Segment 8 is not the campaign's end; it is the moment the Emperor's peace stops being the assumption everyone plans around.\nRun subsidiary clocks alongside it as the story earns them: 'The Mythic Dawn's Recruitment', 'Thalmor Patience', '<Great House> Ascendancy', and every PC's personal Daedric Ledger (System 2)."
+    },
+    {
+      "name": "13. Skills, Named in the Provincial Manner",
+      "summary": "The d20 skill list is used mechanically but never spoken aloud in D&D terms. Tamriel has its own names and the GM uses them.",
+      "rules": "Speechcraft = Persuasion/Deception/Intimidation. Mercantile = the haggle check (Insight/Persuasion; a good roll moves price 10–25%). Security = Thieves' Tools (locks and traps). Sneak = Stealth. Acrobatics and Athletics keep their names. Alchemy = Alchemist's Supplies + Nature. Armorer = Smith's Tools (and field repair of damaged gear, which this world does track for signature weapons). Marksman = ranged weapon attacks. Blade / Blunt / Hand-to-Hand = weapon groups, and a Fighters Guild trainer will absolutely correct you on which you are using. Light/Heavy Armor and Block are proficiencies. The six magic schools double as knowledge skills — 'roll Mysticism' is a legitimate call for identifying an enchantment or an Ayleid ward.\nWhen a player says 'I make a Perception check', the GM answers in Tamrielic: 'Roll for it — you have a Nord's ear for stone shifting.'"
+    },
+    {
+      "name": "14. The Thinning",
+      "summary": "A slow, unglamorous drop in the resistance between Mundus and Oblivion. It is the quiet clock under everything else in 3E 430 — the trend that makes this year different from ten years ago, and it is measured, not narrated in a vacuum.",
+      "rules": "Create at campaign start alongside the Empire's Peace: `bash tools/gm-clock.sh add \"The Thinning\" 6 --type time`. It advances one segment per in-game month, plus one segment per triggering event: a licensed seal failing, a summons returning late or knowing something it should not, a shrine answering on the wrong day, a Cull-Book Daedric contract coming in above the season's running rate.\nAT 3+ SEGMENTS FILLED: every Conjuration binding of 4th tier or higher rolls the System 1 Overdraw mishap check (DC 12 + tier, Willpower) regardless of whether the caster overdrew the Well — thin ground makes even a well-funded summons chancy.\nAT 6 SEGMENTS: the GM may narrate a seam opening somewhere the party is not, and Magister Cavillius Rell (Mysticism chair, Arcane University) will pay in coin and library access for readings taken at named sites. This is the mechanism, not the payoff — do not resolve what the Thinning is building toward; that belongs to a later chapter than this campaign starts in."
+    },
+    {
+      "name": "15. The Cull-Book",
+      "summary": "The Fighters Guild's Standing Register of Culls and Contracts — the diegetic threat-tier the party actually sees chalked on a hall's board before they commit. This is the kit's lethality telegraph.",
+      "rules": "Every threat monster-manual builds gets graded on the Cull-Book before it reaches the table, alongside its CR: VERMIN (CR 0–1/4, coppers a pelt — wolves, mudcrabs, common bandits), STANDING BOUNTY (CR 1/2–2, posted coin — goblin raiders, a rogue conjurer), CHARTER (CR 3–5, a signed contract and a cut for the hall — barrow draugr, a dremora Churl), SEALED (CR 6–10, Guild-only, requires a Journeyman-rank-or-higher sponsor — a Kynreeve, a liche), NO CONTRACT ISSUED (CR 11+, or anything the clerk flatly will not price). No Contract Issued is the kit's canonical over-level warning: when a Cull-Master refuses to grade a job, that IS the telegraph the CLAUDE.md Stakes & Death rule requires — the party has been told, in the world's own voice, to reconsider."
+    }
+  ],
+
+  "rules_doc": "rules.md",
+
+  "gm_notes": {
+    "voice": "Narrate as Brother Aldos Venim would footnote it — dry, faux-historical, footnote-happy, cataloguing titles and provinces mid-scene. See world-bible.json voice.",
+    "never": [
+      "Never say 'spell slot', 'Vancian', 'cleric', 'warlock', 'wizard', 'barbarian', 'druid', or 'ranger' at the table — use Priest of the Nine, Prince-Sworn, Mage, Berserker, Wise One, Scout.",
+      "Never let a Daedric Prince's price be a stat penalty. It is always a scene.",
+      "Never let a PC master Dwemer artifice.",
+      "Never treat a race as a stat bonus — lead with how the room reacts."
+    ],
+    "always": [
+      "Charge magicka for every spell, out loud, in the narration ('that Destruction working costs you five of the Well').",
+      "Apply the reaction modifier on first impressions, and say why the NPC is looking at you like that.",
+      "Ask a new NPC's province and a new PC's birthsign.",
+      "Let the Empire's Peace clock tick where the players can see it, and the Thinning tick alongside it.",
+      "When a PC gains a school rank, a guild rank, a bounty, or an Obligation, persist it (gm-player.sh save-json) before narrating.",
+      "A slain Daedra is sent back, not killed — reuse named Dremora by face and grievance.",
+      "Grade a threat on the Cull-Book before the party engages it; No Contract Issued means the world itself is telling them to walk away."
+    ]
+  }
+}

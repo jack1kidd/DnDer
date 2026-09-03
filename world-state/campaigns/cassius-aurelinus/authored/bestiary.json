@@ -1,0 +1,180 @@
+{
+  "locations": {
+    "Kjarholt Barrow": {
+      "position": "A Nord tomb-mound in the Jerall foothills above Bruma, off the Karlholt track",
+      "connections": [
+        {
+          "to": "Bruma",
+          "path": "half a day's climb on the Karlholt track"
+        },
+        {
+          "to": "Karlholt",
+          "path": "the steading's own herding path"
+        }
+      ],
+      "description": "A turf-and-stone barrow with a First Era lintel, sealed and reopened four times by four Fighters Guild Charters. Its first chamber is empty and its second is not: the draugr scyld Hjalgur Ninefingers waits there exactly where he was told to wait, still obeying an order given before there was an Empire to countermand it. The Bruma hall's fourth Charter on the barrow is still unclaimed; the third party's guide came back alone and will not say why. [reconciler stub — named by the bestiary axis, no axis created it; expand at will]"
+    },
+    "Sedor": {
+      "position": "A flooded Ayleid ruin beneath the Great Forest, west of the Silver Road",
+      "connections": [
+        {
+          "to": "The Great Forest",
+          "path": "a collapsed stair under a suspiciously round clearing"
+        },
+        {
+          "to": "Chorrol",
+          "path": "a day and a half east through the pines"
+        }
+      ],
+      "description": "White seamless stone going down through black water into galleries that were a city when Alessia was a slave. Varlaanor of Sedor, the Ayleid sorcerer-king who chose unlife in the First Era, has spent two thousand years rearranging the ruin so that every stone of it is part of his argument. The Fighters Guild's Cull-Book carries the name and, beside it, a line of hatching and the words No Contract Issued; the Arcane University is quietly assembling an expedition anyway. [reconciler stub — named by the bestiary axis, no axis created it; expand at will]"
+    }
+  },
+  "npcs": {
+    "Cull-Master Sergia Aetellus": {
+      "description": "The Fighters Guild's contract clerk at the Chorrol hall and keeper of the region's copy of the Cull-Book. A one-armed Colovian veteran of the Camoran Usurper's war who grades every threat by what the Guild will pay to have it killed, chalks the tier on the board herself, and refuses to explain the two words 'No Contract' to anyone who argues with them. She hands out the frontier work — wolf culls, barrow charters, the standing bounty on the Toll — and she remembers exactly who came back.",
+      "attitude": "helpful",
+      "tags": {
+        "locations": [
+          "Chorrol",
+          "The Gold Road"
+        ],
+        "quests": []
+      }
+    },
+    "Rufio Gace": {
+      "description": "Self-styled 'the Road-Toll' — a deserted legion road-detail sergeant turned captain of the bandit crew called the Toll, working the Gold Road between the Imperial City and Chorrol. He and his crew wear salvaged legion tabards, keep a chalked ledger, and issue written receipts for every purse they take, a courtesy that has confused three Imperial magistrates into treating armed robbery as a jurisdictional dispute. Standing Bounty on the Chorrol board; he has cost the Guild more hands than any Daedra in the Register, because there are forty of him and he picks the ground.",
+      "attitude": "hostile",
+      "tags": {
+        "locations": [
+          "The Gold Road",
+          "Chorrol"
+        ],
+        "quests": []
+      }
+    },
+    "Kynreeve Vaunazar": {
+      "description": "A Dremora Kynreeve bound to the wardship of a Daedric shrine-seam in the Great Forest, armoured in ebony-black and fluent in contemptuous Cyrodiilic. He honours a bargain more reliably than an Imperial magistrate — to the exact letter of its wording and no further — and he has been killed twice already by Guild parties, which he considers an unfinished discourtesy rather than a defeat. He greets returning adventurers by name.",
+      "attitude": "hostile",
+      "tags": {
+        "locations": [
+          "Chorrol",
+          "The Gold Road"
+        ],
+        "quests": []
+      }
+    },
+    "Hjalgur Ninefingers": {
+      "description": "The draugr scyld of Kjarholt Barrow in the Jerall foothills above Bruma — a Nord war-chief laid in stone in the First Era with his oath-axe and an order he is still obeying. He does not wander, hunt, or hunger; he waits in the second chamber exactly where he was told to wait, surrounded by the barrow-crew who were told the same, and the Bruma Guild hall has posted him as a Charter contract four times without a party finishing it.",
+      "attitude": "hostile",
+      "tags": {
+        "locations": [
+          "Bruma",
+          "Kjarholt Barrow"
+        ],
+        "quests": []
+      }
+    },
+    "Varlaanor of Sedor": {
+      "description": "An Ayleid sorcerer-king who chose unlife in the First Era and has spent two thousand years rearranging the flooded halls of Sedor beneath the Great Forest so that every stone of the ruin is part of his argument. The Fighters Guild does not take contracts on Varlaanor; it takes escort contracts for the Arcane University scholars who do, and prices them in property. Marked in the Cull-Book with a line of hatching and the words No Contract Issued.",
+      "attitude": "enemy",
+      "tags": {
+        "locations": [
+          "Chorrol",
+          "Sedor"
+        ],
+        "quests": []
+      }
+    },
+    "The Ancestor-Ghost of Sethri Andrano": {
+      "description": "A Dunmer ancestor-ghost tending the Andrano family tomb in Morrowind by ancient arrangement — pale, courteous, and entirely within its rights. It is not undead to be culled but a relative on duty, and Great House Redoran has voided Fighters Guild charters over outlanders who swung first. It will answer questions about anything that happened while it was alive, and about nothing since.",
+      "attitude": "suspicious",
+      "tags": {
+        "locations": [
+          "Morrowind"
+        ],
+        "quests": []
+      }
+    }
+  },
+  "facts": {
+    "plot_local": [
+      "The Toll has moved its ledger-post to a burned waystation on the Gold Road and is now taking receipts from Fighters Guild caravans specifically — Cull-Master Sergia Aetellus wants to know who told Rufio Gace the caravan schedule.",
+      "A Chorrol wine-cellar is chattering with scamps, which means a conjuration went wrong in the house above it and nobody has yet gone upstairs to check on the conjuror.",
+      "The Bruma hall's fourth Charter on Kjarholt Barrow is still unclaimed; the third party's guide came back alone and will not say what waits in the second chamber."
+    ],
+    "plot_regional": [
+      "Kynreeve Vaunazar's shrine-seam in the Great Forest has been reopened from the Tamriel side twice in a season — someone local is feeding the binding, and the Mages Guild's Conjuration lecturers are pointedly not investigating.",
+      "Great House Redoran has suspended Fighters Guild charters in two Morrowind districts after an outlander cull-party destroyed an ancestor-ghost it mistook for a common shade; the Guild needs the ban lifted before contract income collapses.",
+      "Arcane University scholars are quietly assembling an expedition to Sedor, and the Fighters Guild is being asked to escort them past a name it has formally declined to price."
+    ],
+    "plot_world": [
+      "Cull-contracts on Daedric summonings have risen year on year across every province since 3E 425 and no hall can explain why — the Mythic Dawn is not yet a name anyone has thought to write in the Cull-Book's margins.",
+      "Free companies are underbidding the Fighters Guild on frontier culls with parties too small to survive them, and the resulting body count is being blamed on the Guild's Register rather than on the Empire's surplus of unemployed soldiers."
+    ],
+    "bestiary_tiers": [
+      "The Fighters Guild grades threats by contract price, not by fear: Vermin, Standing Bounty, Charter, Sealed, and No Contract Issued.",
+      "'No Contract Issued' is not a warning but an instruction, and the instruction is one word: withdraw. Most Guild deaths happen in the hour after a party decides the clerk was being dramatic."
+    ],
+    "daedra": [
+      "A slain Daedra is not dead — it re-forms in Oblivion, resentful, and remembers the face of whoever killed it. Dremora in particular greet returning adventurers by name.",
+      "Scamps are the commonest sign of a botched conjuration; clannfear are near-immune to Illusion, which ruins the standard Mages Guild answer to a hunting-beast.",
+      "Atronachs obey the exact wording of their binding and nothing else — the useful question at an atronach-haunted ruin is who wrote the sentence it is still obeying.",
+      "Dremora rank from Churl through Kynreeve to Valkynaz, honour a bargain to its letter, and treat imprecise phrasing as a gift."
+    ],
+    "undead": [
+      "Draugr do not wander; they hold the post they were given in the First Era, which is why a barrow's second chamber kills more Guild hands than its first.",
+      "In Morrowind an ancestor-ghost is frequently the client, not the contract — striking one is a discourtesy that has voided Great House charters.",
+      "Bonewalkers look like vermin and fight like a Charter contract: their touch leaves a man too weak in the arms to carry out what he came in for.",
+      "The Fighters Guild takes no liche contracts at all; it takes escort contracts for the Mages Guild scholars who do, priced in property rather than septims."
+    ],
+    "beasts": [
+      "Timber wolves are Vermin on the Cull-Book and always will be, which is the joke: the Chorrol hall pays coppers a pelt and the Great Forest packs have learned that a stalled cart on the Gold Road means a fed night. Cull-Master Aetellus has stopped grading them at all on the western run, on the grounds that the wolves are following the Toll's receipts more reliably than the Legion is.",
+      "Mudcrabs are worth four septims a claw and hold the Cull-Book's record for most Guild hands lightly maimed by something they were laughing at.",
+      "Vvardenfell's halls stopped posting a bounty on cliff racers on the grounds that they would simply never stop paying it.",
+      "Cyrodiil's goblin tribes have real shamans and real grudges against the next hill over; standard Guild advice is to find out which grudge you can rent.",
+      "Bandits kill more travellers than every Daedra and draugr in the Register combined, because unlike everything else in it, they choose the ground."
+    ]
+  },
+  "bible": {
+    "factions": {
+      "nodes": [],
+      "edges": []
+    },
+    "geography": {
+      "nodes": [],
+      "edges": []
+    },
+    "timeline": [],
+    "signature_systems": [
+      {
+        "name": "The Cull-Book",
+        "summary": "The Fighters Guild's Standing Register of Culls and Contracts, chalked on every hall's board in five grades priced by what the Guild will pay a stranger to go and die attempting: Vermin (coppers, apprentice work), Standing Bounty (an open, permanent price), Charter (named, sealed, with a deadline and a written expectation of losses), Sealed (read aloud only inside the hall, priced in property), and No Contract Issued (the Guild has looked, priced it, and declined — the clerk's instruction is 'withdraw'). Gives the GM an in-world, diegetic threat tier the players can read off a board before they commit."
+      },
+      {
+        "name": "Daedra Remember",
+        "summary": "Nothing summoned is ever truly killed. A slain Daedra re-forms in Oblivion carrying the grievance and the face, so recurring Daedric antagonists are the default rather than the exception — the same Kynreeve greets the party by name at the next shrine, and each defeat is a debt in an ongoing negotiation rather than a closed encounter."
+      }
+    ],
+    "voice": {
+      "vocab": [
+        "cull (a Guild-contracted monster hunt)",
+        "cull-master (the hall clerk who grades and posts contracts)",
+        "Standing Bounty / Charter / Sealed / No Contract Issued",
+        "barrow-crew (a draugr warband still holding its post)",
+        "Kynreeve (a Dremora officer rank)",
+        "shrine-seam (the leak in the world where Daedra come through)",
+        "the Toll (Gold Road road-agents who issue receipts)",
+        "ancestor-ghost (a Dunmer tomb-warden, kin and not quarry)"
+      ],
+      "sample_passages": [
+        "The clerk chalked two words beside the ruin's name and turned the board away. It is held among Guild hands that most deaths occur in the hour after a party decides the clerk was being dramatic.",
+        "It greeted them by name, which the Register warns of and no apprentice ever believes until the second shrine.",
+        "A mudcrab is worth four septims a claw and has maimed more laughing men than any Daedra in this volume, a fact the Society records without comment."
+      ]
+    },
+    "themes": [
+      "The frontier is priced, catalogued, and contracted — even horror has a Guild clerk and a fee",
+      "What you kill in Tamriel does not always stay killed, and it remembers your face"
+    ]
+  }
+}

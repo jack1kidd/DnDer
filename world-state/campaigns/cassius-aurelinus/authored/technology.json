@@ -1,0 +1,218 @@
+{
+  "locations": {
+    "Mzeneldt": {
+      "position": "A collapsed Dwemer gatehouse on the Skyrim shoulder of the Bruma pass, half-buried under a Jerall snowfield about a day's hard climb off the north road",
+      "connections": [
+        {
+          "to": "Bruma",
+          "path": "A day's climb north off the Bruma-Skyrim pass road, then a goat track along the snowfield; impassable in heavy weather"
+        },
+        {
+          "to": "Skyrim",
+          "path": "The lower galleries reportedly drain toward the Skyrim side of the Jeralls, though no one has walked it and returned to say so"
+        }
+      ],
+      "description": "The gatehouse is a brass-and-basalt arch swallowed to its shoulders in old snow, and it is warm — meltwater rings it in a perfect circle where the steam beneath has been venting for seventeen hundred years. Inside, the stair goes down past a flooded gallery where a sun-clock the width of a barn still turns, ticking off hours in a calendar nobody keeps, its lower half under black water. The Imperial Commission on Dwemer Studies has posted a writ at the arch. The writ has been there eleven years and shows five different sets of pry-marks."
+    },
+    "Arkngthand": {
+      "position": "A Dwemer stronghold broken open along the Foyada Mamaea in Vvardenfell, Morrowind — ash-choked, and the most thoroughly looted Dwarven site in the Empire",
+      "connections": [
+        {
+          "to": "Morrowind",
+          "path": "Inland from the Vvardenfell ferry roads, up the foyada on foot; guild guides charge triple to go past the entry hall"
+        }
+      ],
+      "description": "Three generations of scrap-thieves have stripped the entry halls to bare stone, leaving sockets in the walls where the lamps were prised out, and the ash blows in and lies in drifts on brass floor-plates that are still, faintly, warm. Past the picked-over rooms the machinery is untouched — pistons stroking behind the walls on a rhythm you can feel through your boots, and a lift that answers its lever after a six-second pause every single time, which the survivors insist is the most frightening thing in the ruin."
+    },
+    "The Commission Warehouse": {
+      "position": "A shuttered stone warehouse on the Imperial City Waterfront, four doors down from the customs house, no sign on it",
+      "connections": [
+        {
+          "to": "The Imperial City",
+          "path": "Waterfront district, a quarter hour's walk from the Market District gate"
+        }
+      ],
+      "description": "Rows of crated Dwarven scrap under Commission seals, sorted by weight rather than by anything a scholar would call a category, and every crate faintly warm to the palm. Somewhere in the dark of the third aisle a confiscated lamp has been burning without fuel since it was inventoried in 3E 419; the night clerk has stopped logging it. The place is guarded far better than a warehouse of cogs ought to be, which is the first thing any competent thief notices about it."
+    }
+  },
+  "npcs": {
+    "Curator Anicius Vell": {
+      "description": "Imperial Commission on Dwemer Studies, Curator of the Third Bench — a soft-handed Imperial bureaucrat with an inspector's writ that outranks most provincial magistrates, and he knows it. He will buy any Dwarven scrap brought to him at an honest price and ask, pleasantly, exactly where it came from; the answer goes in a ledger. He has personally authored one hundred and nine pages of the Commission's official four-hundred-page conclusion that further study of the Dwemer disappearance is warranted, and will read them to you.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "The Commission Warehouse",
+          "The Imperial City"
+        ],
+        "quests": []
+      }
+    },
+    "Ralen Sarothril": {
+      "description": "A Dunmer scrapsmith exiled from Ald'ruhn over a permit he did not have, working a back-alley forge in the Imperial City Market District. One of perhaps a dozen smiths in the Empire who can reforge Dwarven metal without spoiling it — lighter and better than steel, and entirely mundane once it leaves his anvil. He asks no questions about provenance, charges accordingly, and is contemptuous of anyone who calls the metal magical.",
+      "attitude": "friendly",
+      "tags": {
+        "locations": [
+          "The Imperial City"
+        ],
+        "quests": []
+      }
+    },
+    "Uleni Ovadru": {
+      "description": "A Telvanni-trained Dunmer wizard who has spent nine years mapping the resonances of Dwemer halls and has published nothing, because what she has found does not resolve. She talks about tone the way other mages talk about spells, keeps a brass reed in her sleeve to strike against doorframes, and is one bad winter in Mzeneldt away from certainty — which, in this matter, is the same as madness. She wants an escort, not a partner.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "Mzeneldt",
+          "Morrowind"
+        ],
+        "quests": []
+      }
+    },
+    "Steam Centurion of the Fourth Alcove": {
+      "description": "Ten feet of bronze and pressure standing in a wall-niche in the lower Mzeneldt galleries, venting quietly, as it has since before Tiber Septim was born. It is not alive, not undead, cannot be conjured, turned, frightened, or reasoned with, and does not pursue past its threshold. It steps down when something crosses a line whose location no survivor has ever agreed upon. Anyone who cheerfully carved through the spider swarms upstairs should be told, in plain words, that this is a different order of problem.",
+      "attitude": "hostile",
+      "tags": {
+        "locations": [
+          "Mzeneldt"
+        ],
+        "quests": []
+      }
+    }
+  },
+  "facts": {
+    "plot_local": [
+      "The Commission's writ posted at the Mzeneldt arch is eleven years old and bears five distinct sets of pry-marks — someone is working the ruin regularly, and Curator Vell's ledgers show no permit issued for it since 3E 419.",
+      "A confiscated Dwarven lamp in the third aisle of the Commission Warehouse has burned without fuel since it was inventoried; the night clerk stopped logging it, and someone has since offered him a great deal of money for exactly one crate.",
+      "Uleni Ovadru is recruiting an escort into the flooded lower galleries of Mzeneldt to strike a brass reed against something she will not name in advance."
+    ],
+    "plot_regional": [
+      "Great House Hlaalu is selling Vvardenfell excavation permits it has no authority to issue; Redoran calls the whole trade grave-robbing regardless of whose seal is on the paper, and a Commission inspector is being sent to Morrowind to find out which House to embarrass.",
+      "Arkngthand's entry halls have been stripped bare, so the scrap-crews have started pushing into the working machinery, and the casualty rate has stopped being reported to the guilds.",
+      "Reforged Dwarven arms are quietly showing up on the Skyrim side of the Jerall passes in quantities no licensed smith in the Empire can account for."
+    ],
+    "plot_world": [
+      "Nobody living understands Dwemer artifice, and every institution that claims otherwise — the Commission, the Arcane University, House Telvanni — is protecting a reputation rather than a finding.",
+      "Dwemer machinery predates and entirely ignores the Aedra/Daedra system that the rest of Tamriel's power runs on; whatever it answers to is not a lender that anyone has learned to petition.",
+      "Something is still being pumped, somewhere, in the deep galleries of every major Dwarven site — on a schedule, toward a destination, for a purpose that ceased to have a purpose in 1E 700."
+    ],
+    "dwemer_artifice": [
+      "The Dwemer were not dwarves but a heresy of Mer, and in 1E 700, in the deeps beneath Red Mountain, every one of them ceased to be anywhere in a single indivisible instant — tools still warm, lamps still lit. No ruin has ever explained it and no NPC who claims certainty is trustworthy.",
+      "Dwemer works are not enchanted. A Mysticism adept reads nothing at all off a Dwarven lamp that has burned fuelless since before the First Empire, which the Arcane University finds deeply irritating and does not put in writing.",
+      "There are no Dwemer ruins in Cyrodiil — the Heartlands' ruins are Ayleid. Cyrodiil receives the cargo, not the ruin, which makes the Imperial City the best market and the worst smuggling risk in Tamriel for Dwarven scrap.",
+      "Animunculi come in grades: swarming brass spiders (maintenance, and the killers of careless first-timers), spheres that travel folded and unfold mid-roll into a bladed arm and a crossbow, and centurions of steam and bronze that step down from their alcoves when a threshold is crossed.",
+      "Animunculi are neither alive nor undead. Conjuration will not bind them, Illusion will not fool them, turning does nothing. They do not coordinate, do not pursue past a boundary, and will ignore a man standing perfectly still while shredding his friend three feet away. Their logic is real, consistent, and unpublished.",
+      "Dwarven metal — a dull warm gold-brown alloy nobody has reproduced — can be reforged by perhaps a dozen smiths in the Empire, mostly Dunmer and Orsimer, into arms lighter and better than steel and entirely mundane in every other respect. Everyone else spoils it.",
+      "A centurion's dynamo core is a small fortune and heavy enough to force a choice between carrying it and reaching the exit.",
+      "The Elder Council's Antiquities Statute makes every Dwemer site Imperial property; unlicensed excavation is prosecuted by the Imperial Commission on Dwemer Studies, whose inspectors' writs outrank most provincial magistrates.",
+      "Known Dwarven sites: Arkngthand, Nchuleftingth and Bthungthumz in Morrowind; Mzinchaleft, Alftand and the half-drowned Mzeneldt in Skyrim; Volenfell sunk in the Alik'r sand.",
+      "Etched Dwemeris resists translation. The Empire's finest scholars render whole walls as fragments like '— and therefore the twelfth is inadmissible —' and no more."
+    ]
+  },
+  "bible": {
+    "signature_systems": [
+      {
+        "name": "Dwemer Artifice",
+        "summary": "Dwarven ruins run on cold, alien, un-magical machinery that predates and ignores the Aedra/Daedra cosmology entirely. It cannot be detected as enchantment, built, repaired, or improved by anyone living — only looted, survived, and marvelled at. Dwemer things enter play as three faces of one object: LOOT (cogs, struts, dynamo cores, and reforgeable Dwarven metal, all worth real septims), HAZARD (steam vents, blade-arms, delayed lifts, animunculi waking on unidentifiable triggers — the trap is not a trap, it is a machine doing its job with the party in the way), and WONDER (a fuelless lamp, a still-turning sun-clock, an untranslatable wall). Never a tech tree, never a craft system, never mastered."
+      },
+      {
+        "name": "The Silence of the Deep Folk",
+        "summary": "The Dwemer's disappearance in 1E 700 is a permanent, load-bearing mystery. Every faction has a theory (Telvanni: self-unmaking; Redoran: Azura's judgement; the Commission: four hundred pages concluding further study is warranted) and none of them is right on screen. The GM never resolves it, however clever the player's question — the correct move is to hand back a fragment, a contradiction, or a new witness who is lying."
+      },
+      {
+        "name": "Animunculi Logic",
+        "summary": "Constructs are neither living nor undead: immune to Conjuration binding, Illusion, turning, intimidation, and negotiation. Each ruin's animunculi follow a consistent, discoverable, unpublished ruleset — patrol thresholds they will not cross, trigger conditions, blind conditions (stillness, held breath, standing off the plate). Attentive players can learn ONE ruin's rules and be rewarded for it. Players who assume the next ruin runs the same rules should die for it."
+      },
+      {
+        "name": "The Antiquities Statute",
+        "summary": "Every Dwemer site is Imperial property under Elder Council statute, enforced by the Imperial Commission on Dwemer Studies (more clerks than diggers, inspectors' writs outranking provincial magistrates). Permits, forged seals, and fences are genuine adventure obstacles, and in Morrowind the Statute collides with Great House law — Hlaalu sells permits it doesn't hold, Redoran calls all of it grave-robbing, Telvanni digs where it pleases."
+      }
+    ],
+    "timeline": [
+      {
+        "when": "1E 700",
+        "event": "In the deeps beneath Red Mountain, every Dwemer in Tamriel ceases to be anywhere in a single indivisible instant. Their halls keep running without them, and have not stopped since."
+      },
+      {
+        "when": "3E 389",
+        "event": "The Elder Council passes the Antiquities Statute, declaring all Dwemer sites Imperial property and chartering the Imperial Commission on Dwemer Studies to enforce it."
+      },
+      {
+        "when": "3E 419",
+        "event": "The last excavation permit issued for Mzeneldt lapses. The Commission's writ is nailed to the arch and nobody returns to check it."
+      },
+      {
+        "when": "3E 430",
+        "event": "PRESENT DAY. Arkngthand's entry halls are stripped to bare stone and the scrap-crews have begun pushing into the working machinery; reforged Dwarven arms are appearing on the Jerall passes in quantities no licensed smith can account for."
+      }
+    ],
+    "geography": {
+      "nodes": [
+        {
+          "name": "Mzeneldt",
+          "type": "ruin",
+          "summary": "A collapsed Dwemer gatehouse on the Skyrim shoulder of the Bruma pass — lamps still burning without oil, and a steam centurion in the fourth alcove that steps down when stepped past."
+        },
+        {
+          "name": "Arkngthand",
+          "type": "ruin",
+          "summary": "A Dwemer stronghold broken open along the Foyada Mamaea in Vvardenfell — entry halls stripped to bare stone, scrap-crews now pushing into the working machinery."
+        },
+        {
+          "name": "The Commission Warehouse",
+          "type": "site",
+          "summary": "A shuttered stone warehouse on the Imperial City Waterfront where the Imperial Commission on Dwemer Studies stores what it licenses and what it confiscates."
+        }
+      ],
+      "edges": [
+        {
+          "from": "Bruma",
+          "to": "Mzeneldt",
+          "relation": "day's climb off the pass road"
+        },
+        {
+          "from": "Mzeneldt",
+          "to": "Skyrim",
+          "relation": "unwalked under-mountain drainage toward"
+        },
+        {
+          "from": "Morrowind",
+          "to": "Arkngthand",
+          "relation": "contains (Vvardenfell, up the Foyada Mamaea)"
+        },
+        {
+          "from": "The Imperial City",
+          "to": "The Commission Warehouse",
+          "relation": "contains (Waterfront district)"
+        },
+        {
+          "from": "The Commission Warehouse",
+          "to": "Arkngthand",
+          "relation": "receives confiscated and licensed scrap from"
+        }
+      ]
+    },
+    "voice": {
+      "vocab": [
+        "animunculi (the collective term; a scrap-thief says 'the brass')",
+        "Dwarven metal (the alloy; never 'Dwemer metal' in trade talk)",
+        "dynamo core (a centurion's heart, and a small fortune)",
+        "the Deep Folk (respectful Dunmer usage for the Dwemer)",
+        "scrap-crew (a licensed or unlicensed excavation gang)",
+        "the Statute (the Antiquities Statute — 'that's Statute work, that is')",
+        "Dwemeris (the etched script nobody can fully translate)",
+        "tonal architecture (Telvanni jargon; sounds learned, means 'we do not know')",
+        "it's still running (said flatly, and always a warning)"
+      ],
+      "sample_passages": [
+        "The Commission's official position on the disappearance of the Dwemer runs to four hundred pages and concludes that further study is warranted. It is held by some at the Arcane University that this is the most honest document the Third Empire has ever printed, and by others that four hundred pages is a great deal of ink to spend saying nothing.",
+        "One is not attacked by a centurion in any sense the word usually carries. One crosses a line that was drawn seventeen centuries ago for reasons that no longer obtain, and the machinery, having no opinion of you whatsoever, does what it was built to do.",
+        "The lamps of Mzeneldt have burned without oil since before Tiber Septim's grandmother's grandmother, and a Mysticism adept who can read a Nord grave-hex from across a room will stand before one of them and read precisely nothing. This is, the chroniclers note, the whole of the problem in miniature."
+      ]
+    },
+    "themes": [
+      "The oldest and best-made things in Tamriel do not acknowledge the Empire, the Divines, or you",
+      "A mystery worth keeping is worth never solving — the Dwemer's absence is a wound, not a puzzle",
+      "Machinery has no malice, and that is worse than malice"
+    ]
+  }
+}

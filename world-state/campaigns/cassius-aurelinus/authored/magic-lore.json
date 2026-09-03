@@ -1,0 +1,143 @@
+{
+  "npcs": {
+    "Arch-Mage Hannibal Traven": {
+      "description": "Newly seated head of the Mages Guild at the Arcane University — a cautious, reforming Imperial scholar of Alteration who has banned the practice of necromancy Guild-wide. The ban is two years old, wildly unpopular with the older faculty, and has quietly pushed several talented practitioners out of the halls and into the arms of people who never needed a licence. He knows he has made enemies he cannot name, and he grants audiences to outsiders more readily than an Arch-Mage should.",
+      "attitude": "friendly",
+      "tags": { "locations": ["The Imperial City"], "quests": [] }
+    },
+    "Magister Cavillius Rell": {
+      "description": "Holder of the Mysticism chair at the Arcane University, author of the unread 'Praxis of the Unequal Contract'. For three years he has been measuring what he calls 'the thinning' — a slow drift in the resistance between Mundus and Oblivion — with instruments he built himself. The Elder Council will not read his paper. He will corner anyone who has stood inside a Daedric shrine and ask them, in detail, what the air felt like.",
+      "attitude": "helpful",
+      "tags": { "locations": ["The Imperial City"], "quests": [] }
+    },
+    "Vashi Serayn": {
+      "description": "Dunmer Conjuration instructor at the Arcane University, Telvanni-trained before she took the Imperial charter and unsentimental about the difference. She teaches 'borrowing under seal' with the flat clarity of someone who has seen a binding fail, and keeps a dremora named Kanaz on a ninety-second retainer she renews weekly. Her private opinion is that Traven's ban has made the Guild less safe, not more, and she will say so to a stranger before she says it to a colleague.",
+      "attitude": "neutral",
+      "tags": { "locations": ["The Imperial City"], "quests": [] }
+    },
+    "Sister Ilmene Aurelis": {
+      "description": "Imperial Cult Restoration priestess of Julianos, seconded to the chapels of the Heartlands, who can tell by touch whether a healed wound was closed with the Nine's petition or with something a Prince lent. She reports what she finds — eventually, and to the Cult rather than the Legion. Her hands shake, at forty-one, which she describes cheerfully as 'the account running down'.",
+      "attitude": "helpful",
+      "tags": { "locations": ["Chorrol", "The Imperial City"], "quests": [] }
+    },
+    "Corvus Marane, the Grey Broker": {
+      "description": "A pleasant, well-dressed Imperial who drinks in the Imperial City's Elven Gardens district and sells nothing but introductions. He knows the correct day, offering and phrasing for eleven of the sixteen shrines, charges a flat fee in septims, and cheerfully explains that he takes no cut of the bargain itself. Clavicus Vile's fingerprints are all over his luck, his wording, and the dog that follows him at a distance he never comments on.",
+      "attitude": "suspicious",
+      "tags": { "locations": ["The Imperial City"], "quests": [] }
+    },
+    "Zaraphus the Unread": {
+      "description": "A former Arcane University necromantic theorist, expelled the week Traven's ban took effect, now correspondent of nobody and reader of everything. He has begun receiving pages he did not request, in a hand he does not recognise, answering questions he had not yet finished forming — the standard opening courtesy of Hermaeus Mora. He would very much like to stop, and cannot articulate why he does not.",
+      "attitude": "neutral",
+      "tags": { "locations": ["The Imperial City"], "quests": [] }
+    }
+  },
+  "facts": {
+    "plot_local": [
+      "A licensed Conjuration seal in a Heartlands village has failed twice this month — the summoned scamp returned late, and the second time it came back knowing the caster's name unprompted. Vashi Serayn wants the site measured before the Guild hears about it.",
+      "Sister Ilmene Aurelis has treated three farmhands whose wounds were already closed when they arrived, badly and by someone else's lender. All three say the same thing: a well-dressed man bought them a drink in the Imperial City.",
+      "A wayshrine on the Gold Road has been re-dedicated overnight — the Nine's marks scraped and re-cut into an offering-list for the 20th of Sun's Dusk. The local chapel is calling it vandalism. The date is Mehrunes Dagon's.",
+      "Zaraphus the Unread is looking for someone to burn a specific book for him, in daylight, while he is elsewhere and demonstrably not consenting."
+    ],
+    "plot_regional": [
+      "Arch-Mage Traven's necromancy ban has emptied several Cyrodiilic halls of their best raisers, and the Guild has no idea where they went. Someone is recruiting them.",
+      "Magister Cavillius Rell's measurements of 'the thinning' show the resistance between Mundus and Oblivion dropping fastest within a day's ride of the Imperial City — a finding the Elder Council has declined to schedule.",
+      "The Imperial Cult and the Mages Guild are quietly fighting over Restoration licensure in Bruma, where Nord custom holds that Cult healing is faith and Guild healing is witchcraft, and the chapel is happy to let that stand.",
+      "Corvus Marane's introduction-brokerage has grown from a curiosity into a trade, and at least one Elder Council staffer has used it. That fact is worth more than the bargain was."
+    ],
+    "plot_world": [
+      "Mehrunes Dagon's cult, the Mythic Dawn, is buying scholarship as much as fervour — it wants people who can read Aedric binding-work, not just people who hate the Empire.",
+      "Azura's shrines across Morrowind have reported the same dusk-vision to unrelated petitioners three seasons running. Azura sends warnings decades before they are useful, and she is sending one now.",
+      "Hermaeus Mora is unusually generous this decade, answering questions across three provinces at once. Mora is only generous when something is about to become knowable that was not before.",
+      "The Aedric warrant that binds the Empire's protections to the Emperor's own line is not a metaphor to the Imperial Cult's inner priesthood. If the Septim line falters, the wards falter with it — and the Cult has stopped putting this in writing."
+    ],
+    "magic_cosmology": [
+      "All magicka is borrowed from one of two lenders: the Aedra, who spent themselves to make Mundus and lend finite, reliable, impersonal power; or the Daedra, who kept everything and lend infinite, immediate, personal power at interest.",
+      "Aedric power never negotiates and never collects — the account simply runs down. This is why old Restoration priests' hands shake, and why Cult healing never fails spectacularly and never exceeds itself.",
+      "Daedric power never punishes and always collects. The price is never what the petitioner offered; it is whatever they turned out to be for.",
+      "Magicka is the leakage of Magnus's departure — the sun is the hole he tore escaping creation, the stars are the lesser holes his Magna-Ge made following him. Magicka runs thick where the veil is thin: Ayleid ruins, old battlefields, and any ground a Prince has personally stood on.",
+      "Welkynd stones (pale blue) hold ambient magicka; varla stones (white, far rarer) hold enough to charge a soul gem. Removing either from an Imperial Reserve site is illegal and near-universal.",
+      "Dwemer ruins are dead ground — animunculi run on no magicka at all, enchantments behave badly near them, and the Guild has never obtained a satisfying explanation."
+    ],
+    "schools_of_magic": [
+      "The Mages Guild teaches six schools: Alteration (insisting the world concede a different shape), Conjuration (borrowing bodies from Oblivion), Destruction (fire, frost, shock and the curses that make them land), Illusion (editing the witness), Mysticism (the rules themselves — detection, telekinesis, soul trap, dispel, reflect, binding), and Restoration (healing, curing, warding, turning undead).",
+      "A seventh school, Thaumaturgy, was dissolved by the Guild roughly a century ago and its corpus split between Alteration and Mysticism. Breton hedge-wizards in High Rock still use the word and still resent the Guild for taking it.",
+      "Guild-licensed summoning is called 'borrowing under seal' — a Mysticism binding that returns the Daedra before it can develop opinions. Doctrine holds a summoned Daedra is rented, not commanded, and goes home able to describe you.",
+      "Restoration is the only unambiguously Aedric school and is taught free of charge at every hall — the single concession that makes the Guild tolerable to the Imperial Cult.",
+      "Destruction apprentices spend their first season not casting, only holding a flame at a fixed size for an hour. Those who cannot are transferred to Alteration.",
+      "The Guild charter forbids casting Charm on an Imperial officeholder. The prohibition is violated roughly weekly.",
+      "Alchemy, enchanting and spellmaking are trades, not schools: the Arcane University's Lustratorium (alchemy), Chironasium (enchanting) and Praxographical Center (original spell composition, by rank and fee).",
+      "Guild rank — Associate, Apprentice, Journeyman, Evoker, Conjurer, Magician, Warlock, Wizard, Master-Wizard, Arch-Mage — buys library access, Praxographical time, letters of introduction and legal cover. Expulsion costs all of it, and an expelled mage in Cyrodiil is a mage the Legion may lawfully question."
+    ],
+    "daedric_princes": [
+      "Mehrunes Dagon — Destruction, Change, Ambition, Revolution. Summoned the 20th of Sun's Dusk with a Daedra heart. He does not want worshippers, he wants events, and offers his champions the pleasure of being the hinge history turns on. The Mythic Dawn are his.",
+      "Molag Bal — Domination, Enslavement, the Corruption of Mortal Souls. Summoned the 20th of Evening Star. He wants ownership, preferably by a chain the petitioner fastened themselves; his contracts always contain an obedience clause the signer reads as ceremonial. Vampirism is his fingerprint.",
+      "Sheogorath — Madness. Summoned the 2nd of Sun's Height with a head of lettuce, a length of yarn and a lesser soul gem, which is either a joke or a precise requirement, and the difference has cost lives. He gives without conditions, then rearranges the recipient. He is the only Prince who tells the truth at the moment it cannot be used.",
+      "Azura — Dusk and Dawn, the Magic Between, Prophecy. Summoned at Hogithum, the 21st of First Seed, with glow dust gathered at twilight. The most courteous Prince and the most dangerous to disappoint; her curses are famously hereditary. Half of Morrowind keeps her shrine and insists she is not a Daedra in the way the others are.",
+      "Boethiah — Plots, Betrayal, Murder in Good Cause, Rightful Rule by Strength. Summoned the 2nd of Sun's Dawn with the blood of a worthy foe. She accepts victors, not petitioners, and her gift is held only so long as its holder remains the strongest thing that wants it.",
+      "Hermaeus Mora — Knowledge, Memory, the Fates of the Unseen. Summoned the 5th of First Seed with writing no one else has read. He never threatens and never refuses; every complete answer costs a piece of the asker they will not miss until they need it.",
+      "Clavicus Vile — Wishes, Bargains, Power Bought Cheap. Summoned the 1st of Morning Star with a jewel worth a thousand septims. He grants exactly what was asked for in the wording used and enjoys the aftermath enormously; his hound Barbas is usually the more honest party.",
+      "Nocturnal — Night, Darkness, Luck, What Is Taken and Not Returned. Summoned the 3rd of Hearthfire. She asks nothing and promises nothing in words; her gift arrives as luck already in progress, and her collection is usually a shadow — some part of a life that afterwards nobody, including its owner, can quite recall.",
+      "Also honoured more quietly: Mephala (secrets, sex, murder — the Morag Tong's patron and Mora's rival in the trade of knowing), Hircine (the hunt; every werecreature is his livestock), Vaermina (nightmares and stolen memory), Malacath (the sworn oath and the spurned, the Orsimer's own), Sanguine (debauchery and the cheapest regretted bargain), Meridia (life-energy and an absolute loathing of undeath, for which she is sometimes mistaken for an Aedra, which infuriates her), and Peryite (pestilence and the tidy ordering of low things).",
+      "Sithis is filed among the Princes by the Imperial Cult for want of a better shelf. The Dark Brotherhood's own scripture insists he is older than the shelf, older than the Princes, and not a 'he'. The Brotherhood does not argue the point with outsiders; it sends someone instead.",
+      "Sixteen shrines of note stand in the Cyrodiilic wilderness alone, each half a day off any road, each attended by devotees who will tell you they are not a cult. Almanacs disagree on both the correct day and the correct offering, and being wrong about either is how petitioners disappear."
+    ],
+    "divine_worship": [
+      "The Nine Divines: Akatosh (time, endurance, warrant of the Emperor's Dragonfires), Arkay (the cycle of birth and death — his priests are why necromancy is a crime and not merely a scandal), Dibella (beauty), Julianos (logic and lore, the Cult's scholars and the Guild's closest allies within it), Kynareth (sky and wild places), Mara (love and the household), Stendarr (mercy and militant compassion), Zenithar (work, trade, honest coin), and Talos, who was Tiber Septim, who was a man.",
+      "The Altmer of Summerset consider the deification of a man obscene. The Thalmor embassy in the Imperial City is scrupulously correct about never quite saying so aloud.",
+      "Aedric blessing is petition, not spellcasting — a priest asks, and the answer is the same reliable trickle it was yesterday.",
+      "Provincial faiths run alongside the Cult: Morrowind's living Tribunal (Almalexia, Sotha Sil, Vivec) over ancestor-worship the Redoran keep in ash-statues; Valenwood's Y'ffre the Storyteller and the Green Pact; Hammerfell's Ruptga and the Ansei sword-singers who hold a blade correctly held is a prayer; Skyrim's Shor and a Talos who is emphatically a man.",
+      "Every Tamrielic child is named by birthsign before they are named by name: the Guardians (Warrior, Mage, Thief) and their charges (Lady, Steed, Lord; Apprentice, Atronach, Ritual; Lover, Shadow, Tower), plus the wandering Serpent, which portends nothing good. Those born under the Atronach hold more magicka than they generate and must feed on spells cast at them; those born under the Serpent are refused apprenticeship by at least two Cyrodiilic halls on grounds no charter permits and every faculty defends."
+    ],
+    "magic_in_practice": [
+      "Tamriel has no abstract 'wizards', only credentials: a Battlemage is Destruction and Alteration on a Legion commission; a Spellsword is the same two schools on a Fighters Guild contract; a Nightblade is Illusion and Destruction, self-taught or Guild-expelled, and nobody asks which; a Healer is Restoration and Alteration under the Nine's liturgy; a Conjurer is licensed by seal and watched by Mysticism; a Sorcerer is a Breton or a Prince-pacted mortal whose power came from blood or bargain rather than curriculum; a Witchhunter is Restoration and Mysticism turned outward, usually Stendarr's.",
+      "The question a caster is asked at a city gate is never what they can do. It is who taught them, and whether they are still in good standing.",
+      "A bargain proceeds in four stages the petitioner never notices they are in: Notice (something goes right that shouldn't have), Gift (small, useful, unasked-for, no terms stated), Use (each use is a signature), Collection (never what was offered).",
+      "There is no ritual of refusing a Prince, only of returning the gift, and the return always costs more than the gift was worth."
+    ]
+  },
+  "bible": {
+    "signature_systems": [
+      {
+        "name": "The Two Lenders",
+        "summary": "Every point of magicka in Tamriel is borrowed. Aedric power (Restoration, most Alteration, all Imperial Cult blessing) is finite, impersonal and structural — it never negotiates and never collects, the account simply runs down, so it is reliable and never exceeds itself. Daedric power (Conjuration, Illusion's dark half, any Prince's direct gift) is infinite, immediate and personal — it always collects, on the Prince's schedule, in a coin the petitioner never offered. Never a mechanical tax; always a story debt the GM chooses when to call in."
+      },
+      {
+        "name": "The Six Schools as Guild Curricula",
+        "summary": "Alteration, Conjuration, Destruction, Illusion, Mysticism, Restoration — taught, examined and licensed by the Mages Guild rather than granted by class. A caster's repertoire is their transcript. Guild rank (Associate through Arch-Mage) buys library access, Praxographical spellmaking time, letters of introduction and legal cover; expulsion strips all of it and makes the caster lawfully questionable by the Legion. The dissolved seventh school, Thaumaturgy, survives only in High Rock hedge-practice and Breton grudges."
+      },
+      {
+        "name": "Borrowing Under Seal",
+        "summary": "Licensed Conjuration: a Mysticism binding that rents a Daedra for a fixed span and returns it before it develops opinions. Doctrine holds the summoned thing is rented, not commanded, and goes home able to describe the summoner. Seals degrade with reuse, with proximity to thin ground, and with sloppy phrasing — a failing seal is a scene, not a stat."
+      },
+      {
+        "name": "The Four Stages of a Bargain",
+        "summary": "Notice → Gift → Use → Collection. A Prince's patronage opens with an unasked-for favour and no stated terms; every use of the gift is a signature; collection arrives late, sideways, and priced to what the petitioner turned out to be for. There is no refusal, only return, and return costs more than the gift was worth."
+      },
+      {
+        "name": "Birthsigns",
+        "summary": "Thirteen constellations — the Guardians (Warrior, Mage, Thief), their charges (Lady, Steed, Lord; Apprentice, Atronach, Ritual; Lover, Shadow, Tower), and the wandering Serpent. A birthsign is social identity as much as arcane inheritance: midwives name the sign before the child, guild boards weigh it in admissions, and the Serpent-born are quietly refused by halls that will not admit they refuse anyone."
+      },
+      {
+        "name": "The Thinning",
+        "summary": "A slow, unglamorous drop in the resistance between Mundus and Oblivion, measured by Magister Cavillius Rell of the Mysticism chair and unread by the Elder Council. It shows as failing seals, summonings that return late or knowing too much, and shrines that feel occupied on the wrong day. It is the quiet clock under everything else in 3E 430."
+      },
+      {
+        "name": "The Necromancy Ban",
+        "summary": "Arch-Mage Hannibal Traven's Guild-wide prohibition, two years old and bitterly resented by senior faculty. It made necromancy a matter of expulsion as well as an Arkay-sanctioned crime, hollowed out several halls of their best raisers, and handed a recruiting pool to everyone who never needed a licence — Hermaeus Mora and the Mythic Dawn included."
+      }
+    ],
+    "timeline": [
+      { "when": "2E 230", "event": "Vanus Galerion founds the Mages Guild, breaking the Psijic monopoly on instruction and opening arcane schooling to anyone who qualifies, regardless of birth or province — a grievance Summerset has never fully let go of." },
+      { "when": "3E ~330", "event": "The Guild dissolves the school of Thaumaturgy, splitting its corpus between Alteration and Mysticism. High Rock's hedge-wizards keep the word and the resentment." },
+      { "when": "3E 428", "event": "Arch-Mage Hannibal Traven, newly seated at the Arcane University, bans the practice of necromancy Guild-wide. Several Cyrodiilic halls lose their senior raisers within the season; nobody in the Guild can say where they went." },
+      { "when": "3E 429", "event": "Magister Cavillius Rell begins formally measuring 'the thinning' after three unrelated licensed seals fail in the Heartlands within one month. His paper is submitted to the Elder Council and never scheduled." },
+      { "when": "3E 430", "event": "PRESENT DAY. Shrine attendance across Cyrodiil is at its highest in a century, the almanacs disagree about why, and the 20th of Sun's Dusk is being marked at wayshrines that were dedicated to the Nine last year." }
+    ],
+    "themes": [
+      "Power borrowed always comes with a lender's price — the Aedra's account runs down, the Prince's comes due",
+      "A caster is their credentials: who taught you matters more than what you can do",
+      "The Princes are not evil, they are transactional — and they are always the better negotiator",
+      "The dangerous magic is not the loudest spell but the smallest unasked-for favour"
+    ]
+  }
+}

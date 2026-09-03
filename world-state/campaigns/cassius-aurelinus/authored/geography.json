@@ -1,0 +1,1326 @@
+{
+  "locations": {
+    "The Imperial City": {
+      "position": "On the Imperial Isle at the centre of Lake Rumare, the heart of the Heartlands and of Cyrodiil",
+      "connections": [
+        {
+          "to": "The Waterfront",
+          "path": "down through the Talos Plaza gate to the dock stair — ten minutes, and a distinct change in who greets you"
+        },
+        {
+          "to": "Weye",
+          "path": "the great west span across Lake Rumare, a half-hour's walk, toll-free for foot traffic"
+        },
+        {
+          "to": "Lake Rumare and the Red Ring Road",
+          "path": "any of the four bridges — north, south, east, or the west span"
+        },
+        {
+          "to": "The Silver Road",
+          "path": "north bridge, then straight into the Great Forest"
+        },
+        {
+          "to": "The Gold Road",
+          "path": "west span past Weye"
+        },
+        {
+          "to": "The Green Road",
+          "path": "south bridge, or the barge quay if you have cargo and sense"
+        },
+        {
+          "to": "The Blue Road",
+          "path": "east bridge toward Cheydinhal and the Valus climb"
+        }
+      ],
+      "description": "A wheel of walled districts spiralling out from the White-Gold Tower, which is Ayleid-built and has never once been repaired because nobody alive knows how it stands. Awning-shade and shouting in the Market District at dawn; gold leaf and cold marble in the Elven Gardens, where an old Ayleid foundation-stone still shows through the Temple floor; the smell off the lake, warm and green, reaching every district by afternoon."
+    },
+    "The Waterfront": {
+      "position": "The dock quarter on the Imperial Isle's southern shore, inside the City walls and outside most of its law",
+      "connections": [
+        {
+          "to": "The Imperial City",
+          "path": "up the dock stair to the Talos Plaza gate"
+        },
+        {
+          "to": "Anvil",
+          "path": "coastal trader down the Niben and around the Gold Coast, nine to eleven days"
+        },
+        {
+          "to": "Morrowind",
+          "path": "the Ebonheart ferry — Niben, Topal Bay, the eastern run: twelve to fifteen days with fair winds"
+        }
+      ],
+      "description": "Tar, wet rope, and fish-guts; Argonian dockhands working the cranes in three-hour shifts and Khajiit factors counting crates under a tarpaulin. The shanty-row along the outer wall pays rent to nobody the Census office recognises, and every guard captain assigned here for eight centuries has requested transfer within a year."
+    },
+    "Weye": {
+      "position": "A lakeside village at the western foot of the great Rumare span, where the Gold Road begins",
+      "connections": [
+        {
+          "to": "The Imperial City",
+          "path": "the west span, half an hour on foot"
+        },
+        {
+          "to": "The Gold Road",
+          "path": "the road simply starts at the inn's doorpost"
+        },
+        {
+          "to": "Lake Rumare and the Red Ring Road",
+          "path": "the ferry-stop below the mill"
+        }
+      ],
+      "description": "Four buildings, a mill, and the Wawnet Inn, which sells eel pie to travellers who have not yet learned what eel pie is. The village's whole economy is people pausing on their way to somewhere better, which makes it the best listening-post within a day of the capital."
+    },
+    "Lake Rumare and the Red Ring Road": {
+      "position": "The drowned ring of water around the Imperial Isle, and the paved circuit that follows its outer shore",
+      "connections": [
+        {
+          "to": "Weye",
+          "path": "the western arc, ferry-stops every four miles"
+        },
+        {
+          "to": "The Imperial City",
+          "path": "any of the four bridges"
+        },
+        {
+          "to": "The Imperial Reserve",
+          "path": "off the road's western arc through the boundary stones — no gate, only a fine"
+        },
+        {
+          "to": "The Silver Road",
+          "path": "the northern junction below the mile-fort"
+        }
+      ],
+      "description": "Warm green water thick with slaughterfish, ringed by legion mile-forts, eel-weirs, and the broken white arches of Ayleid stonework that surface wherever the lake is shallow. The road is the best-maintained stone in Tamriel and the mile-forts are half-garrisoned, because peace is expensive to look like."
+    },
+    "Varondil": {
+      "position": "A flooded Ayleid ruin whose upper arches break the water off the Imperial Isle's northern shallows",
+      "connections": [
+        {
+          "to": "Lake Rumare and the Red Ring Road",
+          "path": "a rowed skiff from the north bridge landing, twenty minutes and one bribed guard"
+        }
+      ],
+      "description": "White seamless stone going down into green dark, welkynd-crystal still lit in the drowned galleries so the lakebed glows faintly blue on still nights. Officially sealed on four separate occasions; presently full of rope, cut lantern-cord, and the initials of Arcane University students who were told not to."
+    },
+    "The Gold Road": {
+      "position": "The Empire's western trade spine, running from Weye across the Heartlands to the Colovian West",
+      "connections": [
+        {
+          "to": "Weye",
+          "path": "eastern terminus at the lake bridge"
+        },
+        {
+          "to": "Vetter's Rest",
+          "path": "a day and a half of flat wheat country, four toll-gates"
+        },
+        {
+          "to": "The Great Forest",
+          "path": "the road's northern verge — one mile off the stone and you are nowhere"
+        }
+      ],
+      "description": "Wide legion-laid stone, wheel-grooved to the depth of a hand, with milestones counting down to White-Gold and a wagon every quarter-hour in trade season. It carries everything, which is exactly why it is the most-robbed ground in the province; the Legion posts the toll-rates and the bandit rates on the same board at Vetter's Rest, one of them unofficially."
+    },
+    "Vetter's Rest": {
+      "position": "The waystation village at the Gold Road's fork, where the northern branch climbs to Chorrol and the Lower Gold runs to the West Weald",
+      "connections": [
+        {
+          "to": "The Gold Road",
+          "path": "east, back toward Weye and the capital"
+        },
+        {
+          "to": "Chorrol",
+          "path": "the northern branch, two days climbing into the Great Forest"
+        },
+        {
+          "to": "Skingrad",
+          "path": "the Lower Gold, a day and a half through vine terraces"
+        },
+        {
+          "to": "The Imperial Reserve",
+          "path": "north off the road by the drovers' path, unmarked and technically illegal"
+        }
+      ],
+      "description": "A stable, two inns competing viciously over a trade that would comfortably support one, a Fighters Guild posting-board, and a chapel of Stendarr where the priest also runs the toll ledger. Every rumour that leaves Cyrodiil's west passes through here first, usually inaccurate and always cheap."
+    },
+    "Chorrol": {
+      "position": "Walled hill-city of the western Great Forest, on the Gold Road's northern branch",
+      "connections": [
+        {
+          "to": "Vetter's Rest",
+          "path": "the Gold Road south-east, two days by wagon"
+        },
+        {
+          "to": "The Black Road",
+          "path": "out the north gate toward Bruma"
+        },
+        {
+          "to": "The Great Forest",
+          "path": "the timber tracks out of the west gate"
+        },
+        {
+          "to": "The Colovian Highlands",
+          "path": "the old drove-road west, three days to the Hammerfell border passes"
+        }
+      ],
+      "description": "Grey dry-stone walls, slate roofs, and the great oak of the chapel square whose roots have lifted the flagstones into a slow wave nobody is permitted to cut back. It smells of sawn pine from the timber yards and it runs on the Fighters Guild's coin and the Colovian council's ancient election formula, which nobody in the capital has ever asked to have explained."
+    },
+    "Bruma": {
+      "position": "Cyrodiil's northernmost city, in the Jerall foothills where the Silver Road meets the snow",
+      "connections": [
+        {
+          "to": "The Silver Road",
+          "path": "south out of the gate, two days down to the capital when the switchbacks are clear"
+        },
+        {
+          "to": "The Black Road",
+          "path": "west along the foothills to Chorrol, three days of goat-track and pretension"
+        },
+        {
+          "to": "Bruma Pass",
+          "path": "the north gate and the garrison checkpoint"
+        },
+        {
+          "to": "Karlholt",
+          "path": "an afternoon's climb east along the shepherds' contour"
+        }
+      ],
+      "description": "Black timber halls with turf roofs weighted in stone, smoke-holes venting into a sky that is grey nine months a year, and Nord surnames filling the Imperial tax-rolls three names deep. The Counts of Bruma have sworn to White-Gold for four hundred years and every one of them has been buried under a Nord cairn."
+    },
+    "Karlholt": {
+      "position": "A Nord-founded steading high in the Jerall foothills east of Bruma",
+      "connections": [
+        {
+          "to": "Bruma",
+          "path": "the shepherds' contour west, half a day down"
+        },
+        {
+          "to": "Pale Pass",
+          "path": "the goat-line north — no road, and no admission that there is one"
+        }
+      ],
+      "description": "Nine longhouses, a smokehouse, and a herd of shaggy hill-cattle that nobody has ever managed to tax accurately. Karlholt sells wool, sells mutton, and sells — for a price stated only in the smokehouse and never twice the same — the knowledge of which weeks Pale Pass is walkable."
+    },
+    "Bruma Pass": {
+      "position": "The garrisoned crossing of the Jerall Mountains north of Bruma, the Empire's legal road into Skyrim",
+      "connections": [
+        {
+          "to": "Bruma",
+          "path": "south down the switchbacks to the gate"
+        },
+        {
+          "to": "Skyrim",
+          "path": "north over the saddle — four days to the first Nord hold, weather permitting"
+        }
+      ],
+      "description": "A cut saddle between white shoulders of rock, a legion blockhouse with a writ-desk, and a bell that rings when the pass closes. Open five to seven months in a good year; in a bad year the bell rings in Frostfall and the queue of merchants below Bruma becomes its own small, furious town."
+    },
+    "Pale Pass": {
+      "position": "A lost high crossing of the Jeralls, listed as impassable on every Imperial chart",
+      "connections": [
+        {
+          "to": "Karlholt",
+          "path": "the goat-line south, a day if the ice is honest"
+        },
+        {
+          "to": "Skyrim",
+          "path": "north through the cirque and the buried fort — five days, no shelter, no witnesses"
+        }
+      ],
+      "description": "Ice-choked switchbacks past the shoulder of a fort that snow ate an era ago, its banner-poles still standing out of the drift. The Empire lists it lost; the smugglers of Karlholt list it open, weather permitting, and neither party has any interest in correcting the other."
+    },
+    "The Silver Road": {
+      "position": "The northern highway from the Imperial City through the Great Forest to Bruma",
+      "connections": [
+        {
+          "to": "The Imperial City",
+          "path": "south to the north bridge"
+        },
+        {
+          "to": "Bruma",
+          "path": "north, two days rising into snow"
+        },
+        {
+          "to": "The Great Forest",
+          "path": "the road runs through it for most of its length"
+        }
+      ],
+      "description": "Good stone for two days, then switchbacks, then snow. Wagons stop running for six weeks most winters, which in Bruma does not mean the road is shut so much as that the Nords are charging more."
+    },
+    "The Black Road": {
+      "position": "The east-west track along the Jerall foothills linking Chorrol and Bruma",
+      "connections": [
+        {
+          "to": "Chorrol",
+          "path": "west, two days"
+        },
+        {
+          "to": "Bruma",
+          "path": "east, three days"
+        }
+      ],
+      "description": "Half legion-laid stone, half a goat track with ambitions, running through burnt-black pine that gives the road its name. Bandits favour the middle stretch because there is no county whose watch will admit responsibility for it."
+    },
+    "The Great Forest": {
+      "position": "The old pine-and-oak wilderness filling north-central Cyrodiil between the Silver Road and Chorrol",
+      "connections": [
+        {
+          "to": "The Silver Road",
+          "path": "the road cuts it north to south"
+        },
+        {
+          "to": "Chorrol",
+          "path": "timber tracks from the west"
+        },
+        {
+          "to": "The Imperial Reserve",
+          "path": "south across the Reserve's boundary stones"
+        }
+      ],
+      "description": "Column-straight pine going up into green dark, deadfall, and clearings that are always suspiciously round because something Ayleid is under them. It hides bandit camps, Ayleid wells, and at least three cults the Legion has stopped counting on the grounds that counting implies a budget."
+    },
+    "The Imperial Reserve": {
+      "position": "The crown hunting-forest west of Lake Rumare, between the Gold Road and the Great Forest",
+      "connections": [
+        {
+          "to": "Lake Rumare and the Red Ring Road",
+          "path": "east through the boundary stones"
+        },
+        {
+          "to": "Vetter's Rest",
+          "path": "the drovers' path south, unmarked"
+        },
+        {
+          "to": "The Great Forest",
+          "path": "north, no border you can see"
+        }
+      ],
+      "description": "Deliberately unmanaged wilderness where felling a tree is still, on the books, a capital offence — so the deadfall lies where it dropped and the deer are unafraid of people in a way that is genuinely unsettling. The Emperor has not hunted here in eleven years, and everything in central Cyrodiil that wishes to be unobserved has quietly worked this out."
+    },
+    "Skingrad": {
+      "position": "Vine-terraced city of the West Weald, astride the Lower Gold Road",
+      "connections": [
+        {
+          "to": "Vetter's Rest",
+          "path": "the Lower Gold north-east, a day and a half"
+        },
+        {
+          "to": "Kvatch",
+          "path": "the Lower Gold west, two days through the last of the vineyards"
+        },
+        {
+          "to": "The West Weald",
+          "path": "out of any gate; the city is the Weald's market"
+        },
+        {
+          "to": "Tarnwyll",
+          "path": "an hour's ride south into the terraces, then a shepherd's path nobody signposts"
+        }
+      ],
+      "description": "A city split by a gorge and stitched back with a single high bridge, its counts' quarter on one side and its wine-vaults on the other, the whole place smelling of must and warm stone. Skingrad's vintners keep records going back six centuries and use them, routinely, as legal evidence."
+    },
+    "Tarnwyll": {
+      "position": "An Ayleid well-ruin sunk in the vine terraces south of Skingrad",
+      "connections": [
+        {
+          "to": "Skingrad",
+          "path": "an hour's ride north through the terraces"
+        },
+        {
+          "to": "The West Weald",
+          "path": "the shepherds' paths in every direction"
+        }
+      ],
+      "description": "A ring of white arches with no building attached, a shaft going down through them, and vines that grow to the stone's edge and then decline. Weald farmers leave a cup of new wine on the lintel each harvest, on the reasoning that one should be polite to a bad neighbour."
+    },
+    "The West Weald": {
+      "position": "The warm, rolling farm and vine country of southwestern Cyrodiil, between the Colovian Highlands and the Gold Coast",
+      "connections": [
+        {
+          "to": "Skingrad",
+          "path": "every cart-track in the Weald ends at its market"
+        },
+        {
+          "to": "Kvatch",
+          "path": "west by the Lower Gold or any of six drove-roads"
+        },
+        {
+          "to": "The Colovian Highlands",
+          "path": "north, uphill, until the vines give out"
+        }
+      ],
+      "description": "Gold grass, olive and grape, dry-stone walls the colour of bread crust, and cicadas loud enough to talk over. Colovian country to its bones: the Weald sends its sons to the Legion, its wine to the capital, and its opinion of the capital to nobody who might repeat it."
+    },
+    "Kvatch": {
+      "position": "A walled hill-city above the Gold Coast, where the Lower Gold Road turns down to the sea",
+      "connections": [
+        {
+          "to": "Skingrad",
+          "path": "the Lower Gold east, two days"
+        },
+        {
+          "to": "Anvil",
+          "path": "the coast switchbacks west and down, a day and a half"
+        },
+        {
+          "to": "The Gold Coast",
+          "path": "the descent road from the west gate"
+        }
+      ],
+      "description": "Grey walls on a bare hill with an arena cut into its flank and the chapel of Akatosh at its crown, visible from a day's ride in any direction. Kvatch is defensible, devout, and quietly poor; its count keeps the gates shut after dark from habit older than any threat anyone can name."
+    },
+    "Anvil": {
+      "position": "The Gold Coast's great port on the Abecean Sea, at Cyrodiil's western edge",
+      "connections": [
+        {
+          "to": "Kvatch",
+          "path": "the coast switchbacks east and up, a day and a half"
+        },
+        {
+          "to": "The Gold Coast",
+          "path": "the harbour road in both directions"
+        },
+        {
+          "to": "Hammerfell",
+          "path": "sea — three days to Stros M'Kai, six to Sentinel"
+        },
+        {
+          "to": "High Rock",
+          "path": "sea — eight days to Daggerfall along the coast"
+        },
+        {
+          "to": "Summerset Isles",
+          "path": "sea — nine days, and a harbour-writ you almost certainly do not have"
+        },
+        {
+          "to": "The Waterfront",
+          "path": "coastal trader round the Gold Coast and up the Niben, nine to eleven days"
+        }
+      ],
+      "description": "White harbour-front, red tile, tar and salt-cod and the particular quiet of a town where a great many prosperous men were pirates within living memory. The Thieves Guild never left Anvil so much as changed its stationery, and the harbourmaster's ledger has two columns and only one of them is submitted."
+    },
+    "The Gold Coast": {
+      "position": "The warm Abecean shoreline of western Cyrodiil, from the Strid's mouth north to the Hammerfell march",
+      "connections": [
+        {
+          "to": "Anvil",
+          "path": "the harbour road"
+        },
+        {
+          "to": "Kvatch",
+          "path": "the switchback climb inland"
+        },
+        {
+          "to": "The West Weald",
+          "path": "east over the coastal ridge"
+        }
+      ],
+      "description": "Cliff, cove, salt-scrub and beacon towers built to watch for sails that stopped coming two generations ago and are, the Society notes, still manned. Every third cove has a cellar cut into it, and none of those cellars were dug for fish."
+    },
+    "The Colovian Highlands": {
+      "position": "The high dry uplands of northwestern Cyrodiil, between Chorrol and the Hammerfell border",
+      "connections": [
+        {
+          "to": "Chorrol",
+          "path": "the drove-road east, a day and a half down into the forest"
+        },
+        {
+          "to": "The West Weald",
+          "path": "south, downhill into the vines"
+        },
+        {
+          "to": "Hammerfell",
+          "path": "the border passes west — three hard days, no inns, one legion tower"
+        }
+      ],
+      "description": "Wind-scoured grass, granite bones showing through the soil, sheep, and the roofless shells of estates the Colovian lords held before there was an Empire to hold them for. The wind here does not stop; highlanders judge outsiders by whether they keep mentioning it."
+    },
+    "The Green Road": {
+      "position": "The southern highway down the Niben's western bank from the Imperial City to Leyawiin",
+      "connections": [
+        {
+          "to": "The Imperial City",
+          "path": "north to the south bridge"
+        },
+        {
+          "to": "Bravil",
+          "path": "south, two and a half days"
+        },
+        {
+          "to": "Leyawiin",
+          "path": "south again, three days of increasingly enthusiastic mosquitoes"
+        }
+      ],
+      "description": "Serviceable stone becoming serviceable mud below Bravil, shaded by river-oak and haunted by the fact that anyone with real cargo takes the water instead. What travels the Green Road is what does not want to be inspected at a river toll."
+    },
+    "The Niben": {
+      "position": "Cyrodiil's great river, draining the Nibenay Basin from Lake Rumare south to Topal Bay",
+      "connections": [
+        {
+          "to": "The Imperial City",
+          "path": "upstream to the Isle's barge quays"
+        },
+        {
+          "to": "Hobb's Ferry",
+          "path": "the midstream crossing, poled at all hours for a copper"
+        },
+        {
+          "to": "Bravil",
+          "path": "downstream, the water does the work"
+        },
+        {
+          "to": "Leyawiin",
+          "path": "four days down, eight back up under pole and sail"
+        }
+      ],
+      "description": "So wide at Bravil that a man on one bank cannot reliably identify a man on the other, and so slow that barges go downstream by drifting and upstream by cursing. Paper prayer-lanterns for the Nine — and for three or four things that are certainly not the Nine — come down it after every Nibenese festival, still burning."
+    },
+    "Hobb's Ferry": {
+      "position": "A poling-hamlet on the Niben's east bank, halfway between the capital and Bravil",
+      "connections": [
+        {
+          "to": "The Niben",
+          "path": "the ferry itself, a flat-bottomed barge on a cable"
+        },
+        {
+          "to": "Bravil",
+          "path": "downstream a day, or the east-bank track for the impatient"
+        },
+        {
+          "to": "The Nibenay Basin",
+          "path": "the rice-dyke paths east"
+        }
+      ],
+      "description": "Stilt-houses over black water, drying nets, a shrine to Zenithar made of an upturned boat, and the county toll-collector who is also the ferryman and also, when the mood takes him, the coroner. Everything moving on the Niben stops here, which means Hobb's Ferry knows things the Elder Council pays for."
+    },
+    "The Nibenay Basin": {
+      "position": "The broad warm river-country of eastern Cyrodiil, from Lake Rumare east to the Valus and south to Niben Bay",
+      "connections": [
+        {
+          "to": "The Niben",
+          "path": "every dyke path in the Basin ends at water"
+        },
+        {
+          "to": "Cheydinhal",
+          "path": "north-east by the Blue Road"
+        },
+        {
+          "to": "Bravil",
+          "path": "south-west along the rice terraces"
+        }
+      ],
+      "description": "Rice terraces, silk-houses, heron and mist, and shrine-poles at every field corner hung with paper. Nibenese Cyrodiils are ceremonious, magic-comfortable, and ancestor-conscious in a way that scandalises their Colovian cousins, and they will describe a quarrel over a mooring-right in the exact vocabulary the Elder Council uses for a war."
+    },
+    "Bravil": {
+      "position": "A crowded river city on the lower Niben, where the Green Road crosses the Larsius",
+      "connections": [
+        {
+          "to": "The Green Road",
+          "path": "north to the capital, south to Leyawiin"
+        },
+        {
+          "to": "The Niben",
+          "path": "the barge quays under the town bridge"
+        },
+        {
+          "to": "Elsweyr",
+          "path": "the south-west border scrub, five days to the first Khajiit caravanserai"
+        }
+      ],
+      "description": "Timber tenements leaning over black canals on rotting piles, roped together where they have begun to fall, and a wooden shrine-statue in the square that the poor pray to for luck and the county officially does not name. Bravil is the cheapest city in Cyrodiil to enter and by a considerable margin the most expensive to leave."
+    },
+    "Leyawiin": {
+      "position": "Cyrodiil's southern river city, at the meeting of the Niben and the Strid on the Black Marsh march",
+      "connections": [
+        {
+          "to": "The Green Road",
+          "path": "north toward Bravil and the capital"
+        },
+        {
+          "to": "The Niben",
+          "path": "the great quay — four days upstream to the capital, eight back"
+        },
+        {
+          "to": "Blackwood",
+          "path": "out the south gate into the cypress, and then it is water's choice"
+        },
+        {
+          "to": "The Panther River",
+          "path": "shallow-draught boat east out of the Strid channel"
+        },
+        {
+          "to": "Black Marsh",
+          "path": "south through Blackwood — nine days to Gideon, and nobody guarantees the nine"
+        }
+      ],
+      "description": "A wall-and-tower garrison town on one bank, an Argonian river-quarter of stilt and thatch on the other, joined by a bridge that both halves consider theirs. Hot, wet, loud with frogs after dark, and running on an armistice of daily inconvenience that has held for two hundred years by being too petty to escalate."
+    },
+    "Blackwood": {
+      "position": "The cypress swamp of Cyrodiil's far south, between Leyawiin and the Black Marsh border",
+      "connections": [
+        {
+          "to": "Leyawiin",
+          "path": "north through the cypress to the south gate"
+        },
+        {
+          "to": "The Panther River",
+          "path": "the Panther is the only reliable road through Blackwood"
+        },
+        {
+          "to": "Black Marsh",
+          "path": "south, and the province stops being a legal fiction at some point you will not notice"
+        }
+      ],
+      "description": "Black water under cypress, hanging moss, insect noise that becomes silence when something large is nearby. Ayleid arches stand in the shallows here with something older underneath them, and the ground's willingness to be ground is a matter it reconsiders seasonally."
+    },
+    "The Panther River": {
+      "position": "The winding waterway threading Blackwood east from the Strid channel toward Black Marsh",
+      "connections": [
+        {
+          "to": "Leyawiin",
+          "path": "west down to the Strid and the city quay"
+        },
+        {
+          "to": "Blackwood",
+          "path": "the river is the swamp's only road"
+        },
+        {
+          "to": "Cellaquin",
+          "path": "a side-channel on the north bank, marked by three fallen arches"
+        }
+      ],
+      "description": "Navigable to shallow craft, patrolled by nobody, and the preferred route of every smuggler between Topal Bay and the Marsh. Its channels move; a chart three years old is a story, not a chart."
+    },
+    "Cellaquin": {
+      "position": "An Ayleid ruin on the Panther River's north bank, half-drowned in Blackwood",
+      "connections": [
+        {
+          "to": "The Panther River",
+          "path": "the marked side-channel, poled in, and you will want to mark your own way out"
+        }
+      ],
+      "description": "White stone stairs descending into water that runs into the ruin and does not come out again. Argonian polers will take fares to the arches and no further, and will not discuss why in Cyrodiilic, or in Jel."
+    },
+    "The Blue Road": {
+      "position": "The eastern highway from the Imperial City to Cheydinhal and the Valus passes",
+      "connections": [
+        {
+          "to": "The Imperial City",
+          "path": "west to the east bridge"
+        },
+        {
+          "to": "Cheydinhal",
+          "path": "east, two days across the upper Basin"
+        },
+        {
+          "to": "The Valus Mountains",
+          "path": "the climb beyond Cheydinhal"
+        }
+      ],
+      "description": "Well-kept stone that hears more Dunmeris than Cyrodiilic at its eastern end, carrying ash-country goods west and Imperial paperwork east. The caravans coming down from the Valus arrive smelling of ash and carrying ebony they are absolutely not required to declare."
+    },
+    "Cheydinhal": {
+      "position": "Cyrodiil's easternmost city, in the Valus foothills at the head of the Blue Road",
+      "connections": [
+        {
+          "to": "The Blue Road",
+          "path": "west to the capital, two days"
+        },
+        {
+          "to": "The Valus Mountains",
+          "path": "the east gate and the switchback climb"
+        },
+        {
+          "to": "The Nibenay Basin",
+          "path": "south-west by the rice-dyke roads"
+        }
+      ],
+      "description": "Steep-pitched roofs and carved eaves in the Morrowind manner, a stream running walled through the city's middle, and ancestor-lamps burning in half the windows because half the households are Dunmer and have been for four generations. The Count's guard and the House Hlaalu factors maintain a working relationship that nobody has ever written down."
+    },
+    "The Valus Mountains": {
+      "position": "The range along Cyrodiil's eastern border, dividing the Nibenay from Morrowind's ash country",
+      "connections": [
+        {
+          "to": "Cheydinhal",
+          "path": "the switchbacks down west"
+        },
+        {
+          "to": "Morrowind",
+          "path": "the eastern descent — four days down into ash and then whatever Morrowind decides"
+        }
+      ],
+      "description": "Cold pine on the Cyrodiil side, hot bare rock on the Morrowind side, and a treeline that changes its mind at the ridge. Shrine-cairns to the Dunmer ancestors stand at every switchback, tended by hands nobody sees doing it."
+    },
+    "Skyrim": {
+      "position": "North across the Jerall Mountains from Bruma",
+      "connections": [
+        {
+          "to": "Bruma Pass",
+          "path": "south over the saddle — four days to the pass with a Legion writ"
+        },
+        {
+          "to": "Pale Pass",
+          "path": "the smuggler's line — five days, no shelter, no witnesses"
+        }
+      ],
+      "description": "Jarldoms, mead-halls, and barrow-mounds full of draugr that the Nords consider a family matter rather than a monster problem. Nord courtesy toward Imperials is real and thin; toward mages it is neither, and the Empire's Peace here is a treaty everyone honours and nobody praises."
+    },
+    "Morrowind": {
+      "position": "East of Cyrodiil beyond the Valus, and east again across the Inner Sea",
+      "connections": [
+        {
+          "to": "The Valus Mountains",
+          "path": "the western passes above Cheydinhal, four days of climbing"
+        },
+        {
+          "to": "The Waterfront",
+          "path": "the Ebonheart ferry via the Niben and Topal Bay, twelve to fifteen days"
+        }
+      ],
+      "description": "Ash-blown, ancestor-haunted, and governed under its own Great House law by treaty — the only province where an Imperial writ is a suggestion politely received. Ebony and glass leave it, Imperial administrators enter it, and the Houses keep careful count of both."
+    },
+    "High Rock": {
+      "position": "Northwest beyond Hammerfell, on the Iliac Bay",
+      "connections": [
+        {
+          "to": "Anvil",
+          "path": "sea — eight days along the coast to Daggerfall"
+        },
+        {
+          "to": "Hammerfell",
+          "path": "the disputed Iliac border, overland and heavily lawyered"
+        }
+      ],
+      "description": "A hundred quarrelling Breton duchies stacked on a coastline, feudal and litigious past Imperial patience, with witch-covens in the moors and Direnni stonework under the newer castles. Two neighbouring lords will hand you two different charts of the same valley and both will be notarised."
+    },
+    "Hammerfell": {
+      "position": "West of the Colovian Highlands, across the Alik'r and down to the Abecean coast",
+      "connections": [
+        {
+          "to": "The Colovian Highlands",
+          "path": "the border passes east — three hard days, one legion tower"
+        },
+        {
+          "to": "Anvil",
+          "path": "sea — three days to Stros M'Kai, six to Sentinel"
+        },
+        {
+          "to": "High Rock",
+          "path": "the contested Iliac border"
+        }
+      ],
+      "description": "Alik'r sand, Dragontail crags, walled port cities, and the Crowns-and-Forebears argument running through every tavern, family and city council in the province. Cross the desert without a Redguard guide and the Imperial Geographical Society respectfully declines responsibility for your remains."
+    },
+    "Black Marsh": {
+      "position": "South of Leyawiin past Blackwood, filling Tamriel's southeastern corner",
+      "connections": [
+        {
+          "to": "Blackwood",
+          "path": "north through the cypress toward Leyawiin"
+        },
+        {
+          "to": "Leyawiin",
+          "path": "nine days up from Gideon, and nobody guarantees the nine"
+        }
+      ],
+      "description": "Swamp and root-jungle the Empire has never mapped, let alone governed; roads that exist because the Marsh permits them and can be unmade in a season. Argonian settlements answer to the Hist, a word Imperial administrators write down accurately and understand not at all."
+    },
+    "Elsweyr": {
+      "position": "Southwest of Cyrodiil, from the Bravil border scrub down to the southern coast",
+      "connections": [
+        {
+          "to": "Bravil",
+          "path": "the border scrub north-east, five days to the first caravanserai"
+        },
+        {
+          "to": "Leyawiin",
+          "path": "the southern trade track east, six days"
+        },
+        {
+          "to": "Valenwood",
+          "path": "the western border, forest meeting savanna"
+        }
+      ],
+      "description": "Sand and dry hills in the north, savanna and sugarcane in the south, and caravan-clans whose routes are older than any road they cross. Moon-sugar is legal in Elsweyr, taxed at Cyrodiil's border, and hanged for in Skyrim — a fact three provinces have built quiet economies upon."
+    },
+    "Valenwood": {
+      "position": "West of Elsweyr along Tamriel's southwestern coast",
+      "connections": [
+        {
+          "to": "Elsweyr",
+          "path": "the eastern border, six days of trodden trail"
+        },
+        {
+          "to": "Summerset Isles",
+          "path": "sea from the Bosmer ports — short crossing, Thalmor-supervised"
+        }
+      ],
+      "description": "A forest that is in some measure alive, where the Green Pact forbids the Bosmer to harm plant life on their own soil, so roads are trodden rather than cut and a hostile Valenwood is a province with no roads at all. Thalmor advisors appear at more Bosmer courts each year, which the Elder Council has noticed and has decided to notice quietly."
+    },
+    "Summerset Isles": {
+      "position": "Across the Abecean Sea, southwest of the Gold Coast",
+      "connections": [
+        {
+          "to": "Anvil",
+          "path": "sea — nine days, and a harbour-writ granted rarely and revoked without explanation"
+        },
+        {
+          "to": "Valenwood",
+          "path": "the short Thalmor-supervised crossing to the mainland ports"
+        }
+      ],
+      "description": "The closed Altmer homeland, effectively sealed: what Imperial traders see of it is Firsthold's outer mole, a customs shed of impossible cleanliness, and a very polite official copying down their names twice. Every Society chart of the interior is a copy of a chart of 3E 401, and the Society has stopped pretending otherwise."
+    },
+    "The Jerall Mountains": {
+      "position": "The white range walling Cyrodiil off from Skyrim, north of Bruma and the Great Forest",
+      "connections": [
+        {
+          "to": "Bruma",
+          "path": "down the southern skirts to the city gate"
+        },
+        {
+          "to": "Bruma Pass",
+          "path": "the cut saddle above Bruma, garrisoned and writ-controlled"
+        },
+        {
+          "to": "Pale Pass",
+          "path": "the goat-line above Karlholt — no road, and no admission that there is one"
+        },
+        {
+          "to": "The Black Road",
+          "path": "the foothill track running west along the range to Chorrol"
+        }
+      ],
+      "description": "White shoulders of rock above a black treeline, cairns and wind-scoured saddles, and weather that decides the Empire's northern trade schedule without consulting it. Nord barrow-mounds sit on the Skyrim side of the watershed and Imperial mile-markers stop a full day short of it."
+    }
+  },
+  "facts": {
+    "geography": [
+      "Cyrodiil is two cultures on one road system: the Nibenay in the east (river, rice, silk, ceremony, comfortable with magic) and the Colovian West (highland, wine, dry stone, Legion service, magic-wary). The Heartlands around Lake Rumare are the only part that thinks of itself as simply 'Imperial'.",
+      "Cyrodiil's named highways: the Gold Road (west, forking at Vetter's Rest to Chorrol and to the West Weald/Anvil), the Silver Road (north to Bruma), the Black Road (Chorrol-Bruma along the Jeralls), the Green Road (south to Bravil and Leyawiin), the Blue Road (east to Cheydinhal), and the Red Ring Road circling Lake Rumare.",
+      "The Niben is the best road in Cyrodiil: barge from the Imperial City to Leyawiin in four days downstream, eight upstream, with tolls at every county line and a poling-hamlet at Hobb's Ferry halfway.",
+      "Ayleid ruins surface all through Cyrodiil — white, seamless, faintly luminous where welkynd-stone survives. Named examples: Varondil (drowned in Lake Rumare), Tarnwyll (the West Weald terraces), Cellaquin (the Panther River in Blackwood). Nibenese farmers leave them offerings out of politeness to a bad neighbour.",
+      "Dwemer ruins are not Cyrodiilic — the Deep Folk built in Morrowind, the Dragontail range of Hammerfell, and under Skyrim — but Dwemer objects travel, turning up in Bravil pawnshops and Cheydinhal warehouses.",
+      "The Imperial Reserve is the crown hunting-forest west of Lake Rumare where felling a tree remains a capital offence on the books. No Emperor has hunted there in eleven years, and it is the default hiding place for anything in central Cyrodiil that wants not to be seen.",
+      "Travel friction, overland: Bruma Pass into Skyrim is open five to seven months a year and requires a Legion writ; Pale Pass is listed lost and known walkable by the smugglers of Karlholt. The Valus passes above Cheydinhal take four days to Morrowind's ash country. The Colovian border passes to Hammerfell are three hard days with one legion tower and no inns.",
+      "Travel friction, by sea from Anvil: Stros M'Kai three days, Sentinel six, Daggerfall eight, Summerset nine — the last requiring an Altmer harbour-writ that is rarely granted. From the Imperial City Waterfront, the Ebonheart ferry to Morrowind runs twelve to fifteen days with fair winds.",
+      "The Imperial Geographical Society's charts are excellent for Cyrodiil, adequate for Hammerfell, imaginative for Black Marsh, and for Summerset copied wholesale from a chart of 3E 401 — an honest map of the Empire's actual reach."
+    ],
+    "plot_local": [
+      "The Gold Road's toll-board at Vetter's Rest carries two schedules of rates: the Legion's, posted, and the road-agents', which appears overnight and is never removed by anyone who wants to keep using the road.",
+      "Varondil, the drowned Ayleid ruin off the Imperial Isle, has been officially sealed four times and is currently strung with fresh rope — someone is diving it nightly, from the Waterfront side, and paying the north-bridge guard not to count boats.",
+      "Weye's Wawnet Inn is the best listening-post within a day of the capital, and at least two different parties are paying its innkeeper for the same information.",
+      "Argonian polers on the Panther River will carry fares as far as Cellaquin's arches and no further, and refuse to say why in Cyrodiilic or in Jel.",
+      "Karlholt's smokehouse sells the walkable weeks of Pale Pass at a price never quoted twice the same — and this winter someone has been buying the whole season's knowledge outright."
+    ],
+    "plot_regional": [
+      "Bruma Pass closed early last year and the merchant queue below the city became its own furious temporary town; the Count of Bruma and the pass garrison blamed each other in writing, and the Elder Council has the letters.",
+      "The Gold Coast's beacon towers are still manned two generations after the sails they watched for stopped coming — and someone is paying the beacon-keepers' wages out of an account the Anvil harbourmaster's submitted ledger does not contain.",
+      "Cheydinhal's Dunmer quarter and the Count's guard maintain a working arrangement that has never been written down; both sides are now nervous that the other has begun writing it down.",
+      "Leyawiin's garrison bank and Argonian river-quarter have kept a two-century armistice by staying too petty to escalate. A recent quarrel over bridge tolls is the first in memory that has attracted the attention of somebody outside Leyawiin."
+    ],
+    "plot_world": [
+      "The Imperial roads are the Empire's Peace made physical — patrols, tolls, mile-forts, milestones counting down to White-Gold. Every stretch that quietly stops being patrolled is a province quietly stopping being governed, and by 3E 430 the unpatrolled stretches are growing.",
+      "Summerset's harbour-writs have been granted at a declining rate for six years running, and the Society's inability to chart the Isles since 3E 401 is now the most-cited fact in Elder Council debates that are officially about something else.",
+      "The White-Gold Tower is Ayleid work standing at the exact centre of an Empire that destroyed the Ayleids — a thing nobody in the capital has ever repaired because nobody living knows how it stands, and a thing certain cults regard as the single most important fact in Tamriel."
+    ]
+  },
+  "bible": {
+    "geography": {
+      "nodes": [
+        {
+          "name": "The Imperial City",
+          "type": "capital",
+          "summary": "The Ayleid-founded capital on the Imperial Isle in Lake Rumare, White-Gold Tower at the hub, districts spiralling out to the Waterfront."
+        },
+        {
+          "name": "The Waterfront",
+          "type": "district",
+          "summary": "The Imperial City's dock quarter — inside the walls, outside most of the law, and the Thieves Guild's front door."
+        },
+        {
+          "name": "Weye",
+          "type": "village",
+          "summary": "Lakeside village at the western Rumare span where the Gold Road begins; the capital's best listening-post."
+        },
+        {
+          "name": "Lake Rumare and the Red Ring Road",
+          "type": "region",
+          "summary": "The warm ring-lake around the Imperial Isle and the paved circuit of mile-forts and ferry-stops following its shore."
+        },
+        {
+          "name": "Varondil",
+          "type": "ruin",
+          "summary": "Drowned Ayleid ruin in Lake Rumare's northern shallows, welkynd-lit under green water, sealed four times and never once for long."
+        },
+        {
+          "name": "The Gold Road",
+          "type": "route",
+          "summary": "The western trade spine from Weye to Vetter's Rest, forking north to Chorrol and the Colovian Highlands and south through Skingrad to Kvatch and Anvil."
+        },
+        {
+          "name": "Vetter's Rest",
+          "type": "village",
+          "summary": "Waystation village at the Gold Road's fork — two inns, a Fighters Guild board, and every western rumour before it reaches the capital."
+        },
+        {
+          "name": "Chorrol",
+          "type": "city",
+          "summary": "Colovian walled hill-city in the western Great Forest; timber trade, Fighters Guild coin, and an ancient council election formula the capital has never asked about."
+        },
+        {
+          "name": "Bruma",
+          "type": "city",
+          "summary": "Cyrodiil's northernmost city in the Jerall foothills — turf-roofed Nord halls on Imperial tax-rolls, gateway to Skyrim."
+        },
+        {
+          "name": "Karlholt",
+          "type": "steading",
+          "summary": "Nord hill-steading east of Bruma that sells wool, mutton, and the knowledge of when Pale Pass is walkable."
+        },
+        {
+          "name": "Bruma Pass",
+          "type": "pass",
+          "summary": "The Empire's legal Jerall crossing into Skyrim — garrisoned, writ-controlled, open five to seven months a year."
+        },
+        {
+          "name": "Pale Pass",
+          "type": "pass",
+          "summary": "The high Jerall crossing the Empire lists as lost and Karlholt's smugglers list as open, weather permitting."
+        },
+        {
+          "name": "The Silver Road",
+          "type": "route",
+          "summary": "The northern highway from the Imperial City through the Great Forest to Bruma; snow-shut roughly six weeks a winter."
+        },
+        {
+          "name": "The Black Road",
+          "type": "route",
+          "summary": "Chorrol to Bruma along the burnt-pine Jerall foothills; half legion stone, half goat track, wholly unpoliced in the middle."
+        },
+        {
+          "name": "The Great Forest",
+          "type": "region",
+          "summary": "North-central pine wilderness hiding bandit camps, Ayleid wells, and cults the Legion has stopped counting."
+        },
+        {
+          "name": "The Imperial Reserve",
+          "type": "region",
+          "summary": "The crown hunting-forest west of Lake Rumare — deliberately unmanaged, felling still a capital offence, and central Cyrodiil's default hiding place."
+        },
+        {
+          "name": "Skingrad",
+          "type": "city",
+          "summary": "Gorge-split vine city of the West Weald, wine-vaults on one side and the counts' quarter on the other, six centuries of vintners' records used as legal evidence."
+        },
+        {
+          "name": "Tarnwyll",
+          "type": "ruin",
+          "summary": "Ayleid well-ruin in the terraces south of Skingrad — arches with no building, a shaft going down, and a cup of new wine left each harvest."
+        },
+        {
+          "name": "The West Weald",
+          "type": "region",
+          "summary": "Warm Colovian vine and olive country between the Highlands and the Gold Coast; sends sons to the Legion and wine to the capital."
+        },
+        {
+          "name": "Kvatch",
+          "type": "city",
+          "summary": "Walled hill-city above the Gold Coast with an arena in its flank and the chapel of Akatosh at its crown; devout, defensible, quietly poor."
+        },
+        {
+          "name": "Anvil",
+          "type": "port-city",
+          "summary": "The Gold Coast's great Abecean port — tar and salt-cod, a piratical generation barely buried, and a harbourmaster's ledger with an unsubmitted second column."
+        },
+        {
+          "name": "The Gold Coast",
+          "type": "region",
+          "summary": "Cyrodiil's warm Abecean shoreline of cliff, cove and still-manned beacon towers, with a smuggler's cellar cut into every third cove."
+        },
+        {
+          "name": "The Colovian Highlands",
+          "type": "region",
+          "summary": "Wind-scoured northwestern uplands of granite and sheep, roofless pre-Imperial estates, and the border passes into Hammerfell."
+        },
+        {
+          "name": "The Green Road",
+          "type": "route",
+          "summary": "The southern highway down the Niben's west bank to Bravil and Leyawiin — what travels it is what does not want a river inspection."
+        },
+        {
+          "name": "The Niben",
+          "type": "river",
+          "summary": "Cyrodiil's great slow river from Lake Rumare to Topal Bay; four days down to Leyawiin, eight back, tolled at every county line."
+        },
+        {
+          "name": "Hobb's Ferry",
+          "type": "village",
+          "summary": "Stilt-house poling hamlet at the Niben's midpoint whose ferryman is also toll-collector and, when the mood takes him, coroner."
+        },
+        {
+          "name": "The Nibenay Basin",
+          "type": "region",
+          "summary": "Eastern Cyrodiil's rice, silk and shrine-pole country — ceremonious, ancestor-conscious, comfortable with magic."
+        },
+        {
+          "name": "Bravil",
+          "type": "city",
+          "summary": "Leaning tenements on rotting piles over black canals, an unnamed wooden luck-shrine in the square; cheapest city to enter in Cyrodiil, dearest to leave."
+        },
+        {
+          "name": "Leyawiin",
+          "type": "city",
+          "summary": "Southern river city at the Niben and Strid, Imperial garrison on one bank and Argonian stilt-quarter on the other, bridged and mutually resentful."
+        },
+        {
+          "name": "Blackwood",
+          "type": "region",
+          "summary": "Cypress swamp where Cyrodiil bleeds into Black Marsh — Ayleid arches in the shallows with something older beneath them."
+        },
+        {
+          "name": "The Panther River",
+          "type": "river",
+          "summary": "Blackwood's shifting artery, navigable to shallow craft, patrolled by nobody, the smuggler's road between Topal Bay and the Marsh."
+        },
+        {
+          "name": "Cellaquin",
+          "type": "ruin",
+          "summary": "Half-drowned Ayleid ruin on the Panther's north bank where the water goes in and does not come out; Argonian polers stop at the arches."
+        },
+        {
+          "name": "The Blue Road",
+          "type": "route",
+          "summary": "The eastern highway to Cheydinhal and the Valus passes — more Dunmeris than Cyrodiilic at its far end, and undeclared ebony on its wagons."
+        },
+        {
+          "name": "Cheydinhal",
+          "type": "city",
+          "summary": "Cyrodiil's easternmost city, built in the Morrowind manner with ancestor-lamps in half its windows and a Dunmer quarter four generations old."
+        },
+        {
+          "name": "The Valus Mountains",
+          "type": "range",
+          "summary": "The eastern border range to Morrowind — cold pine one side, hot bare rock the other, ancestor-cairns tended by hands nobody sees."
+        },
+        {
+          "name": "The Jerall Mountains",
+          "type": "range",
+          "summary": "The northern wall between Cyrodiil and Skyrim, crossed legally at Bruma Pass and illegally at Pale Pass."
+        },
+        {
+          "name": "Skyrim",
+          "type": "province",
+          "summary": "Nord jarldoms and draugr-barrows north of the Jeralls; the Empire's Peace honoured and never praised."
+        },
+        {
+          "name": "Morrowind",
+          "type": "province",
+          "summary": "Ash-blown Dunmer homeland under Great House law by treaty, reached over the Valus or by the Ebonheart ferry."
+        },
+        {
+          "name": "High Rock",
+          "type": "province",
+          "summary": "A hundred litigious Breton duchies on the Iliac Bay, where two neighbouring lords produce two notarised and contradictory charts."
+        },
+        {
+          "name": "Hammerfell",
+          "type": "province",
+          "summary": "Alik'r sand and Dragontail crag, Crowns and Forebears arguing in every tavern; three days' sail from Anvil or three hard days over the Colovian passes."
+        },
+        {
+          "name": "Black Marsh",
+          "type": "province",
+          "summary": "Unmapped swamp and root-jungle answering to the Hist, entered — cautiously — through Blackwood from Leyawiin."
+        },
+        {
+          "name": "Elsweyr",
+          "type": "province",
+          "summary": "Khajiit sand and savanna, caravan-clan routes older than the roads they cross, and a moon-sugar trade three provinces quietly live on."
+        },
+        {
+          "name": "Valenwood",
+          "type": "province",
+          "summary": "A living Bosmer forest whose Green Pact means roads are trodden, not cut — and whose courts host more Thalmor advisors each year."
+        },
+        {
+          "name": "Summerset Isles",
+          "type": "province",
+          "summary": "The sealed Altmer homeland across the Abecean; harbour-writs rare, interior uncharted since 3E 401."
+        }
+      ],
+      "edges": [
+        {
+          "from": "The Imperial City",
+          "to": "The Waterfront",
+          "relation": "district of"
+        },
+        {
+          "from": "The Imperial City",
+          "to": "Lake Rumare and the Red Ring Road",
+          "relation": "island within"
+        },
+        {
+          "from": "Lake Rumare and the Red Ring Road",
+          "to": "Varondil",
+          "relation": "drowned ruin in"
+        },
+        {
+          "from": "The Imperial City",
+          "to": "Weye",
+          "relation": "bridge span to"
+        },
+        {
+          "from": "Weye",
+          "to": "The Gold Road",
+          "relation": "eastern terminus of"
+        },
+        {
+          "from": "The Gold Road",
+          "to": "Vetter's Rest",
+          "relation": "runs to"
+        },
+        {
+          "from": "Vetter's Rest",
+          "to": "Chorrol",
+          "relation": "northern fork to"
+        },
+        {
+          "from": "Vetter's Rest",
+          "to": "Skingrad",
+          "relation": "southern fork (the Lower Gold) to"
+        },
+        {
+          "from": "Skingrad",
+          "to": "Tarnwyll",
+          "relation": "overlooks ruin at"
+        },
+        {
+          "from": "Skingrad",
+          "to": "Kvatch",
+          "relation": "Lower Gold Road to"
+        },
+        {
+          "from": "Kvatch",
+          "to": "Anvil",
+          "relation": "coast switchbacks to"
+        },
+        {
+          "from": "Anvil",
+          "to": "The Gold Coast",
+          "relation": "port of"
+        },
+        {
+          "from": "Skingrad",
+          "to": "The West Weald",
+          "relation": "market of"
+        },
+        {
+          "from": "Chorrol",
+          "to": "The Great Forest",
+          "relation": "stands within"
+        },
+        {
+          "from": "Chorrol",
+          "to": "The Colovian Highlands",
+          "relation": "drove-road to"
+        },
+        {
+          "from": "The Colovian Highlands",
+          "to": "Hammerfell",
+          "relation": "border passes to (3 days, no inns)"
+        },
+        {
+          "from": "Chorrol",
+          "to": "The Black Road",
+          "relation": "western terminus of"
+        },
+        {
+          "from": "The Black Road",
+          "to": "Bruma",
+          "relation": "eastern terminus at"
+        },
+        {
+          "from": "The Imperial City",
+          "to": "The Silver Road",
+          "relation": "northern road from"
+        },
+        {
+          "from": "The Silver Road",
+          "to": "Bruma",
+          "relation": "climbs to"
+        },
+        {
+          "from": "Bruma",
+          "to": "Karlholt",
+          "relation": "hill steading above"
+        },
+        {
+          "from": "Bruma",
+          "to": "Bruma Pass",
+          "relation": "garrisons"
+        },
+        {
+          "from": "Karlholt",
+          "to": "Pale Pass",
+          "relation": "sells passage through"
+        },
+        {
+          "from": "Bruma Pass",
+          "to": "Skyrim",
+          "relation": "legal crossing into (writ required, 5-7 months open)"
+        },
+        {
+          "from": "Pale Pass",
+          "to": "Skyrim",
+          "relation": "smuggler's crossing into (officially lost)"
+        },
+        {
+          "from": "The Jerall Mountains",
+          "to": "Bruma Pass",
+          "relation": "crossed at"
+        },
+        {
+          "from": "The Jerall Mountains",
+          "to": "Pale Pass",
+          "relation": "crossed at"
+        },
+        {
+          "from": "The Imperial City",
+          "to": "The Green Road",
+          "relation": "southern road from"
+        },
+        {
+          "from": "The Green Road",
+          "to": "Bravil",
+          "relation": "passes through"
+        },
+        {
+          "from": "The Green Road",
+          "to": "Leyawiin",
+          "relation": "ends at"
+        },
+        {
+          "from": "The Imperial City",
+          "to": "The Niben",
+          "relation": "headwater quays at"
+        },
+        {
+          "from": "The Niben",
+          "to": "Hobb's Ferry",
+          "relation": "crossed at"
+        },
+        {
+          "from": "The Niben",
+          "to": "Leyawiin",
+          "relation": "empties past (4 days down, 8 up)"
+        },
+        {
+          "from": "The Nibenay Basin",
+          "to": "The Niben",
+          "relation": "drained by"
+        },
+        {
+          "from": "Bravil",
+          "to": "Elsweyr",
+          "relation": "border scrub track to (5 days)"
+        },
+        {
+          "from": "Leyawiin",
+          "to": "Blackwood",
+          "relation": "gateway to"
+        },
+        {
+          "from": "Blackwood",
+          "to": "The Panther River",
+          "relation": "threaded by"
+        },
+        {
+          "from": "The Panther River",
+          "to": "Cellaquin",
+          "relation": "side-channel to"
+        },
+        {
+          "from": "Blackwood",
+          "to": "Black Marsh",
+          "relation": "bleeds into (9 days to Gideon)"
+        },
+        {
+          "from": "The Imperial City",
+          "to": "The Blue Road",
+          "relation": "eastern road from"
+        },
+        {
+          "from": "The Blue Road",
+          "to": "Cheydinhal",
+          "relation": "ends at"
+        },
+        {
+          "from": "Cheydinhal",
+          "to": "The Valus Mountains",
+          "relation": "climbs into"
+        },
+        {
+          "from": "The Valus Mountains",
+          "to": "Morrowind",
+          "relation": "eastern descent into (4 days)"
+        },
+        {
+          "from": "The Waterfront",
+          "to": "Morrowind",
+          "relation": "Ebonheart ferry (12-15 days)"
+        },
+        {
+          "from": "Anvil",
+          "to": "Hammerfell",
+          "relation": "sea route (3 days to Stros M'Kai)"
+        },
+        {
+          "from": "Anvil",
+          "to": "High Rock",
+          "relation": "sea route (8 days to Daggerfall)"
+        },
+        {
+          "from": "Anvil",
+          "to": "Summerset Isles",
+          "relation": "sea route (9 days, harbour-writ required)"
+        },
+        {
+          "from": "Elsweyr",
+          "to": "Valenwood",
+          "relation": "borders"
+        },
+        {
+          "from": "Valenwood",
+          "to": "Summerset Isles",
+          "relation": "Thalmor-supervised crossing to"
+        },
+        {
+          "from": "High Rock",
+          "to": "Hammerfell",
+          "relation": "contested Iliac border with"
+        },
+        {
+          "from": "The Imperial Reserve",
+          "to": "The Great Forest",
+          "relation": "merges northward into"
+        },
+        {
+          "from": "The Imperial Reserve",
+          "to": "Lake Rumare and the Red Ring Road",
+          "relation": "lies west of"
+        },
+        {
+          "from": "The Gold Coast",
+          "to": "The West Weald",
+          "relation": "coastal ridge between"
+        }
+      ]
+    },
+    "themes": [
+      "The road is the Empire — where the patrols stop, so does the Empire's Peace",
+      "Cyrodiil is two cultures wearing one crown: Nibenese river ceremony and Colovian highland stubbornness",
+      "Distance is the Empire's real border; a province is only as governed as it is reachable",
+      "Everything Imperial is built on top of something Ayleid that nobody has ever managed to remove"
+    ]
+  }
+}

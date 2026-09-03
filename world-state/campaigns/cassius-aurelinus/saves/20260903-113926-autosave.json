@@ -1,0 +1,249 @@
+{
+  "name": "autosave",
+  "created": "2026-09-03T11:39:26.849857+00:00",
+  "session_number": 0,
+  "snapshot": {
+    "campaign_overview": {
+      "campaign_name": "Dragonguard of the Falling Empire",
+      "genre": "Elder Scrolls -- Third Era Tamriel (d20 chassis)",
+      "tone": {
+        "horror": 20,
+        "comedy": 10,
+        "drama": 50,
+        "adventure": 65
+      },
+      "current_date": "3rd of Second Seed, 3E 432",
+      "time_of_day": "Morning",
+      "calendar": {
+        "months": [
+          "Morning Star",
+          "Sun's Dawn",
+          "First Seed",
+          "Rain's Hand",
+          "Second Seed",
+          "Midyear",
+          "Sun's Height",
+          "Last Seed",
+          "Hearthfire",
+          "Frostfall",
+          "Sun's Dusk",
+          "Evening Star"
+        ],
+        "weekdays": [
+          "Morndas",
+          "Tirdas",
+          "Middas",
+          "Turdas",
+          "Fredas",
+          "Loredas",
+          "Sundas"
+        ]
+      },
+      "player_position": {
+        "current_location": "Bruma",
+        "previous_location": "Bruma",
+        "arrival_time": "2026-09-03 11:38:58 UTC"
+      },
+      "current_character": "Cassius Aurelinus",
+      "session_count": 0,
+      "campaign_rules": {
+        "voice": "Narrate as Brother Aldos Venim would footnote it -- dry, faux-historical, footnote-happy, cataloguing titles and provinces mid-scene.",
+        "premise": "Same Tamriel as Hakon Stonebreaker's campaign (Twilight of the Third Era), same year -- 3E 432, two years into the cracks showing under Uriel Septim VII's Empire -- but a wholly separate thread: Cassius Aurelinus is a knight of the Dragonguard, an elite ceremonial order within the Imperial Legion sworn personally to Akatosh and the Empire, garrisoned far from the Imperial City at Bruma on the Skyrim border. No connection to Hakon's story or location unless the player chooses to steer there.",
+        "never_say": "spell slot, Vancian, cleric, warlock, wizard, barbarian, druid, ranger -- use Priest of the Nine, Prince-Sworn, Mage, Berserker, Wise One, Scout instead.",
+        "magicka_not_slots": "Every caster spends from one magicka pool, cost by spell tier (Novice 0, 1st 2, 2nd 3, 3rd 5, 4th 6, 5th 7, 6th 9, 7th 10, 8th 11, 9th 13). Charge it out loud every cast. Overdraw the Well: 2 HP per point short + 1 Fatigue; at 3+ Fatigue add a mishap check (DC 12 + tier, Willpower). Cassius is a non-caster Fighter chassis and does not use this pool -- his Divine Blessings are a separate, smaller resource (see character.json).",
+        "the_two_lenders": "Aedra magic (Restoration, most Alteration, Cult blessings) is finite and honest: Divine Blessings = proficiency bonus per long rest, and spending more than one in a day incurs a 7-day Obligation. Daedra magic (Conjuration, Prince gifts) is instant and never mechanically taxed -- instead it fills a per-character Daedric Ledger (gm-clock.sh, 6 segments per Prince). WHEN A LEDGER FILLS, THE PRICE IS ALWAYS A SCENE, NEVER A STAT PENALTY.",
+        "daedra_are_not_killed": "A slain Daedra re-forms in its Prince's realm with the grievance and the face intact. Named Dremora especially -- reuse them, let them open with what happened last time.",
+        "race_is_reaction_not_bonus": "Every first social check with a new NPC applies the racial/cultural reaction modifier -- there is no neutral stranger in Tamriel. Lead descriptions with how the room reacts to a PC's race, not a stat line. Imperials get +2 with legions, guards, clerks, and Cult priests anywhere in the Empire; -2 in Morrowind, deep Skyrim, Crown Hammerfell, and anywhere 'Provincial' has been used to someone's face.",
+        "luck": "Luck starts at 10, is burned (not rolled) to flip a failure, and burned Luck does NOT return on rest -- only on level-up, a shrine boon (once per shrine per campaign), or a Daedric Prince's gift.",
+        "guild_rank": "Rank tier = ladder position / 2 (rounded up, 1-5). Favors callable per in-game month = rank tier. Rank is a parallel track to character level and is tracked, spent, and lost. Cassius's 'guild' is the Legion itself.",
+        "crime_and_bounty": "NO CRIME WITHOUT A WITNESS. Bounty in septims per province: trespass 5, theft 2x value, assault 40, jail-break 100, murder/necromancy 1000, public Daedra-summoning 500, unlicensed Dwemer excavation 250. As a knight with legal standing to detain, Cassius is often the one setting the bounty, not paying it.",
+        "the_cull_book": "Every threat gets graded on the Fighters Guild's Cull-Book before it reaches the table: Vermin / Standing Bounty / Charter / Sealed / No Contract Issued. No Contract Issued is the world's own over-level warning -- telegraph lethality through it.",
+        "the_thinning": "A background clock (gm-clock.sh, 6 segments) tracking the resistance between Mundus and Oblivion wearing thin. At 3+ segments, Conjuration of 4th tier or higher always rolls the mishap check regardless of Fatigue.",
+        "the_empires_peace": "The campaign's title is a promise -- an 8-segment time clock (gm-clock.sh) tracking the realm's stability, ticking on its own with in-game weeks and jumping on world events. Let it tick where the players can see it.",
+        "skill_names": "Speechcraft=Persuasion/Deception/Intimidation, Mercantile=haggle, Security=Thieves' Tools, Sneak=Stealth, Marksman=ranged attacks, Blade/Blunt/Hand-to-Hand=weapon groups. Never say 'Perception check' -- 'roll for it, you have a soldier's ear for stone shifting.'",
+        "persist_tracked_resources": "School rank, guild rank/debt, divine blessings, Daedric Ledger segments, and per-province bounties are all tracked state (ruleset.json stat_schema.resources). Persist any change (gm-player.sh save-json) before narrating.",
+        "full_reference": "This is the always-on digest. The complete 15 signature systems, all races/classes/backgrounds/birthsigns, and the full Daedric Prince roster live in ruleset.json and rules.md -- consult them for anything not covered here."
+      }
+    },
+    "npcs": {
+      "Tribune Sabina Ostorius": {
+        "description": "commander of the Bruma Legion garrison, Cassius's legate and patron -- recommended him for the Dragonguard, Colovian, blunt, exacting",
+        "attitude": "neutral",
+        "created": "2026-09-03T11:38:58.188258+00:00",
+        "events": [],
+        "visual_appearance": {
+          "sex": "",
+          "age": "",
+          "race": "",
+          "species": "",
+          "hair": "",
+          "face": "",
+          "eyes": "",
+          "clothing": "",
+          "gear": "",
+          "demeanor": "",
+          "size": ""
+        },
+        "tags": {
+          "locations": [],
+          "quests": []
+        }
+      }
+    },
+    "locations": {
+      "Bruma": {
+        "position": "Cyrodiil's northernmost city, in the Jerall foothills where the Silver Road meets the snow",
+        "connections": [
+          {
+            "to": "Bruma Pass",
+            "path": "the north gate and the garrison checkpoint"
+          },
+          {
+            "to": "The Silver Road",
+            "path": "south, two days rising into snow, toward the Imperial City"
+          },
+          {
+            "to": "The Black Road",
+            "path": "west along the Jerall foothills toward Chorrol"
+          },
+          {
+            "to": "Karlholt",
+            "path": "the shepherds contour east, half a day up"
+          },
+          {
+            "to": "Bruma",
+            "path": "traveled"
+          }
+        ],
+        "description": "Black timber halls with turf roofs weighted in stone, smoke-holes venting into a sky that is grey nine months a year, and Nord surnames filling the Imperial tax-rolls three names deep. The Counts of Bruma have sworn to White-Gold for four hundred years and every one of them has been buried under a Nord cairn. The Legion garrison sits astride the north gate, watching the pass.",
+        "discovered": "2026-09-03 00:00:00 UTC"
+      }
+    },
+    "facts": {
+      "location": [
+        {
+          "fact": "Campaign start (3rd of Second Seed, 3E 432): Cassius Aurelinus, newly knighted into the Dragonguard, reports for garrison duty at Bruma under Tribune Sabina Ostorius. Regional backdrop: Bruma Pass closed early last year, stranding a merchant queue that became its own furious temporary town; the Count of Bruma and the pass garrison have been blaming each other in writing, and the Elder Council now holds the letters. This campaign runs parallel to and unconnected from Hakon Stonebreaker's (Twilight of the Third Era), sharing only the world/ruleset, not plot or location.",
+          "timestamp": "2026-09-03T11:39:05.149538+00:00"
+        }
+      ]
+    },
+    "consequences": {
+      "active": [],
+      "resolved": []
+    },
+    "characters": {
+      "character": {
+        "id": "cassius-aurelinus",
+        "name": "Cassius Aurelinus",
+        "race": "Imperial",
+        "class": "Warrior (Fighter chassis) -- Knight of the Imperial Legion, the Dragonguard",
+        "level": 1,
+        "stats": {
+          "str": 16,
+          "dex": 10,
+          "con": 14,
+          "int": 8,
+          "wis": 12,
+          "cha": 15
+        },
+        "saves": {
+          "str": 5,
+          "dex": 0,
+          "con": 4,
+          "int": -1,
+          "wis": 3,
+          "cha": 2
+        },
+        "ac": 17,
+        "hp": {
+          "current": 12,
+          "max": 12
+        },
+        "speed": 30,
+        "proficiency_bonus": 2,
+        "skills": {
+          "athletics": 5,
+          "speechcraft": 4,
+          "insight": 3,
+          "blade": 5
+        },
+        "equipment": [
+          "Legion chainmail, polished for parade and proven in the field",
+          "Kite shield bearing Akatosh's dragon sigil in worked bronze",
+          "Longsword, legion arming pattern",
+          "Legion spear (backup weapon)",
+          "Holy symbol of Akatosh on a plain iron chain",
+          "Legion papers and Dragonguard seal -- standing to detain any suspect in an Imperial province",
+          "A war-horse, legion-bred, unnamed as yet",
+          "Traveling pack, rations, a soldier's bedroll"
+        ],
+        "features": [
+          "Voice of the Emperor (Imperial): 1/long rest, calm one hostile humanoid who can hear and understand him (Wis save vs 8+prof+Cha) -- it cannot attack for 1 minute or until harmed.",
+          "Star of the West (Imperial): 1/long rest, regain resources equal to 5 x proficiency bonus (applies to Divine Blessings for Cassius, in place of magicka).",
+          "Blood of the Trollkin (The Lord birthsign): regain 1 HP at the start of each of his turns while above 0 HP.",
+          "Weakness (The Lord birthsign): disadvantage on saving throws against fire -- an old irony for a knight sworn to the Dragon God.",
+          "Papers and Bunk (Legion Auxiliary background): legion garrison lodging, rations, and standing to detain a suspect in any Imperial province. Legionaries salute him and expect obedience in return.",
+          "Knight of the Imperial Legion specialization: discipline, shield-wall tactics, and Champion-style reliability in a fight.",
+          "Divine Blessings (battlefield prayer to Akatosh, granted at his knighting -- not full Restoration schooling): 2 uses per long rest. Each may be spent for a touch-heal (2d6 + Wis mod HP), a Bless (advantage on the next attack or save for an ally within 30 ft), or Steady the Line (end fear or charm on one ally within 30 ft). Spending more than one blessing in a day incurs a 7-day Obligation (per the Two Lenders rule)."
+        ],
+        "background": "Legion Auxiliary, raised into the Dragonguard -- Cassius was a Colovian farm-and-legion Imperial from the west, unremarkable until a border skirmish three winters back where he held a collapsing shield-line alone long enough for the relief column to arrive. The garrison chaplain called it Akatosh's own hand on his shoulder; his legate called it the best excuse for a promotion she'd had all year. He was knighted into the Dragonguard within the season -- an old, half-ceremonial order revived in recent years as the Empire likes its symbols visible while its foundations creak. He does not fully believe the chaplain's story about the shield-line. He has stopped arguing with it.",
+        "alignment": "Lawful Good, worn practical rather than shining",
+        "bonds": "His legate, Tribune Sabina Ostorius, who recommended him for the Dragonguard and now commands the Bruma garrison -- he owes her the knighthood and does not forget debts.",
+        "flaws": "Trusts the Empire's authority more readily than he trusts his own judgment of a situation -- papers and orders can make him slower to question a bad command than he should be.",
+        "ideals": "The Empire's peace is worth defending even where it's thin, even where the people being defended don't want him there.",
+        "traits": "Formal in speech even off duty, uncomfortable with being thanked, prays before meals out of habit rather than performance.",
+        "notes": [],
+        "gold": 45,
+        "xp": {
+          "current": 0,
+          "next_level": 300
+        },
+        "resources": {
+          "school_ranks": {
+            "_default": "untrained",
+            "_scale": "novice | apprentice | journeyman | expert | master",
+            "alteration": "untrained",
+            "conjuration": "untrained",
+            "destruction": "untrained",
+            "illusion": "untrained",
+            "mysticism": "untrained",
+            "restoration": "untrained"
+          },
+          "divine_blessings": {
+            "current": 2,
+            "max": 2,
+            "obligation_active": false,
+            "obligation_ends": null
+          },
+          "daedric_ledger": {
+            "_note": "6 segments per Prince, tracked via gm-clock.sh if/when he ever takes a Prince's gift -- currently none open. A Dragonguard taking Daedric favor would be a very loaded scene."
+          },
+          "guild_standing": [
+            {
+              "guild": "Imperial Legion / Dragonguard",
+              "rank": "Knight (newly raised)",
+              "rank_tier": 1
+            }
+          ],
+          "bounty": {},
+          "luck_burned_total": 0,
+          "luck": 10
+        },
+        "visual_appearance": {
+          "sex": "male",
+          "age": "late twenties",
+          "race": "Imperial",
+          "species": "human, Cyrodiilic (Colovian west)",
+          "hair": "close-cropped, dark, greying early at the temples",
+          "face": "square-jawed, weathered more than his years, a thin old scar through one eyebrow",
+          "eyes": "brown, steady, the kind of stare that reads as calm command rather than menace",
+          "clothing": "legion chainmail over a quilted gambeson, a surcoat quartered in Imperial red and gold bearing Akatosh's dragon in worked bronze on the shield",
+          "gear": "longsword and kite shield, a spear slung for the horse, a plain iron holy symbol worn under the mail rather than over it",
+          "demeanor": "upright, formally courteous, slow to anger and slower to forgive an oath broken",
+          "size": "tall, built for a shield-wall rather than speed"
+        },
+        "current_location": "Bruma"
+      }
+    }
+  }
+}

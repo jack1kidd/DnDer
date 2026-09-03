@@ -1,0 +1,25 @@
+{
+  "Tribune Sabina Ostorius": {
+    "description": "commander of the Bruma Legion garrison, Cassius's legate and patron -- recommended him for the Dragonguard, Colovian, blunt, exacting",
+    "attitude": "neutral",
+    "created": "2026-09-03T11:38:58.188258+00:00",
+    "events": [],
+    "visual_appearance": {
+      "sex": "",
+      "age": "",
+      "race": "",
+      "species": "",
+      "hair": "",
+      "face": "",
+      "eyes": "",
+      "clothing": "",
+      "gear": "",
+      "demeanor": "",
+      "size": ""
+    },
+    "tags": {
+      "locations": [],
+      "quests": []
+    }
+  }
+}

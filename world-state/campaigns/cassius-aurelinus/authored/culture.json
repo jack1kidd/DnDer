@@ -1,0 +1,305 @@
+{
+  "npcs": {
+    "Ulfhild Bear-Sworn": {
+      "description": "Nord hearth-keeper of the Frozen Hearth taproom in Bruma, widow of a Skyrim housecarl, and the closest thing Bruma has to a Nordic magistrate. She adjudicates blood-feuds among the Bruma Nords by the old hold-custom so the Imperial garrison never has to hear about them. Guest-right at her fire is absolute and she has thrown out a Countess's steward to prove it. Her hook: she is quietly harboring a Windhelm oath-breaker the Skyrim jarls want returned, and every week that hides him is a week the Empire's Peace holds in Bruma.",
+      "attitude": "friendly",
+      "tags": {
+        "locations": [
+          "Bruma"
+        ],
+        "quests": []
+      }
+    },
+    "Ragnvald Stone-Singer": {
+      "description": "An old Nord mason and Talos-devotee working the Bruma walls, who earned his name re-cutting the Jerall road after an avalanche and never let anyone forget it. He will drink with anyone, including elves, and will also tell you at length that Conjuration should be a hanging offense and that the Mages Guild's Bruma chapter is 'a door with the wrong side facing out.' His hook: he has seen someone in a Guild robe leaving offerings at a cairn on the Skyrim pass and he wants a non-Nord to look into it, because if a Nord looks into it there will be a killing.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "Bruma",
+          "Skyrim"
+        ],
+        "quests": []
+      }
+    },
+    "Vicomtesse Amelie Dracourt": {
+      "description": "Breton envoy of Wayrest lodged in the Imperial City, an immaculate practitioner of manred-etiquette who can recite her Direnni descent to nineteen generations and will, unprompted. She brokers marriages, mercenary contracts, and Elder Council votes with the same forms and the same fee. Her hook: she is quietly buying Orsinium's border debt through three cousins in the ledger, and she needs an unmanred outsider to carry papers no Breton house can be seen carrying.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "The Imperial City",
+          "High Rock"
+        ],
+        "quests": []
+      }
+    },
+    "Sameer af-Taneth": {
+      "description": "A Crown Redguard sword-teacher exiled to Anvil after a magistracy dispute in Taneth turned into a fire nobody will testify about. He keeps a bare-floored school above a sailmaker's and teaches the Way of the Sword to anyone who can pay and will shut up. He refuses to name his blade in company. His hook: a Forebear factor in Anvil has offered him a great deal of money to return home and swear the alternating truce publicly, which would either end the schism in Taneth or get him killed on the dock.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "Anvil",
+          "Hammerfell"
+        ],
+        "quests": []
+      }
+    },
+    "Zaharia Hallin": {
+      "description": "Forebear Redguard shipping factor in Anvil, Nine-worshipping, Imperial-schooled, and openly contemptuous of what she calls 'grandfather politics.' She runs half the Gold Coast's legitimate cargo and knows exactly which quarter of it isn't. Her hook: her family in Rihad have gone Crown in her absence, and letters have started arriving that are affectionate on the surface and a summons underneath.",
+      "attitude": "friendly",
+      "tags": {
+        "locations": [
+          "Anvil",
+          "Hammerfell"
+        ],
+        "quests": []
+      }
+    },
+    "Praefect Vitellia Amaro": {
+      "description": "Nibenese Imperial clerk-praefect of the census office in the Imperial City, dyed silks, ancestor-niche in her office beside the shrine to the Nine, and a genuine, unexamined belief that everyone would be happier with better paperwork. She says 'provincial' twelve times a day and has never once heard herself do it. Her hook: she has noticed a pattern of Imperial City residents deregistering their households and vanishing from the rolls entirely, and she wants it explained — she is, without knowing it, holding the census shadow of the Mythic Dawn's recruitment.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "The Imperial City"
+        ],
+        "quests": []
+      }
+    },
+    "Serjo Nedhas Andrano": {
+      "description": "Redoran Dunmer, Morrowind's House envoy to the Imperial City, correct to the point of cruelty and carrying his grandmother's ancestor-token in a sealed silver case he sets on the table before any negotiation. He will address you properly, feed you properly, and log your every offense properly. His hook: he is under standing instruction to prevent the Elder Council from ever formally debating the Armistice's slavery clause, and he has begun to suspect the instruction is coming from someone in Morrowind who is not Redoran.",
+      "attitude": "suspicious",
+      "tags": {
+        "locations": [
+          "The Imperial City",
+          "Morrowind"
+        ],
+        "quests": []
+      }
+    },
+    "Neminda Sadras": {
+      "description": "Hlaalu Dunmer factor working the Imperial City docks, all charm and Imperial fashion, who insists on being called sera rather than muthsera because it puts outlanders at ease and costs her nothing. She sells Morrowind goods, Morrowind information, and Morrowind's better face. Her hook: three of her House's cargoes out of Tear carried people rather than kwama, and she wants them lost at sea before an Argonian dockhand's ledger reaches the wrong Council seat.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "The Imperial City",
+          "Morrowind"
+        ],
+        "quests": []
+      }
+    },
+    "Emissary Alandare of Lillandril": {
+      "description": "Thalmor cultural attache at the Summerset embassy in the Imperial City — nominally a scholar of comparative liturgy, actually the Dominion's most patient listener. He attends every temple festival, compliments every Talos hymn, and writes down who sang loudest. He is unfailingly gracious and it is the most frightening thing about him. His hook: he is compiling a register of Talos-devout officials 'for the Society's records,' and someone has begun stealing pages from it.",
+      "attitude": "suspicious",
+      "tags": {
+        "locations": [
+          "The Imperial City",
+          "Summerset Isles"
+        ],
+        "quests": []
+      }
+    },
+    "Faelil Broken-Bough": {
+      "description": "A Bosmer scout in Chorrol who left Valenwood after her clan took Dominion coin, and who now sits on wooden furniture with visible guilt. Loud, tactile, filthy-humored, and the best tracker in the Great Forest. She answers questions about the Green Pact's second half with a different joke every time. Her hook: her clan's caravan is coming north through the Gold Road this season with a Thalmor 'trade observer' attached, and she cannot decide whether to greet them or ambush them.",
+      "attitude": "helpful",
+      "tags": {
+        "locations": [
+          "Chorrol",
+          "The Gold Road",
+          "Valenwood"
+        ],
+        "quests": []
+      }
+    },
+    "Ma'zahara": {
+      "description": "Caravan-mother of the Dune-Sky clan, whose tents pitch outside Leyawiin's walls each season because the city will take her tariff but not her people. Silk-swathed, unhurried, and a better accountant than anyone in the Leyawiin customs house. She speaks of herself in the third person to everyone but her own clan. Her hook: the Leyawiin guard searched her carts eleven times in nine days, and she has begun keeping a ledger of the hours stolen — with names, dates, and a plan for it that is not violence but is not forgiveness either.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "Leyawiin",
+          "Elsweyr"
+        ],
+        "quests": []
+      }
+    },
+    "Zar'jo": {
+      "description": "A small-caste Suthay Khajiit hauling barrels on the Leyawiin river docks for day-wages that are sometimes paid in moon-sugar instead of septims, because his foreman calls him one of 'the lesser Khajiit' to his face and expects no argument. He is sharp, funny, and cheaper than any informant in the province. His hook: he has watched Dunmer-chartered boats take on Argonian labor at night that never comes back off, and he will tell someone who buys him a proper meal and pays in coin.",
+      "attitude": "friendly",
+      "tags": {
+        "locations": [
+          "Leyawiin"
+        ],
+        "quests": []
+      }
+    },
+    "Hides-His-Ledger": {
+      "description": "An Argonian canal-master in Leyawiin who keeps the city's drainage running and, separately, keeps a book. Quiet, unhurried, never raises his voice; he has recorded every Morrowind-bound vessel that has taken on Argonian workers at Leyawiin's south wharf for eleven years, with names. His hook: the ledger is now thick enough to matter to the Elder Council, and thick enough to get him killed by House Hlaalu, and he is looking for an outlander stupid or principled enough to carry it upriver.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "Leyawiin",
+          "Black Marsh"
+        ],
+        "quests": []
+      }
+    },
+    "Speaks-In-Knots": {
+      "description": "An Argonian tree-minder who came up the Niben from Murkmire on Hist business she declines to explain, currently lodging in the Imperial City's waterfront and asking careful questions about Daedric shrines. Her name changed twice on the journey and the Imperial clerks have refused to reissue her papers. Her hook: the Hist sent her north, she does not know why, and she is entirely calm about that in a way that unsettles everyone around her.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "The Imperial City",
+          "Black Marsh"
+        ],
+        "quests": []
+      }
+    },
+    "Urzoga gra-Malog": {
+      "description": "Orsimer armiger of the Fighters Guild hall in Chorrol, twenty-two years sworn, passed over for Guild Steward three times in favor of Colovians with half her contracts. She is the finest smith in the Great Forest and repairs the hall's gear at cost because sworn is sworn. Do not offer her pity. Her hook: her father's stronghold in the Wrothgarians is one Breton claim away from a siege, and she has been quietly buying legion-pattern steel with Guild coin she will have to answer for.",
+      "attitude": "helpful",
+      "tags": {
+        "locations": [
+          "Chorrol",
+          "High Rock"
+        ],
+        "quests": []
+      }
+    },
+    "Chief Gharzum of Dushnamub": {
+      "description": "Chief of a small Orsimer stronghold in the Cyrodiil hills off the Gold Road, holding his seat by strength and by the judgment of his senior wife Bulfim, who is the stronghold's law, lore-keeper, and the only person who tells him no. He keeps the Code of Malacath: invited guests are family until they leave, uninvited ones are a mistake they get to make once. His hook: three exiled sons of a rival hold have taken to the Gold Road as bandits under his family name, and he wants them dealt with by someone who is not kin, because kin-killing ends a stronghold.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "The Gold Road",
+          "Chorrol"
+        ],
+        "quests": []
+      }
+    }
+  },
+  "facts": {
+    "plot_local": [
+      "Ma'zahara's Dune-Sky caravan has been searched eleven times in nine days outside Leyawiin's walls; she is keeping a written ledger of the stolen hours, and the Leyawiin customs house does not yet know it is being audited.",
+      "Zar'jo and other small-caste Khajiit on the Leyawiin docks are paid in moon-sugar instead of septims by a foreman who calls it 'a courtesy to the lesser sort' — a practice that is technically legal, locally normal, and one loud incident from a riot.",
+      "Ulfhild Bear-Sworn is sheltering a Windhelm oath-breaker under Nord guest-right in Bruma; the Skyrim jarls have sent a polite man to ask for him back, and guest-right does not bend.",
+      "Ragnvald Stone-Singer has seen a Mages Guild robe leaving offerings at a cairn on the Jerall pass and wants a non-Nord to investigate before the Bruma Nords handle it in the Nord way.",
+      "Chief Gharzum's rival's exiled sons are robbing the Gold Road under a stronghold name that is not theirs, and Orsimer custom forbids Gharzum from killing kin to stop it.",
+      "Faelil Broken-Bough's Valenwood clan is coming up the Gold Road this season with a Thalmor 'trade observer' walking beside their carts."
+    ],
+    "plot_regional": [
+      "Hides-His-Ledger of Leyawiin has eleven years of names: every Morrowind-bound hull that took on Argonian labor at the south wharf and returned empty. House Hlaalu's factor Neminda Sadras wants those cargoes lost at sea before the ledger travels upriver.",
+      "Hammerfell's Crowns and Forebears govern by an alternating-magistracy truce that has produced a suspicious number of convenient fires; Sameer af-Taneth has been offered a fortune to come home and swear to it in public, which would either end the schism in Taneth or end him on the dock.",
+      "Breton Wayrest, through the Vicomtesse Amelie Dracourt and three deniable cousins, is buying up Orsinium's border debt — the fourth siege of Orsinium may begin in a ledger rather than a trench.",
+      "Bruma's Nord population increasingly settles its disputes by hold-custom rather than Imperial law, and the Countess's garrison has quietly agreed not to notice, which means Skyrim's legal writ is creeping south across the Jeralls one blood-feud at a time.",
+      "Valenwood clans are splitting between those taking Aldmeri Dominion trade terms and those withdrawing deeper into the canopy; the Green Pact is being used by both sides as an argument for opposite conclusions."
+    ],
+    "plot_world": [
+      "The Armistice that keeps Morrowind inside the Empire also keeps Argonian and Khajiit slavery legal there. Every Council session declines to raise it; Serjo Nedhas Andrano is under standing instruction to ensure it is never formally debated — and no longer knows who in Morrowind is issuing that instruction.",
+      "Emissary Alandare's embassy is compiling a register of Talos-devout officials, temple by temple, festival by festival, 'for the Society's records.' The Thalmor position that a Man cannot become a god is not yet a demand. It is being written down first.",
+      "Praefect Vitellia Amaro's census office has flagged a pattern of Imperial City households deregistering and vanishing from the rolls — the bureaucratic shadow of the Mythic Dawn's recruitment, sitting unread in a filing cabinet.",
+      "The Empire's Peace is not held by legions but by ten peoples agreeing, day to day, not to settle accounts. Every province has a number in mind for what the peace is worth, and in 3E 430 several of those numbers have started to move."
+    ],
+    "custom": [
+      "Nord guest-right is absolute: a man who eats at your fire cannot be struck under your roof, and one who breaks it is nithing — oath-broken, killable by anyone, with no weregild owed.",
+      "Nord names are earned verdicts, not lineage — Stone-Singer, Bear-Sworn, Grey-Wave, Ice-Veins — granted by a hold and revocable by shame.",
+      "Bretons live by manred: a notarized web of oath and obligation renewed every seven years at the Feast of Charters. To be 'unmanred' — owing no oath and owed none — is to be legally a beggar, which is why so many Breton adventurers are well-mannered younger children with no land.",
+      "Redguards bind their first sword with a strip of their mother's cloth and do not speak its name aloud until it has been blooded. The Way of the Sword is a discipline, not a weapon skill; its masters are the Ansei, the sword-singers.",
+      "Nibenese Imperial households keep an ancestor-niche beside the shrine to the Nine — a practice Dunmer regard as blasphemous imitation and Imperials regard as unremarkable furniture.",
+      "Dunmer honorifics are a ranking done aloud: serjo (lord), muthsera (respected elder or superior), sera (equal), n'wah (outlander — dirt). Being addressed correctly by a Dunmer is not warmth; it is bookkeeping.",
+      "Dunmer venerate their dead at household tombs, consult them, appease them, and occasionally set them to guard duty. To insult a Dunmer's family is to insult a standing assembly of ghosts.",
+      "The Bosmer Green Pact forbids harming any plant life of Valenwood — no felled tree, no worked wood, no farmed grain — and obliges the Bosmer to eat all that they kill, enemies included. It binds only inside Valenwood, which is why expatriate Bosmer sit on wooden chairs with relief and mild shame.",
+      "Khajiit speak of themselves in the third person to strangers — 'this one', 'Khajiit', 'S'hadri says.' It is not humility but distance; the first person belongs to clan. A Khajiit's duties run caravan-mother first, clan dead second, employer third.",
+      "Argonian names are descriptions and verdicts — Hides-His-Ledger, Speaks-In-Knots, Counts-The-Tide — and change when the described thing changes, which Imperial clerks find infuriating and Argonians find obvious.",
+      "Orsimer strongholds are ruled by a chief who holds the seat by strength and by his wives, the senior of whom is the hold's law and lore-keeper. A losing challenger's sons are exiled, which is why the roads of Tamriel are full of Orc mercenaries with excellent manners and no home.",
+      "The Code of Malacath makes an invited guest family until they leave; an uninvited one gets to make that mistake once."
+    ],
+    "taboo": [
+      "Nords tolerate Restoration and Alteration but hold Conjuration unforgivable — calling a Daedra into a hall is inviting the thing that ate their ancestors. A Mages Guild robe in Windhelm gets a wide berth and a cold tankard.",
+      "Redguards regard necromancy and the disturbing of the dead not as sin but as kidnapping: Tu'whacca guides souls to the Far Shores, and interference steals them off the road.",
+      "Do not enter a Dunmer ancestral tomb, touch a family shrine, or compare the Tribunal to the Nine.",
+      "The Altmer taboo is mixing — of blood, doctrine, and pantheon. Talos, a Man seated among the Nine, is to a Thalmor emissary somewhere between a clerical error and an obscenity; 'Talos guide you' said in earshot costs the speaker nothing today.",
+      "The Bosmer taboo is waste: kill and not eat, fell and not use, and a laughing Bosmer goes cold instantly.",
+      "Do not touch a Khajiit's tail, enter a caravan tent uninvited, or ask what is in the third cart.",
+      "Do not joke about the Hist, ask to see one, or suggest an Argonian's nature is sap-made rather than chosen — even though it is.",
+      "Do not offer an Orsimer pity, charity, or an apology for Orsinium. 'Give me a task, not a favor.'",
+      "In Cyrodiil one may safely criticize the Emperor, the tithe, the legions, the Council and the roads. The sentence 'we would be better apart' ends careers and occasionally people."
+    ],
+    "prejudice": [
+      "Imperials say 'provincial' a hundred times a day without hearing themselves; every non-Imperial in the room hears it every time.",
+      "Respectable Imperial and Dunmer employers speak openly of 'the good Khajiit' (tall, articulate, trading castes) and 'the lesser Khajiit' (smaller lunar castes, hired by the day, housed outside the walls, paid in sugar) — and would be genuinely shocked to be called bigots for it.",
+      "Argonians in the Empire hear 'lizard', 'scale', and 'mudfoot' casually and constantly; they were folded into an Empire they were never invited to join, and Black Marsh has never been conquered so much as entered by legions that came out fewer.",
+      "'Orsimer' is what Orcs call themselves; 'Orc' is what everyone else says; 'pig-folk' is what gets said when they are not in the room. Fighters Guild halls take Orc coin and rarely promote Orcs.",
+      "Altmer call Bosmer and Khajiit 'the lesser kin' with genuine warmth, which is worse than contempt would be.",
+      "Nords and Dunmer are the two peoples most likely to fight each other inside an Imperial city with legion guards watching — border wars remembered as theft on both sides, ash-vermin against horse-thieves.",
+      "Bretons are universally regarded as snobs; the Nord verdict is that a Breton will sell you your own boots and thank you for the custom."
+    ],
+    "religion_and_identity": [
+      "Crowns keep the Yokudan gods under their true names — Tu'whacca, Ruptga, Zeht — and the Na-Totambu blood-kingship; Forebears worship the Nine, run the ports, and call the whole dispute 'grandfather politics.'",
+      "The Orsimer worship of Malacath is the only open Daedric worship the Empire tolerates, because the alternative is a war the Council does not want. His creed: keep the oath, bear the scorn, do not whine.",
+      "Argonians return to the Hist at death and do not perform grief; the phrase for their patience translates roughly as 'the marsh keeps accounts.'",
+      "Cyrodiil is two cultures under one name: ornate, cult-ridden, mercantile Nibenese in the east, and plain-spoken, martial, county-proud Colovians in the west, who privately think the Nibenese have gone soft and strange."
+    ]
+  },
+  "bible": {
+    "voice": {
+      "vocab": [
+        "n'wah (Dunmer: outlander, dirt)",
+        "s'wit / fetcher (Dunmer insults, the second obscene)",
+        "serjo / muthsera / sera (Dunmer address: lord / respected superior / equal)",
+        "nithing (Nord: oath-broken, killable without weregild)",
+        "holmgang (Nord duel on a marked hide)",
+        "weregild (blood-price paid to settle a Nord feud)",
+        "quill-thane (Nord, derisive: an Imperial official)",
+        "ink-work (Nord, derisive: Imperial paperwork)",
+        "manred (Breton: the notarized web of oath and obligation)",
+        "unmanred (Breton: owing no oath and owed none; legally a beggar)",
+        "a cousin in the ledger (Breton: a useful, distant, possibly invented relation)",
+        "Sieur / Dame (Breton address; omitting it is a deliberate insult)",
+        "Crowns / Forebears (the Redguard schism)",
+        "Ansei / sword-singer (Redguard master of the Way of the Sword)",
+        "the Far Shores (Redguard afterlife, guided by Tu'whacca)",
+        "Nibenese / Colovian (the two Imperial cultures of Cyrodiil)",
+        "provincial (Imperial, condescending, constant)",
+        "the Green Pact (Bosmer law: harm no Valenwood plant, eat all you kill)",
+        "this one / Khajiit says (Khajiit third-person address to non-clan)",
+        "caravan-mother (Khajiit clan authority outranking imperial law)",
+        "the lesser Khajiit (bigot's term for the smaller lunar castes)",
+        "the Hist (the Argonian trees that shape them)",
+        "the marsh keeps accounts (Argonian: patient, exact reckoning)",
+        "Orsimer (what Orcs call themselves) / pig-folk (what is said when they leave)",
+        "stronghold (Orsimer clan-hold; senior wife is its law and lore-keeper)",
+        "the Code of Malacath (Orsimer guest-law: invited is family until they leave)",
+        "the lesser kin (Altmer, warmly, of Bosmer and Khajiit)",
+        "the Old Ways (pre-Imperial custom; a compliment or an accusation depending on the mouth)"
+      ],
+      "sample_passages": [
+        "NORD: \"Sit down. Eat first. — No, first. You'll not tell me your business standing in my door like a tax-man; that's how quarrels start and how good mead goes warm.\"",
+        "NORD: \"I don't hate the elf. I've drunk with the elf. I just want it written somewhere that when it goes bad — and it goes bad, lad, it always goes bad — it was a Nord who said so first.\"",
+        "BRETON: \"Forgive me — I'd assumed you were somebody's. Everyone in this hall is somebody's. It's rather the point of the hall.\"",
+        "BRETON: \"I don't require you to win, Sieur. I require you to be seen trying, in good light, near a witness of rank. Winning is for people without lawyers.\"",
+        "REDGUARD: \"You want to know which I am. Everyone wants to know which I am. My grandfather drowned twice — once with Yokuda and once in a Sentinel harbor, arguing about it. Buy me a drink and I'll tell you which death was stupider.\"",
+        "REDGUARD: \"Don't thank me yet. The sword's out. It doesn't go back in for thanks.\"",
+        "IMPERIAL: \"Nobody's saying no. I want to be very clear that nobody is saying no. What I'm saying is that the form for what you want doesn't exist yet, and I'd have to invent it, and inventing things is how men end up testifying.\"",
+        "IMPERIAL: \"Skyrim's grievance is real and Skyrim's grievance is old, and the Empire has a marvelous instrument for old grievances. It's called the next generation.\"",
+        "DUNMER: \"You may sit, sera. Not there — that is my grandmother's chair, and she is in it.\"",
+        "DUNMER: \"I do not dislike you for being an outlander. I dislike you for the specific things you have done since arriving, which, given how recently you arrived, is an achievement.\"",
+        "ALTMER: \"You've mispronounced my name twice. I'm not offended — I'd simply like it recorded that I noticed, and that I said nothing.\"",
+        "ALTMER: \"Your Empire is four hundred years old. Charming. Do tell me how it's going; I remember when the last one was four hundred years old.\"",
+        "BOSMER: \"Sit! Sit, sit. You're too tall to be standing, it makes the room nervous. — Is that bread? Divines, why?\"",
+        "BOSMER: \"I'll come. Not for the coin. For the walk. Coin I can get anywhere; a road I haven't smelled yet is rarer.\"",
+        "KHAJIIT: \"This one is not offended. This one is counting. There is a difference, and the difference is written down.\"",
+        "KHAJIIT: \"The guard says Khajiit steals. Khajiit has been in this town nine days and has been searched eleven times. Someone here is stealing, yes — but it is hours, and they are mine.\"",
+        "ARGONIAN: \"You have said 'you people' three times. I am one person. I will remember which three times.\"",
+        "ARGONIAN: \"No. I am not angry. Anger is fast and I am not fast. Ask the Dunmer of Tear how not-fast we are.\"",
+        "ORSIMER: \"Don't do that. Don't lower your voice for me. I've been spoken to gently by three barons and robbed by all three.\"",
+        "ORSIMER: \"I gave my word. That's the whole of it. If you need me to explain why the word holds after the coin stopped, we're not going to be friends, but I'll still finish the job.\"",
+        "OATHS AND IDIOM, for salting dialogue: Nord — \"Shor's bones!\", \"Cold hearth on your house\", \"Skyrim remembers.\" Breton — \"By my charter and my grandmother's blood\", \"Mara's patience, but you're rustic.\" Redguard — \"By the Far Shores\", \"Sand in the water\", \"He named his sword too early.\" Imperial — \"That's a Council matter\", \"Filed and forgotten\", \"Sensible, for a provincial.\" Dunmer — \"N'wah\", \"Almsivi guide you\", \"May your ancestors be silent.\" Altmer — \"As is proper\", \"How very... spirited\", \"One does not correct the weather.\" Bosmer — \"Y'ffre's bones hold\", \"All of it, or none of it\", \"Eat well and quickly.\" Khajiit — \"May your roads be moonlit\", \"Moons and stars!\", \"Walk warm.\" Argonian — \"Sap and stone\", \"This water has run before\", \"Come to the Hist.\" Orsimer — \"Malacath keeps the oath, and Malacath keeps the score\", \"Sworn is sworn\", \"He died indoors.\""
+      ]
+    },
+    "themes": [
+      "Race is a ledger, not a stat line — every people carries an unaudited account of grievance, and courtesy is how the balance is kept, not forgiven",
+      "The Empire's Peace is ten peoples agreeing, day to day, not to settle accounts",
+      "The Empire's ugliest compromises (the Armistice's slavery clause, 'the lesser Khajiit', the Green Pact nobody looks at directly) are kept by filing, not by force",
+      "Hospitality is law: guest-right, manred, the Code of Malacath, the Dunmer honorific — every culture's warmth is also its jurisdiction",
+      "Bigotry in this world is polite, respectable, and spoken in daylight by people who would be shocked to be named for it"
+    ]
+  }
+}
