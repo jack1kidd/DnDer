@@ -113,5 +113,28 @@
       "locations": [],
       "quests": []
     }
+  },
+  "Sister Yolanda": {
+    "description": "priestess at Bruma's Chapel of the Nine, quiet and practical, oversees what little organized Restoration care the city has",
+    "attitude": "neutral",
+    "created": "2026-09-16T10:13:35.247247+00:00",
+    "events": [],
+    "visual_appearance": {
+      "sex": "",
+      "age": "",
+      "race": "",
+      "species": "",
+      "hair": "",
+      "face": "",
+      "eyes": "",
+      "clothing": "",
+      "gear": "",
+      "demeanor": "",
+      "size": ""
+    },
+    "tags": {
+      "locations": [],
+      "quests": []
+    }
   }
 }
