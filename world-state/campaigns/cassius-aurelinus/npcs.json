@@ -90,5 +90,28 @@
       "locations": [],
       "quests": []
     }
+  },
+  "Old Tamsin": {
+    "description": "elderly stranded trader, spokeswoman for Bruma's shanty-town, sharp-tongued, has kept a informal count of the sick and starving since the pass closed",
+    "attitude": "neutral",
+    "created": "2026-09-16T10:11:10.385267+00:00",
+    "events": [],
+    "visual_appearance": {
+      "sex": "",
+      "age": "",
+      "race": "",
+      "species": "",
+      "hair": "",
+      "face": "",
+      "eyes": "",
+      "clothing": "",
+      "gear": "",
+      "demeanor": "",
+      "size": ""
+    },
+    "tags": {
+      "locations": [],
+      "quests": []
+    }
   }
 }

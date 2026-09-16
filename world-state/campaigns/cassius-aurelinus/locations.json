@@ -32,9 +32,24 @@
       {
         "to": "Bruma",
         "path": "traveled"
+      },
+      {
+        "to": "The Shanty Below the Walls",
+        "path": "traveled"
       }
     ],
     "description": "",
     "discovered": "2026-09-16 10:07:36 UTC"
+  },
+  "The Shanty Below the Walls": {
+    "position": "A sprawl of tents, cart-shelters, and lean-tos against Bruma's south wall, grown over the winter from the merchant queue the pass closure stranded.",
+    "connections": [
+      {
+        "to": "Bruma",
+        "path": "through the south gate, a few minutes walk"
+      }
+    ],
+    "description": "Canvas gone grey with woodsmoke, cart-wheels dug in as tent-poles, a communal fire pit that never quite goes out. What started as a queue of merchants waiting out a closed pass has become something closer to a town nobody planned -- families, drovers, a few Khajiit caravaners who ran out of road. Thin, but not yet broken.",
+    "discovered": "2026-09-16 00:00:00 UTC"
   }
 }
