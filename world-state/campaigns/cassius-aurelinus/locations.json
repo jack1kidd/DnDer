@@ -25,5 +25,16 @@
     ],
     "description": "Black timber halls with turf roofs weighted in stone, smoke-holes venting into a sky that is grey nine months a year, and Nord surnames filling the Imperial tax-rolls three names deep. The Counts of Bruma have sworn to White-Gold for four hundred years and every one of them has been buried under a Nord cairn. The Legion garrison sits astride the north gate, watching the pass.",
     "discovered": "2026-09-03 00:00:00 UTC"
+  },
+  "Bruma Pass": {
+    "position": "unknown",
+    "connections": [
+      {
+        "to": "Bruma",
+        "path": "traveled"
+      }
+    ],
+    "description": "",
+    "discovered": "2026-09-16 10:07:36 UTC"
   }
 }
