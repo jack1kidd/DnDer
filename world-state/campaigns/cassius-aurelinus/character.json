@@ -61,8 +61,8 @@
   "notes": [],
   "gold": 45,
   "xp": {
-    "current": 0,
-    "next_level": 300
+    "current": 60,
+    "next_level": 250
   },
   "resources": {
     "school_ranks": {

@@ -67,5 +67,28 @@
       "locations": [],
       "quests": []
     }
+  },
+  "Lord Aldous Ravenne": {
+    "description": "merchant lord, cousin to Countess Ice-Vein by marriage, caught hoarding grain during the Bruma Pass closure",
+    "attitude": "neutral",
+    "created": "2026-09-16T10:10:06.726830+00:00",
+    "events": [],
+    "visual_appearance": {
+      "sex": "",
+      "age": "",
+      "race": "",
+      "species": "",
+      "hair": "",
+      "face": "",
+      "eyes": "",
+      "clothing": "",
+      "gear": "",
+      "demeanor": "",
+      "size": ""
+    },
+    "tags": {
+      "locations": [],
+      "quests": []
+    }
   }
 }

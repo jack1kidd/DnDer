@@ -1,4 +1,13 @@
 {
-  "active": [],
+  "active": [
+    {
+      "id": "ce3cc24f",
+      "consequence": "Lord Aldous Ravenne's hoarded grain was seized on Cassius's order despite his marriage-tie to Count Ice-Vein -- Ravenne will not forget who did this to him, and the Count's goodwill toward Cassius may cool once family pressure reaches him.",
+      "trigger": "Ravenne or the Count's court surfaces again, or significant time passes",
+      "created": "2026-09-16T10:10:08.993487+00:00",
+      "trigger_type": "on_npc",
+      "match": "Ravenne"
+    }
+  ],
   "resolved": []
 }
