@@ -159,5 +159,28 @@
       "locations": [],
       "quests": []
     }
+  },
+  "Decanus Rullo": {
+    "description": "Tribune Ostorius's own second, garrison veteran she trusts completely, steady and unshowy",
+    "attitude": "neutral",
+    "created": "2026-09-16T10:36:05.473030+00:00",
+    "events": [],
+    "visual_appearance": {
+      "sex": "",
+      "age": "",
+      "race": "",
+      "species": "",
+      "hair": "",
+      "face": "",
+      "eyes": "",
+      "clothing": "",
+      "gear": "",
+      "demeanor": "",
+      "size": ""
+    },
+    "tags": {
+      "locations": [],
+      "quests": []
+    }
   }
 }
