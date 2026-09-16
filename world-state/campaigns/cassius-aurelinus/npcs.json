@@ -21,5 +21,28 @@
       "locations": [],
       "quests": []
     }
+  },
+  "Count Skorm Ice-Vein": {
+    "description": "Count of Bruma, Nord noble house sworn to the Empire for four hundred years, proud, wary of Legion overreach after this year's blame-letters with the pass garrison",
+    "attitude": "neutral",
+    "created": "2026-09-16T09:06:20.097274+00:00",
+    "events": [],
+    "visual_appearance": {
+      "sex": "",
+      "age": "",
+      "race": "",
+      "species": "",
+      "hair": "",
+      "face": "",
+      "eyes": "",
+      "clothing": "",
+      "gear": "",
+      "demeanor": "",
+      "size": ""
+    },
+    "tags": {
+      "locations": [],
+      "quests": []
+    }
   }
 }
