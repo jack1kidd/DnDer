@@ -136,5 +136,28 @@
       "locations": [],
       "quests": []
     }
+  },
+  "Old Ander": {
+    "description": "Karlholt smokehouse keeper, knows the Black Road and the smugglers' routes better than any legion chart, trades knowledge for coin or favors",
+    "attitude": "neutral",
+    "created": "2026-09-16T10:17:20.640570+00:00",
+    "events": [],
+    "visual_appearance": {
+      "sex": "",
+      "age": "",
+      "race": "",
+      "species": "",
+      "hair": "",
+      "face": "",
+      "eyes": "",
+      "clothing": "",
+      "gear": "",
+      "demeanor": "",
+      "size": ""
+    },
+    "tags": {
+      "locations": [],
+      "quests": []
+    }
   }
 }

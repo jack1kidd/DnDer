@@ -47,9 +47,28 @@
       {
         "to": "Bruma",
         "path": "through the south gate, a few minutes walk"
+      },
+      {
+        "to": "Karlholt",
+        "path": "traveled"
       }
     ],
     "description": "Canvas gone grey with woodsmoke, cart-wheels dug in as tent-poles, a communal fire pit that never quite goes out. What started as a queue of merchants waiting out a closed pass has become something closer to a town nobody planned -- families, drovers, a few Khajiit caravaners who ran out of road. Thin, but not yet broken.",
     "discovered": "2026-09-16 00:00:00 UTC"
+  },
+  "Karlholt": {
+    "position": "A Nord-founded steading high in the Jerall foothills east of Bruma",
+    "connections": [
+      {
+        "to": "Bruma",
+        "path": "the shepherds' contour west, half a day down"
+      },
+      {
+        "to": "The Black Road",
+        "path": "the foothill track east toward Chorrol"
+      }
+    ],
+    "description": "Nine longhouses, a smokehouse, and a herd of shaggy hill-cattle that nobody has ever managed to tax accurately. Karlholt sells wool, sells mutton, and sells -- for a price stated only in the smokehouse and never twice the same -- the knowledge of which weeks Pale Pass is walkable.",
+    "discovered": "2026-09-16 10:17:20 UTC"
   }
 }
