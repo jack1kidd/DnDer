@@ -1,0 +1,763 @@
+{
+  "locations": {
+    "The Weighing Yard": {
+      "position": "The market square at the centre of Larenne; the Hollow Horn on its north side, Vaudry Hall east, the Larenne Chapterhouse south.",
+      "connections": [
+        {
+          "to": "The Hollow Horn",
+          "path": "straight across the cobbles and under the carriage arch"
+        },
+        {
+          "to": "Vaudry Hall",
+          "path": "east side of the Yard, up three worn steps to the hall door"
+        },
+        {
+          "to": "The Larenne Chapterhouse",
+          "path": "south side of the Yard, past the burying-ground gate"
+        },
+        {
+          "to": "Tenter Row",
+          "path": "west and downhill out of the Yard's corner"
+        },
+        {
+          "to": "Peatgate",
+          "path": "north out of the Yard, two hundred paces of muddy street"
+        },
+        {
+          "to": "The Bellows",
+          "path": "east out of the Yard along the road out of town"
+        }
+      ],
+      "description": "Cobbled in the middle, mud at the edges. At the north end the barony's public wool-beam stands under a slate roof on four posts, a chained set of scales as tall as a man with the Vaudry mark punched into the brass; every fleece sold in Larenne is supposed to cross it and pay its fraction. On Loredas it is full of pens, dogs, argument and wet fleece. On every other day it is a wide grey emptiness with the Matron bell counting the hours over it."
+    },
+    "The Horn's Coach Yard": {
+      "position": "Behind the Hollow Horn, through the wide carriage arch off the Weighing Yard.",
+      "connections": [
+        {
+          "to": "The Hollow Horn",
+          "path": "the kitchen door and the taproom's back passage"
+        },
+        {
+          "to": "The Weighing Yard",
+          "path": "out under the carriage arch — the doorsman's post"
+        }
+      ],
+      "description": "Cobbles laid to drain, a mounting block worn concave, stabling for sixteen along two sides, and the smell of horse, harness-grease and wet straw that never entirely leaves a coaching inn. The arch is the important ground: from under it you can see the whole square, the chapterhouse steps, the road coming in past Peatgate, and who is waiting for whom. This is where the door is worked."
+    },
+    "Vaudry Hall": {
+      "position": "East side of the Weighing Yard, Larenne.",
+      "connections": [
+        {
+          "to": "The Weighing Yard",
+          "path": "three worn steps down to the cobbles"
+        }
+      ],
+      "description": "A fortified manor house rather than a castle — grey stone, steep slate, arrow-slits nobody has needed in three hundred years, and a very good kitchen garden behind. The barony's small business is heard here: weights and measures, grazing rights, and roughly a quarter of all litigation concerning who may cross the Pack Bridge with what."
+    },
+    "The Larenne Chapterhouse": {
+      "position": "South side of the Weighing Yard, with its burying-ground behind.",
+      "connections": [
+        {
+          "to": "The Weighing Yard",
+          "path": "out the west door onto the cobbles"
+        }
+      ],
+      "description": "A modest house of the Eight — nave, cloister walk, a scriptorium with bad light and a ledger-room with worse. The bell is called the Matron and nobody remembers why; it rings the hours, the high days, and also the arrival of the southbound coach, an arrangement that scandalized a prior two generations back and has never been undone."
+    },
+    "Tenter Row": {
+      "position": "Running west and downhill out of the Weighing Yard to the Anwyl.",
+      "connections": [
+        {
+          "to": "The Weighing Yard",
+          "path": "back up the hill"
+        },
+        {
+          "to": "Coudray's Mill",
+          "path": "to the bottom of the Row, where it meets the water"
+        },
+        {
+          "to": "Sallow Lane",
+          "path": "a gap between two drying-sheds"
+        }
+      ],
+      "description": "Where fleeces are washed, fulled and stretched on hooked frames that stand in the yards like the ribs of something. It smells of lanolin and stale urine in all weather, and everyone in Larenne has agreed, without discussing it, to pretend it does not."
+    },
+    "Coudray's Mill": {
+      "position": "At the foot of Tenter Row on the Anwyl, just above the Pack Bridge.",
+      "connections": [
+        {
+          "to": "Tenter Row",
+          "path": "up the Row into town"
+        },
+        {
+          "to": "The Pack Bridge",
+          "path": "fifty paces downstream along the bank"
+        },
+        {
+          "to": "The Hare's Road",
+          "path": "over the stile below the mill-race and away west — if you know it is there"
+        }
+      ],
+      "description": "A fulling mill with an undershot wheel and a leat cut through peat. The wheel's slow knock is the sound Larenne sleeps to, and the nights it stops are the nights people wake up. Below the mill-race the bank goes soft and a footpath leaves that nobody admits to using."
+    },
+    "The Pack Bridge": {
+      "position": "Three arches over the Anwyl at the town's lower end.",
+      "connections": [
+        {
+          "to": "Coudray's Mill",
+          "path": "upstream along the bank"
+        },
+        {
+          "to": "The Larenne Moor",
+          "path": "over the bridge and out onto open ground"
+        }
+      ],
+      "description": "Three arches, too narrow for two carts, with cutwater refuges a man can flatten himself into. In Sun's Dusk the Anwyl comes up brown and fast and takes the lowest course of stones with it, and the barony pays to have them put back, and this has happened for four hundred years."
+    },
+    "Peatgate": {
+      "position": "The north entrance of Larenne, where the moor road comes in.",
+      "connections": [
+        {
+          "to": "The Weighing Yard",
+          "path": "two hundred paces of street, south into town"
+        },
+        {
+          "to": "The Black Cuts",
+          "path": "north out onto the moor, a cart-track deep in ruts"
+        }
+      ],
+      "description": "Not a gate, and has not been since the wall came down for building stone. What is left is an arch, a toll-post, a shed with a brazier and a tally-board. Everything cut from the moor comes in this way and pays a copper the cartload; the tally-board is chalked over every evening and the chalk never quite comes off."
+    },
+    "Sallow Lane": {
+      "position": "Behind Tenter Row, in the damp lower part of Larenne.",
+      "connections": [
+        {
+          "to": "Tenter Row",
+          "path": "a gap between two drying-sheds"
+        }
+      ],
+      "description": "Cheap lodgings with damp walls and shared stairs, where most of Larenne's handful of non-Bretons sleep — a Nord carter's widow, two Redguard drovers who winter here, whoever the coaches have left behind. The town's tolerance is real, ordinary and unremarked, and it lives on Sallow Lane rather than on the Weighing Yard."
+    },
+    "The Bellows": {
+      "position": "East out of the Weighing Yard, along the road out of town.",
+      "connections": [
+        {
+          "to": "The Weighing Yard",
+          "path": "west back into the square"
+        },
+        {
+          "to": "The Coach Road",
+          "path": "east, and you are simply on the road"
+        }
+      ],
+      "description": "Farriers, two wheelwrights and the one blacksmith, clustered where the traffic is because coaches break axles and horses throw shoes. Charcoal smoke, the ring of setting a tyre, and a permanent stack of broken felloes nobody will admit to owning."
+    },
+    "The Larenne Moor": {
+      "position": "The wet, hedge-broken upland surrounding Larenne on all sides.",
+      "connections": [
+        {
+          "to": "The Pack Bridge",
+          "path": "in over the bridge to the town's lower end"
+        },
+        {
+          "to": "The Black Cuts",
+          "path": "north, following the turf-cart ruts"
+        },
+        {
+          "to": "The Marchstone",
+          "path": "open ground, a mile and a half, no path worth the name"
+        },
+        {
+          "to": "The Sisters",
+          "path": "down into a fold of the ground where the trees are"
+        },
+        {
+          "to": "The Coach Road",
+          "path": "the road crosses the whole of it, north to south"
+        },
+        {
+          "to": "The Drown",
+          "path": "west of the road — and best not"
+        }
+      ],
+      "description": "Heather, cotton-grass, bog myrtle, hidden water and sheep. Sea-fog comes off the Iliac Bay in the small hours and does not always leave. Dull and entirely ordinary by day; by night it is the place all of Larenne's stories are set, which the people of Larenne consider a separate matter from where they actually keep their sheep."
+    },
+    "The Black Cuts": {
+      "position": "The peat workings north of Larenne, beyond Peatgate.",
+      "connections": [
+        {
+          "to": "Peatgate",
+          "path": "south down the turf-cart track into town"
+        },
+        {
+          "to": "The Larenne Moor",
+          "path": "out in any direction, over the heather"
+        }
+      ],
+      "description": "Stepped black trenches in the moss, drying-stacks in herringbone, and the black-water pools left where a plot has been worked out. Every household holds a hereditary turf-plot with a name of its own — Sourbank, the Widow's Room, Gaultier's Long Cut. Cutting starts after First Seed; from Frostfall the whole town smells of turf smoke."
+    },
+    "The Marchstone": {
+      "position": "Standing crooked in open moor, a mile and a half west of the Coach Road.",
+      "connections": [
+        {
+          "to": "The Larenne Moor",
+          "path": "open ground in every direction"
+        }
+      ],
+      "description": "A weathered grey pillar of Direnni work, its carving worn down to suggestion — you can see that there was line-work, and not what it said. It marks a boundary nobody now observes. Sheep scratch against it and have polished one face smooth. Children are told not to sleep in its shadow, and are not told why, because the reason is lost and only the telling survives."
+    },
+    "The Sisters": {
+      "position": "A stand of old trees in a fold of the moor, east of the Coach Road above the Anwyl's head.",
+      "connections": [
+        {
+          "to": "The Larenne Moor",
+          "path": "up out of the fold onto open ground"
+        }
+      ],
+      "description": "Wind-crippled thorn and oak, bent all one way, the only real trees for miles — the sort of place a shepherd eats his bread in and does not linger past dusk. The chapterhouse maintains there are nine of them, this being a decent number. Nobody who has counted has ever got nine."
+    },
+    "The Widow's Stone": {
+      "position": "At the sixth milestone on the Coach Road, south of Larenne.",
+      "connections": [
+        {
+          "to": "The Coach Road",
+          "path": "it stands at the verge; you are already there"
+        }
+      ],
+      "description": "A niched wayside marker, lichened over, with a shallow hollow worn in the top where hands have rested. Coachmen leave a copper in the niche against foul weather and touch the stone going by. The chapterhouse calls it a shrine of Kynareth. The drivers call it the Widow's Stone. Both are correct in their fashion and neither party has ever pressed the point."
+    },
+    "The Drown": {
+      "position": "A soft place in the moss, off the Coach Road to the west, past the fourth milestone.",
+      "connections": [
+        {
+          "to": "The Larenne Moor",
+          "path": "back east toward the road, carefully, testing"
+        }
+      ],
+      "description": "Bright green moss over standing black water, quaking underfoot for twenty paces before it gives. It takes sheep most years and has taken two men in living memory. It is not in the same place it was in the last generation's stories — which is the honest and genuinely unsettling part, and which Larenne handles by not discussing it much."
+    },
+    "The Hare's Road": {
+      "position": "An unmarked way leaving the Anwyl below Coudray's Mill and rejoining the Bay Road south of the Peatgate toll.",
+      "connections": [
+        {
+          "to": "Coudray's Mill",
+          "path": "back over the stile to the mill-race"
+        },
+        {
+          "to": "The Coach Road",
+          "path": "rejoins the road well south of the toll-post"
+        },
+        {
+          "to": "The Larenne Moor",
+          "path": "it is the moor, only along the dry ridges"
+        }
+      ],
+      "description": "Not a path so much as a sequence of dry ridges and sheep-tracks that a person either knows or does not. Wool that has not crossed the wool-beam travels it; so does brandy that has not paid its duty. Everyone in Larenne knows it exists. In the town's view this is less a crime than a form of weather."
+    },
+    "The Coach Road": {
+      "position": "The Bay Road, running north-south across the Larenne Moor between Daggerfall and Camlorn.",
+      "connections": [
+        {
+          "to": "The Bellows",
+          "path": "west into Larenne past the smithies"
+        },
+        {
+          "to": "The Widow's Stone",
+          "path": "south to the sixth milestone"
+        },
+        {
+          "to": "Malmont Cross",
+          "path": "a long day's drive south, out of the moor into hedge country"
+        },
+        {
+          "to": "Stanchgate",
+          "path": "north, over the toll-bridge"
+        },
+        {
+          "to": "Dower House",
+          "path": "two miles east up an avenue of limes from the gate-lodge"
+        }
+      ],
+      "description": "Metalled where the barony has money and rutted where it has not, ditched both sides, milestones cut with the Daggerfall reckoning. Two coaches a day in good weather, none at all when the Anwyl is up. Everything Larenne is grew out of this road needing somewhere, at exactly this distance, to change its horses."
+    },
+    "Malmont Cross": {
+      "position": "The next change-house south on the Bay Road, a long day's drive from Larenne, Daggerfall-ward.",
+      "connections": [
+        {
+          "to": "The Coach Road",
+          "path": "north, back up onto the moor toward Larenne"
+        }
+      ],
+      "description": "A crossroads, a change-house, a horse-pond and eleven buildings. Here the moor gives out into hedge and orchard country and the road bears away west for Daggerfall. Larenne people speak of Malmont as the edge of the parts of the world they have opinions about."
+    },
+    "Stanchgate": {
+      "position": "A toll-bridge and hamlet north of Larenne on the Bay Road, Camlorn-ward.",
+      "connections": [
+        {
+          "to": "The Coach Road",
+          "path": "south, back down onto the Larenne Moor"
+        }
+      ],
+      "description": "A stone bridge over water too big to ford, a gatehouse with a chain, and a keeper who is not the barony's man and does not pretend to be. Beyond it the road runs on north for Camlorn, which is somebody else's business entirely."
+    },
+    "The Hollow Horn": {
+      "position": "The north side of the Weighing Yard, Larenne; the coach yard behind it through the wide carriage arch.",
+      "connections": [
+        {
+          "to": "The Weighing Yard",
+          "path": "out the front door onto the cobbles of the square"
+        },
+        {
+          "to": "The Horn's Coach Yard",
+          "path": "through the taproom's back passage, or under the carriage arch"
+        }
+      ],
+      "description": "A licensed change-house, not a tavern: it holds the post-right on the Daggerfall coaching road, so the coach stops here, teams are swapped here and the mail bag is signed for here. The stableyard is the larger half of the business and the taproom the smaller. Over the door hangs the cracked ox-horn that is the town's lawful ale measure by charter. Inside: the common room with its corner settle (the Widow Osse's on market days), the snug where the hedge-wife sells her charms, the hanging beam by the door where blades come off and go up chalk-marked, and eleven letting-rooms named rather than numbered — the Cold Room, the Widow's, the Nook, the Coachman's, and the one over the stable called only Upstairs. The north wing is brick and does not match the rest of the house; it was rebuilt after the Malt Fire under the barony's brick ordinance. The PC works the door and sleeps in the cot over the stable."
+    },
+    "Larenne": {
+      "position": "A market town on the Bay Road in Glenumbra, western High Rock, on the firm gravel shelf between the north and south peat bogs.",
+      "connections": [
+        {
+          "to": "The Weighing Yard",
+          "path": "every street in the town runs into it"
+        },
+        {
+          "to": "Peatgate",
+          "path": "north, where the moor road comes in"
+        },
+        {
+          "to": "The Pack Bridge",
+          "path": "downhill to the town's lower end and over the Anwyl"
+        },
+        {
+          "to": "The Bellows",
+          "path": "east, along the road out of town"
+        },
+        {
+          "to": "The Larenne Moor",
+          "path": "out past the last houses in any direction"
+        }
+      ],
+      "description": "Roughly four hundred hearths, a market charter and one road worth naming. A barony sworn to the Kingdom of Daggerfall and governed, in practice, with almost no oversight from above except in hearth-roll years. Its economy stands on three legs — wool off the moor, peat out of the Black Cuts, and the coaching traffic — and when the road shuts by flood or snow all three stop at once. The Weighing Yard is its centre, with the Hollow Horn on the north side, Vaudry Hall east and the Chapterhouse south; Tenter Row runs west and downhill to the Anwyl, Sallow Lane holds the cheap lodgings and nearly all the town's non-Bretons, and the Bellows holds the smiths. Market day is Loredas. The Chapterhouse bells keep the hours. Power here is standing rather than force: a web of debts, favours, tithes and old grudges everyone can recite and nobody has written down."
+    },
+    "The Market Cross": {
+      "position": "Standing in the Weighing Yard, Larenne — the square strangers call the market square.",
+      "connections": [
+        {
+          "to": "The Weighing Yard",
+          "path": "it stands in the Yard; you are already there"
+        },
+        {
+          "to": "The Larenne Chapterhouse",
+          "path": "south across the cobbles, within earshot of all four bells"
+        }
+      ],
+      "description": "A squat granite pillar with the Eight cut into its faces, worn now until only Zenithar's scales and Kynareth's bird are still legible — which Larenne considers appropriate to its priorities. The Market Court convenes here between the Trade Toll and the Ash Bell on Loredas, where bargains are witnessed by recitation and petty disputes are settled from memory by the rhymer. Ash-coppers are flicked into the nearest banked hearth on closing a bargain; the Chapterhouse sifts them out on Sundas and calls it a tithe."
+    },
+    "Ninebank": {
+      "position": "Peat banks out on the Larenne Moor, north-east of the Black Cuts toward the disputed moor-edge boundary.",
+      "connections": [
+        {
+          "to": "The Larenne Moor",
+          "path": "open ground and turf-cart ruts in every direction"
+        },
+        {
+          "to": "The Black Cuts",
+          "path": "south-west along the workings toward Peatgate"
+        }
+      ],
+      "description": "The peat banks the Perrenots and the Gascels have been cutting against each other for a generation. The Ninebank Judgment settled the turbary rights here twenty-odd years ago; it has never once been obeyed, and both families cut the same bank on the first day of cutting each year while the town turns out to watch the fight. The bank is nearly worked out, which only Melisent Gascel has so far noticed. The moor-edge boundary north of here has been under review for eighty years, so the bridge-toll is collected by whoever reaches the bridge first. Nine years ago the cutters brought a body up out of the deep peat here — tanned brown, hair still on him, a cord still at his throat, older than the Empire."
+    },
+    "Dower House": {
+      "position": "A shuttered manor house two miles east of the Bay Road, up an avenue of limes, on the Larenne Moor -- the Vaudry family's own dower-house, shut up since Jocelin Vaudry renounced his claim and went to Daggerfall eighteen years ago.",
+      "connections": [
+        {
+          "to": "The Coach Road",
+          "path": "back down the lime avenue to the gate-lodge on the moor road"
+        }
+      ],
+      "description": "Grey stone under steep slate, every window shuttered from within, no smoke from any chimney in eighteen years. The Vaudrys themselves shut it: Jocelin Vaudry, elder brother of the present Baroness, renounced his claim and went to Daggerfall to take orders, and the dower-house was closed that same season and never reopened. What Larenne is clear about: the lime avenue is kept clear, the gates are kept sound, the deer-park wall is mended where it falls, and every Evening Star a factor comes up from Daggerfall and pays the barony's land-dues to the penny in coin that is always a little older than the coin in circulation. Shepherds graze elsewhere — poor grass, they say, and the dogs won't work, and it's a long way back in the dark. People walking the moor road walk faster past the gate-lodge and would be embarrassed to be asked why."
+    }
+  },
+  "npcs": {
+    "Ancel Perrot": {
+      "description": "Keeper of the Peatgate toll-post: a stiff-backed old carter with a bad hip, a brazier, and a chalk tally-board he rules like a small kingdom. Knows every turf-plot in the Black Cuts by name and every cart that comes in by its axle-noise. He has never once caught anyone using the Hare's Road, and would like it understood that this is not for lack of trying.",
+      "attitude": "neutral",
+      "tags": {
+        "locations": [
+          "Peatgate",
+          "The Black Cuts"
+        ],
+        "quests": []
+      }
+    },
+    "Mireille Coudray": {
+      "description": "Miller at Coudray's Mill, third of her family on the leat, fulling wool for Tenter Row. Deaf on one side from forty years beside the wheel, which she uses as a negotiating tactic. She knows exactly where the footpath below her mill-race goes and has decided, on balance, that it is nobody's business but the moor's.",
+      "attitude": "friendly",
+      "tags": {
+        "locations": [
+          "Coudray's Mill",
+          "Tenter Row",
+          "The Hare's Road"
+        ],
+        "quests": []
+      }
+    }
+  },
+  "facts": {
+    "geography": [
+      "Larenne exists because the Bay Road between Daggerfall and Camlorn needed a change of horses at exactly that distance, and because the Anwyl could be forded there and later bridged. Everything else in the town grew out of those two facts.",
+      "Larenne's economy stands on three legs: wool off the moor, peat out of the Black Cuts, and the coaching traffic. When the road is shut by flood or snow, all three stop at once.",
+      "The barony's public wool-beam stands under a slate roof at the north end of the Weighing Yard. Every fleece sold in Larenne is supposed to cross it and pay its fraction to Vaudry Hall.",
+      "Market day is Loredas. The great wool fair falls in Hearthfire and roughly doubles the town's population for a week.",
+      "The chapterhouse bell, the Matron, rings the hours and the high days — and also the arrival of the southbound coach, a compromise between temple and trade that scandalized a prior two generations back and was never undone.",
+      "Sea-fog comes off the Iliac Bay in the small hours through most of the year. In Sun's Dusk the Anwyl comes up brown and fast and takes the lowest course of the Pack Bridge with it; the barony pays to have the stones replaced, and has done for four hundred years.",
+      "Peat cutting begins after First Seed. From Frostfall onward the whole town smells of turf smoke, and strangers always remark on it and locals never notice it.",
+      "The Marchstone is Direnni work, older than Larenne by a wide margin, marking a boundary nobody now observes. Children are warned not to sleep in its shadow; the reason behind the warning has been lost, and only the warning survives.",
+      "The chapterhouse holds that there are nine trees in the Sisters, nine being a decent number. No one who has actually counted them has ever got nine."
+    ],
+    "custom": [
+      "Coachmen leave a copper in the niche of the Widow's Stone at the sixth milestone against foul weather, and touch the stone as they pass. The chapterhouse calls it a shrine of Kynareth; the drivers call it the Widow's Stone; the two parties have a long-standing agreement not to discuss it.",
+      "Turf-plots in the Black Cuts are hereditary and individually named — Sourbank, the Widow's Room, Gaultier's Long Cut. Selling a plot outside the family is spoken of in Larenne the way other towns speak of selling a grave.",
+      "Larenne's non-Breton residents live almost entirely on Sallow Lane. The town's tolerance is genuine and entirely ordinary — and it is a tolerance of people in their expected places."
+    ],
+    "plot_local": [
+      "Wool that has never crossed the barony's beam moves along the Hare's Road, and so does untaxed brandy. Ancel Perrot at the Peatgate toll knows it happens and cannot prove it; Mireille Coudray at the mill knows exactly who walks past her race at night and says nothing. Sooner or later Vaudry Hall will want an example made.",
+      "The Pack Bridge is too narrow for two carts and generates about a quarter of all litigation heard at Vaudry Hall. Every wool-fair week it produces at least one genuine fight.",
+      "The Drown is not where the last generation's stories put it. Two men have gone into it in living memory. Nobody in Larenne has ever proposed doing anything about this."
+    ],
+    "plot_regional": [
+      "Every Evening Star a factor rides up from Daggerfall and pays the Dower House's land-dues to the barony, to the penny, in coin noticeably older than what is in general circulation. No servant of that house has ever been seen in Larenne, no order has ever been placed with a Larenne merchant, and yet the lime avenue is kept clear and the deer-park wall is kept mended.",
+      "The chapterhouse's copy of the Dower House deed is incomplete — a transfer with a signature and no named grantee. Brother Aumery has mentioned this to precisely one person and has not been encouraged to pursue it.",
+      "Shepherds have quietly stopped grazing the ground under the Dower House. They give practical reasons: poor grass, dogs that won't work, a long way home in the dark. The reasons are practical and the pattern is not."
+    ],
+    "plot_world": [
+      "Larenne is far enough from Daggerfall and Camlorn that both cities are, in practice, directions rather than places. Nothing decided in either has reached the Weighing Yard within living memory except a change in the wool duty."
+    ]
+  },
+  "bible": {
+    "geography": {
+      "nodes": [
+        {
+          "id": "the-weighing-yard",
+          "name": "The Weighing Yard",
+          "type": "landmark",
+          "summary": "Larenne's market square, known to no local as 'the market square'. The barony's public wool-beam stands under a slate roof at its north end; the Horn, Vaudry Hall and the chapterhouse hold three of its four sides."
+        },
+        {
+          "id": "the-horn-coach-yard",
+          "name": "The Horn's Coach Yard",
+          "type": "landmark",
+          "summary": "The yard behind the Hollow Horn, reached by the wide carriage arch off the Weighing Yard. The arch is the doorsman's post and the best sightline in Larenne."
+        },
+        {
+          "id": "vaudry-hall",
+          "name": "Vaudry Hall",
+          "type": "landmark",
+          "summary": "The barony's fortified manor house on the east side of the Weighing Yard — weights, measures, grazing rights and bridge disputes. Not a castle; a house with old arrow-slits and a good kitchen garden."
+        },
+        {
+          "id": "chapterhouse-larenne",
+          "name": "The Larenne Chapterhouse",
+          "type": "landmark",
+          "summary": "Modest house of the Eight on the Yard's south side, with cloister, scriptorium and ledger-room. Its bell, the Matron, rings the hours and the southbound coach alike."
+        },
+        {
+          "id": "tenter-row",
+          "name": "Tenter Row",
+          "type": "district",
+          "summary": "The wool-working lane running west and downhill from the Yard to the Anwyl — washing, fulling, stretching-frames, and a smell everyone has agreed to ignore."
+        },
+        {
+          "id": "coudrays-mill",
+          "name": "Coudray's Mill",
+          "type": "landmark",
+          "summary": "Fulling mill on the Anwyl at the foot of Tenter Row. Its undershot wheel is the sound Larenne sleeps to; the footpath below its race is the head of the Hare's Road."
+        },
+        {
+          "id": "the-pack-bridge",
+          "name": "The Pack Bridge",
+          "type": "landmark",
+          "summary": "Three narrow arches over the Anwyl at the town's lower end; source of about a quarter of all litigation heard in Vaudry Hall."
+        },
+        {
+          "id": "peatgate",
+          "name": "Peatgate",
+          "type": "district",
+          "summary": "Larenne's north entrance — an arch, a toll-post and a tally-board where everything cut from the moor pays a copper the cartload. Not a gate since the wall went for building stone."
+        },
+        {
+          "id": "sallow-lane",
+          "name": "Sallow Lane",
+          "type": "district",
+          "summary": "Damp back lodgings behind Tenter Row, where nearly all of Larenne's non-Bretons sleep. The town's tolerance is real, ordinary, and lives here rather than on the Yard."
+        },
+        {
+          "id": "the-bellows",
+          "name": "The Bellows",
+          "type": "district",
+          "summary": "Farriers, wheelwrights and the one smith, clustered on the eastern road out because the coaching trade breaks things."
+        },
+        {
+          "id": "the-anwyl",
+          "name": "The Anwyl",
+          "type": "landmark",
+          "summary": "The peat-brown moor stream that made the crossing that made the town. Drives Coudray's Mill, floods in Sun's Dusk, feeds the Iliac Bay somewhere west."
+        },
+        {
+          "id": "the-coach-road",
+          "name": "The Coach Road",
+          "type": "route",
+          "summary": "Properly the Bay Road: the Daggerfall–Camlorn coaching road, crossing the Larenne Moor north to south. Two coaches a day in good weather; none when the Anwyl is up."
+        },
+        {
+          "id": "the-black-cuts",
+          "name": "The Black Cuts",
+          "type": "landmark",
+          "summary": "The peat workings north of Peatgate — stepped trenches, herringbone drying-stacks, black-water pools, and hereditary turf-plots that each carry a family name."
+        },
+        {
+          "id": "the-marchstone",
+          "name": "The Marchstone",
+          "type": "landmark",
+          "summary": "A crooked Direnni boundary pillar on the open moor, its carving worn to suggestion, marking a border nobody observes. Sheep have polished one face smooth."
+        },
+        {
+          "id": "the-sisters",
+          "name": "The Sisters",
+          "type": "landmark",
+          "summary": "A stand of wind-crippled thorn and oak in a fold of the moor — the only real trees for miles. The chapterhouse says there are nine. Nobody counting has ever got nine."
+        },
+        {
+          "id": "the-widows-stone",
+          "name": "The Widow's Stone",
+          "type": "landmark",
+          "summary": "Niched wayside marker at the sixth milestone where coachmen leave a copper against foul weather. A shrine of Kynareth to the chapterhouse, the Widow's Stone to the drivers."
+        },
+        {
+          "id": "the-drown",
+          "name": "The Drown",
+          "type": "landmark",
+          "summary": "A quaking bog west of the road that takes sheep most years and has taken two men in living memory — and that is not where the last generation's stories put it."
+        },
+        {
+          "id": "the-hares-road",
+          "name": "The Hare's Road",
+          "type": "route",
+          "summary": "The unmapped dry-ridge way from below Coudray's mill-race round the back of the moor to the Bay Road south of the toll. Untaxed wool and unbonded brandy travel it. Everyone knows."
+        },
+        {
+          "id": "malmont-cross",
+          "name": "Malmont Cross",
+          "type": "settlement",
+          "summary": "The next change-house south, a long day's drive Daggerfall-ward, where the moor gives out into hedge and orchard country. The edge of the world Larenne has opinions about."
+        },
+        {
+          "id": "stanchgate",
+          "name": "Stanchgate",
+          "type": "settlement",
+          "summary": "Toll-bridge hamlet north of Larenne on the road toward Camlorn; the keeper is not the barony's man and does not pretend otherwise."
+        },
+        {
+          "id": "daggerfall",
+          "name": "Daggerfall",
+          "type": "settlement",
+          "summary": "The kingdom's seat, four days' coach south-west. Real to Larenne chiefly as a direction and as the place changes in the wool duty come from."
+        },
+        {
+          "id": "camlorn",
+          "name": "Camlorn",
+          "type": "settlement",
+          "summary": "The city three days' coach north beyond Stanchgate. Larenne's dealings with it amount to the northbound coach and the occasional cloth-buyer."
+        },
+        {
+          "id": "the-old-manor",
+          "name": "Dower House",
+          "type": "landmark",
+          "summary": "The shuttered manor two miles east of the Bay Road up an avenue of limes. No smoke, no lights, no servants seen in town for three generations — and yet the avenue is kept clear, the wall is kept mended, and a Daggerfall factor pays its land-dues to the penny every Evening Star in slightly old coin. Exterior rumour only.",
+          "hidden": true
+        }
+      ],
+      "edges": [
+        {
+          "from": "larenne",
+          "to": "the-weighing-yard",
+          "relation": "contains"
+        },
+        {
+          "from": "the-weighing-yard",
+          "to": "the-hollow-horn-inn",
+          "relation": "the Horn holds its north side"
+        },
+        {
+          "from": "the-hollow-horn-inn",
+          "to": "the-horn-coach-yard",
+          "relation": "contains, through the carriage arch"
+        },
+        {
+          "from": "the-weighing-yard",
+          "to": "vaudry-hall",
+          "relation": "the hall holds its east side"
+        },
+        {
+          "from": "the-weighing-yard",
+          "to": "chapterhouse-larenne",
+          "relation": "the chapterhouse holds its south side"
+        },
+        {
+          "from": "the-weighing-yard",
+          "to": "tenter-row",
+          "relation": "runs west and downhill from"
+        },
+        {
+          "from": "the-weighing-yard",
+          "to": "peatgate",
+          "relation": "runs north to"
+        },
+        {
+          "from": "the-weighing-yard",
+          "to": "the-bellows",
+          "relation": "runs east to"
+        },
+        {
+          "from": "tenter-row",
+          "to": "coudrays-mill",
+          "relation": "ends at"
+        },
+        {
+          "from": "tenter-row",
+          "to": "sallow-lane",
+          "relation": "backs onto"
+        },
+        {
+          "from": "coudrays-mill",
+          "to": "the-anwyl",
+          "relation": "draws its leat from"
+        },
+        {
+          "from": "the-anwyl",
+          "to": "the-pack-bridge",
+          "relation": "is crossed at"
+        },
+        {
+          "from": "larenne",
+          "to": "the-pack-bridge",
+          "relation": "leaves the town southward by"
+        },
+        {
+          "from": "coudrays-mill",
+          "to": "the-hares-road",
+          "relation": "the path begins below its mill-race"
+        },
+        {
+          "from": "peatgate",
+          "to": "the-black-cuts",
+          "relation": "the turf-carts come down from"
+        },
+        {
+          "from": "larenne-moor",
+          "to": "the-black-cuts",
+          "relation": "contains"
+        },
+        {
+          "from": "larenne-moor",
+          "to": "the-marchstone",
+          "relation": "contains"
+        },
+        {
+          "from": "larenne-moor",
+          "to": "the-sisters",
+          "relation": "contains"
+        },
+        {
+          "from": "larenne-moor",
+          "to": "the-drown",
+          "relation": "contains, and not always in the same place"
+        },
+        {
+          "from": "larenne-moor",
+          "to": "the-hares-road",
+          "relation": "crossed by, along the dry ridges"
+        },
+        {
+          "from": "larenne-moor",
+          "to": "the-coach-road",
+          "relation": "crossed by, north to south"
+        },
+        {
+          "from": "the-coach-road",
+          "to": "larenne",
+          "relation": "passes through, and is the reason for"
+        },
+        {
+          "from": "the-coach-road",
+          "to": "the-widows-stone",
+          "relation": "passes, at the sixth milestone"
+        },
+        {
+          "from": "the-coach-road",
+          "to": "malmont-cross",
+          "relation": "next stage south, Daggerfall-ward"
+        },
+        {
+          "from": "the-coach-road",
+          "to": "stanchgate",
+          "relation": "next stage north, Camlorn-ward"
+        },
+        {
+          "from": "the-hares-road",
+          "to": "the-coach-road",
+          "relation": "rejoins, south of the Peatgate toll"
+        },
+        {
+          "from": "malmont-cross",
+          "to": "daggerfall",
+          "relation": "road bears away west toward"
+        },
+        {
+          "from": "stanchgate",
+          "to": "camlorn",
+          "relation": "road runs on north toward"
+        },
+        {
+          "from": "glenumbra",
+          "to": "daggerfall",
+          "relation": "kingdom's seat, four days' coach from Larenne"
+        },
+        {
+          "from": "glenumbra",
+          "to": "camlorn",
+          "relation": "three days' coach north of Larenne"
+        },
+        {
+          "from": "the-coach-road",
+          "to": "the-old-manor",
+          "relation": "passes its gate-lodge; two miles up the lime avenue"
+        },
+        {
+          "from": "larenne-moor",
+          "to": "the-old-manor",
+          "relation": "contains, and grazes around rather than under"
+        }
+      ]
+    },
+    "themes": [
+      "A place explained by its road and its water before it is explained by its people",
+      "Ordinary land carrying old marks nobody can read any more",
+      "What a town chooses not to look at, and the practical reasons it gives instead"
+    ],
+    "voice": {
+      "vocab": [
+        "the Weighing Yard (Larenne's market square; nobody local calls it a square)",
+        "the wool-beam (the barony's public scales, and by extension the barony's cut of everything)",
+        "turf-room (a household's hereditary peat-plot in the Black Cuts, each with its own name)",
+        "the Hare's Road (the unmapped moor way that avoids the Peatgate toll)",
+        "the Matron (the chapterhouse bell, which rings hours, high days and the southbound coach)"
+      ],
+      "sample_passages": [
+        "The Anwyl was up, so there would be no southbound coach, so the Matron would not ring at noon, and the whole town would be an hour out with itself until evening.",
+        "Larenne kept its sheep off the ground under the Dower House and gave good reasons for it: poor grass, and the dogs wouldn't work, and it was a long way back in the dark. The reasons were all true. Nobody had ever put them in a row and looked at them."
+      ]
+    }
+  }
+}

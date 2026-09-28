@@ -1,0 +1,842 @@
+{
+  "confirmed": true,
+  "name": "The Unquiet Peace",
+  "voice": {
+    "style": "Le Guin's measured, anthropological cadence: sentences that take their time, custom explained through its cost rather than named outright, dialogue spare enough that it carries weight. Violence, when it comes, is stated plainly and briefly — its aftermath is where the narration lingers. The PC's own uncanny moments (a stillness that unsettles a room, a reflex that surprises him) are narrated the same patient way as everything else — never flagged with horror-movie emphasis, just quietly noted, the way the narrator notices everything else.",
+    "vocab": [
+      "the Peace (shorthand for the long, unremarkable Septim-era calm this era sits inside — said with the faint irony of people who know peace is a policy, not a guarantee)",
+      "the Hollow Horn (the coaching inn where the PC works the door)",
+      "hatch-kin (Argonian term for those who share a hatching-clutch; carries weight an outsider wouldn't hear)",
+      "the green murmur (an Argonian's private, half-understood sense of the Hist — used sparingly, and never explained fully to outsiders)",
+      "clutch-mark (the physical mark the Hist-sap leaves on a marked hatchling; the PC has one and has always had an explanation for it that isn't the true one)"
+    ],
+    "sample_passages": [
+      "He was good at the door because he was good at stillness, and the two men fighting over the dice hadn't expected stillness from something so large. He didn't remember deciding to step between them. He remembered his hand already closed around the smaller one's wrist, gently, precisely, in a way that hurt only if the man tried to pull free — and he remembered thinking, distantly, that he could not recall ever being taught that.",
+      "In Black Marsh, they said, a hatchling's first year belonged to the Hist and only afterward to its parents. He had been told this the way one is told any fact about a place one has never seen: true, probably, and irrelevant to a Tuesday in Glenumbra with the rain coming sideways off the moor.",
+      "Baroness Vaudry did not ask her questions twice, and she did not ask them the way High Rock nobility usually asked questions of an Argonian doorsman — which was to say, she asked them as though she expected true answers, which was its own kind of unsettling.",
+      "The rooks had been turning over the same stretch of the moor road since mid-morning, which meant that by custom someone had to walk out and look, and by longer custom that someone was whoever the innkeeper could most easily spare.",
+      "He drew his wash-water second, after the kitchen girls. This was not a rule. Nobody had made it, nobody enforced it, and if it had been put to the house as a question the house would have been genuinely offended and would have changed nothing. It had simply always happened, the way water finds the low part of a floor, and he had stopped noticing it years ago, which he understood to be the point.",
+      "There is a way a well-mannered town keeps a thing at arm's length without ever raising an arm. Larenne was very good at it. In nine years nobody had refused him service, struck him, or spoken to him unkindly on purpose, and in nine years nobody had asked him a question about himself that did not have its answer already folded inside it.",
+      "At the graveside he found that he had nothing to do with his hands. The Bretons had a use for theirs — earth to take up, a sign to make, a neighbour's elbow to hold — and he stood among them holding nothing, in the rain, being treated with perfect kindness by fourteen people, none of whom he could have explained this to in an hour of trying.",
+      "The tinker came through twice a year and mended pots, and she knew the answers to questions he had never learned the shape of. She looked at him a moment longer than a stranger looks, on the first day, and then she did not look again, and she talked about tin. He decided he was grateful. It took him until the following spring to be certain that was the word.",
+      "The assessor asked whether the loft over the stable had a fire in it, and Touss said that it had a horse under it, which was warmer, and went on with the strap he was mending. He had not answered the question. Nobody in the yard thought he had answered it by accident.",
+      "Ninety years is not a long time for a grievance about peat. Both families could produce documents. Both families had, in living memory, produced fists in the Horn's yard on a market Thursday, and then bought each other ale, because the alternative was admitting the matter could be settled.",
+      "The Anwyl was up, so there would be no southbound coach, so the Matron would not ring at noon, and the whole town would be an hour out with itself until evening.",
+      "Larenne kept its sheep off the ground under the Dower House and gave good reasons for it: poor grass, and the dogs wouldn't work, and it was a long way back in the dark. The reasons were all true. Nobody had ever put them in a row and looked at them.",
+      "Nobody in Larenne gives you a year. They give you a fire, a flood, a judgment nobody obeyed, and a man the bog handed back, and they expect you to count from there.",
+      "The horn over the door was cracked from lip to tip and had not been sounded in three hundred years, and the joke about it was that if you ever heard it you should not stop to ask who had blown it. Everyone laughed at that joke. They laughed less at three in the morning.",
+      "The town had not been cruel to the Khajiit; it had merely been sure, all together, at the same time, and then it had gone quiet about it for twenty-five years, which was worse.",
+      "The charm-wife would not teach him the Veiling Arts and said so the first time and the fourth. What she would teach him, she said, was the closing, because she had buried one apprentice already and had not enjoyed it.",
+      "Perrin Guisse sold him the book for four coppers and said it was a good copy, and said it loudly, the way he said everything, turning his right ear toward the answer.",
+      "There are five figures and every guard on the Wayrest road can name all five and perhaps two of them can do the third. Hazruun did not tell him which two she could do."
+    ]
+  },
+  "tone": "Quiet dread and slow-dawning destiny, weighted deliberately toward the uncanny — even ordinary inn scenes should carry a faint undercurrent of wrongness (a too-long stillness, a dream half-remembered, the moor at the edge of town) rather than staying purely cozy. Political intrigue (Barony, Chapterhouse) is real but secondary to dread; warmth and levity exist but are the minority note, not the baseline. Numeric approximation for campaign-overview.json: horror/dread ~35, drama/intrigue ~55, comedy/warmth ~10.",
+  "themes": [
+    "An inherited self, not yet recognized as inherited",
+    "The ordinary violence and warmth of service work — seeing a town from its threshold",
+    "Belonging as performance: being 'the Argonian at the Horn' rather than being known",
+    "Peace as policy, not resolution — and what quietly persists underneath a peace",
+    "The ground kills more people here than any monster does",
+    "A town that holds a superstition and a denial of it at the same time, in the same mouth",
+    "Courtesy as the polished face of exclusion — a town too well-mannered to be cruel and too well-mannered to let him in",
+    "A culture you inherit but were never taught, surfacing as habit rather than knowledge",
+    "Kinship questions asked in the wrong shape, and the loneliness of having no way to correct them",
+    "The daily hours of service work as the real anthropology: bells, chalk marks, wash-water, and who is expected to explain himself",
+    "Small government at close range: rule as arithmetic, custom and favour rather than force",
+    "Inheritance as an unfinished sentence — the Horn's kitchen and the Baroness's table asking the same question",
+    "A place explained by its road and its water before it is explained by its people",
+    "Ordinary land carrying old marks nobody can read any more",
+    "What a town chooses not to look at, and the practical reasons it gives instead",
+    "A town that counts its years in grievances rather than reigns",
+    "Peace as the absence of events, and the strange pressure that absence puts on small ones",
+    "What the bog keeps: nothing here rots, it only waits to be cut up",
+    "Belonging as a verdict the town can revisit without ever announcing it",
+    "Skill as a debt: nothing worth knowing here is given, and every teacher's price is paid in standing rather than coin",
+    "The cost of self-teaching — the shortcut that works well enough to be believed",
+    "Respectable magic and disreputable magic, divided by nothing but what people assume you want it for",
+    "A power he carries and cannot use, running quietly alongside a power he is choosing to earn"
+  ],
+  "factions": {
+    "nodes": [
+      {
+        "id": "the-hollow-horn",
+        "name": "The Hollow Horn",
+        "type": "faction",
+        "summary": "The coaching inn itself as a social unit — innkeeper, staff, regulars — the PC's actual daily world and the campaign's home base."
+      },
+      {
+        "id": "barony-larenne",
+        "name": "The Barony of Larenne",
+        "type": "faction",
+        "summary": "The town's petty nobility, nominally sworn to the Kingdom of Daggerfall, in practice governing Larenne's small affairs with little oversight from above."
+      },
+      {
+        "id": "larenne-chapterhouse",
+        "name": "The Larenne Chapterhouse",
+        "type": "faction",
+        "summary": "A minor temple house of the Eight (soon the Nine), local seat of ordinary Breton religious and civic life; home to the campaign's chronicler."
+      },
+      {
+        "id": "clan-montalion",
+        "name": "Clan Montalion",
+        "type": "faction",
+        "summary": "A real Iliac Bay vampire bloodline with a quiet, rumored presence somewhere in Glenumbra's countryside. Not active in the PC's life yet — a thread for later, seeded lightly (an odd rumor, an old manor no one visits) rather than introduced.",
+        "hidden": true
+      },
+      {
+        "id": "shadowscale-thread",
+        "name": "What the Hist Marked Him For",
+        "type": "faction",
+        "summary": "Not yet a faction the PC has met — the Dark Brotherhood's Shadowscale tradition, and whatever eventually calls his clutch-mark awake. Present in this bible only as the deep truth the whole campaign is quietly built around; should not be given an active local presence or named contact until the GM deliberately chooses to begin that arc.",
+        "hidden": true
+      },
+      {
+        "id": "larenne-market-court",
+        "name": "The Market Court of Larenne",
+        "type": "institution",
+        "summary": "Not a court in any sense the Kingdom of Daggerfall would recognise: an informal tribunal that convenes at the market cross between the Trade Toll and the Ash Bell on Loredas, where bargains are witnessed by recitation and petty disputes settled from memory by the rhymer, Cassien Mallery. Anything it declines to hear goes up the road to Daggerfall and dies there of a Daggerfall answer."
+      },
+      {
+        "id": "larenne-watch",
+        "name": "The Larenne Watch",
+        "type": "faction",
+        "summary": "Four men and a bell, under Serjeant Aloys Bec, two of them his cousins. Keeps the market peace by consensus rather than force, and by unspoken policy does not attend trouble at the Hollow Horn, which has a doorsman."
+      },
+      {
+        "id": "the-wethermarch",
+        "name": "The Wethermarch",
+        "type": "faction",
+        "summary": "Ser Ranulf Coudrec's knight's fee on the moor's western edge, and the Vaudrys' hereditary opponent over the turbary rights on Cullen's Wet. Ninety years, six bloodied noses, one broken cart, and an extraordinary quantity of documentation. Coudrec is now hinting at a Daggerfall court, which is escalation at this parish's scale."
+      },
+      {
+        "id": "daggerfall-exchequer",
+        "name": "The Daggerfall Exchequer",
+        "type": "faction",
+        "summary": "Distant, uninterested, and punctual. Counts the barony's hearths every twelfth year and sets its dues by the count. Presently embodied in Serjeant-Assessor Guiscard Thenn, who is lodging at the Hollow Horn and asking mild questions. Not an antagonist — a weather system with paperwork."
+      },
+      {
+        "id": "the-blue-mare",
+        "name": "The Blue Mare at Trevec Cross",
+        "type": "faction",
+        "summary": "Guiot Malebranche's house on the far side of the moor, petitioning the barony for the coaching post-right on the entirely reasonable grounds that the road below Larenne floods four weeks a year. The Hollow Horn's only real enemy, and the argument is a good one."
+      },
+      {
+        "id": "direnni-cousinry",
+        "name": "The Direnni Cousinry of Glenumbra",
+        "type": "faction",
+        "summary": "A subscription society of minor Glenumbra gentry who meet four times a year above Larenne's Wool Hall to be told they have Direnni elven ancestors. Mostly claret and genealogy. Owns a locked press whose second shelf holds three volumes of genuine Direnni-descended Illusion practice, including a complete Corbeau. Presided over by Aumeric Delance, who keeps the key and decides who reads it. The single most guarded piece of magical instruction in the town, held by people who mostly cannot use it."
+      },
+      {
+        "id": "larenne-hedge-trade",
+        "name": "The Hedge Trade",
+        "type": "faction",
+        "summary": "Not an organisation — a profession with strong customs. Larenne's practical magic-workers, of whom Ysolt Fauvel is the only full practitioner in town. Restoration and Alteration for hire, taught by imitation and drill. Its governing social rule is that a practitioner who takes Illusion coin loses their honest custom, which is why the Veiling Arts have no visible teacher in Glenumbra despite being widely known."
+      },
+      {
+        "id": "road-trade-veilers",
+        "name": "The Road-Trade Veilers",
+        "type": "faction",
+        "summary": "A loose lineage rather than a guild: coachwardens and road-guards along the Daggerfall–Wayrest and Sentinel routes who pass the Veiling Arts hand to hand as working tools. No dues, no hall, no rolls — teaching is done by riding together. Hazruun of Tigonus is this campaign's contact with it, and the only realistic path above the Muffle available from Larenne."
+      }
+    ],
+    "edges": [
+      {
+        "from": "the-hollow-horn",
+        "to": "barony-larenne",
+        "relation": "pays its dues, stays out of court business"
+      },
+      {
+        "from": "the-hollow-horn",
+        "to": "larenne-chapterhouse",
+        "relation": "the innkeeper tithes, the staff attend on high days"
+      },
+      {
+        "from": "barony-larenne",
+        "to": "larenne-chapterhouse",
+        "relation": "the baron's family are the chapterhouse's patrons"
+      },
+      {
+        "from": "shadowscale-thread",
+        "to": "the-hollow-horn",
+        "relation": "dormant — the PC carries it into every scene without anyone, including him, knowing it"
+      },
+      {
+        "from": "larenne-market-court",
+        "to": "barony-larenne",
+        "relation": "tolerated by, never chartered — the Barony finds it cheaper than assizes"
+      },
+      {
+        "from": "larenne-market-court",
+        "to": "larenne-chapterhouse",
+        "relation": "shares the market cross and collects the ash-coppers into the tithe"
+      },
+      {
+        "from": "the-hollow-horn",
+        "to": "larenne-market-court",
+        "relation": "half the bargains recited at the cross were struck the night before in its common room"
+      },
+      {
+        "from": "the-hollow-horn",
+        "to": "barony-larenne",
+        "relation": "pays its dues and its market toll, holds the post-right at the barony's pleasure, stays out of court business"
+      },
+      {
+        "from": "the-hollow-horn",
+        "to": "larenne-chapterhouse",
+        "relation": "Perrine tithes, the staff attend on high days, Sister Ysolt patches the doorsman's knuckles"
+      },
+      {
+        "from": "barony-larenne",
+        "to": "larenne-chapterhouse",
+        "relation": "patrons in name; two years in tithe arrears in fact, which the Prior has not mentioned and intends to spend"
+      },
+      {
+        "from": "barony-larenne",
+        "to": "larenne-watch",
+        "relation": "commands, barely — four men and a bell under Serjeant Bec"
+      },
+      {
+        "from": "larenne-watch",
+        "to": "the-hollow-horn",
+        "relation": "unspoken policy: does not attend trouble there, because the Horn has a doorsman"
+      },
+      {
+        "from": "daggerfall-exchequer",
+        "to": "barony-larenne",
+        "relation": "counts its hearths every twelfth year; the new roll will raise its dues by near a third"
+      },
+      {
+        "from": "barony-larenne",
+        "to": "larenne-market-court",
+        "relation": "will have to take the shortfall out of the market tolls, and both sides know it"
+      },
+      {
+        "from": "larenne-market-court",
+        "to": "the-hollow-horn",
+        "relation": "meets in its corner settle; the Widow Osse's fleece price is set under its roof"
+      },
+      {
+        "from": "the-wethermarch",
+        "to": "barony-larenne",
+        "relation": "ninety years of turbary dispute over Cullen's Wet; now threatening a Daggerfall court"
+      },
+      {
+        "from": "the-blue-mare",
+        "to": "the-hollow-horn",
+        "relation": "petitioning to take the coaching post-right away, on an argument that is unfortunately good"
+      },
+      {
+        "from": "the-blue-mare",
+        "to": "barony-larenne",
+        "relation": "petitioner — the post-right is the Baroness's to move"
+      },
+      {
+        "from": "clan-montalion",
+        "to": "barony-larenne",
+        "relation": "dormant — pays the old manor's hearth-dues punctually, by a factor, and has never once been looked at"
+      },
+      {
+        "from": "direnni-cousinry",
+        "to": "barony-larenne",
+        "relation": "aspires to; several members claim cousinhood with the Vaudrys on evidence they prefer not to produce"
+      },
+      {
+        "from": "larenne-hedge-trade",
+        "to": "direnni-cousinry",
+        "relation": "openly contemptuous — Ysolt Fauvel can actually do what they collect books about"
+      },
+      {
+        "from": "larenne-hedge-trade",
+        "to": "larenne-chapterhouse",
+        "relation": "uneasy division of labour; the chapterhouse gives Restoration free on high days and undercuts her"
+      },
+      {
+        "from": "road-trade-veilers",
+        "to": "the-hollow-horn",
+        "relation": "overnight in the coach-yard four or five times a season; the inn is their fixed point on this stretch"
+      },
+      {
+        "from": "road-trade-veilers",
+        "to": "larenne-hedge-trade",
+        "relation": "mutually dismissive — road-trade thinks hedge-work is soft, hedge-trade thinks road-trade will get someone stuck"
+      },
+      {
+        "from": "clan-montalion",
+        "to": "road-trade-veilers",
+        "relation": "unacknowledged — a warded coach vanished on the moor road three winters ago and Hazruun keeps coming back"
+      }
+    ]
+  },
+  "geography": {
+    "nodes": [
+      {
+        "id": "glenumbra",
+        "name": "Glenumbra",
+        "type": "region",
+        "summary": "Rolling moor, hedgerow, and coaching-road country in western High Rock, nominally under the Kingdom of Daggerfall."
+      },
+      {
+        "id": "larenne",
+        "name": "Larenne",
+        "type": "settlement",
+        "summary": "A modest market town on the coaching road, known for nothing in particular — which is exactly why it suits this story."
+      },
+      {
+        "id": "the-hollow-horn-inn",
+        "name": "The Hollow Horn",
+        "type": "landmark",
+        "summary": "A coaching inn on Larenne's market square; the PC's workplace, and the campaign's true home base."
+      },
+      {
+        "id": "larenne-moor",
+        "name": "The Larenne Moor",
+        "type": "region",
+        "summary": "Wet, hedge-broken moorland around the town — dull and ordinary by day, and the kind of place old stories get told about by night."
+      },
+      {
+        "id": "the-old-manor",
+        "name": "The Dower House",
+        "type": "landmark",
+        "summary": "The Vaudry family's own shuttered dower-house on the moor road, closed since Jocelin Vaudry renounced his claim eighteen years ago — long unoccupied, or so everyone says. A future thread, not a current one; where Clan Montalion's rumored presence is seeded.",
+        "hidden": true
+      },
+      {
+        "id": "the-market-cross",
+        "name": "The Market Cross",
+        "type": "landmark",
+        "summary": "A squat granite pillar in Larenne's Weighing Yard with the Eight cut into its faces, worn now until only Zenithar's scales and Kynareth's bird remain legible — which Larenne considers appropriate to its priorities. Seat of the Market Court and the centre of Loredas trade."
+      },
+      {
+        "id": "the-weighing-yard",
+        "name": "The Weighing Yard",
+        "type": "landmark",
+        "summary": "Larenne's market square, known to no local as 'the market square'. The barony's public wool-beam stands under a slate roof at its north end; the Horn, Vaudry Hall and the chapterhouse hold three of its four sides."
+      },
+      {
+        "id": "the-horn-coach-yard",
+        "name": "The Horn's Coach Yard",
+        "type": "landmark",
+        "summary": "The yard behind the Hollow Horn, reached by the wide carriage arch off the Weighing Yard. The arch is the doorsman's post and the best sightline in Larenne."
+      },
+      {
+        "id": "vaudry-hall",
+        "name": "Vaudry Hall",
+        "type": "landmark",
+        "summary": "The barony's fortified manor house on the east side of the Weighing Yard — weights, measures, grazing rights and bridge disputes. Not a castle; a house with old arrow-slits and a good kitchen garden."
+      },
+      {
+        "id": "chapterhouse-larenne",
+        "name": "The Larenne Chapterhouse",
+        "type": "landmark",
+        "summary": "Modest house of the Eight on the Yard's south side, with cloister, scriptorium and ledger-room. Its bell, the Matron, rings the hours and the southbound coach alike."
+      },
+      {
+        "id": "tenter-row",
+        "name": "Tenter Row",
+        "type": "district",
+        "summary": "The wool-working lane running west and downhill from the Yard to the Anwyl — washing, fulling, stretching-frames, and a smell everyone has agreed to ignore."
+      },
+      {
+        "id": "coudrays-mill",
+        "name": "Coudray's Mill",
+        "type": "landmark",
+        "summary": "Fulling mill on the Anwyl at the foot of Tenter Row. Its undershot wheel is the sound Larenne sleeps to; the footpath below its race is the head of the Hare's Road."
+      },
+      {
+        "id": "the-pack-bridge",
+        "name": "The Pack Bridge",
+        "type": "landmark",
+        "summary": "Three narrow arches over the Anwyl at the town's lower end; source of about a quarter of all litigation heard in Vaudry Hall."
+      },
+      {
+        "id": "peatgate",
+        "name": "Peatgate",
+        "type": "district",
+        "summary": "Larenne's north entrance — an arch, a toll-post and a tally-board where everything cut from the moor pays a copper the cartload. Not a gate since the wall went for building stone."
+      },
+      {
+        "id": "sallow-lane",
+        "name": "Sallow Lane",
+        "type": "district",
+        "summary": "Damp back lodgings behind Tenter Row, where nearly all of Larenne's non-Bretons sleep. The town's tolerance is real, ordinary, and lives here rather than on the Yard."
+      },
+      {
+        "id": "the-bellows",
+        "name": "The Bellows",
+        "type": "district",
+        "summary": "Farriers, wheelwrights and the one smith, clustered on the eastern road out because the coaching trade breaks things."
+      },
+      {
+        "id": "the-anwyl",
+        "name": "The Anwyl",
+        "type": "landmark",
+        "summary": "The peat-brown moor stream that made the crossing that made the town. Drives Coudray's Mill, floods in Sun's Dusk, feeds the Iliac Bay somewhere west."
+      },
+      {
+        "id": "the-coach-road",
+        "name": "The Coach Road",
+        "type": "route",
+        "summary": "Properly the Bay Road: the Daggerfall–Camlorn coaching road, crossing the Larenne Moor north to south. Two coaches a day in good weather; none when the Anwyl is up."
+      },
+      {
+        "id": "the-black-cuts",
+        "name": "The Black Cuts",
+        "type": "landmark",
+        "summary": "The peat workings north of Peatgate — stepped trenches, herringbone drying-stacks, black-water pools, and hereditary turf-plots that each carry a family name."
+      },
+      {
+        "id": "the-marchstone",
+        "name": "The Marchstone",
+        "type": "landmark",
+        "summary": "A crooked Direnni boundary pillar on the open moor, its carving worn to suggestion, marking a border nobody observes. Sheep have polished one face smooth."
+      },
+      {
+        "id": "the-sisters",
+        "name": "The Sisters",
+        "type": "landmark",
+        "summary": "A stand of wind-crippled thorn and oak in a fold of the moor — the only real trees for miles. The chapterhouse says there are nine. Nobody counting has ever got nine."
+      },
+      {
+        "id": "the-widows-stone",
+        "name": "The Widow's Stone",
+        "type": "landmark",
+        "summary": "Niched wayside marker at the sixth milestone where coachmen leave a copper against foul weather. A shrine of Kynareth to the chapterhouse, the Widow's Stone to the drivers."
+      },
+      {
+        "id": "the-drown",
+        "name": "The Drown",
+        "type": "landmark",
+        "summary": "A quaking bog west of the road that takes sheep most years and has taken two men in living memory — and that is not where the last generation's stories put it."
+      },
+      {
+        "id": "the-hares-road",
+        "name": "The Hare's Road",
+        "type": "route",
+        "summary": "The unmapped dry-ridge way from below Coudray's mill-race round the back of the moor to the Bay Road south of the toll. Untaxed wool and unbonded brandy travel it. Everyone knows."
+      },
+      {
+        "id": "malmont-cross",
+        "name": "Malmont Cross",
+        "type": "settlement",
+        "summary": "The next change-house south, a long day's drive Daggerfall-ward, where the moor gives out into hedge and orchard country. The edge of the world Larenne has opinions about."
+      },
+      {
+        "id": "stanchgate",
+        "name": "Stanchgate",
+        "type": "settlement",
+        "summary": "Toll-bridge hamlet north of Larenne on the road toward Camlorn; the keeper is not the barony's man and does not pretend otherwise."
+      },
+      {
+        "id": "daggerfall",
+        "name": "Daggerfall",
+        "type": "settlement",
+        "summary": "The kingdom's seat, four days' coach south-west. Real to Larenne chiefly as a direction and as the place changes in the wool duty come from."
+      },
+      {
+        "id": "camlorn",
+        "name": "Camlorn",
+        "type": "settlement",
+        "summary": "The city three days' coach north beyond Stanchgate. Larenne's dealings with it amount to the northbound coach and the occasional cloth-buyer."
+      },
+      {
+        "id": "the-old-manor",
+        "name": "Dower House",
+        "type": "landmark",
+        "summary": "The shuttered manor two miles east of the Bay Road up an avenue of limes. No smoke, no lights, no servants seen in town for three generations — and yet the avenue is kept clear, the wall is kept mended, and a Daggerfall factor pays its land-dues to the penny every Evening Star in slightly old coin. Exterior rumour only.",
+        "hidden": true
+      },
+      {
+        "id": "the-rushlight-house",
+        "name": "The Rushlight House",
+        "type": "landmark",
+        "summary": "Ysolt Fauvel's charm-work premises and home: a low turf-roofed cottage at the moor edge past the end of Cordwain Row, damp-wards cut so often into the lintel that the wood is scalloped. She works with the door open in all weathers so people can see she has nothing to hide."
+      },
+      {
+        "id": "guisses-copying-room",
+        "name": "Guisse's Copying-Room",
+        "type": "landmark",
+        "summary": "A single rented room off the Chapterhouse yard, entered from the alley rather than the cloister, where Perrin Guisse copies wills, carting contracts and chapbooks — including the defective 'Wardrobe of Mist' with its sixth chapter missing."
+      },
+      {
+        "id": "the-cousinry-room",
+        "name": "The Cousinry Room",
+        "type": "landmark",
+        "summary": "The upper room of Larenne's Wool Hall, reached by an outside stair in full view of the square. Claret, candle-stubs, a half-invented Direnni genealogy, and a locked press whose second shelf holds three volumes of genuine Direnni-descended Illusion practice, including a complete Corbeau."
+      },
+      {
+        "id": "the-sheepfold-brams-dike",
+        "name": "The Sheepfold at Bram's Dike",
+        "type": "landmark",
+        "summary": "A ruined drystone fold an hour out along the dike — four walls to chest height, no roof, no one within earshot. Where a Larenne apprentice goes to practise a figure they do not want the town to know they are practising. Old scorch on the inner stones."
+      }
+    ],
+    "edges": [
+      {
+        "from": "glenumbra",
+        "to": "larenne",
+        "relation": "contains"
+      },
+      {
+        "from": "larenne",
+        "to": "the-hollow-horn-inn",
+        "relation": "contains"
+      },
+      {
+        "from": "larenne",
+        "to": "larenne-moor",
+        "relation": "borders"
+      },
+      {
+        "from": "larenne-moor",
+        "to": "the-old-manor",
+        "relation": "contains, seldom visited"
+      },
+      {
+        "from": "larenne",
+        "to": "the-market-cross",
+        "relation": "contains — the cross stands in the Weighing Yard"
+      },
+      {
+        "from": "the-market-cross",
+        "to": "chapterhouse-larenne",
+        "relation": "within earshot of all four bells"
+      },
+      {
+        "from": "larenne",
+        "to": "the-weighing-yard",
+        "relation": "contains"
+      },
+      {
+        "from": "the-weighing-yard",
+        "to": "the-hollow-horn-inn",
+        "relation": "the Horn holds its north side"
+      },
+      {
+        "from": "the-hollow-horn-inn",
+        "to": "the-horn-coach-yard",
+        "relation": "contains, through the carriage arch"
+      },
+      {
+        "from": "the-weighing-yard",
+        "to": "vaudry-hall",
+        "relation": "the hall holds its east side"
+      },
+      {
+        "from": "the-weighing-yard",
+        "to": "chapterhouse-larenne",
+        "relation": "the chapterhouse holds its south side"
+      },
+      {
+        "from": "the-weighing-yard",
+        "to": "tenter-row",
+        "relation": "runs west and downhill from"
+      },
+      {
+        "from": "the-weighing-yard",
+        "to": "peatgate",
+        "relation": "runs north to"
+      },
+      {
+        "from": "the-weighing-yard",
+        "to": "the-bellows",
+        "relation": "runs east to"
+      },
+      {
+        "from": "tenter-row",
+        "to": "coudrays-mill",
+        "relation": "ends at"
+      },
+      {
+        "from": "tenter-row",
+        "to": "sallow-lane",
+        "relation": "backs onto"
+      },
+      {
+        "from": "coudrays-mill",
+        "to": "the-anwyl",
+        "relation": "draws its leat from"
+      },
+      {
+        "from": "the-anwyl",
+        "to": "the-pack-bridge",
+        "relation": "is crossed at"
+      },
+      {
+        "from": "larenne",
+        "to": "the-pack-bridge",
+        "relation": "leaves the town southward by"
+      },
+      {
+        "from": "coudrays-mill",
+        "to": "the-hares-road",
+        "relation": "the path begins below its mill-race"
+      },
+      {
+        "from": "peatgate",
+        "to": "the-black-cuts",
+        "relation": "the turf-carts come down from"
+      },
+      {
+        "from": "larenne-moor",
+        "to": "the-black-cuts",
+        "relation": "contains"
+      },
+      {
+        "from": "larenne-moor",
+        "to": "the-marchstone",
+        "relation": "contains"
+      },
+      {
+        "from": "larenne-moor",
+        "to": "the-sisters",
+        "relation": "contains"
+      },
+      {
+        "from": "larenne-moor",
+        "to": "the-drown",
+        "relation": "contains, and not always in the same place"
+      },
+      {
+        "from": "larenne-moor",
+        "to": "the-hares-road",
+        "relation": "crossed by, along the dry ridges"
+      },
+      {
+        "from": "larenne-moor",
+        "to": "the-coach-road",
+        "relation": "crossed by, north to south"
+      },
+      {
+        "from": "the-coach-road",
+        "to": "larenne",
+        "relation": "passes through, and is the reason for"
+      },
+      {
+        "from": "the-coach-road",
+        "to": "the-widows-stone",
+        "relation": "passes, at the sixth milestone"
+      },
+      {
+        "from": "the-coach-road",
+        "to": "malmont-cross",
+        "relation": "next stage south, Daggerfall-ward"
+      },
+      {
+        "from": "the-coach-road",
+        "to": "stanchgate",
+        "relation": "next stage north, Camlorn-ward"
+      },
+      {
+        "from": "the-hares-road",
+        "to": "the-coach-road",
+        "relation": "rejoins, south of the Peatgate toll"
+      },
+      {
+        "from": "malmont-cross",
+        "to": "daggerfall",
+        "relation": "road bears away west toward"
+      },
+      {
+        "from": "stanchgate",
+        "to": "camlorn",
+        "relation": "road runs on north toward"
+      },
+      {
+        "from": "glenumbra",
+        "to": "daggerfall",
+        "relation": "kingdom's seat, four days' coach from Larenne"
+      },
+      {
+        "from": "glenumbra",
+        "to": "camlorn",
+        "relation": "three days' coach north of Larenne"
+      },
+      {
+        "from": "the-coach-road",
+        "to": "the-old-manor",
+        "relation": "passes its gate-lodge; two miles up the lime avenue"
+      },
+      {
+        "from": "larenne-moor",
+        "to": "the-old-manor",
+        "relation": "contains, and grazes around rather than under"
+      },
+      {
+        "from": "larenne",
+        "to": "the-rushlight-house",
+        "relation": "contains, at the moor edge past Cordwain Row"
+      },
+      {
+        "from": "larenne",
+        "to": "guisses-copying-room",
+        "relation": "contains, off the chapterhouse yard"
+      },
+      {
+        "from": "larenne",
+        "to": "the-cousinry-room",
+        "relation": "contains, above the Wool Hall on the Weighing Yard"
+      },
+      {
+        "from": "larenne-moor",
+        "to": "the-sheepfold-brams-dike",
+        "relation": "contains, an hour out along the dike"
+      },
+      {
+        "from": "the-sheepfold-brams-dike",
+        "to": "the-old-manor",
+        "relation": "not far apart, though nobody in Larenne says so out loud"
+      }
+    ]
+  },
+  "signature_systems": [
+    {
+      "name": "Breton Magic Resistance",
+      "summary": "Ordinary background fact of life here — Bretons shrug off hedge-curses the way other folk shrug off bad weather; used for texture, not a PC mechanic (the PC isn't Breton)."
+    },
+    {
+      "name": "The Green Murmur (Hist-Sense, Dormant)",
+      "summary": "The PC's private, barely-understood undercurrent — the Hist's mark on him, currently manifesting only as unexplained stillness, uncanny reflex, and dreams he doesn't share. NOT a usable power yet. This surfaces slowly, GM-paced, never player-invoked on demand."
+    },
+    {
+      "name": "Vampirism (Iliac Bay Clan Lore)",
+      "summary": "Real, present in the region via Clan Montalion and others, but a distant thread. When/if the PC pursues it, it should be a deliberate, consequential arc — not a quick reskin."
+    },
+    {
+      "name": "The Assassin's Illusion (Earned, Not Given)",
+      "summary": "The PC's eventual magical specialty — Illusion-school effects fitting an assassin's trade (Paralysis, Invisibility, and kin like Silence, Disguise, Fear). Starts at zero. Unlocked only through real in-fiction training (a mentor, a guild, dangerous self-teaching) — never a free background grant or an automatic level-up perk. The kit should give this school real named structure to train INTO, not hand it over."
+    },
+    {
+      "name": "The Four Bells",
+      "summary": "Larenne's day is structured by the Chapterhouse bells — Firstlight, the Trade Toll, the Ash Bell, and the Long Bell — and the Hollow Horn runs on them backward, waking at the Trade Toll and doing real business after the Ash Bell. Useful GM clock: naming which bell has just rung fixes the hour, the legality of bargains, and the town's mood in one line."
+    },
+    {
+      "name": "Hatch-Kin Reckoning",
+      "summary": "Argonian kinship runs sideways through the hatching-clutch rather than down through parents. Culturally load-bearing for the PC: he has no answer to 'which pool, which season, which tree', and every Breton kinship courtesy he participates in is built on a question shaped wrong for him."
+    },
+    {
+      "name": "Hedge-Work (Breton Practical Magic)",
+      "summary": "Magic as a purchased trade. Damp-wards, setting-charms, sheep-finding, cellar runes. Its vocabulary is the campaign's magic vocabulary: the draw, a figure, reciting cold, the closing. Competent, unglamorous, and universally present — texture rather than a PC resource."
+    },
+    {
+      "name": "The Veiling Arts — the Five Figures",
+      "summary": "Illusion's named ladder: the Candle, the Muffle, the Veil, the Sway, the Still Hand. Real named structure for the PC to train INTO. Each figure is unlocked only by a named source plus tracked drill plus a first use under genuine risk. Socially disreputable across High Rock; the Still Hand (paralysis) has no honest teacher anywhere in Glenumbra."
+    },
+    {
+      "name": "The Sticking (Illusion Backlash)",
+      "summary": "A figure whose closing cannot be performed settles onto its maker instead of failing. Deafness from a stuck Muffle; a body out of step with the light from a stuck Veil; a carried emotion from a stuck Sway; a locked joint from a stuck Still Hand. Rarely lethal, frequently permanent, always visible — the folk-horror cost that makes self-teaching a real gamble rather than a shortcut."
+    },
+    {
+      "name": "The Green Murmur (Hist-Sense, Dormant)",
+      "summary": "Restated from the skeleton and reinforced here: no figure, no closing, no draw, no mechanic, no player invocation. Stillness before violence, a hand already in place, dreams of pale-barked trees in warm black water. GM-paced, deniable, never named in narration and never connected to anything."
+    },
+    {
+      "name": "Vampirism (Iliac Bay Clan Lore)",
+      "summary": "Eight bloodlines share the coast, each with inherited gifts and old grudges, all preferring quiet territorial arrangements to open predation. Clan Montalion holds the Glenumbra countryside. Kept at rumour-distance; Montalion have no appetite for Argonian blood, which is a built-in reason the thread can stay dormant for as long as the player leaves it alone."
+    }
+  ],
+  "timeline": [
+    "Long before this story: the Hist mark a hatchling in Black Marsh, as they do, sometimes, for reasons no outsider is told.",
+    "In the PC's early years: he leaves Black Marsh (the how and why is a Phase-G character-creation question, not pre-decided here) and eventually finds his way to High Rock.",
+    "Some time before the campaign opens: he takes work as doorsman at the Hollow Horn in Larenne, and has been there long enough to be a known, unremarkable fixture of the town.",
+    "Now: the campaign opens on an ordinary night at the door of an ordinary inn, generations before the Camoran Usurper crisis and centuries before any Daedric invasion — nothing about this era is urgent except, eventually, everything about this PC.",
+    {
+      "when": "First Era, the Direnni age",
+      "event": "High Rock is held from the Direnni island in the bay. Larenne is not a town yet — only the laren, the firm gravel shelf between two bogs where the drove road stops sinking. Four centuries later a paid chapterhouse scribe will retrofit the name into elvish as 'Lar-Renne', the Lady's Rest."
+    },
+    {
+      "when": "First Era, the Alessian wars",
+      "event": "A Direnni host breaks an Alessian army somewhere out on the Glenumbra moors. Larenne insists the ground was theirs, past Ninebank, and points to the iron the peat gives up. So does every other parish between here and Camlorn."
+    },
+    {
+      "when": "Second Era, the long lawless gap",
+      "event": "No Empire, no law on the drove road. Larenne walls its market side and hangs a great hollowed ox-horn on the inn's roof-ridge; a watchman sounds one long note when the road is clear. The inn takes its name from the horn and keeps it."
+    },
+    {
+      "when": "Early in the Peace",
+      "event": "The Septim line mends the roads and sells charters to pay for it. The Kingdom of Daggerfall grants Larenne a market charter, sets the lawful pint by the horn-measure kept at the sign of the Horn, and makes the innkeeper a shilling-a-year officer of the market. The coaching trade arrives, and with it everything Larenne now lives on."
+    },
+    {
+      "when": "Four generations back",
+      "event": "Larenne's feudal levy to Daggerfall is commuted from men-at-arms to coin — a bargain that looked shrewd at the time and now merely looks old. Royal presence thins to a justiciar riding the assize circuit every third autumn."
+    },
+    {
+      "when": "Three generations back",
+      "event": "The Vaudrys, wool-factors with scales and weights, marry into the barony of Larenne. The older families begin calling them the wool-lords, and have not stopped."
+    },
+    {
+      "when": "About eighty years ago",
+      "event": "The moor-edge boundary north of Ninebank enters formal review between Larenne and its neighbours. It remains under review. The bridge-toll goes uncollected by anyone lawful, and is therefore collected by whoever gets there first."
+    },
+    {
+      "when": "About sixty years ago",
+      "event": "Baron Alric Vaudry's marriage to Ysabeau Corvenne of Daggerfall is annulled on a consanguinity ruling from the Larenne Chapterhouse, which acquires a new lead roof the same summer. Ysabeau does not go home. The Corvennes keep the wool contract and Larenne's wool has priced a little low ever since."
+    },
+    {
+      "when": "About forty years ago — the Wet Years",
+      "event": "Three seasons of rain: the oats drown in the ground, the sheep take the water-rot, and the barony opens its granary and charges for it. 'At granary prices' enters the local tongue and stays there."
+    },
+    {
+      "when": "About twenty-five years ago — the Malt Fire",
+      "event": "A brewhouse fire on a dry night with a north wind takes a third of Market Row and two lives. The barony ordains brick on the market side, which is why half the square does not match the other half, and why the Hollow Horn's north wing does not match the Hollow Horn. Blame settles on a Khajiit sugar-tinker who had moved on two days earlier; the caravans understand the verdict and stop coming to Larenne."
+    },
+    {
+      "when": "About twenty-two years ago — the Ninebank Judgment",
+      "event": "The assize rules on the turbary rights at Ninebank between the Perrenots and the Gascels. The ruling is written, sealed, wrapped in oilcloth, and never once obeyed. The annual first-day fight over the same bank becomes a fixture the town turns out to watch."
+    },
+    {
+      "when": "About eighteen years ago",
+      "event": "Jocelin Vaudry, elder heir to the barony, renounces his claim and rides for Daggerfall to take orders. Letters come for a year and then stop. The Vaudry dower-house on the moor road is shut up that season and stays shut — though someone unnamed still pays to have its shutters repainted."
+    },
+    {
+      "when": "About twelve years ago",
+      "event": "The present Baroness Vaudry succeeds sideways, as second child, to a seat nobody expected her to hold. She governs Larenne's small affairs with almost no oversight from above, which is both the barony's freedom and its ceiling."
+    },
+    {
+      "when": "Nine years ago — the Ninebank Man",
+      "event": "The peat-cutters bring up a body from the deep bog: tanned brown, hair intact, a twisted cord still at the throat, older than the Empire. Brother Aumery draws him and buries him in the chapterhouse yard. The town learns, and would rather not have learned, that this ground keeps what it is given and returns it on its own schedule."
+    },
+    {
+      "when": "Some years before now",
+      "event": "An Argonian takes the door at the Hollow Horn. He stays long enough that the market children stop staring and half the regulars owe him money — long enough to become 'the Argonian at the Horn', which is a place in the town, and a warm one, and not the same thing as being from here."
+    },
+    {
+      "when": "Now",
+      "event": "An unremarkable stretch of the Peace. No war, no crisis, no portent — a market town counting its years by a fire, a flood, a feud and a body in the peat, generations before any Camoran claims a crown and centuries before any gate opens."
+    },
+    {
+      "when": "Long before this story",
+      "event": "Direnni elven practice filters down into Breton households and becomes hedge-work: a trade taught by imitation, priced by the job, and stripped of theory."
+    },
+    {
+      "when": "A generation or so past",
+      "event": "Magister Ilaine Corbeau of Wayrest sets down 'The Wardrobe of Mist', a plain-language Illusion primer for persons of modest ability, whose sixth chapter concerns the closing."
+    },
+    {
+      "when": "Roughly thirty years ago",
+      "event": "Ysolt Fauvel finishes her apprenticeship, learns the first two figures of the Veiling Arts, and stops speaking them aloud on the day she realises what it would cost her Restoration custom."
+    },
+    {
+      "when": "Roughly twenty years ago",
+      "event": "Perrin Guisse, nineteen, teaches himself the Muffle from a copy of Corbeau missing its sixth chapter, cannot perform the closing, and takes a sticking that never lifts. He tells the town it is the moor damp. He keeps selling the book."
+    },
+    {
+      "when": "Three winters ago",
+      "event": "A coach warded by Hazruun of Tigonus goes out onto the Larenne moor road and is never found — no horses, no wheels, no mud-marks. She has worked that stretch ever since."
+    },
+    {
+      "when": "Now",
+      "event": "There is still no Illusion teacher in Larenne, a defective book on sale for coppers, a complete one locked above the Wool Hall, and a coachwarden who will teach anyone willing to leave town and be shot at."
+    }
+  ],
+  "hidden_truths": {
+    "note": "GM-EYES-ONLY. Never surface directly to the player; reveal only through the pacing discipline below.",
+    "shadowscale_truth": "The PC is a Shadowscale: an Argonian marked as a hatchling by the Hist to eventually serve the Dark Brotherhood as one of its deadliest instruments. He does not know this. The mark ('clutch-mark') is physically present on him. Its dormant effects so far: occasional uncanny stillness/calm in tense moments, reflexes that outpace his own awareness of learning them, and recurring dreams of Hist-trees he has never consciously seen described accurately. It should NOT be named, explained, or connected to the Dark Brotherhood in narration until the GM deliberately begins that arc — likely much later in the campaign, triggered by a real in-fiction event (a true assassination target crossing his path, a Brotherhood agent recognizing the mark, a moment of extremity that cracks the dormancy), never by simple time passing or dice rolls alone.",
+    "clutch_mark_cover_story": "The PC believes the mark is an ordinary childhood scar, wrongly explained. Settled at character creation: he left Black Marsh as a hatchling and was raised through his early years by Counts-Her-Coppers, an Argonian tinker who works the Daggerfall coaching circuit and still visits Larenne twice a year. She told him, plainly and without cruelty, that the mark was left by a bad fever that nearly killed him young. He has never had reason to doubt this, and neither, fully, has she — it is not a lie born of malice or secrecy, just an honest wrong answer, though the bible leaves open whether some quiet part of her has ever really sat with the question. She is the closest thing he has to family and the single best-positioned person in his life to eventually learn the truth alongside him — use her sparingly and exactly for that reason.",
+    "confirmed_destination": "Player has explicitly confirmed (not just implied): Sits-in-Shadow WILL eventually join the Dark Brotherhood, as his Shadowscale birthright made manifest. This is a settled destination, not a maybe. The GM chooses the how and the timing — likely triggered by exactly the kind of event already specified below (a real contract/target crossing his path, a Brotherhood agent recognizing the clutch-mark, a moment of extremity cracking the dormancy) — but the eventual recruitment itself should be treated as certain, to be built toward deliberately rather than left ambiguous. Still not rushed. Still earns its scenes. The vampirism arc (now active, chosen by the player) should be allowed to complicate this convergence rather than replace it — a vampire Shadowscale recruited into the Dark Brotherhood is richer than either thread alone, per Signature System 11's own note that the two arcs converge badly and interestingly if both run.",
+    "REVEALED_STATUS": "AS OF 4th of Sun's Height, 3E 248: the Shadowscale truth has been REVEALED to and ACCEPTED by the PC. A Dark Brotherhood Speaker recognized his clutch-mark, explained what it means, and he chose induction into the Brotherhood fully aware. The pacing_discipline below now applies ONLY to the deeper, still-fully-hidden Sithis-parentage layer (see sithis_parentage) -- do NOT continue treating the Shadowscale/clutch-mark/Hist-mark connection as secret or deniable in narration going forward; it is now known, owned, and can be referenced openly by the PC and by Brotherhood-aligned NPCs. The dormancy/never-name rules were specific to THIS reveal and are now spent.",
+    "pacing_discipline": "Player explicitly asked for this NOT to move fast. Default cadence: small, deniable, ambiguous signs only — spaced many sessions apart, easy to read as personality/coincidence rather than destiny, until the GM chooses a deliberate turning-point scene to begin the real arc. Never have an NPC name what he is; never have the PC's own narration explain it to itself. Vampirism (Clan Montalion) is a separate, later, optional thread — introduce it, if at all, only as faint regional rumor for a long while, and only pursue it as an active arc if the player steers toward it.",
+    "earned_progression_arc": "Player wants a deliberate, EARNED mechanical and personal arc toward becoming a master assassin — explicitly NOT gifted via background, feat, or automatic level-up. Mechanical target: Illusion-school magic fitting an assassin's trade (Paralysis, Invisibility, and similar — Silence, Disguise, Fear/Sleep-adjacent effects), reached through in-fiction training (a mentor, a guild, self-taught trial under real risk), never handed at character creation. The PC starts with NO magic and NO assassin training at all — an ordinary doorsman. Personality target: a slow shift from personable/ordinary toward calm, ruthless, calculated — 'the best assassin the Dark Brotherhood has ever seen' is the long-term destination, not the starting point, and should be shown through earned choices and consequences in play, not narrated as a given. Thematic note: this consciously-chosen path toward assassin mastery runs in parallel with, and should eventually converge with, the hidden Shadowscale truth above — he is choosing, through will and training, to become exactly what the Hist already marked him for without his knowledge. That convergence is a major later story beat, not a starting fact.",
+    "sithis_parentage": "GM-EYES-ONLY, SECOND-LAYER SECRET — deeper than the Shadowscale truth and revealed later still, if ever, and only in a deliberate turning-point scene. He is not merely a Hist-marked Shadowscale by ordinary Brotherhood doctrine; he is a mortal scion touched or sired by Sithis itself — the Dread Father, the Force outside Creation, the void the Dark Brotherhood's whole philosophy orbits — structurally analogous to a Bhaalspawn carrying a murder-god's essence in their blood. Read this as meaning the Hist's mark on him is not purely an Argonian rite: it is also (unknown even to most Shadowscales, let alone to him) the place where Sithis's touch entered him, hatchling and vessel both. This raises what he eventually is far above an ordinary Shadowscale — closer to a living conduit for Sithis's will than a trained instrument of it. Concretely, over a VERY long timescale, this should manifest as: a wrongness beneath the ordinary Green Murmur signs that is colder and vaster than Hist-dreams alone (the void itself, not just trees); an eventual compulsion toward killing that isn't trained instinct but something closer to a pull from outside him, arriving late in the campaign and never before; and, far off, the possibility that fully embracing his nature could grant or demand something beyond normal Illusion mastery — not to be improvised lightly, and only after the Shadowscale truth itself has already been earned and revealed in play. The reveal, when the GM chooses to run it, should be its OWN separate turning-point scene, not folded into the Shadowscale reveal — two layers, two moments, both earned, neither rushed. Everything in shadowscale_truth's and pacing_discipline's restrictions apply here at least as strictly, if not more so: no NPC ever names Sithis in connection to him, no dream or sign explicitly says 'god' or 'divine' — keep every hint exactly as deniable as the Hist-dreams already are."
+  }
+}

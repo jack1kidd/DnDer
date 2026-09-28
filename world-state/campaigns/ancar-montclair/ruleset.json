@@ -1,0 +1,121 @@
+{
+  "name": "The Long Vigil World Kit",
+  "kit": "dnd5e",
+  "kit_note": "Same Glenumbra/High Rock world and chassis philosophy as The Unquiet Peace, adapted for a Restoration/Warding warrior-priest instead of an Illusion/assassin path. D&D 5e chassis by explicit player request, Elder Scrolls flavor throughout -- never named in generic D&D terms at the table. FOUR chassis overrides, and the override always wins: (1) SPELL SLOTS DO NOT EXIST -- every working is paid for in MAGICKA. (2) XP thresholds come from this file, not the 5e table. (3) NOTHING MAGICAL OR MARTIAL IS GRANTED AT CHARACTER CREATION -- the PC begins at Level 0 as a Chapterhouse Postulant with no class, no subclass, no spellcasting and no combat training; every one of those is unlocked by the Vigil's Ascent (Signature System 2), in fiction, at the table -- nothing handed, everything earned. (4) Spell tiers are re-graded by school rank, not by SRD level -- Turn Undead, Banish, and Greater Restoration are late, expensive, earned workings here, whatever the SRD says.",
+  "stat_schema": {
+    "attributes": [
+      "str",
+      "dex",
+      "con",
+      "int",
+      "wis",
+      "cha"
+    ],
+    "vitals": [
+      "hp",
+      "magicka"
+    ],
+    "resources": {
+      "school_ranks": {
+        "_default": "untrained",
+        "_scale": "untrained | novice | apprentice | journeyman | expert | master",
+        "restoration": "untrained",
+        "alteration": "untrained",
+        "destruction": "untrained",
+        "conjuration": "untrained",
+        "illusion": "untrained",
+        "mysticism": "untrained"
+      },
+      "ladder_gates": {
+        "_note": "Signature System 2, the Vigil's Ascent. Each gate opens on a named in-fiction event.",
+        "gate_0_the_postulant": null,
+        "gate_1_the_calling": null,
+        "gate_2_a_discipline": null,
+        "gate_3_the_first_working": null,
+        "gate_4_sworn": null,
+        "gate_5_journeyman": null,
+        "gate_6_expert": null,
+        "gate_7_master": null,
+        "gate_8_the_badge": null
+      },
+      "standing": {
+        "chapterhouse_camlorn": 0,
+        "camlorn_town": 0
+      },
+      "luck": 10,
+      "luck_burned_total": 0
+    }
+  },
+  "progression": {
+    "xp_thresholds": {
+      "1": 0,
+      "2": 300,
+      "3": 900,
+      "4": 2700,
+      "5": 6500
+    },
+    "note": "Level 0 is a valid, stable state, not a bug -- a PC with no class and level 0 is correct until Gate IV (Sworn) opens."
+  },
+  "character_options": {
+    "creation_order": [
+      "Race",
+      "Birthsign",
+      "Background",
+      "Starting state (Level 0, Postulant)"
+    ],
+    "race": {
+      "name": "Breton",
+      "homeland": "High Rock",
+      "attributes": "+2 Intelligence, +1 Willpower (Wis)",
+      "blood": "Dragon Skin -- advantage on saving throws against spells; magic resistance runs in Breton blood, which is exactly why the Chapterhouse recruits so many of them into the Vigil.",
+      "culture": "Feuding duchies, Direnni-descended nobility, knightly orders more real on parchment than on a battlefield -- and the Chapterhouses of the Eight, which take their charge against the unnatural more seriously here than the crown does."
+    },
+    "birthsign": {
+      "name": "The Ritual",
+      "power": "1/long rest, Mara's Gift: heal a creature for 3 x level HP once the Well is open (Gate III+). Separately, 1/day, Blessed Word: turn undead within 30 ft (Wis save vs 8+prof+Wis) once earned (Gate VII). Both are LOCKED until the relevant gate opens -- the sign marks his nature, not a free power."
+    },
+    "background": {
+      "name": "Chapterhouse Ward",
+      "feature": "Raised inside Camlorn's Chapterhouse of the Eight rather than born to it -- free bed and board within any Chapterhouse in the Empire, and the clergy's trust (not yet the Vigil's authority)."
+    },
+    "class_note": "There is no class at Level 0. The eventual chassis is a Paladin/Cleric hybrid (heavy armor, shield, one-handed weapon, Restoration/Alteration warding magic) -- built entirely through the Vigil's Ascent, never granted whole."
+  },
+  "signature_systems": [
+    {
+      "name": "1. Magicka, Not Slots -- and a Well That Starts Empty",
+      "summary": "Every working is paid for from a single magicka pool, charged aloud at the table. At Level 0 the Well does not exist -- Gate III opens it."
+    },
+    {
+      "name": "2. The Vigil's Ascent (the Ladder of Training)",
+      "summary": "Gate 0 The Postulant: chores, scripture, the cloister -- open from creation. Gate I The Calling: a real, frightening brush with the unnatural (a haunting, a corpse that shouldn't move, a rumor too specific to be nothing) that makes the Vigil his choice, not his upbringing. Gate II A Discipline: real weapon-and-shield drilling begins under a sworn Templar, weeks of it, real bruises. Gate III The First Working: the Well opens -- his first Restoration or Warding spell, earned through instruction and a real cost paid. Gate IV Sworn: formally inducted as a Templar of the Vigil, first real authority. Gate V Journeyman: a working used with genuinely mortal stakes in a real hunt. Gate VI Expert: a hunt completed that cost him something lasting. Gate VII Master: Turn Undead and the heavier Restoration tier unlock, after a cost the Ritual sign's Blessed Word specifically demands. Gate VIII The Badge: full Inquisitor standing -- the Chapterhouse's authority to act alone, anywhere, against the unnatural."
+    },
+    {
+      "name": "3. Restoration & Warding, Re-Graded",
+      "summary": "Novice: minor heal, resist poison/disease, light ward. Apprentice: cure light wounds, bless weapon (temporary radiant-equivalent vs the unnatural). Journeyman: greater ward, remove curse. Expert: dispel the unnatural, lesser banish (Daedra/undead only). Master: Turn Undead, Greater Restoration, true Banish. Nothing above Novice exists before Gate III; nothing at Expert/Master exists before Gate VII."
+    },
+    {
+      "name": "4. Heavy Steel and the Shield",
+      "summary": "The eventual martial chassis: heavy armor, shield, one-handed weapon, Champion-style reliability. Sacred Steel (unlocked at Gate IV): 1/short rest, spend 2 magicka to make one weapon strike deal +2d6 radiant-equivalent damage against undead, Daedra, or the willingly corrupted -- ordinary mortals take no bonus, which matters, and is meant to matter."
+    },
+    {
+      "name": "5. The Chapterhouse of the Eight, and the Camlorn Vigil",
+      "summary": "The Vigil is a standing order within the Chapterhouse of the Eight, tasked specifically with hunting the undead, Daedra-touched, necromancers, and confirmed vampires -- distinct from ordinary clergy. Standing with chapterhouse_camlorn tracks trust and authority; standing with camlorn_town tracks the city's opinion of an order that digs up graves and asks uncomfortable questions."
+    },
+    {
+      "name": "6. The Unnatural Is Real, and Regional",
+      "summary": "Vampirism, necromancy, and Daedra-worship are established, present threats in this world (see world-bible.json's vampirism/Clan Montalion thread, kept at rumor-distance elsewhere) -- Camlorn and its surrounding High Rock countryside have their own separate, unconnected cases for this PC to find. Never assume overlap with any other PC's specific antagonists unless the player steers there deliberately."
+    },
+    {
+      "name": "7. Skills + GM-Judged Skill Growth",
+      "summary": "Individual skills can grow ahead of overall level through real, repeated, earned practice, GM's judgment, same convention as the wider Glenumbra table."
+    },
+    {
+      "name": "8. Dying, Luck, and the Quiet Clock",
+      "summary": "Standard 5e death-save shape. Luck starts at 10, burned (not rolled) to flip a failure, does not return on rest."
+    }
+  ],
+  "hidden_tracks": {
+    "note": "GM-EYES-ONLY. Nothing forced here unless play steers toward it.",
+    "why_the_clergy_watch_him": "The priests who raised him have always watched Ancar a shade more closely than the other orphans they've taken in -- not explained yet, not necessarily sinister, reserved for a future scene if the player pulls that thread."
+  }
+}

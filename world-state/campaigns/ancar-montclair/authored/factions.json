@@ -1,0 +1,178 @@
+{
+  "npcs": {
+    "Perrine Aubrec": {
+      "description": "Innkeeper and owner of the Hollow Horn, widow of Gerauld Aubrec, past fifty and very short. Nineteen years holding a licensed change-house on the Daggerfall coaching road. Keeps the house ledger in a private shorthand of hooks and bars that no one else can read, which makes her the only living person who knows what the Horn is worth. She hired the PC herself off the stableyard over the objection of two aldermen and her own niece, and has never explained why beyond 'he was standing still and everyone else was shouting.' She does not praise him; she has also never docked his wage for a broken bench.",
+      "attitude": "friendly",
+      "tags": { "locations": ["The Hollow Horn", "Larenne"], "quests": [] }
+    },
+    "Toussaint Merigot": {
+      "description": "Head ostler of the Hollow Horn, called Touss; forty years in that yard under three owners. Deaf in the left ear and answers half-heard questions with whatever he meant to say anyway. Names a coach team by the sound of its gait through the arch before it is in the yard, aloud, to nobody. The one man in Larenne who has never called the PC 'the Argonian' — he sorts people the way he sorts horses, by whether they are any use.",
+      "attitude": "ally",
+      "tags": { "locations": ["The Hollow Horn"], "quests": [] }
+    },
+    "Nolwenn Aubrec": {
+      "description": "Perrine's niece, thirty-one, runs the Hollow Horn's kitchen, linen and taproom slate — and only the taproom slate, which is the whole of her grievance. She expects to inherit the Horn and is not certain she will; Perrine has never said so, has a living brother in Wayrest with sons, and enjoys not saying so. Sharp with anyone her aunt visibly favours, the PC included. Not cruel — nineteen years into a job that may turn out to have been somebody else's.",
+      "attitude": "neutral",
+      "tags": { "locations": ["The Hollow Horn"], "quests": [] }
+    },
+    "Ambrose Cathelin": {
+      "description": "Pot-boy at the Hollow Horn, fourteen, called Broz. Hero-worships the PC with total tactlessness and asks constantly about Black Marsh — the trees, the eggs, whether they really eat mud. The PC does not have the answers and Broz has never noticed, because the PC has become very good at handing him a story instead of a fact.",
+      "attitude": "friendly",
+      "tags": { "locations": ["The Hollow Horn"], "quests": [] }
+    },
+    "Dame Marguerite Osse": {
+      "description": "The Widow Osse: Larenne's chief wool-factor and effective head of the Market Court. Has taken the Hollow Horn's corner settle every market day for twenty-two years. The price of fleece in this parish is whatever she says it is over hot ale between the eighth and ninth hour. Treats the PC as furniture that occasionally does something useful, which from her is not an insult.",
+      "attitude": "neutral",
+      "tags": { "locations": ["The Hollow Horn", "Larenne"], "quests": [] }
+    },
+    "Hanryk Sowe": {
+      "description": "Nord coachman on the Daggerfall run, arriving at the Hollow Horn every ninth day with the mail, the news and a tab Perrine allows to reach exactly forty drakes and never one more. Loud, generous, indebted, and the town's fastest route for a rumour to travel two hundred miles. Genuinely likes the PC and expresses it by telling everyone in the taproom stories about him that are not accurate.",
+      "attitude": "friendly",
+      "tags": { "locations": ["The Hollow Horn"], "quests": [] }
+    },
+    "Ysore Cabray": {
+      "description": "Hedge-wife who sells charms out of the Hollow Horn's snug and keeps the inn's cold-larder charm renewed twice a year for the price of her seat. Direnni-descended if you believe her mother. Cousin to Reeve Osmond Cabray, which she mentions when it is useful. Reads the ordinary Glenumbra hedge-magic as a trade, not a mystery, and is unbothered by things other people find strange — including, so far, the PC.",
+      "attitude": "neutral",
+      "tags": { "locations": ["The Hollow Horn", "Larenne"], "quests": [] }
+    },
+    "Baroness Isabeau Vaudry": {
+      "description": "Holder of the Barony of Larenne in her own right, her husband Ottevin eleven years dead. Fifty-four, mourning grey out of habit rather than grief. Asks questions as though she expects true answers — of stablehands and of Argonians included — which unnerves people far more than contempt would. Her whole current life is one arithmetic problem: the new hearth-roll, and where a third more in dues is to come from.",
+      "attitude": "neutral",
+      "tags": { "locations": ["Larenne"], "quests": [] }
+    },
+    "Amaury Vaudry": {
+      "description": "The Baroness's son and heir by Breton custom, twenty-three, likeable, an adequate rider, and desperate to be anywhere with a name on it — Daggerfall, a knightly order, a war if one could be found. Drinks at the Hollow Horn more than the household approves and is scrupulously, embarrassingly polite to the doorsman, which is its own kind of distance.",
+      "attitude": "friendly",
+      "tags": { "locations": ["Larenne", "The Hollow Horn"], "quests": [] }
+    },
+    "Sibylle Vaudry": {
+      "description": "The Baroness's daughter, nineteen. Has read the moor-law, understands the turbary rolls on Cullen's Wet better than the reeve does, and is the one the tenants go to when they want a thing actually fixed. Custom favours her brother. Everyone in the household knows it, nobody says it, and it sits at the Vaudry table every evening like a fourth chair.",
+      "attitude": "friendly",
+      "tags": { "locations": ["Larenne"], "quests": [] }
+    },
+    "Reeve Osmond Cabray": {
+      "description": "Town reeve of Larenne: collects the market tolls, keeps the market peace, cousin to the hedge-wife in the Horn's snug. Tired and broadly fair. Lets the Hollow Horn's benches spill onto the square on fair days in exchange for a keg finding its way to his kitchen — an arrangement so old it has stopped being corruption and become custom. The PC's practical point of contact with authority.",
+      "attitude": "friendly",
+      "tags": { "locations": ["Larenne", "The Hollow Horn"], "quests": [] }
+    },
+    "Serjeant Aloys Bec": {
+      "description": "Commands the Larenne watch, which is four men — two of them his cousins — and a bell. His unspoken, unwritten, never-acknowledged policy is that trouble at the Hollow Horn is handled by the Hollow Horn's doorsman, and that this suits everybody. He has bought the PC a drink for this exactly once and did not say what it was for.",
+      "attitude": "friendly",
+      "tags": { "locations": ["Larenne", "The Hollow Horn"], "quests": [] }
+    },
+    "Ser Ranulf Coudrec of Wethermarch": {
+      "description": "Holder of a knight's fee on the moor's western edge and the Vaudrys' hereditary opponent in the turbary dispute over Cullen's Wet — whose tenants may cut peat, how many spades' breadth, in which weeks. Ninety years of argument, six bloodied noses in the Horn's yard, one broken cart, and an extraordinary quantity of documentation. Has lately begun hinting he will take it over the Baroness's head to a Daggerfall court.",
+      "attitude": "suspicious",
+      "tags": { "locations": ["Larenne"], "quests": [] }
+    },
+    "Serjeant-Assessor Guiscard Thenn": {
+      "description": "Sent from the Daggerfall exchequer to take Larenne's new hearth-roll, and lodging at the Hollow Horn because there is nowhere else. Mild, patient, unhurried, and extremely well-aimed: he asks the staff small questions about who sleeps where and writes the answers down. The doorsman takes his coat every evening. He is not an enemy and never becomes one; he is simply the most dangerous man in town to four hundred households' arithmetic.",
+      "attitude": "neutral",
+      "tags": { "locations": ["The Hollow Horn", "Larenne"], "quests": [] }
+    },
+    "Prior Faustin Belloc": {
+      "description": "Head of the Larenne Chapterhouse, past seventy, his religion narrowed over the years to Stendarr and the almshouse loaves, which he holds to be the same subject. Chaplain to the Baroness by courtesy and her creditor by accident — the chapterhouse has carried the barony's tithe arrears two years without mentioning it. Wants to convert that unmentioned debt into a Julianos scriptorium before he dies, which puts him squarely in the path of the hearth-roll.",
+      "attitude": "neutral",
+      "tags": { "locations": ["Larenne"], "quests": [] }
+    },
+    "Sister Ysolt Meaune": {
+      "description": "Keeps the Larenne Chapterhouse infirmary and is the nearest thing the town has to a physician: restoration where restoration answers, and vinegar, splints and honest opinion for everything else. Has patched the PC's knuckles perhaps a dozen times. Has also noted in her day-book, in the ordinary way she notes anything, that the Argonian at the Horn does not startle — not that he is brave, that he does not startle — and has not thought about it since.",
+      "attitude": "helpful",
+      "tags": { "locations": ["Larenne"], "quests": [] }
+    },
+    "Brother Aumery": {
+      "description": "Chronicler of the Larenne Chapterhouse: a scribe of no rank and boundless curiosity who illustrates the town's notable happenings in the margins of ledgers meant to hold grain accounts, and cannot stop himself adding moralising captions. Fussy, gently ironic. The Prior has told him to stop and has quietly kept every page. He is the campaign's in-world illustrator.",
+      "attitude": "friendly",
+      "tags": { "locations": ["Larenne"], "quests": [] }
+    },
+    "Guiot Malebranche": {
+      "description": "Keeps the Blue Mare at Trevec Cross, on the far side of the moor, and has petitioned the Barony of Larenne to move the post-right to his house on the grounds that the moor road floods below Larenne four weeks a year and the coach has twice been turned back. It is not a bad argument, which is precisely what frightens Perrine Aubrec about it. Civil to the PC's face and describes him to others as 'the lizard on their door.'",
+      "attitude": "suspicious",
+      "tags": { "locations": ["Larenne"], "quests": [] }
+    }
+  },
+  "facts": {
+    "plot_local": [
+      "The new hearth-roll is due. Larenne has been paying Daggerfall on an undercount taken the year after the flood; an honest count raises the barony's dues by about a third, and the Baroness's only source for it is the market tolls — which means the wool-factors, the stallholders, and the Hollow Horn's post-right.",
+      "Serjeant-Assessor Guiscard Thenn is lodging at the Hollow Horn while he takes the count, and has begun asking the staff mild, patient questions about who sleeps where. Half the town is quietly coaching the other half on definitions: is a stable loft a hearth? Are eleven letting-rooms eleven hearths or one? Is the almshouse a hearth or a charity?",
+      "Guiot Malebranche of the Blue Mare at Trevec Cross has petitioned to have the coaching post-right moved off the Hollow Horn, citing the four weeks a year the moor road floods below Larenne. Without the post-right the Horn is an alehouse with eleven beds it cannot fill.",
+      "Nolwenn Aubrec expects to inherit the Hollow Horn and has never been told she will. Perrine has a living brother in Wayrest with sons, and lets the question stand open longer than is kind. Every pantry tyranny of Nolwenn's is that question wearing a different coat.",
+      "Prior Faustin Belloc has been carrying two years of the barony's unpaid tithe arrears without mentioning it, and intends to convert that silence into funding for a Julianos scriptorium — competing for the same coin the hearth-roll is about to devour.",
+      "Serjeant Aloys Bec's watch does not attend trouble at the Hollow Horn. Everyone involved understands that the barony has informally subcontracted its violence at the market square's busiest door to an Argonian who is not sworn to it, paid for it, or protected by it.",
+      "Hanryk Sowe's tab at the Horn is allowed to reach forty drakes and never one more; when it hits forty he starts trading in news instead of coin, which is how Larenne learns anything about Daggerfall."
+    ],
+    "plot_regional": [
+      "The Vaudry succession is unresolved in practice though settled in custom: Amaury inherits, Sibylle is the one who can hold the place. Nobody in the household has said this aloud and it governs every evening meal.",
+      "Ser Ranulf Coudrec of Wethermarch is hinting he will take the ninety-year turbary dispute over Cullen's Wet past the Baroness to a Daggerfall court — the most aggressive act anyone in the parish has committed in a decade, and a real threat, because a distant court has no reason to care that this is how the two families talk to each other.",
+      "The Crown of Daggerfall is not oppressing anyone. It is simply counting more carefully than it used to, at twelve-year intervals, from a very long way away — which in this parish is the same thing as weather.",
+      "Fleece prices out of the Wayrest cloth halls set what Dame Marguerite Osse can pay, and what she pays sets whether Larenne's stallholders can absorb a toll increase. The hearth-roll and the wool price are the same problem seen from two ends of the square."
+    ],
+    "plot_world": [
+      "This is the middle of the Peace. Nothing at Larenne's scale is connected to anything at the Empire's scale, and the campaign should keep it that way: distant events arrive as a paragraph in a coachman's news and change the price of something.",
+      "The new Talos altar in the Larenne Chapterhouse is an administrative fact of the Imperial cult rather than a local devotion. The Prior treats it as an installation. Half the parish still says 'the Eight' and will until they die."
+    ],
+    "larenne_governance": [
+      "Larenne has roughly four hundred hearths, a market charter, and one road worth naming. Power here is standing, not force: a position in a web of debts, favours, tithes and old grudges everyone can recite and nobody has written down.",
+      "The Barony of Larenne governs the town's small affairs with almost no oversight from the Kingdom of Daggerfall, except at hearth-roll years, when the oversight arrives in person and lodges at the inn.",
+      "The Market Court — the wool-factors and chartered stallholders, in practice Dame Marguerite Osse and four others — is the real counterweight to the barony. It cannot command anything and can make anything impossible.",
+      "The town watch is four men and a bell. The chapterhouse keeps the records of births, deaths, tithes and wills, which makes Prior Belloc's cabinet the closest thing Larenne has to a memory."
+    ],
+    "the_hollow_horn": [
+      "The Hollow Horn is a licensed change-house, not a tavern: it holds the post-right on the Daggerfall coaching road. The coach stops here, teams are swapped here, the mail bag is signed for here. The stableyard is the larger half of the business and the taproom is the smaller.",
+      "Perrine Aubrec's ledger is kept in a shorthand of hooks and bars of her own devising. Nobody else can read it, including her niece, and this is not an accident.",
+      "The PC is 'the Argonian at the Horn' — a known, unremarkable fixture of the town, standing at the threshold of its busiest room. He sees more of Larenne's web in a week than the Baroness sees in a year, because all of it walks past him to get a drink. He is inside the web without being a member of it."
+    ],
+    "hidden_lore_gm_only": [
+      "GM-EYES-ONLY: Clan Montalion's discipline is tenancy, not violence — land held through paper, cadet branches and long-lived 'cousins' inheriting from one another on a schedule that looks unremarkable on any single deed and very strange across two hundred years of them. Attention on a deed is the only thing that has ever cost them anything. Their entire footprint in this parish is that the old manor on the moor road pays its hearth-dues punctually, delivered by an unnamed factor out of Daggerfall who signs, does not eat, and leaves. No named vampire exists in this campaign. Rumour only; never confirmed. The single available (optional, deferrable) hook is that a hearth-roll requires someone to go out there and count.",
+      "GM-EYES-ONLY: there is no Dark Brotherhood presence in Larenne and no reason for one; the nearest Sanctuary is a Daggerfall matter with no business on a moorland coaching road. Structurally, a Shadowscale is not recruited — the Hist marks the hatchling, and the call comes from inside, through dreams and through a body knowing things the mind never agreed to learn. A Speaker arrives only afterward, to confirm what has already begun, and only once the marked one has started answering without understanding what he is answering. Therefore the correct amount of Brotherhood in play, for a long while, is none: no contact, no watcher, no hand-print on a door."
+    ]
+  },
+  "bible": {
+    "factions": {
+      "nodes": [
+        { "id": "the-hollow-horn", "name": "The Hollow Horn", "type": "faction", "summary": "A licensed change-house on the Daggerfall coaching road holding Larenne's post-right, kept nineteen years by the widow Perrine Aubrec. Its people — Touss Merigot in the yard, Nolwenn Aubrec in the kitchen, Broz Cathelin at the pots, the Widow Osse on the corner settle — are the PC's actual daily world. Its live fear is losing the post-right to the Blue Mare at Trevec Cross." },
+        { "id": "barony-larenne", "name": "The Barony of Larenne", "type": "faction", "summary": "Held in her own right by Baroness Isabeau Vaudry, widow, eleven years. Governs the town's small affairs with little Daggerfall oversight except in hearth-roll years. Three unfinished sentences: the new hearth-roll that will raise its dues by a third, the succession between Amaury and Sibylle, and ninety years of turbary argument with Wethermarch. Its outward faces are Reeve Osmond Cabray and Serjeant Aloys Bec." },
+        { "id": "larenne-chapterhouse", "name": "The Larenne Chapterhouse", "type": "faction", "summary": "A minor house of the Eight (the Nine, officially, since the new altar). Its real business is the almshouse, the infirmary, the burial ground and the parish records. Prior Faustin Belloc runs it and quietly carries the barony's tithe arrears; Sister Ysolt Meaune keeps the infirmary; Brother Aumery chronicles and illustrates what he is not supposed to." },
+        { "id": "larenne-market-court", "name": "The Market Court of Larenne", "type": "faction", "summary": "The chartered wool-factors and stallholders — in practice Dame Marguerite Osse and four others — who hold the market charter and set the price of fleece from the Hollow Horn's corner settle. The real counterweight to the barony: it can command nothing and make anything impossible. It will pay whatever the hearth-roll costs, and knows it." },
+        { "id": "larenne-watch", "name": "The Larenne Watch", "type": "faction", "summary": "Four men and a bell, under Serjeant Aloys Bec, two of them his cousins. Keeps the market peace by consensus rather than force, and by unspoken policy does not attend trouble at the Hollow Horn, which has a doorsman." },
+        { "id": "the-wethermarch", "name": "The Wethermarch", "type": "faction", "summary": "Ser Ranulf Coudrec's knight's fee on the moor's western edge, and the Vaudrys' hereditary opponent over the turbary rights on Cullen's Wet. Ninety years, six bloodied noses, one broken cart, and an extraordinary quantity of documentation. Coudrec is now hinting at a Daggerfall court, which is escalation at this parish's scale." },
+        { "id": "daggerfall-exchequer", "name": "The Daggerfall Exchequer", "type": "faction", "summary": "Distant, uninterested, and punctual. Counts the barony's hearths every twelfth year and sets its dues by the count. Presently embodied in Serjeant-Assessor Guiscard Thenn, who is lodging at the Hollow Horn and asking mild questions. Not an antagonist — a weather system with paperwork." },
+        { "id": "the-blue-mare", "name": "The Blue Mare at Trevec Cross", "type": "faction", "summary": "Guiot Malebranche's house on the far side of the moor, petitioning the barony for the coaching post-right on the entirely reasonable grounds that the road below Larenne floods four weeks a year. The Hollow Horn's only real enemy, and the argument is a good one." },
+        { "id": "clan-montalion", "name": "Clan Montalion", "type": "faction", "summary": "A real Iliac Bay vampire bloodline whose discipline is tenancy rather than violence — land held through paper, cadet branches, and long-lived cousins inheriting on a schedule. Quiet because quiet works. Its entire footprint in this parish is that the old manor on the moor road pays its hearth-dues on time, by an unnamed factor out of Daggerfall. Rumour only, no named member, no local agenda. Not to be activated for a very long while.", "hidden": true },
+        { "id": "shadowscale-thread", "name": "What the Hist Marked Him For", "type": "faction", "summary": "Not a faction the PC has met, and structurally cannot meet yet: a Shadowscale is not recruited but marked, and the call comes from inside — dreams, and a body knowing what the mind never agreed to learn. A Speaker only arrives afterward, to confirm what has already begun. Therefore there is no Brotherhood presence in Larenne, no contact and no watcher, until the GM deliberately opens the arc.", "hidden": true }
+      ],
+      "edges": [
+        { "from": "the-hollow-horn", "to": "barony-larenne", "relation": "pays its dues and its market toll, holds the post-right at the barony's pleasure, stays out of court business" },
+        { "from": "the-hollow-horn", "to": "larenne-chapterhouse", "relation": "Perrine tithes, the staff attend on high days, Sister Ysolt patches the doorsman's knuckles" },
+        { "from": "barony-larenne", "to": "larenne-chapterhouse", "relation": "patrons in name; two years in tithe arrears in fact, which the Prior has not mentioned and intends to spend" },
+        { "from": "barony-larenne", "to": "larenne-watch", "relation": "commands, barely — four men and a bell under Serjeant Bec" },
+        { "from": "larenne-watch", "to": "the-hollow-horn", "relation": "unspoken policy: does not attend trouble there, because the Horn has a doorsman" },
+        { "from": "daggerfall-exchequer", "to": "barony-larenne", "relation": "counts its hearths every twelfth year; the new roll will raise its dues by near a third" },
+        { "from": "barony-larenne", "to": "larenne-market-court", "relation": "will have to take the shortfall out of the market tolls, and both sides know it" },
+        { "from": "larenne-market-court", "to": "the-hollow-horn", "relation": "meets in its corner settle; the Widow Osse's fleece price is set under its roof" },
+        { "from": "the-wethermarch", "to": "barony-larenne", "relation": "ninety years of turbary dispute over Cullen's Wet; now threatening a Daggerfall court" },
+        { "from": "the-blue-mare", "to": "the-hollow-horn", "relation": "petitioning to take the coaching post-right away, on an argument that is unfortunately good" },
+        { "from": "the-blue-mare", "to": "barony-larenne", "relation": "petitioner — the post-right is the Baroness's to move" },
+        { "from": "clan-montalion", "to": "barony-larenne", "relation": "dormant — pays the old manor's hearth-dues punctually, by a factor, and has never once been looked at" },
+        { "from": "shadowscale-thread", "to": "the-hollow-horn", "relation": "dormant — the PC carries it into every scene without anyone, including him, knowing it" }
+      ]
+    },
+    "voice": {
+      "vocab": [
+        "the post-right (the licence that makes the Hollow Horn a coaching change-house rather than a moorland alehouse; the whole of its living)",
+        "the hearth-roll (Daggerfall's twelve-yearly count of the barony's households, and the source of every honest man's dishonesty this season)",
+        "the Market Court (the chartered wool-factors and stallholders; it can command nothing and make anything impossible)",
+        "turbary (the right to cut peat on the common moor — the ninety-year Vaudry-Coudrec argument, measured in spades' breadth)",
+        "the settle (the Hollow Horn's corner bench, held by the Widow Osse on market days for twenty-two years; a seat that is also an office)"
+      ],
+      "sample_passages": [
+        "The assessor asked whether the loft over the stable had a fire in it, and Touss said that it had a horse under it, which was warmer, and went on with the strap he was mending. He had not answered the question. Nobody in the yard thought he had answered it by accident.",
+        "Ninety years is not a long time for a grievance about peat. Both families could produce documents. Both families had, in living memory, produced fists in the Horn's yard on a market Thursday, and then bought each other ale, because the alternative was admitting the matter could be settled."
+      ]
+    },
+    "themes": [
+      "Small government at close range: rule as arithmetic, custom and favour rather than force",
+      "Inheritance as an unfinished sentence — the Horn's kitchen and the Baroness's table asking the same question"
+    ]
+  }
+}

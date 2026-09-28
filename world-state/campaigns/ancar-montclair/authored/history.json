@@ -1,0 +1,110 @@
+{
+  "locations": {},
+  "npcs": {
+    "Brother Aumery": {
+      "description": "A minor scribe of the Larenne Chapterhouse and the town's unofficial memory. He keeps the assize rolls, the burial book and the market ledgers, illustrates the town's notable happenings in his margins because he cannot help himself, and will happily show any stranger the four-hundred-year-old line that supposedly proves Larenne's name is elvish — while admitting, fussily and with obvious pain, that the man who wrote it was paid to. He buried the Ninebank Man and drew him first. Hook: he wants someone, anyone, to care about the difference between what the town remembers and what actually happened.",
+      "attitude": "friendly",
+      "tags": { "locations": ["The Larenne Chapterhouse", "Larenne", "The Hollow Horn"], "quests": [] }
+    },
+    "Ysabeau Corvenne": {
+      "description": "The baroness who wasn't. Married to Baron Alric Vaudry for his convenience and unmarried again three years later by a consanguinity ruling the chapterhouse issued the same summer it acquired a new lead roof. She never went back to Daggerfall. She lives in the tall house on Market Row, comes to the Hollow Horn on the first of every month for exactly one glass of Wayrest wine, and takes the window seat from which the barony's gate is visible. Her family still holds Larenne's wool contract and still prices it a shade under Camlorn's. Hook: she is the only person in town who speaks about the Vaudrys without lowering her voice, and she notices doorsmen because doorsmen, like her, watch a threshold they are not invited past.",
+      "attitude": "neutral",
+      "tags": { "locations": ["Larenne", "The Hollow Horn"], "quests": [] }
+    },
+    "Auberic Trevaine": {
+      "description": "Larenne's malter, a careful, slightly deaf man in his fifties who checks lamps twice and will not allow an open flame in his loft for any reason a customer can name. He was the brewhouse apprentice on the night of the Malt Fire, twenty-five years ago, and the blame went to a Khajiit tinker who had already left town. He has never said otherwise, not once, not drunk. Hook: he is unfailingly, disproportionately decent to outsiders in Larenne, and nobody has ever asked him why.",
+      "attitude": "friendly",
+      "tags": { "locations": ["Larenne", "The Hollow Horn"], "quests": [] }
+    },
+    "Enguerrand Perrenot": {
+      "description": "Head of the Perrenot peat-cutters, old, hard-handed, and the keeper of the Ninebank Judgment — the assize ruling of twenty-odd years ago, carried in oilcloth, produced annually, never once obeyed. He can recite it. He cannot read it. Hook: he treats the yearly Ninebank fight as a sacrament and would be genuinely bereaved if the Gascels ever stopped showing up.",
+      "attitude": "neutral",
+      "tags": { "locations": ["Ninebank", "The Larenne Moor", "Larenne"], "quests": [] }
+    },
+    "Melisent Gascel": {
+      "description": "Enguerrand Perrenot's opposite number at Ninebank, and the sharper of the two — she has quietly worked out that the disputed bank is nearly cut out, and that within a few years the feud will have nothing left to be about. Hook: she is looking for a new grievance before the old one runs dry, and she is not particular about where she finds it.",
+      "attitude": "neutral",
+      "tags": { "locations": ["Ninebank", "The Larenne Moor", "Larenne"], "quests": [] }
+    }
+  },
+  "facts": {
+    "plot_local": [
+      "The Malt Fire, twenty-five years ago, was blamed on a Khajiit sugar-tinker who had left town two days before it started. The caravans read the verdict correctly and stopped coming. Auberic Trevaine, then a brewhouse apprentice, knows what actually happened and has never said — and perhaps three others could guess.",
+      "The Wet Years, some forty years back: three drowned harvests and the sheep-rot, and the barony opened its granary and charged for it. 'At granary prices' is still the town's phrase for a favour that came with a bill. It is the deepest grudge in Larenne and nobody alive is guilty of it.",
+      "The Ninebank Judgment settled the peat-cutting feud between the Perrenots and the Gascels twenty-odd years ago. It has never been obeyed. Both families cut the same bank on the first day of cutting each year, the fight follows the same steps every time, and the town turns out to watch. Melisent Gascel has noticed the bank is nearly worked out.",
+      "The cracked ox-horn over the Hollow Horn's door is the town's lawful ale measure by charter, and the innkeeper draws a shilling a year as an officer of the market for keeping it. The same charter shilling has been paid since it was worth something.",
+      "The Hollow Horn's north wing is brick and does not match the rest of the inn. It was rebuilt after the Malt Fire under the barony's brick ordinance, which is also why one flank of the market square is hard-edged brick and the other is leaning timber.",
+      "Larenne has known one other Argonian in living memory — a bargeman who worked a coast-road season and went south before the frost. Three people will give you three different names for him."
+    ],
+    "plot_regional": [
+      "Jocelin Vaudry, elder brother of the present Baroness, renounced his claim some eighteen years ago and went to Daggerfall to take orders. Letters came for a year and then stopped. The Vaudry dower-house on the moor road — the Dower House — was shut that same season and has been shut since. Someone still pays to have the shutters repainted, and nobody in town knows who.",
+      "Baron Alric Vaudry's marriage to Ysabeau Corvenne of Daggerfall was annulled on a consanguinity ruling certified by the Larenne Chapterhouse in the same summer the chapterhouse acquired a new lead roof. The Corvennes still hold Larenne's wool contract. Larenne's wool still fetches less than Camlorn's. Nobody in town believes those facts are unrelated.",
+      "The moor-edge boundary north of Ninebank has been 'under review' between Larenne and its neighbours for over eighty years, so the bridge-toll there is not lawfully collected by anyone and is therefore collected by whoever reaches the bridge first. No party wants it resolved; a resolved dispute would have an owner, and an owner would have to repair the bridge.",
+      "The Vaudrys were wool-factors three generations back and married into the barony. The two or three older families in Larenne still call them the wool-lords, though only among themselves and only after the second cup."
+    ],
+    "plot_world": [
+      "Larenne is a barony sworn to the Kingdom of Daggerfall, and that fealty amounts to exactly three things: a levy commuted to coin four generations ago, a royal justiciar who rides the assize circuit every third autumn and rules mostly on fences and peat, and a wool price set elsewhere.",
+      "The Septim line's road-mending and charter-selling early in the Peace is the only reason the coaching road runs through Larenne at all — which makes the Empire, indirectly, the author of the Hollow Horn's entire livelihood and the one imperial fact anybody here would concede matters.",
+      "An Imperial legion detachment passed through Larenne once, on its way somewhere it did not explain, and bought every barrel in town and paid fairly. That is the largest thing the Empire has ever done for this place, and people still bring it up.",
+      "In Larenne, 'the Peace' is said with a flat little irony — the tone one uses for a landlord who has not yet come to look at the roof."
+    ],
+    "town_memory": [
+      "Larenne does not count in years. It counts in the Wet Years, the Malt Fire, the Ninebank Judgment, and the Ninebank Man — and every date in ordinary conversation is given as so-many-years-before or after one of those.",
+      "The town's name has two rival etymologies: the chapterhouse's 'Lar-Renne', the Lady's Rest, allegedly Aldmeri, recorded four centuries after the fact by a scribe on a baron's payroll; and the drovers' plainer claim that a laren is simply the old moor-word for the firm place, the gravel shelf between two bogs where a cart stops sinking. Which version a man tells depends on how much he has drunk and whom he is impressing.",
+      "Larenne exists because of geology, not glory: a mile and a half of hard ground between the north and south peat bogs, the only dry place to stop on that stretch of the coaching road."
+    ],
+    "the_horn": [
+      "In the lawless Second Era centuries a watchman kept the ox-horn on the Hollow Horn's roof-ridge and blew one long note when the drove road came up clear. No note meant stay behind the wall and say nothing.",
+      "The horn is cracked from lip to tip and cannot be sounded. Larenne's worn old joke is that if you ever do hear it, you should not stop to ask who blew it. At three in the morning the joke lands differently."
+    ],
+    "the_peat": [
+      "The Larenne bogs do not let things rot. They keep them whole and give them back on their own schedule, and the giving back is never asked for.",
+      "Nine years ago the Ninebank cutters brought up a body from the deep peat — a man tanned brown as saddle-leather, hair still on him, a twisted cord still around his throat, older than the Empire. Brother Aumery drew him, then buried him in the chapterhouse yard with the Eight named over him and the ninth niche's god named quietly at the end, because one does not know what such a man would have wanted.",
+      "Larenne claims that the great First Era battle on the Glenumbra moors — where the Direnni broke an Alessian host — was fought out past Ninebank. Every parish between here and Camlorn claims the same battle for its own hummock. The peat-cutters do turn up iron there. It is almost always a horseshoe."
+    ],
+    "outsiders": [
+      "Larenne's history with outsiders is not cruel; it is conditional. The town remembers the Malt Fire without ever saying aloud what it remembers about it, and that memory sits under the floor of every kindness the town extends."
+    ]
+  },
+  "bible": {
+    "timeline": [
+      { "when": "First Era, the Direnni age", "event": "High Rock is held from the Direnni island in the bay. Larenne is not a town yet — only the laren, the firm gravel shelf between two bogs where the drove road stops sinking. Four centuries later a paid chapterhouse scribe will retrofit the name into elvish as 'Lar-Renne', the Lady's Rest." },
+      { "when": "First Era, the Alessian wars", "event": "A Direnni host breaks an Alessian army somewhere out on the Glenumbra moors. Larenne insists the ground was theirs, past Ninebank, and points to the iron the peat gives up. So does every other parish between here and Camlorn." },
+      { "when": "Second Era, the long lawless gap", "event": "No Empire, no law on the drove road. Larenne walls its market side and hangs a great hollowed ox-horn on the inn's roof-ridge; a watchman sounds one long note when the road is clear. The inn takes its name from the horn and keeps it." },
+      { "when": "Early in the Peace", "event": "The Septim line mends the roads and sells charters to pay for it. The Kingdom of Daggerfall grants Larenne a market charter, sets the lawful pint by the horn-measure kept at the sign of the Horn, and makes the innkeeper a shilling-a-year officer of the market. The coaching trade arrives, and with it everything Larenne now lives on." },
+      { "when": "Four generations back", "event": "Larenne's feudal levy to Daggerfall is commuted from men-at-arms to coin — a bargain that looked shrewd at the time and now merely looks old. Royal presence thins to a justiciar riding the assize circuit every third autumn." },
+      { "when": "Three generations back", "event": "The Vaudrys, wool-factors with scales and weights, marry into the barony of Larenne. The older families begin calling them the wool-lords, and have not stopped." },
+      { "when": "About eighty years ago", "event": "The moor-edge boundary north of Ninebank enters formal review between Larenne and its neighbours. It remains under review. The bridge-toll goes uncollected by anyone lawful, and is therefore collected by whoever gets there first." },
+      { "when": "About sixty years ago", "event": "Baron Alric Vaudry's marriage to Ysabeau Corvenne of Daggerfall is annulled on a consanguinity ruling from the Larenne Chapterhouse, which acquires a new lead roof the same summer. Ysabeau does not go home. The Corvennes keep the wool contract and Larenne's wool has priced a little low ever since." },
+      { "when": "About forty years ago — the Wet Years", "event": "Three seasons of rain: the oats drown in the ground, the sheep take the water-rot, and the barony opens its granary and charges for it. 'At granary prices' enters the local tongue and stays there." },
+      { "when": "About twenty-five years ago — the Malt Fire", "event": "A brewhouse fire on a dry night with a north wind takes a third of Market Row and two lives. The barony ordains brick on the market side, which is why half the square does not match the other half, and why the Hollow Horn's north wing does not match the Hollow Horn. Blame settles on a Khajiit sugar-tinker who had moved on two days earlier; the caravans understand the verdict and stop coming to Larenne." },
+      { "when": "About twenty-two years ago — the Ninebank Judgment", "event": "The assize rules on the turbary rights at Ninebank between the Perrenots and the Gascels. The ruling is written, sealed, wrapped in oilcloth, and never once obeyed. The annual first-day fight over the same bank becomes a fixture the town turns out to watch." },
+      { "when": "About eighteen years ago", "event": "Jocelin Vaudry, elder heir to the barony, renounces his claim and rides for Daggerfall to take orders. Letters come for a year and then stop. The Vaudry dower-house on the moor road is shut up that season and stays shut — though someone unnamed still pays to have its shutters repainted." },
+      { "when": "About twelve years ago", "event": "The present Baroness Vaudry succeeds sideways, as second child, to a seat nobody expected her to hold. She governs Larenne's small affairs with almost no oversight from above, which is both the barony's freedom and its ceiling." },
+      { "when": "Nine years ago — the Ninebank Man", "event": "The peat-cutters bring up a body from the deep bog: tanned brown, hair intact, a twisted cord still at the throat, older than the Empire. Brother Aumery draws him and buries him in the chapterhouse yard. The town learns, and would rather not have learned, that this ground keeps what it is given and returns it on its own schedule." },
+      { "when": "Some years before now", "event": "An Argonian takes the door at the Hollow Horn. He stays long enough that the market children stop staring and half the regulars owe him money — long enough to become 'the Argonian at the Horn', which is a place in the town, and a warm one, and not the same thing as being from here." },
+      { "when": "Now", "event": "An unremarkable stretch of the Peace. No war, no crisis, no portent — a market town counting its years by a fire, a flood, a feud and a body in the peat, generations before any Camoran claims a crown and centuries before any gate opens." }
+    ],
+    "voice": {
+      "vocab": [
+        "the laren (the old moor-word for the firm place — the gravel shelf between two bogs; the drovers' plain etymology of the town's name, against the chapterhouse's elvish one)",
+        "at granary prices (a favour that came with a bill; from the Wet Years, when the barony opened its stores and charged)",
+        "turbary (the right to cut peat from a named bank — the most litigated word in Larenne)",
+        "the assize (the royal justiciar's circuit court, sat in the chapterhouse hall every third autumn; the whole practical weight of Daggerfall's rule)",
+        "the horn-measure (the cracked ox-horn over the inn door, the town's lawful ale measure by charter)",
+        "the Dower House (the shut-up Vaudry house on the moor road; said as though there were only one, which there is)"
+      ],
+      "sample_passages": [
+        "Nobody in Larenne gives you a year. They give you a fire, a flood, a judgment nobody obeyed, and a man the bog handed back, and they expect you to count from there.",
+        "The horn over the door was cracked from lip to tip and had not been sounded in three hundred years, and the joke about it was that if you ever heard it you should not stop to ask who had blown it. Everyone laughed at that joke. They laughed less at three in the morning.",
+        "The town had not been cruel to the Khajiit; it had merely been sure, all together, at the same time, and then it had gone quiet about it for twenty-five years, which was worse."
+      ]
+    },
+    "themes": [
+      "A town that counts its years in grievances rather than reigns",
+      "Peace as the absence of events, and the strange pressure that absence puts on small ones",
+      "What the bog keeps: nothing here rots, it only waits to be cut up",
+      "Belonging as a verdict the town can revisit without ever announcing it"
+    ]
+  }
+}

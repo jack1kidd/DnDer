@@ -1,0 +1,17 @@
+{
+  "Camlorn": {
+    "position": "A city three days coach-north of Larenne, beyond Stanchgate, where the Bay Road gives out into a proper High Rock seat of stone and old Direnni lineage.",
+    "connections": [
+      {
+        "to": "The Coach Road",
+        "path": "south toward Stanchgate and Larenne, three days"
+      },
+      {
+        "to": "Camlorn",
+        "path": "traveled"
+      }
+    ],
+    "description": "Grey Direnni-cut stone under a colder sky than Larenne ever sees, a city old enough that half its cellars are older than its street plan. The Chapterhouse of the Eight sits on high ground near the old wall -- cloister, scriptorium, infirmary, and beneath it all a crypt the clergy do not discuss with wards who have not yet earned the asking.",
+    "discovered": "2026-09-28 00:00:00 UTC"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "npcs": {
+    "Peronelle Tass": {
+      "description": "The barony's fowler and vermin-woman, paid a pittance per wolf-ear and boar-tusk and rather more per basket of moor-hare sold at the Hollow Horn's back door. Sixty-odd, wind-cured, walks the causeway in fog without counting stones. She is the parish's actual authority on what lives out there, and she draws a hard, unembarrassed line between animals (which she will discuss at length, for beer) and the fen-candles and the tallow hound (which she will not discuss after dark, and will not be teased about).",
+      "attitude": "friendly",
+      "tags": {
+        "locations": ["The Larenne Moor", "The Hollow Horn", "Larenne"],
+        "quests": []
+      }
+    }
+  },
+  "facts": {
+    "bestiary": [
+      "The hedge pack: moor wolves denning north of the Larenne peat-cuts. A summer nuisance to lambs; in a hard winter they shadow lone travellers along the coaching road for miles without closing. Genuinely lethal to a solitary walker at dusk in the cold months; almost never a threat to a group with fire and a spear.",
+      "Gorse-boar: old blind-mean boars in the whin thickets south of Larenne. The animal that most often actually kills or cripples Larenne men — a tusk through the thigh is beyond what the chapterhouse can fully mend. The barony licenses two hunts a year, both of which end at the Hollow Horn.",
+      "Mire adder: a short dun snake patterned like wet bracken, sluggish enough that nearly every bite in the parish was someone stepping on it during hay-cutting. Rarely kills a grown adult; ruins a fortnight, and can kill a child. Peat-cutters carry binding cord and consider that sufficient medicine.",
+      "Gallow-rooks: the moor's carrion crows, read by the town as an alarm bell — rooks circling a stretch of the moor road means someone walks out to look, and by custom someone always does.",
+      "The peat-sinks and the haar: cut peat leaves black water under a skin of moss, and sea-fog off the Iliac drops visibility to six feet within the hour. Stepping off the causeway stones is how most people who die on the Larenne Moor die. Weather and ground kill more Larenne folk than any beast.",
+      "Fen-candles: pale lights over the wet ground past the peat-cuts, most often in the still hours before rain. The stated explanation is marsh-gas; the unstated one is that they sometimes keep your pace, sometimes appear on the causeway side, and that perhaps twice a generation a man who followed one is found in the sink come spring. Ambiguous by design — never confirm.",
+      "The tallow hound: a long low fat-coloured dog seen on the moor road between the last hedgerow and the old manor's gate. It has never bitten anyone in living memory. Belief holds only that it walks at your pace without audible breath, turns off at the gate, and that whoever it walks with buries someone before the year is out. Held as superstition by daylight and as fact after dark, by the same people. Ambiguous by design — never confirm.",
+      "Late in summer, moths gather in remarked-upon numbers on the shuttered windows of the old manor on the moor road. Nothing more is claimed about this, and nothing more should be shown for a long while."
+    ],
+    "bestiary_gm_guidance": [
+      "STUB AXIS, DELIBERATELY: this is not a monster-hunting campaign. These entries are backdrop texture and occasional real danger — a lost ewe, a carter's broken leg, a taproom argument about the causeway — not an encounter rotation. Creatures should be heard about far more often than met.",
+      "When a beast does enter a scene, it should be sudden, brief, disproportionately serious, and then over. No dungeon-crawl pacing, no wave encounters, no boss beasts.",
+      "The fen-candles and the tallow hound stay at exactly the same volume as the PC's own quiet wrongnesses — deniable, rare, never explained. They exist to justify why Larenne does not cross the moor after dark, and to keep folk-horror ambient rather than escalating."
+    ],
+    "plot_local": [
+      "Ewes going missing from the north hedgerows earlier in the season than the hedge pack usually comes down — Peronelle Tass says the wolves are moving wrong this year, and the barony would rather pay her than admit there is a problem.",
+      "A carter who took the coaching road at dusk swears something walked beside him from the last hedgerow to the old manor's gate. He is not a fanciful man, and he has stopped taking evening runs, which costs the Hollow Horn a delivery a week."
+    ],
+    "plot_regional": [
+      "The causeway stones on the Larenne Moor are the barony's oldest continuous expense and no one is quite sure who laid them or how far the older line beneath them runs."
+    ]
+  },
+  "bible": {
+    "voice": {
+      "vocab": [
+        "the haar (sea-fog off the Iliac that takes the moor down to six feet in an hour)",
+        "fen-candles (the lights past the peat-cuts; explained as marsh-gas, in daylight)",
+        "the tallow hound (the moor-road dog; walk with it and you bury someone within the year)",
+        "gallow-rooks (the moor's carrion crows, read by the town as a summons to go and look)",
+        "off the stones (to have left the causeway — said of the lost, and of the dead)"
+      ],
+      "sample_passages": [
+        "The rooks had been turning over the same stretch of the moor road since mid-morning, which meant that by custom someone had to walk out and look, and by longer custom that someone was whoever the innkeeper could most easily spare."
+      ]
+    },
+    "themes": [
+      "The ground kills more people here than any monster does",
+      "A town that holds a superstition and a denial of it at the same time, in the same mouth"
+    ]
+  }
+}

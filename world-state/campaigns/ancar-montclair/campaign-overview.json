@@ -1,0 +1,50 @@
+{
+  "campaign_name": "The Long Vigil",
+  "genre": "Elder Scrolls -- Third Era Tamriel (d20 chassis), Glenumbra, High Rock",
+  "tone": {
+    "horror": 45,
+    "comedy": 10,
+    "drama": 45
+  },
+  "current_date": "14th of Sun's Dusk, 3E 248",
+  "time_of_day": "Evening",
+  "calendar": {
+    "months": [
+      "Morning Star",
+      "Sun's Dawn",
+      "First Seed",
+      "Rain's Hand",
+      "Second Seed",
+      "Midyear",
+      "Sun's Height",
+      "Last Seed",
+      "Hearthfire",
+      "Frostfall",
+      "Sun's Dusk",
+      "Evening Star"
+    ],
+    "weekdays": [
+      "Sundas",
+      "Morndas",
+      "Tirdas",
+      "Middas",
+      "Turdas",
+      "Fredas",
+      "Loredas"
+    ]
+  },
+  "player_position": {
+    "current_location": "Camlorn",
+    "previous_location": "Camlorn",
+    "arrival_time": "2026-09-28 11:27:30 UTC"
+  },
+  "current_character": "Ancar Montclair",
+  "session_count": 0,
+  "campaign_rules": {
+    "voice": "Same measured, anthropological Le Guin-adjacent cadence as the wider Glenumbra table -- custom explained through its cost, not named outright; violence stated plainly, its aftermath lingered on.",
+    "premise": "Third Era Tamriel, same year and region as The Unquiet Peace (3E 248, Glenumbra/High Rock) but a wholly separate, unconnected thread: Ancar Montclair is a Breton raised as a ward of Camlorn's Chapterhouse of the Eight, Level 0, no class, no magic, no combat training -- a Postulant doing cloister chores. He is meant to become an Inquisitor of the Vigil: heavy armor, shield, one-handed steel, and Restoration/Warding magic, hunting the undead, Daedra-touched, necromancers, and vampires. Every piece of that is earned in fiction, never granted free (ruleset.json Signature System 2, the Vigil's Ascent).",
+    "rules_mode": "D&D 5e chassis by explicit player request, Elder Scrolls flavor throughout -- never named in generic D&D terms. Magicka replaces spell slots. Nothing magical or martial exists at character creation. Full ruleset in ruleset.json -- read before running any mechanic.",
+    "death_and_dying": "Standard 5e shape: 0 HP = unconscious + death saves (DC 10 Endurance). 3 successes stable, 3 failures dead. Nat 20 = 1 HP, conscious. Nat 1 = 2 failures. Damage at or above max HP in one hit = instant death. At Level 0 this PC has roughly 8 HP and is genuinely fragile -- telegraph real danger before it lands.",
+    "connection_note": "Runs parallel to and unconnected from Sits-in-Shadow's story (The Unquiet Peace) and Cassius Aurelinus's (Dragonguard of the Falling Empire) -- shares only the broader world/geography, not plot, NPCs, or location, unless the player deliberately steers there."
+  }
+}

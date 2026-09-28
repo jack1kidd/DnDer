@@ -1,0 +1,25 @@
+{
+  "Mother Isolde Vance": {
+    "description": "Restoration priestess at Camlorn's Chapterhouse of the Eight, found and raised Ancar after his village was struck by something unnatural, watches him more closely than the other wards",
+    "attitude": "friendly",
+    "created": "2026-09-28T11:27:25.903682+00:00",
+    "events": [],
+    "visual_appearance": {
+      "sex": "",
+      "age": "",
+      "race": "",
+      "species": "",
+      "hair": "",
+      "face": "",
+      "eyes": "",
+      "clothing": "",
+      "gear": "",
+      "demeanor": "",
+      "size": ""
+    },
+    "tags": {
+      "locations": [],
+      "quests": []
+    }
+  }
+}
