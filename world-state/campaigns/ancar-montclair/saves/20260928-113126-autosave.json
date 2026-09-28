@@ -1,0 +1,207 @@
+{
+  "name": "autosave",
+  "created": "2026-09-28T11:31:26.385838+00:00",
+  "session_number": 0,
+  "snapshot": {
+    "campaign_overview": {
+      "campaign_name": "The Long Vigil",
+      "genre": "Elder Scrolls -- Third Era Tamriel (d20 chassis), Glenumbra, High Rock",
+      "tone": {
+        "horror": 45,
+        "comedy": 10,
+        "drama": 45
+      },
+      "current_date": "14th of Sun's Dusk, 3E 248",
+      "time_of_day": "Evening",
+      "calendar": {
+        "months": [
+          "Morning Star",
+          "Sun's Dawn",
+          "First Seed",
+          "Rain's Hand",
+          "Second Seed",
+          "Midyear",
+          "Sun's Height",
+          "Last Seed",
+          "Hearthfire",
+          "Frostfall",
+          "Sun's Dusk",
+          "Evening Star"
+        ],
+        "weekdays": [
+          "Sundas",
+          "Morndas",
+          "Tirdas",
+          "Middas",
+          "Turdas",
+          "Fredas",
+          "Loredas"
+        ]
+      },
+      "player_position": {
+        "current_location": "Camlorn",
+        "previous_location": "Camlorn",
+        "arrival_time": "2026-09-28 11:27:30 UTC"
+      },
+      "current_character": "Ancar Montclair",
+      "session_count": 0,
+      "campaign_rules": {
+        "voice": "Same measured, anthropological Le Guin-adjacent cadence as the wider Glenumbra table -- custom explained through its cost, not named outright; violence stated plainly, its aftermath lingered on.",
+        "premise": "Third Era Tamriel, same year and region as The Unquiet Peace (3E 248, Glenumbra/High Rock) but a wholly separate, unconnected thread: Ancar Montclair is a Breton raised as a ward of Camlorn's Chapterhouse of the Eight, Level 0, no class, no magic, no combat training -- a Postulant doing cloister chores. He is meant to become an Inquisitor of the Vigil: heavy armor, shield, one-handed steel, and Restoration/Warding magic, hunting the undead, Daedra-touched, necromancers, and vampires. Every piece of that is earned in fiction, never granted free (ruleset.json Signature System 2, the Vigil's Ascent).",
+        "rules_mode": "D&D 5e chassis by explicit player request, Elder Scrolls flavor throughout -- never named in generic D&D terms. Magicka replaces spell slots. Nothing magical or martial exists at character creation. Full ruleset in ruleset.json -- read before running any mechanic.",
+        "death_and_dying": "Standard 5e shape: 0 HP = unconscious + death saves (DC 10 Endurance). 3 successes stable, 3 failures dead. Nat 20 = 1 HP, conscious. Nat 1 = 2 failures. Damage at or above max HP in one hit = instant death. At Level 0 this PC has roughly 8 HP and is genuinely fragile -- telegraph real danger before it lands.",
+        "connection_note": "Runs parallel to and unconnected from Sits-in-Shadow's story (The Unquiet Peace) and Cassius Aurelinus's (Dragonguard of the Falling Empire) -- shares only the broader world/geography, not plot, NPCs, or location, unless the player deliberately steers there."
+      }
+    },
+    "npcs": {
+      "Mother Isolde Vance": {
+        "description": "Restoration priestess at Camlorn's Chapterhouse of the Eight, found and raised Ancar after his village was struck by something unnatural, watches him more closely than the other wards",
+        "attitude": "friendly",
+        "created": "2026-09-28T11:27:25.903682+00:00",
+        "events": [],
+        "visual_appearance": {
+          "sex": "",
+          "age": "",
+          "race": "",
+          "species": "",
+          "hair": "",
+          "face": "",
+          "eyes": "",
+          "clothing": "",
+          "gear": "",
+          "demeanor": "",
+          "size": ""
+        },
+        "tags": {
+          "locations": [],
+          "quests": []
+        }
+      }
+    },
+    "locations": {
+      "Camlorn": {
+        "position": "A city three days coach-north of Larenne, beyond Stanchgate, where the Bay Road gives out into a proper High Rock seat of stone and old Direnni lineage.",
+        "connections": [
+          {
+            "to": "The Coach Road",
+            "path": "south toward Stanchgate and Larenne, three days"
+          },
+          {
+            "to": "Camlorn",
+            "path": "traveled"
+          }
+        ],
+        "description": "Grey Direnni-cut stone under a colder sky than Larenne ever sees, a city old enough that half its cellars are older than its street plan. The Chapterhouse of the Eight sits on high ground near the old wall -- cloister, scriptorium, infirmary, and beneath it all a crypt the clergy do not discuss with wards who have not yet earned the asking.",
+        "discovered": "2026-09-28 00:00:00 UTC"
+      }
+    },
+    "facts": {},
+    "consequences": {
+      "active": [],
+      "resolved": []
+    },
+    "characters": {
+      "character": {
+        "id": "ancar-montclair",
+        "name": "Ancar Montclair",
+        "race": "Breton",
+        "class": null,
+        "level": 0,
+        "stats": {
+          "str": 13,
+          "dex": 12,
+          "con": 14,
+          "int": 13,
+          "wis": 15,
+          "cha": 10
+        },
+        "saves": {
+          "str": 1,
+          "dex": 1,
+          "con": 2,
+          "int": 1,
+          "wis": 2,
+          "cha": 0
+        },
+        "ac": 12,
+        "hp": {
+          "current": 8,
+          "max": 8
+        },
+        "speed": 30,
+        "proficiency_bonus": 2,
+        "skills": {
+          "insight": 4,
+          "religion": 3,
+          "athletics": 3
+        },
+        "equipment": [
+          "Postulant's grey wool habit, belted",
+          "A plain iron holy symbol of the Eight, worn since boyhood",
+          "A quarterstaff (cloister chore-tool, doubles as the only weapon he's ever held)",
+          "A copied prayer-book, his own handwriting filling the margins",
+          "Scuffed boots, a cloister lantern"
+        ],
+        "features": [
+          "Dragon Skin (Breton): advantage on saving throws against spells.",
+          "Chapterhouse Ward: free bed and board at any Chapterhouse in the Empire; the clergy's trust, not yet the Vigil's authority.",
+          "LEVEL 0: no class, no subclass, no magicka, no Well. Every gate on the Vigil's Ascent is earned in play (ruleset.json Signature System 2)."
+        ],
+        "background": "Camlorn Chapterhouse Ward. His village on the moor edge was struck by something the survivors still won't describe properly when he was six -- his family among the dead. A Restoration priest found him sitting untouched and unhurt in the wreckage of it, and took him in less out of charity than because of something she saw in that stillness. He's spent thirteen years since as a Postulant: chores, scripture, copying ledgers, waiting for a calling nobody has yet named for him.",
+        "alignment": "",
+        "bonds": "Mother Isolde Vance, the priestess who found him and raised him -- the only family he has, and the only person who has ever hinted she knows more about that night than she's told him.",
+        "flaws": "Treats his own survival that night as a debt to be worked off rather than a mercy -- he has never once let himself simply be glad to be alive.",
+        "ideals": "The unnatural preys on people who had no way to see it coming. Someone should be the one who does.",
+        "traits": "Still, watchful, prays before he's decided to -- the same stillness Mother Vance first saw in him at six years old.",
+        "notes": [],
+        "gold": 6,
+        "xp": 0,
+        "resources": {
+          "school_ranks": {
+            "_default": "untrained",
+            "_scale": "untrained | novice | apprentice | journeyman | expert | master",
+            "restoration": "untrained",
+            "alteration": "untrained",
+            "destruction": "untrained",
+            "conjuration": "untrained",
+            "illusion": "untrained",
+            "mysticism": "untrained"
+          },
+          "ladder_gates": {
+            "_note": "Signature System 2. Each gate opens on a named in-fiction event, recorded here.",
+            "gate_0_the_postulant": "open -- thirteen years a ward of the Camlorn Chapterhouse",
+            "gate_1_the_calling": null,
+            "gate_2_a_discipline": null,
+            "gate_3_the_first_working": null,
+            "gate_4_sworn": null,
+            "gate_5_journeyman": null,
+            "gate_6_expert": null,
+            "gate_7_master": null,
+            "gate_8_the_badge": null
+          },
+          "standing": {
+            "chapterhouse_camlorn": 3,
+            "camlorn_town": 0
+          },
+          "luck_burned_total": 0,
+          "luck": 10,
+          "purse_septims": 6
+        },
+        "visual_appearance": {
+          "sex": "male",
+          "age": "nineteen",
+          "race": "Breton",
+          "species": "human",
+          "hair": "dark, kept short and unfashionable, cloister-cut",
+          "face": "pale, unremarkable, the kind of stillness that reads as either calm or absence depending on the light",
+          "eyes": "grey, slow to blink, watches thresholds and shadowed corners more than faces",
+          "clothing": "a plain grey Postulant's habit, belted with undyed rope",
+          "gear": "a quarterstaff, a copied prayer-book, an iron holy symbol worn outside his collar rather than under it",
+          "demeanor": "quiet, formally polite, uncomfortable with idle conversation and entirely comfortable with silence",
+          "size": "average height, still growing into a frame built for more than cloister chores"
+        },
+        "current_location": "Camlorn"
+      }
+    }
+  }
+}
